@@ -6,21 +6,21 @@ Cada entrada también incluye datos demográficos y niveles de experiencia, lo q
 
 ## Características principales
 
-- **Edad:** Edad del socio del gimnasio.
-- **Género:** Género del socio del gimnasio (Masculino o Femenino).
-- **Peso (kg):** Peso del miembro en kilogramos.
-- **Altura (m):** Altura del miembro en metros.
+- **Age:** Edad del socio del gimnasio.
+- **Gender:** Género del socio del gimnasio (Masculino o Femenino).
+- **Weight (kg):** Peso del miembro en kilogramos.
+- **Height (m):** Altura del miembro en metros.
 - **Max_BPM:** Frecuencia cardíaca máxima (latidos por minuto) durante las sesiones de entrenamiento.
 - **Avg_BPM:** Frecuencia cardíaca promedio durante las sesiones de entrenamiento.
-- **Frecuencia cardíaca en reposo:** Frecuencia cardíaca en reposo antes del entrenamiento.
-- **Duración de la sesión (horas):** Duración de cada sesión de entrenamiento en horas.
-- **Calorías_Quemadas:** Total de calorías quemadas durante cada sesión.
-- **Workout_Type:** Tipo de entrenamiento realizado (por ejemplo, Cardio, Fuerza, Yoga, HIIT).
-- **Porcentaje de grasa:** Porcentaje de grasa corporal del miembro.
-- **Ingesta de agua (litros):** Ingesta diaria de agua durante los entrenamientos.
-- **Frecuencia de entrenamiento (días/semana):** Número de sesiones de entrenamiento por semana.
-- **Nivel de experiencia:** Nivel de experiencia, desde principiante (1) hasta experto (3).
-- **IMC:** Índice de Masa Corporal, calculado a partir de la altura y el peso.
+- **Resting_BPM:** Frecuencia cardíaca en reposo antes del entrenamiento.
+- **Session_Duration (hours):** Duración de cada sesión de entrenamiento en horas.
+- **Calories_Burned:** Total de calorías quemadas durante cada sesión.
+- **Workout_Type:** Tipo de entrenamiento realizado (por ejemplo, Cardio, Strength, Yoga, HIIT).
+- **Body_Fat_Percentage:** Porcentaje de grasa corporal del miembro.
+- **Water_Intake (liters):** Ingesta diaria de agua durante los entrenamientos.
+- **Workout_Frequency (days/week):** Número de sesiones de entrenamiento por semana.
+- **Experience_Level:** Nivel de experiencia, desde principiante (1) hasta experto (3).
+- **BMI:** Índice de Masa Corporal, calculado a partir de la altura y el peso.
 
 ## Aplicaciones del conjunto de datos
 
