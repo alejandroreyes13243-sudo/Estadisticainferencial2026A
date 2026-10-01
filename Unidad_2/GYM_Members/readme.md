@@ -1,35 +1,35 @@
-# Acerca del conjunto de datos
+# About the Dataset
 
-Este conjunto de datos ofrece una visión detallada de las rutinas de ejercicio, los atributos físicos y las métricas de aptitud física de los socios del gimnasio. Contiene **973 muestras de datos**, incluyendo indicadores clave de rendimiento como la frecuencia cardíaca, las calorías quemadas y la duración del entrenamiento.
+This dataset provides a detailed overview of gym members' exercise routines, physical attributes, and fitness metrics. It contains **973 samples** of gym data, including key performance indicators such as heart rate, calories burned, and workout duration.
 
-Cada entrada también incluye datos demográficos y niveles de experiencia, lo que permite un análisis exhaustivo de los patrones de aptitud física, la progresión de los atletas y las tendencias de salud.
+Each entry also includes demographic data and experience levels, allowing for comprehensive analysis of fitness patterns, athlete progression, and health trends.
 
-## Características principales
+## Key Features
 
-- **Age:** Edad del socio del gimnasio.
-- **Gender:** Género del socio del gimnasio (Masculino o Femenino).
-- **Weight (kg):** Peso del miembro en kilogramos.
-- **Height (m):** Altura del miembro en metros.
-- **Max_BPM:** Frecuencia cardíaca máxima (latidos por minuto) durante las sesiones de entrenamiento.
-- **Avg_BPM:** Frecuencia cardíaca promedio durante las sesiones de entrenamiento.
-- **Resting_BPM:** Frecuencia cardíaca en reposo antes del entrenamiento.
-- **Session_Duration (hours):** Duración de cada sesión de entrenamiento en horas.
-- **Calories_Burned:** Total de calorías quemadas durante cada sesión.
-- **Workout_Type:** Tipo de entrenamiento realizado (por ejemplo, Cardio, Strength, Yoga, HIIT).
-- **Body_Fat_Percentage:** Porcentaje de grasa corporal del miembro.
-- **Water_Intake (liters):** Ingesta diaria de agua durante los entrenamientos.
-- **Workout_Frequency (days/week):** Número de sesiones de entrenamiento por semana.
-- **Experience_Level:** Nivel de experiencia, desde principiante (1) hasta experto (3).
-- **BMI:** Índice de Masa Corporal, calculado a partir de la altura y el peso.
+- **Age:** Age of the gym member.
+- **Gender:** Gender of the gym member (Male or Female).
+- **Weight (kg):** Member’s weight in kilograms.
+- **Height (m):** Member’s height in meters.
+- **Max_BPM:** Maximum heart rate (beats per minute) during workout sessions.
+- **Avg_BPM:** Average heart rate during workout sessions.
+- **Resting_BPM:** Heart rate at rest before workout.
+- **Session_Duration (hours):** Duration of each workout session in hours.
+- **Calories_Burned:** Total calories burned during each session.
+- **Workout_Type:** Type of workout performed (e.g., Cardio, Strength, Yoga, HIIT).
+- **Fat_Percentage:** Body fat percentage of the member.
+- **Water_Intake (liters):** Daily water intake during workouts.
+- **Workout_Frequency (days/week):** Number of workout sessions per week.
+- **Experience_Level:** Level of experience, from beginner (1) to expert (3).
+- **BMI:** Body Mass Index, calculated from height and weight.
 
-## Aplicaciones del conjunto de datos
+## Dataset Applications
 
-Este conjunto de datos es ideal para científicos de datos, investigadores de la salud y entusiastas del fitness interesados en:
+This dataset is ideal for data scientists, health researchers, and fitness enthusiasts interested in:
 
-- Estudiar los hábitos de ejercicio.
-- Modelar la progresión del estado físico.
-- Analizar la relación entre datos demográficos y fisiológicos.
-- Identificar patrones en las rutinas de entrenamiento.
-- Evaluar la relación entre la intensidad del entrenamiento y el rendimiento físico.
+- Studying exercise habits.
+- Modeling fitness progression.
+- Analyzing the relationship between demographic and physiological data.
+- Identifying patterns in workout routines.
+- Evaluating the relationship between workout intensity and physical performance.
 
-Con una amplia gama de variables, ofrece información valiosa sobre cómo diferentes factores se relacionan con la intensidad del entrenamiento, la resistencia y la salud en general.
+With a wide range of variables, it offers insights into how different factors relate to workout intensity, endurance, and overall health.
