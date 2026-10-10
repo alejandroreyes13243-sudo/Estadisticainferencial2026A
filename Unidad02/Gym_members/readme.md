@@ -1,6 +1,6 @@
 # About Dataset
 
-This dataset provides a detailed overview of gym members' exercise routines, physical attributes, and fitness metrics. It contains 973 samples of gym data, including key performance indicators such as heart rate, calories burned, and workout duration. Each entry also includes demographic data and experience levels, allowing for comprehensive analysis of fitness patterns, athlete progression, and health trends.
+This dataset provides a detailed overview of gym members' exercise routines, physical attributes, and fitness metrics. It contains **973 samples** of gym data, including key performance indicators such as heart rate, calories burned, and workout duration. Each entry also includes demographic data and experience levels, allowing for comprehensive analysis of fitness patterns, athlete progression, and health trends.
 
 ## Key Features
 
@@ -20,12 +20,8 @@ This dataset provides a detailed overview of gym members' exercise routines, phy
 - **Experience_Level:** Level of experience, from beginner (1) to expert (3).
 - **BMI:** Body Mass Index, calculated from height and weight.
 
-## Dataset Applications
+## Dataset Purpose
 
-This dataset is ideal for data scientists, health researchers, and fitness enthusiasts interested in:
+This dataset is ideal for data scientists, health researchers, and fitness enthusiasts interested in studying exercise habits, modeling fitness progression, or analyzing the relationship between demographic and physiological data.
 
-- Studying exercise habits.
-- Modeling fitness progression.
-- Analyzing relationships between demographic and physiological data.
-- Exploring the factors associated with workout intensity and endurance.
-- Analyzing trends in exercise routines and fitness metrics.
+With a wide range of variables, it offers insights into how different factors affect workout intensity, endurance, and overall health.
