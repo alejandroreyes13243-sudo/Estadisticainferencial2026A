@@ -1,3321 +1,3314 @@
-[Casa_toluca (2).md](https://github.com/user-attachments/files/33353447/Casa_toluca.2.md)
-# Dataset: Casas en Toluca
-
-**Número de registros:** 2004  
-**Número de columnas:** 5
-
-| Ubicación                                                                                                                                                                              |   Area |   Baños |   Habitaciones |           Precio |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------:|--------:|---------------:|-----------------:|
-| Casa en Venta Los Serrados                                                                                                                                                             |    105 |       2 |              3 | 130000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Tierra Y Libertad #114                                                                                                                                                   |    115 |       2 |              3 |  50800           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    700 |       3 |              3 | 325000           |
-| Casa en Venta Granjas, Toluca De Lerdo                                                                                                                                                 |    390 |       3 |              4 | 275000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    300 |       4 |              3 | 215000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    250 |       2 |              3 | 125000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    600 |       4 |              4 |      1e+06       |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    nan |       4 |              4 | 220000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    300 |       4 |              3 | 210000           |
-| Casa en Venta Ejido Santa Cruz Azcapotzaltongo, Toluca De Lerdo                                                                                                                        |    nan |     nan |            nan | 137500           |
-| Casa en Venta San Miguel Apinahuizco, Toluca De Lerdo                                                                                                                                  |    nan |     nan |            nan |  75000           |
-| Casa en Venta Venta De Casa/oficina Toluca                                                                                                                                             |    600 |       8 |              6 |      1.25e+06    |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta En Cacalomacan Toluca                                                                                                                                      |    330 |       4 |              4 | 290000           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Venta De Casa Remodelada En La Colonia Morelos Toluca                                                                                                                    |    256 |       2 |              3 | 197500           |
-| , Morelos 1a Sección, Toluca De Lerdo                                                                                                                                                  |        |         |                |                  |
-| Casa en Venta Casa En Venta Ideal Para Oficina En San Bernardino Toluca                                                                                                                |    350 |       3 |              4 | 265000           |
-| , San Bernardino, Toluca De Lerdo                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Venta De Casa Con Terreno Excedente En Cacalomacan Toluca                                                                                                                |    350 |       3 |              4 | 225000           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Venta De Casa En Cacalomacán Toluca                                                                                                                                      |    450 |       4 |              4 | 325000           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Venta De Casa Sola En Cacalomacan Toluca                                                                                                                                 |    600 |       3 |              3 | 250000           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Venta Casa Nueva Sola En Venta, A 5 Minutos De Central De Abastos Toluca, San Mateo Otzacatipan, Ejido                                                                   |    262 |       2 |              2 | 117500           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Casa En Venta En El Centro De Toluca Ideal Para Inversion                                                                                                                |    300 |       2 |              4 | 300000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venta De Casa De Una Sola Planta En San Mateo Oxtotitlàn Toluca                                                                                                          |    159 |       1 |              3 | 110000           |
-| , San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Casa En Venta En Centro Toluca                                                                                                                                           |    771 |       4 |              6 |      3.05e+06    |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Residencia En Venta Por Calle Colón Toluca                                                                                                                               |    280 |       3 |              3 | 523000           |
-| , Ciprés, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa Venta Renta En El Centro De Toluca                                                                                                                                  |    492 |       3 |              3 | 625000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta En El Centro De Toluca                                                                                                                                     |    287 |       2 |              4 | 187500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venta De Casa En Capultitlan Toluca                                                                                                                                      |    324 |       3 |              7 | 215000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venta De Casa En Residencial Colón Toluca                                                                                                                                |    280 |       2 |              2 | 400000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venta De Casa En Colonia Independencia Toluca                                                                                                                            |    315 |       2 |              4 | 217500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venta De Casa En Cacalomacan En Cerrada De Abedules                                                                                                                      |    nan |       2 |              3 | 375000           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Venta De Casa En La Colonia Sanchez Toluca                                                                                                                               |    353 |       2 |              4 | 225000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venta De Quinta Familiar En San Pablo Autopan Estado De Mèxico                                                                                                           |    189 |       2 |              3 | 134500           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Casa Nueva En Venta En Cacalomacan Toluca                                                                                                                                |    148 |       2 |              3 | 125000           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Venta De Casa Nuieva En Fuentes De San Jose Toluca                                                                                                                       |    250 |       3 |              3 | 156000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venta De Casa En Colonia Ocho Cedros Toluca                                                                                                                              |    nan |       3 |              4 | 112500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venta De Casa En El Centro De Toluca                                                                                                                                     |   1690 |       3 |              4 |      1.4e+06     |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venta De Casa En Cacalomacán Centro Toluca                                                                                                                               |    800 |       4 |              4 | 610000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Marie Curie 303, Toluca De Lerdo, México                                                                                                                                 |    189 |       4 |              3 | 282500           |
-| Casa en Venta Casa Nueva Oxotitlan                                                                                                                                                     |    250 |       1 |              4 | 150000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    271 |       2 |              3 | 257500           |
-| Casa en Venta Ignacio Zaragoza 102, Toluca De Lerdo, México                                                                                                                            |    120 |       2 |              3 |  77500           |
-| Casa en Venta Venta De Casa En Valle Don Camilo En La Calle Montes Altai, Toluca                                                                                                       |    209 |       2 |              4 | 170000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venta De Casa En Toluca A Un Costado De La Procuraduría                                                                                                                  |    188 |       3 |              3 | 122500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venta Rancho En Cacalomacan Toluca                                                                                                                                       |    400 |       5 |              4 | 500000           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Venta De Casa En Cacalomacán Estado De Mèxico                                                                                                                            |    nan |       3 |              4 | 850000           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Las Misiones                                                                                                                                                             |    nan |       2 |              3 |  78000           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |   1046 |       4 |              4 |      1.15e+06    |
-| Casa en Venta Casa En Venta En Galeana, Toluca Centro                                                                                                                                  |    380 |       4 |              6 | 700000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    425 |       3 |              3 | 795000           |
-| Casa en Venta Venta De Casa En Colonia Ocho Cedros Toluca                                                                                                                              |    237 |       7 |              8 | 155000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venta De Casa Con 3 Locales En El Centro De Toluca                                                                                                                       |    282 |     nan |            nan | 480250           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    566 |       5 |            nan |      1.25e+06    |
-| Casa en Venta Venta De Casa En El Cerrillo Vista Hermosa Toluca                                                                                                                        |    120 |       1 |              3 |  57500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venta De Casa A Precio De Terreno En El Centro De Toluca                                                                                                                 |    nan |     nan |            nan | 325000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Morelos Esquina Quintana Roo, Toluca De Lerdo, México                                                                                                                    |    355 |       6 |              8 | 175000           |
-| Casa en Venta Céntrica Casa En Venta O Renta En Av Instituto Literario Toluca                                                                                                          |    600 |       4 |              4 | 475000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Prolongacion San Pedro Totoltepec 302, San Pedro Totoltepec, Toluca De Lerdo                                                                                             |    151 |       2 |              3 |  81000           |
-| Casa en Venta Vesana 104, Capultitlán, Toluca De Lerdo                                                                                                                                 |    168 |       2 |              3 |  74205.6         |
-| Casa en Venta Prol Paseo Totoltepec 302, San Pedro Totoltepec, Toluca De Lerdo                                                                                                         |    100 |       2 |              2 |  51836.7         |
-| Casa en Venta Paseos Del Valle, Rincón Del Parque, Toluca De Lerdo                                                                                                                     |    100 |       2 |              3 |  41390.3         |
-| Casa en Venta San Marcos 259, Toluca, Toluca De Lerdo                                                                                                                                  |    108 |       2 |              3 |  24426.8         |
-| Casa en Venta Rinconada De Mayordomo, San Mateo Otzacatipan, Toluca De Lerdo                                                                                                           |    250 |       2 |              3 | 102470           |
-| Casa en Venta Valle De Isarco 20, Toluca De Lerdo, México                                                                                                                              |    270 |       3 |              4 | 145671           |
-| Casa en Venta Valle De Trebbia 12, Toluca De Lerdo, México                                                                                                                             |    300 |       3 |              4 | 116750           |
-| Casa en Venta Hacienda Las Carretas 48, Toluca De Lerdo, México                                                                                                                        |    120 |       2 |              3 |  19096.7         |
-| Casa en Venta Boulevard Lic Adolfo Lopez Mateos 146, Toluca De Lerdo, México                                                                                                           |    160 |       2 |              3 |  41500           |
-| Casa en Venta Privada Vainlla 1799, Toluca De Lerdo, México                                                                                                                            |    210 |       3 |              4 |  71500           |
-| Casa en Venta Privada Gardenia 3089, Toluca De Lerdo, México                                                                                                                           |    210 |       3 |              4 |  74113.2         |
-| Casa en Venta Bosque De Encinos 1819, Toluca De Lerdo, México                                                                                                                          |    200 |       3 |              4 |  67750           |
-| Casa en Venta Rebeca 155, Unidad Victoria, Toluca De Lerdo                                                                                                                             |    120 |       2 |              3 | 127661           |
-| Casa en Venta Cda Hacienda San Jorge, San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                            |    120 |       2 |              3 |  41165.9         |
-| Casa en Venta Valle De Trebbia 12, Toluca De Lerdo, México                                                                                                                             |    240 |       3 |              4 | 139750           |
-| Casa en Venta Prolongacion 5 De Mayo 1541, Comisión Federal De Electricidad, Toluca De Lerdo                                                                                           |    130 |       2 |              3 | 236990           |
-| Casa en Venta Av. Independencia 143, Toluca De Lerdo, México                                                                                                                           |    120 |       2 |              2 |  20850           |
-| Casa en Venta Miguel Mata No. 209 santiago Miltepec toluca Edo Mex., Toluca De Lerdo, México                                                                                           |    140 |       2 |              3 |  21530.1         |
-| Casa en Venta Jose Maria Morelos 105, Independencia, Toluca De Lerdo                                                                                                                   |     45 |       1 |              2 |  18637.4         |
-| Casa en Venta Santos Degollado 000 Niños Heroes,toluca,estado De Mexico,50100, Niños Héroes, Toluca De Lerdo                                                                           |    350 |       2 |              4 |  68491.2         |
-| Casa en Venta Arboleda 2, Hacienda Del Valle Ii, Toluca De Lerdo                                                                                                                       |    110 |       2 |              3 |  47363.3         |
-| Casa en Venta Arboleda 2, Hacienda Del Valle Ii, Toluca De Lerdo                                                                                                                       |    110 |       2 |              3 |  47363.3         |
-| Casa en Venta Arboleda 2, Hacienda Del Valle Ii, Toluca De Lerdo                                                                                                                       |    110 |       2 |              3 |  47363.3         |
-| Casa en Venta Arboleda 2, Hacienda Del Valle Ii, Toluca De Lerdo                                                                                                                       |    110 |       2 |              3 |  47363.3         |
-| Casa en Venta Prolongación Ruta De La Independencia # 131, Independencia, Toluca De Lerdo                                                                                              |    110 |       2 |              3 |  16500           |
-| Casa en Venta Arboleda 2, Hacienda Del Valle Ii, Toluca De Lerdo                                                                                                                       |    110 |       2 |              3 |  47363.3         |
-| Casa en Venta Fracc Hacienda Del Valle Ii, Hacienda Del Valle Ii, Toluca De Lerdo                                                                                                      |    110 |       2 |              3 |  19096.7         |
-| Casa en Venta Tierra Y Libertad 114 Casa 00 La Ribera,toluca,toluca,estado De Mexico,50100, San Mateo Oxtotitlán, Toluca De Lerdo                                                      |    130 |       2 |              3 |  39785.9         |
-| Casa en Venta Arboleda 2, Hacienda Del Valle Ii, Toluca De Lerdo                                                                                                                       |    110 |       2 |              3 |  47363.3         |
-| Casa en Venta Arboleda 2, Hacienda Del Valle Ii, Toluca De Lerdo                                                                                                                       |    110 |       2 |              3 |  47363.3         |
-| Casa en Venta Guerrero, Cacalomacan, Toluca, Cacalomacan, Toluca De Lerdo                                                                                                              |    220 |       2 |              4 |  43737.1         |
-| Casa en Venta Prolongacion Progreso 305, Bosques De San Mateo, Toluca De Lerdo                                                                                                         |    160 |       2 |              3 |  30120.4         |
-| Casa en Venta Arboleda 2, Hacienda Del Valle Ii, Toluca De Lerdo                                                                                                                       |    110 |       2 |              3 |  47363.3         |
-| Casa en Venta Arboleda 2, Hacienda Del Valle Ii, Toluca De Lerdo                                                                                                                       |    110 |       2 |              3 |  47363.3         |
-| Casa en Venta Paloma Torcaza 38, Toluca De Lerdo, México                                                                                                                               |    100 |       1 |              3 |  18958           |
-| Casa en Venta Carr.toluca-naucalpan #1702, San Mateo Otzacatipan, Toluca De Lerdo                                                                                                      |    150 |       2 |              3 |  73500           |
-| Casa en Venta Manuel M. Dieguez  503, Guadalupe, Toluca De Lerdo                                                                                                                       |    180 |       2 |              3 |  29450           |
-| Casa en Venta Tierra Y Libertad 114, Toluca De Lerdo, México                                                                                                                           |    120 |       2 |              3 |  49553.1         |
-| Casa en Venta Agronomos 101 Fracc.misiones De Santa Esperaza, Toluca 50227, Misiones De Santa Esperanza, Toluca De Lerdo                                                               |    120 |       2 |              3 |  19842.8         |
-| Casa en Venta Azaleas Las Flores, Toluca De Lerdo, México                                                                                                                              |    120 |       1 |              3 |  27737.7         |
-| Casa en Venta Paloma Silvestre 86, Toluca De Lerdo, México                                                                                                                             |     80 |       1 |              3 |  18958           |
-| Casa en Venta Arteaga Oriente, Toluca De Lerdo, México                                                                                                                                 |    300 |       3 |              3 | 112500           |
-| Casa en Venta Adolfo Lopez Mateos 146, Toluca De Lerdo, México                                                                                                                         |    100 |       2 |              3 |  41500           |
-| Casa en Venta Arco Iris 15b, Bosques De San Mateo, Toluca De Lerdo                                                                                                                     |     90 |       1 |              2 |  31783.5         |
-| Casa en Venta Nezahualcoyotl 716, Izcalli Ipiem, Toluca De Lerdo                                                                                                                       |    150 |       2 |              3 |  53250           |
-| Casa en Venta Luis Gonzaga Urbina, Tlacopa, Toluca De Lerdo                                                                                                                            |    500 |       2 |              3 | 142750           |
-| Casa en Venta Miguel Hidalgo 79, Toluca De Lerdo, México                                                                                                                               |    240 |       3 |              4 | 192500           |
-| Casa en Venta Adolfo Lopez Mateos 146, Toluca De Lerdo, México                                                                                                                         |    100 |       2 |              3 |  41500           |
-| Casa en Venta Hacienda Cerro Viejo, San Nicolás Tolentino, Toluca De Lerdo                                                                                                             |    120 |       2 |              3 |  49750           |
-| Casa en Venta Filiberto Navas 00, Rancho San Jorge, Toluca De Lerdo, Méx. 50100, Ex-hacienda San Jorge, Toluca De Lerdo                                                                |    100 |       1 |              3 |  60283.7         |
-| Casa en Venta Boulevard De Los Continentes 118, De Tlanepantla, Toluca De Lerdo                                                                                                        |    400 |       4 |              4 | 218111           |
-| Casa en Venta De La Barraca #00-0 Barrio Tlacopa Toluca De Lerdo 50010, Tlacopa, Toluca De Lerdo                                                                                       |     85 |       1 |              3 |  25826.8         |
-| Casa en Venta Rinconada De La Capilla, San Mateo Otzacatipan, Toluca De Lerdo                                                                                                          |    300 |       4 |              4 | 180250           |
-| Casa en Venta Girasol 218, Club Jardín, Toluca De Lerdo                                                                                                                                |    125 |       2 |              3 |  63782.8         |
-| Casa en Venta Hacienda Las Carretas, Toluca De Lerdo, México                                                                                                                           |     70 |       1 |              3 |  19096.7         |
-| Casa en Venta Girasol 218, Toluca De Lerdo, México                                                                                                                                     |    125 |       2 |              3 |  63782.8         |
-| Casa en Venta Isla San Juan De Ulúa 125, De Tlanepantla, Toluca De Lerdo                                                                                                               |    200 |       3 |              4 |  48000           |
-| Casa en Venta Fernando Aguilar Vilchis, Rancho La Mora, Toluca De Lerdo                                                                                                                |    160 |       2 |              3 |  20602.1         |
-| Casa en Venta Girasol 218, Toluca De Lerdo, México                                                                                                                                     |    125 |       2 |              3 |  63782.8         |
-| Casa en Venta San Mateo Otzacatipan, 50200 San Nicolás Tolentino, San Mateo Otzacatipan, Toluca De Lerdo                                                                               |    120 |       2 |              2 |  90500           |
-| Casa en Venta Rebeca No. Ext 155, Unidad Victoria, Toluca De Lerdo                                                                                                                     |    150 |       1 |              3 |  52500           |
-| Casa en Venta Cerro Del Mercado 205, De Tlanepantla, Toluca De Lerdo                                                                                                                   |    150 |       2 |              3 |  62500           |
-| Casa en Venta María Curie, Toluca De Lerdo, México                                                                                                                                     |    200 |       3 |              3 | 197250           |
-| Casa en Venta Girasol 00, Toluca De Lerdo, México                                                                                                                                      |    125 |       2 |              3 |  63782.8         |
-| Casa en Venta Paloma Tortola 00, Las Palomas, Toluca De Lerdo, Méx., Toluca De Lerdo, México                                                                                           |     50 |       1 |              2 |  23550.3         |
-| Casa en Venta Juan Silveti 137, Toluca De Lerdo, México                                                                                                                                |    100 |       2 |              3 |  28750           |
-| Casa en Venta Adolfo Lopez Mateos # 146, Centro, Toluca De Lerdo                                                                                                                       |    140 |       1 |              3 |  59933.2         |
-| Casa en Venta Av Independencia # 139, Toluca De Lerdo, México                                                                                                                          |    100 |       1 |              3 |  20850           |
-| Casa en Venta Arbol De Las Manitas Toluca, Toluca De Lerdo, México                                                                                                                     |    120 |       2 |              3 |  19270           |
-| Casa en Venta Las Flores No Ext 278 No Int 43, Tlacopa, Toluca De Lerdo                                                                                                                |    565 |       3 |              6 | 528570           |
-| Casa en Venta Prolongacion 5 De Mayo #1541, Toluca De Lerdo, México                                                                                                                    |    150 |       2 |              4 |  74500           |
-| Casa en Venta Independencia 129, Toluca De Lerdo, México                                                                                                                               |    200 |       3 |              5 |  73500           |
-| Casa en Venta Miguel Hidalgo #, Centro, Toluca De Lerdo                                                                                                                                |    153 |       2 |              3 |  33159.2         |
-| Casa en Venta Carretera Toluca Naucalpan # 00, San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                   |    200 |       2 |              3 |  73500           |
-| Casa en Venta Manuel M Dieguez, Toluca De Lerdo, México                                                                                                                                |    120 |       2 |              3 |  23950           |
-| Casa en Venta Av Hidalgo, San Bernardino, Toluca De Lerdo                                                                                                                              |    240 |       2 |              4 |  33307.5         |
-| Casa en Venta Isabel La Catolica, Américas, Toluca De Lerdo                                                                                                                            |    150 |       2 |              4 |  54810           |
-| Casa en Venta Guillermo Marconi Toluca, Toluca De Lerdo, México                                                                                                                        |    120 |       2 |              3 |  34963.6         |
-| Casa en Venta Toluca # 606, Sector Popular, Toluca De Lerdo                                                                                                                            |    100 |       2 |              2 |  28474           |
-| Casa en Venta Adolfo López Mateos 146, Toluca De Lerdo, México                                                                                                                         |    150 |       2 |              3 |  41500           |
-| Casa en Venta Jose Marti 209, Toluca De Lerdo, México                                                                                                                                  |     95 |       2 |              2 |  27900           |
-| Casa en Venta Av Independencia 143, Toluca De Lerdo, México                                                                                                                            |    100 |       2 |              3 |  18850           |
-| Casa en Venta Isabela Catolica # 00, Américas, Toluca De Lerdo                                                                                                                         |    120 |       2 |              3 |  54810           |
-| Casa en Venta Azucena 125b, 5 De Mayo, Toluca De Lerdo                                                                                                                                 |     80 |       2 |              3 |  17928.4         |
-| Casa en Venta San Marcos, Toluca De Lerdo, México                                                                                                                                      |    121 |       2 |              3 |  24272           |
-| Casa en Venta Camino Viejo A San Lorenzo 200, Toluca De Lerdo, México                                                                                                                  |     90 |       2 |              3 |  20367.2         |
-| Casa en Venta Santa Cruz Otzacatipan, Toluca De Lerdo, México                                                                                                                          |    200 |       2 |              3 | 170750           |
-| Casa en Venta Arbol De Las Manitas, Toluca De Lerdo, México                                                                                                                            |    150 |       2 |              3 |  19270           |
-| Casa en Venta Bosques De Pirules 105 Toluca, Toluca De Lerdo, México                                                                                                                   |    100 |       2 |              3 |  29410           |
-| Casa en Venta Azaleas, Toluca De Lerdo, México                                                                                                                                         |     95 |       2 |              3 |  27737.7         |
-| Casa en Venta Av Independencia 143, Toluca De Lerdo, México                                                                                                                            |    100 |       2 |              3 |  18850           |
-| Casa en Venta Guillermo # 00, Toluca De Lerdo, México                                                                                                                                  |    100 |       2 |              2 |  34963.6         |
-| Casa en Venta Jose Maria Jauregui No. 00, Toluca De Lerdo, México                                                                                                                      |    140 |       2 |              2 |  26851.6         |
-| Casa en Venta Avenida Independencia # 00, Toluca De Lerdo, México                                                                                                                      |    130 |       2 |              2 |  18850           |
-| Casa en Venta Antiguo Camino A San Lorenzo # 200, Independencia, Toluca De Lerdo                                                                                                       |    120 |       1 |              4 |  48341.1         |
-| Casa en Venta Jose Marti 200, Independencia, Toluca De Lerdo                                                                                                                           |    100 |       2 |              3 |  48341.1         |
-| Casa en Venta Cristobal Olmedo, San Miguel Apinahuizco, Toluca De Lerdo                                                                                                                |    330 |       2 |              4 |  28392.9         |
-| Casa en Venta Lago Tanganica, Toluca De Lerdo, México                                                                                                                                  |    190 |       2 |              3 |  74275           |
-| Casa en Venta Jose Vicente Villada 101 - Casa-9,l-9, Toluca De Lerdo, México                                                                                                           |    245 |       3 |              4 | 154750           |
-| Casa en Venta Tierra Y Libertad # 00, Toluca De Lerdo, México                                                                                                                          |    200 |       2 |              3 |  49553.1         |
-| Casa en Venta Adolfo Lopez Mateos # 146, Toluca De Lerdo, México                                                                                                                       |    100 |      23 |              3 |  41500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     90 |       2 |              3 |  23499.6         |
-| Casa en Venta Miguel Hidalgo San Lorenzo Tepaltitlan Toluca, San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                           |    122 |       1 |              3 |  73014           |
-| Casa en Venta La Barranca #, Tlacopa, Toluca De Lerdo                                                                                                                                  |     70 |       1 |              2 |  25826.8         |
-| Casa en Venta Rancho Seco #, Unidad Victoria, Toluca De Lerdo                                                                                                                          |     80 |       1 |              2 |  10653           |
-| Casa en Venta Progreso 305, Toluca De Lerdo, México                                                                                                                                    |    110 |       3 |              4 |  30120.4         |
-| Casa en Venta Hidalgo Poniente San Bernardino, Toluca De Lerdo, México                                                                                                                 |    160 |       2 |              3 |  33307.4         |
-| Casa en Venta Azaleas #, San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                               |     95 |       1 |              3 |  27737.7         |
-| Casa en Venta Paloma Silvestre #, Centro, Toluca De Lerdo                                                                                                                              |    130 |       1 |              3 |  23565.3         |
-| Casa en Venta Hacienda Zumpango, Hacienda Del Valle Ii, Toluca De Lerdo                                                                                                                |     85 |       2 |              2 |  49822.4         |
-| Casa en Venta Prol. 5 De Mayo 2 Ote, Toluca De Lerdo, México                                                                                                                           |    120 |       2 |              3 |  74500           |
-| Casa en Venta Galileo Galilei, Toluca De Lerdo, México                                                                                                                                 |    300 |       3 |              4 |  90750           |
-| Casa en Venta Av. Bosques Del Nevado, Toluca De Lerdo, México                                                                                                                          |    180 |       2 |              3 |  36625           |
-| Casa en Venta Paloma Silvestre 32, Toluca De Lerdo, México                                                                                                                             |     62 |       1 |              2 |  24002.9         |
-| Casa en Venta Jose Ma Arteaga, Toluca De Lerdo, México                                                                                                                                 |    112 |       2 |              3 | 112500           |
-| Casa en Venta Bosques De Pirules 105, Toluca De Lerdo, México                                                                                                                          |    100 |       2 |              3 |  29410           |
-| Casa en Venta C. De La Independencia 129, Toluca De Lerdo, México                                                                                                                      |    150 |       2 |              3 |  73500           |
-| Casa en Venta Delegación San Mateo Otzacatipan, Toluca De Lerdo, Méx.                                                                                                                  |     70 |       1 |              2 |  64500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av Hidalgo 17                                                                                                                                                            |    160 |       4 |              4 | 165000           |
-| , De Tlanepantla, Toluca De Lerdo                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Toluca                                                                                                                                                                   |    540 |       5 |              4 | 565000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venta Casa En La Col. Morelos                                                                                                                                            |     92 |       1 |              3 | 149000           |
-| , Morelos 1a Sección, Toluca De Lerdo                                                                                                                                                  |        |         |                |                  |
-| Casa en Venta Ceboruco #sn                                                                                                                                                             |    177 |       3 |              3 | 155000           |
-| , Ampliación Lázaro Cárdenas, Toluca De Lerdo                                                                                                                                          |        |         |                |                  |
-| Casa en Venta Cacalomacan, Toluca De Lerdo                                                                                                                                             |    250 |       5 |              3 | 212500           |
-| Casa en Venta Casa Sola Toluca Cu Tollocan Matlazincas Adolfo López Mateos                                                                                                             |    230 |       3 |              5 | 125000           |
-| , Rincón Del Parque, Toluca De Lerdo                                                                                                                                                   |        |         |                |                  |
-| Casa en Venta Juan Álvarez 918, Vértice, 50090 Toluca De Lerdo, Méx.                                                                                                                   |    180 |       2 |              3 | 117500           |
-| , Vértice, Toluca De Lerdo                                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Cacalomacan, Toluca De Lerdo                                                                                                                                             |    250 |       5 |              3 | 212500           |
-| Casa en Venta Cacalomacán, Edo. De México                                                                                                                                              |    335 |       3 |              3 | 382500           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Ampliación Lázaro Cárdenas, Toluca De Lerdo                                                                                                                              |    177 |       3 |              3 | 157500           |
-| Casa en Venta Paseo De Los Jinetes, Cacalomacan                                                                                                                                        |   2000 |       6 |              6 |      1e+07       |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Cristobal Colon                                                                                                                                                          |    140 |       2 |              2 | 115000           |
-| , San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Paseo De Los Clérigos                                                                                                                                                    |     87 |       2 |              3 |  82500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo De Los Dioses #234, 23                                                                                                                                             |    170 |       3 |              3 | 124500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ceboruco #sn                                                                                                                                                             |    177 |       3 |              3 | 155000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Niños Héroes #316, 1                                                                                                                                                     |    135 |       3 |              3 |  98500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa Valle Don Camilo Cerca Las Torres Tollocan                                                                                                                          |    400 |       4 |              4 | 300000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta A Solo 10 Min De Pabellon Metepec #sn                                                                                                                                    |    177 |       3 |              3 | 155000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo Colón Null                                                                                                                                                         |    nan |       3 |              6 |      1.9e+06     |
-| , Ciprés, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle Ramon Gomez Del V. 109                                                                                                                                             |    nan |       4 |              4 | 324500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ometusco #00                                                                                                                                                             |     74 |       1 |              3 |  14386.5         |
-| , Los Sauces V, Toluca De Lerdo                                                                                                                                                        |        |         |                |                  |
-| Casa en Venta Av. Arboleda 102, Col, 50220 San Mateo Otzacatipan, Méx. #sn                                                                                                             |    124 |       3 |              3 |  93000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Pedro Ascencio #400                                                                                                                                                      |    115 |       2 |              2 |  87500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Https://goo.gl/maps/5l6yq7whzfplav5q7                                                                                                                                    |    332 |       2 |              3 | 180000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Mextli #sn                                                                                                                                                               |    170 |       3 |              3 | 155000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Cristóbal Colón                                                                                                                                                          |    149 |       1 |              3 | 105000           |
-| , San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Cerrada De Abedules No, 6 6                                                                                                                                              |    nan |       9 |              6 |      3.5e+06     |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Luis Donaldo Colosio #0, 1                                                                                                                                               |    200 |       3 |              3 |  67500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    177 |       3 |              3 | 155000           |
-| Casa en Venta Km. 52.5 Carretera Toluca Naucalpan #km 52.5                                                                                                                             |    100 |       3 |              3 |  64146           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Campo Real, Delegación Santa María Totoltepec, 50245 Toluca De Lerdo, Méx.                                                                                               |    180 |       2 |              3 | 125000           |
-| , Santa María Totoltepec, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av. Encinos                                                                                                                                                              |    204 |       3 |              4 |  80000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    160 |       2 |              3 | 120000           |
-| Casa en Venta Miguel Hidalgo                                                                                                                                                           |   1046 |       3 |              4 |      1.15e+06    |
-| , La Merced  (alameda), Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Lago Del Oso N 314 Colonia Villa Hogar, Cp52170, Toluca Estado De México, México.                                                                                        |    nan |       2 |              3 | 137500           |
-| , Villa Hogar, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Flor De Ma. R. De M. 104a, Barrio De La Merced, De La Merced, Estado De México                                                                                           |    300 |       2 |              4 | 292500           |
-| , La Merced  (alameda), Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Hermosa Residencia En Venta, Residencial Colón, Toluca, Edo. De México.                                                                                                  |    390 |       5 |              5 | 430000           |
-| , Ciprés, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Nicolas Tolentino Otzacatipan 50230 San Nicolás Tolentino, Méx #sn                                                                                                   |    113 |       3 |              3 |  84750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Hacieda Guadalupe #36                                                                                                                                                    |    132 |       2 |              2 |  55000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Mza 43 #43, 00                                                                                                                                                           |    110 |       1 |              3 |  60000           |
-| , San Nicolás Tolentino, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Carretera Toluca Naucalpan #1702                                                                                                                                         |    100 |       3 |              3 |  67565           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Juan Aldama Sur 512                                                                                                                                                      |    nan |       5 |              5 | 730000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta, Cacalomacan, Edo. De México.                                                                                                                              |    300 |       2 |              3 | 215000           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Moctezuma Xocoyotzin                                                                                                                                                     |    170 |       1 |              3 |  82500           |
-| , Santa María Totoltepec, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Prolongacion Laguna Del Volcan S/n                                                                                                                                       |    400 |       3 |            nan | 185000           |
-| , Héroes Del 5 De Mayo, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Hacienda Molino De Las Flores #00                                                                                                                                        |     74 |       1 |              3 |  16297.4         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Aretusa #227                                                                                                                                                             |     72 |       2 |              3 |  43000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta, Cacalomacan, Toluca, Edo. De México.                                                                                                                      |    300 |       2 |              3 | 215000           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Eulalia Peñaloza #000, 000                                                                                                                                               |    225 |       2 |              3 |  99826.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Lucas #00                                                                                                                                                            |     60 |       1 |              2 |  22322.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    390 |       7 |              6 | 250000           |
-| Casa en Venta Fernando González 207, Valle Verde Y Terminal, 50140 Toluca De Lerdo, Méx.                                                                                               |    227 |       2 |              3 | 155000           |
-| , Valle Verde, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Flor De Ma. R. De M. 104a, Barrio De La Merced, De La Merced, Estado De México #**                                                                                       |    300 |       3 |              4 | 292500           |
-| , La Merced  (alameda), Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Principal #0, 1                                                                                                                                                          |    187 |       3 |              4 | 129000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Guillermo Marconi #0, 0                                                                                                                                                  |    120 |       2 |              3 |  62450           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Roble                                                                                                                                                                    |     72 |       1 |              2 |  49450           |
-| , Santa María Totoltepec, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ara Las Misiones #00                                                                                                                                                     |     96 |       3 |              3 |  72500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo Toscana #1702                                                                                                                                                      |    127 |       3 |              3 | 115000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Oportunidad Casa Venta Toluca A Dos Cuadras Av Alfredo Del Mazo Col Cientificos Escuela Simon Bolivar                                                                    |    253 |       2 |              4 | 165000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    600 |       8 |              6 |      1.25e+06    |
-| Casa en Venta Casa En Venta La Pera, Cacalomacan, Toluca, Edo. De México                                                                                                               |    220 |       2 |              3 | 200000           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Casa En Venta Las Misiones Toluca                                                                                                                                        |     96 |       2 |              3 |  77500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Antonio Albarran #612                                                                                                                                                    |    114 |       1 |              3 |  46650.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Carretera México Toluca #00                                                                                                                                              |     96 |       2 |              3 |  81500           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Venta Casa Col. Morelos, Toluca Edo. De México                                                                                                                           |    160 |       1 |              3 | 160000           |
-| , Morelos 1a Sección, Toluca De Lerdo                                                                                                                                                  |        |         |                |                  |
-| Casa en Venta Héroes Del 5 De Mayo, Toluca De Lerdo                                                                                                                                    |    360 |       2 |              4 | 125000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    177 |       3 |              3 | 155000           |
-| Casa en Venta Casa En Venta En Toluca, Santa Ana Tlapaltitlan                                                                                                                          |    240 |       2 |              3 | 110000           |
-| , Santa Ana Tlapaltitlán, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Circuito San Jose Rinconada De La Casa Grande #00                                                                                                                        |    250 |       2 |              3 | 119500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                    |    140 |       2 |              3 | 115000           |
-| Casa en Venta Fraccionamiento Los Sauces #0                                                                                                                                            |     90 |       1 |              2 |  35160           |
-| , Toluca, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Andres Benavides                                                                                                                                                         |    215 |       4 |              4 | 232500           |
-| , Ciprés, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av: Hidalgo                                                                                                                                                              |    955 |       4 |              4 |      1.05e+06    |
-| , La Merced  (alameda), Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Camino A San Miguel Sn, Cacalomacán, Toluca, Estado De México                                                                                                            |    220 |       2 |              3 | 114500           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Casa En Venta, Delegación San Mateo Otzacatipan, Toluca, Edo. De México                                                                                                  |     99 |       1 |              3 |  75000           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Marie Curie #303                                                                                                                                                         |    245 |       5 |              3 | 192822           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Isidro Favela Null                                                                                                                                                       |    nan |       4 |              4 | 160000           |
-| , Doctores, Toluca De Lerdo                                                                                                                                                            |        |         |                |                  |
-| Casa en Venta J. A. Torres 200a, Universidad, 50130 Toluca De Lerdo, Méx.                                                                                                              |    220 |       2 |              5 | 207500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Emiliano Zapata 3b, Rancho San Jorge, 50100 Toluca De Lerdo, Méx.                                                                                                        |     87 |       1 |              2 |  72500           |
-| , San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Independencia #000                                                                                                                                                       |     85 |       1 |              2 |  17761.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Corralejo                                                                                                                                                                |    137 |       2 |              4 | 105000           |
-| , Independencia, Toluca De Lerdo                                                                                                                                                       |        |         |                |                  |
-| Casa en Venta Casa En Venta En Toluca Centro En Calle Cerrada                                                                                                                          |    430 |       4 |              4 | 375000           |
-| , La Merced  (alameda), Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Tomas Alba Edison                                                                                                                                                        |    216 |       2 |              4 | 127500           |
-| , Científicos, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Casa En Venta/renta En La Joya, Toluca                                                                                                                                   |    172 |       2 |              3 | 100000           |
-| , Santa María Totoltepec, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Lucas #00                                                                                                                                                            |     95 |       2 |              3 |  20840.6         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |   4000 |       9 |              7 |      1e+07       |
-| Casa en Venta Calle Marie Curie #303                                                                                                                                                   |    192 |       4 |              3 | 197000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Andador Hacienda Comanjillas, Unidad Habitacional San Francisco Infonavit, San Frnacisco Metepec, Toluca, Estado De Mexico                                               |     80 |       1 |              2 |  31000           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Juan Aldama Null                                                                                                                                                         |    nan |       3 |              3 | 114000           |
-| , San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Carr Toluca Naucalpan #1702                                                                                                                                              |    126 |       2 |              3 |  44300           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Prol. Ligeros                                                                                                                                                            |    252 |       2 |              3 |  99500           |
-| , Héroes Del 5 De Mayo, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta San Buenaventura, Toluca De Lerdo                                                                                                                                        |    102 |       2 |            nan |  55000           |
-| Casa en Venta José Martí #1000, 100                                                                                                                                                    |    152 |       3 |              3 | 157500           |
-| , Científicos, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Privada Galeana #1                                                                                                                                                       |    136 |       2 |              4 |  97500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo Toscana S/n                                                                                                                                                        |    nan |       2 |              3 | 115000           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Sierra Leona Null                                                                                                                                                        |    nan |       3 |              4 | 197500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle 21 De Marzo Null                                                                                                                                                   |    nan |       2 |              3 | 100000           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Dr. Mariano C. Olivera #104 A, 0                                                                                                                                         |    350 |       3 |              3 | 257500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta Colonia Sanchez, Toluca                                                                                                                                    |    310 |       2 |              6 | 155000           |
-| , Salvador Sánchez Colín, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ocho Cedros, Toluca De Lerdo                                                                                                                                             |    nan |       3 |              4 | 112500           |
-| Casa en Venta Casa En Venta Fracc. La Teja 2 Toluca Edo. De México                                                                                                                     |    120 |       1 |              3 |  82500           |
-| , Carlos Hank González, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Vendo Casa Balcones De Santin, Uso De Suelo Mixto Toluca                                                                                                                 |    325 |       3 |              3 | 155000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Independencia, Cacalomacan, 50265 Toluca De Lerdo, Méx.                                                                                                                  |     96 |       2 |              3 | 115000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Priv. De La Barranca 125-120                                                                                                                                             |    152 |       2 |              3 | 100000           |
-| , Tlacopa, Toluca De Lerdo                                                                                                                                                             |        |         |                |                  |
-| Casa en Venta 1a. Privada De La Libertad 103, Barrio De La Merced, 50080 Toluca De Lerdo, Méx., México                                                                                 |    190 |       2 |              3 | 125000           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Jose Vicente Villada #101                                                                                                                                                |    245 |       5 |              3 |  39470           |
-| , Santa Ana Tlapaltitlán, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Barrio De Tlacopa, 50010 Toluca De Lerdo, Méx.                                                                                                                           |    172 |       2 |              3 | 240000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     95 |       1 |              2 |  32910.7         |
-| Casa en Venta Lesse #1705                                                                                                                                                              |    143 |       3 |              3 | 119000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Privada De Xicotencatl                                                                                                                                                   |    800 |       3 |              4 | 375000           |
-| , La Merced  (alameda), Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Hacienda San Agustín                                                                                                                                                     |    170 |       2 |              3 |  77500           |
-| , San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Marie Curie #303                                                                                                                                                         |    192 |       2 |              3 | 194000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Hacienda De Tlacatecpan #sn                                                                                                                                              |     62 |       1 |              3 |  52500           |
-| , Los Sauces V, Toluca De Lerdo                                                                                                                                                        |        |         |                |                  |
-| Casa en Venta Parque Sierra Morelos                                                                                                                                                    |    380 |       2 |              4 | 115000           |
-| , San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Prol. 15 De Mayo, Estado De México                                                                                                                                       |    300 |       3 |              3 | 174500           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Cerro Del Águila, Los Pirules                                                                                                                                            |    305 |       4 |              5 | 190000           |
-| , De Tlanepantla, Toluca De Lerdo                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Residencial Colón #nd                                                                                                                                                    |    620 |       3 |              3 | 465000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Felipe Villanueva #000                                                                                                                                                   |    100 |       2 |              3 |  93450           |
-| , Morelos 1a Sección, Toluca De Lerdo                                                                                                                                                  |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    113 |       1 |              3 |  77500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    177 |       3 |              3 | 157500           |
-| Casa en Venta Av. Eulalia Peñaloza 199                                                                                                                                                 |    nan |       2 |              4 |  99250           |
-| , Morelos 2a Secc, Toluca De Lerdo                                                                                                                                                     |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    217 |       4 |              6 | 149500           |
-| Casa en Venta Cacalomacan #nd                                                                                                                                                          |    240 |       3 |              3 | 110000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta General Gumercindo Enriquez #125                                                                                                                                         |     65 |       1 |              2 |  34296           |
-| , Valle Verde, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Casa En Venta, Santa Ana La Crespa, Toluca                                                                                                                               |    166 |       2 |              4 |  77500           |
-| , Santa Ana Tlapaltitlán, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venta Casa Sn Pedro Totoltepec Frente A Bodega Aurrera                                                                                                                   |     60 |       1 |              2 |  45750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    400 |       3 |              3 | 675000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |   1000 |       7 |              6 |      1.25e+06    |
-| Casa en Venta Residencial Amazonas #sn                                                                                                                                                 |    250 |       5 |              3 | 212500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Col. Morelos Ii Seccion Toluca Edo Mex                                                                                                                                   |    492 |       3 |              3 | 625000           |
-| , Morelos 1a Sección, Toluca De Lerdo                                                                                                                                                  |        |         |                |                  |
-| Casa en Venta Tlalnepantla                                                                                                                                                             |    215 |       3 |              5 | 135000           |
-| , De Tlanepantla, Toluca De Lerdo                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Casa Sola En Venta En Toluca                                                                                                                                             |    980 |       3 |              4 | 599500           |
-| , Niños Héroes (penciones), Toluca De Lerdo                                                                                                                                            |        |         |                |                  |
-| Casa en Venta Independencia 223                                                                                                                                                        |    nan |       2 |              3 |  61700           |
-| , Santa María Totoltepec, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    225 |       2 |              3 |  58196.5         |
-| Casa en Venta Boulevard Miguel Aleman #2                                                                                                                                               |    113 |       3 |              2 |  69200           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    151 |       3 |              3 | 210000           |
-| Casa en Venta Miguel Mata #209                                                                                                                                                         |    136 |       2 |              3 |  21780.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Jose María Arteaga #112                                                                                                                                                  |    294 |       3 |              3 | 112500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Priv. Chapultepec                                                                                                                                                        |    190 |       2 |              4 |  67500           |
-| , San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Casa En Venta En Toluca, Instituto Literario                                                                                                                             |    600 |       4 |              4 | 475000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta, San Mateo Atenco, Toluca, Edo. De México                                                                                                                  |    167 |       2 |              3 | 153400           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Ricardo Flores Magón                                                                                                                                                     |    215 |       3 |              3 | 157500           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta 2 Privada De Arenas #5 Col.jardines De San Pedro, San Felipe Tlalmimilolpan, 50250 Toluca De Lerdo, Méx., México                                                         |    800 |       3 |              4 | 750000           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta 5 De Mayo Null                                                                                                                                                           |    nan |       2 |              3 |  98450           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Constituyentes #1136                                                                                                                                                     |    200 |       4 |              4 | 235500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta En San Buenaventura, Toluca                                                                                                                                |    190 |       3 |              3 | 119000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo Toscana #1702                                                                                                                                                      |    165 |       3 |              3 | 112500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Adolfo Villa Gonzalez Maz.6 Lt.10 Fraccionamiento Los Heroes Lll Calle 2,                                                                                                |     97 |       2 |              4 |  55000           |
-| , Santa María Totoltepec, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo Cristobal Colon                                                                                                                                                    |    220 |       2 |              3 |  75000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Juan Aldama 111 1b, Delegación Santa María Totoltepec, 50200 Toluca De Lerdo, Méx.                                                                                       |    120 |       1 |              3 | 130000           |
-| , Santa María Totoltepec, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta C. Alberto Salinas 714, Moderna De La Cruz, 50180 Toluca De Lerdo, Méx.                                                                                                  |    250 |       2 |              4 | 150000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Amazonas                                                                                                                                                                 |    330 |       3 |              3 | 200000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    139 |       2 |              4 | 110000           |
-| Casa en Venta Casa En Venta Toluca, Sauces Iv, Dentro De Privada                                                                                                                       |    106 |       1 |              3 |  49000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Caputitlan Toluca Casa En Venta                                                                                                                                          |    700 |       4 |              4 | 350000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Capultitlán, Toluca De Lerdo                                                                                                                                             |    180 |       2 |              3 | 115000           |
-| Casa en Venta Sierra Ventana #s/n                                                                                                                                                      |    180 |       3 |              3 | 235000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta C. Maria Curie #303                                                                                                                                                      |    240 |       4 |              3 | 230000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ocho Cedros Toluca Mex                                                                                                                                                   |    313 |       1 |              4 | 180000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Hacienda Del Peñon                                                                                                                                                       |     69 |       1 |              2 |  49500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta San Antonio Buenavista, Toluca                                                                                                                             |    140 |       2 |              3 |  77500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Blvd. Miguel Alemán #1                                                                                                                                                   |    112 |       3 |              2 |  60000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Mariano Matamoros #2009                                                                                                                                                  |    152 |       2 |              3 |  44750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle Marie Curie #303                                                                                                                                                   |    192 |       4 |              3 | 197000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta 2 Recamaras Sta Ana Tlapantitlan Toluca Auna Cuadra De Av Torres                                                                                           |     98 |       1 |              2 |  45950           |
-| , Santa Ana Tlapaltitlán, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Villas Toscana Iii S/n                                                                                                                                                   |    nan |       2 |              3 | 119000           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta San Marcos #0                                                                                                                                                            |    108 |       2 |              3 |  24426.8         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                    |    159 |       1 |              3 | 110000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     93 |       2 |              4 |  95000           |
-| Casa en Venta Insurgentes                                                                                                                                                              |    210 |       2 |            nan |  90000           |
-| , Capultitlán, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    180 |       2 |              3 |  71294.9         |
-| Casa en Venta Hacienda Del Valle #ii                                                                                                                                                   |    110 |       2 |              3 |  19096.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Arboleda #2                                                                                                                                                              |    110 |       2 |              3 |  47363.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Arboleda #2                                                                                                                                                              |    110 |       2 |              3 |  47363.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Arboleda #2                                                                                                                                                              |    110 |       2 |              3 |  47363.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Arboleda #2                                                                                                                                                              |    110 |       2 |              3 |  47363.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Arboledas #2                                                                                                                                                             |    110 |       2 |              3 |  47363.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Arboleda #2                                                                                                                                                              |    110 |       2 |              3 |  47363.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Arboleda #2                                                                                                                                                              |    110 |       2 |              3 |  47361.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Arboleda #2                                                                                                                                                              |    110 |       2 |              3 |  47363.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Arboledas #2                                                                                                                                                             |    110 |       2 |              3 |  47363.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Arboleda #2                                                                                                                                                              |    110 |       2 |              3 |  47363.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta . #.                                                                                                                                                                     |    132 |       2 |              3 |  95000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Benito Juarez , Niños Heroes                                                                                                                                             |    126 |       1 |              2 |  72500           |
-| , San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Centro, Toluca De Lerdo                                                                                                                                                  |    380 |       4 |              6 | 675000           |
-| Casa en Venta Cacalomacan Edo Mex                                                                                                                                                      |    600 |       3 |              4 | 350000           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta 5 De Mayo Null                                                                                                                                                           |    nan |       3 |              3 | 185000           |
-| , Héroes Del 5 De Mayo, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Alazanes 214                                                                                                                                                             |    nan |       2 |              3 | 105000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Dioses Del Olimpo #234                                                                                                                                                   |     72 |       2 |              2 |  62500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle Leonardo Da Vinci                                                                                                                                                  |    225 |       1 |              3 |  62500           |
-| , Santa Ana Tlapaltitlán, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Galileo Galilei #00                                                                                                                                                      |    200 |       2 |              3 |  96500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Frijol, Colonia San Mateo Oxtotitlán, Toluca, Edomex.                                                                                                                    |    130 |       2 |              3 |  48750           |
-| , San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Casa Nueva En Venta En Residencial Crespa Town, Toluca.                                                                                                                  |    121 |       2 |              3 | 138972           |
-| , De La Crespa, Toluca De Lerdo                                                                                                                                                        |        |         |                |                  |
-| Casa en Venta Electricistas Locales, Toluca De Lerdo                                                                                                                                   |    120 |       2 |              3 |  87500           |
-| Casa en Venta Casa En Fraccionamiento Privado El Cual Cuenta Con Primaria Y Jardin De Niños . A 5 Minutos De La Federacion Mexicana De Futbol Y A 10 Minutos Del Aeropuerto De Toluca. |     84 |       1 |              3 |  67500           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Capultitlán, Toluca De Lerdo                                                                                                                                             |    295 |       2 |              4 | 150000           |
-| Casa en Venta Gran Reforma 305                                                                                                                                                         |    200 |       4 |              3 | 210750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Azteca, Toluca De Lerdo                                                                                                                                                  |    197 |       2 |              3 | 100000           |
-| Casa en Venta Casa En Venta En Campo Real Ii                                                                                                                                           |    170 |       2 |              3 | 135000           |
-| , San Pedro Totoltepec, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Camino A San Miguel                                                                                                                                                      |    220 |       2 |              4 | 109500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Jaime Almazán Delgado 190-212, Delegación San Buenaventura, 50110 Toluca De Lerdo, Méx.                                                                                  |    180 |       2 |              3 | 115000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Magnifica Casa En Venta Terrazas La Mora, Toluca                                                                                                                         |    230 |       2 |              3 |  95000           |
-| , Rancho La Mora, Toluca De Lerdo                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Cto De La Laguna #n, Casa B,consvjcbcef14                                                                                                                                |     92 |       2 |              2 |  51000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Fuentes De San Jose #nd                                                                                                                                                  |    152 |       3 |              3 | 147500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Vicente Lombardo Toledano #11, 0                                                                                                                                         |     90 |       2 |              3 |  36300           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Independencia 1                                                                                                                                                          |     80 |       1 |            nan |  61500           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    300 |       3 |              4 | 125000           |
-| Casa en Venta Carmen Serdán #sn                                                                                                                                                        |    295 |       4 |              2 | 650000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                    |    182 |       3 |              3 | 115000           |
-| Casa en Venta De Los Corredores                                                                                                                                                        |    600 |       3 |              3 | 450000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Marcos #0                                                                                                                                                            |    220 |       3 |              3 |  27788.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Prolongación Ramón Corona                                                                                                                                                |    190 |       2 |              3 | 197500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    256 |       2 |              3 | 197500           |
-| Casa en Venta Residencial San Jorge #sn                                                                                                                                                |    284 |       3 |              3 | 175000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    150 |       3 |              4 |  80000           |
-| Casa en Venta Corredores Null                                                                                                                                                          |    nan |       3 |              6 | 249500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle Prolongación Paseo Totoltepec 32, Delegación Santa María Totoltepec, Toluc #**                                                                                     |    172 |       3 |              3 | 100000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    300 |       2 |              4 | 300000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |   1150 |       5 |              4 | 375000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    180 |       1 |              3 |  67500           |
-| Casa en Venta Av Nuevo Mexico #137                                                                                                                                                     |    131 |       3 |              3 |  77500           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Alfredo Del Mazo Null                                                                                                                                                    |    nan |       2 |              3 | 176250           |
-| , San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Villas De Santa Monica                                                                                                                                                   |     99 |       2 |              2 |  55000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Nueva Oxtotitlán #nd                                                                                                                                                     |    414 |       2 |              4 | 120000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Marcos #0                                                                                                                                                            |    180 |       3 |              3 |  28231.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Adolfo Lopez Mateos #146                                                                                                                                                 |    120 |       2 |              3 |  61966.1         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Adolfo Lopez Mateos #146                                                                                                                                                 |    160 |       2 |              3 |  56150           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    100 |       2 |              3 |  69000           |
-| Casa en Venta Cacalomacan, Toluca De Lerdo                                                                                                                                             |    700 |       5 |              5 | 600000           |
-| Casa en Venta 21 De Marzo                                                                                                                                                              |    980 |       5 |              6 | 514500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    247 |       3 |              3 | 225000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     72 |       1 |              2 |  29950           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     72 |       1 |              2 |  29950           |
-| Casa en Venta Silverio Perez #0                                                                                                                                                        |    107 |       2 |              3 |  32910.6         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta 3 Recamaras Residencial Crespa Town Zafiro Toluca                                                                                                          |    127 |       2 |              3 | 144413           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av. Idependencia #143                                                                                                                                                    |    120 |       2 |              3 |  19100           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Prolongación Independencia                                                                                                                                               |    128 |       3 |              5 |  63950           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     72 |       1 |              2 |  28950           |
-| Casa en Venta Casa En Venta En Cacalomacán                                                                                                                                             |    290 |       3 |              3 | 162500           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Miguel Blanco 211                                                                                                                                                        |    nan |       2 |              5 | 157500           |
-| , Héroes Del 5 De Mayo, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Casa En Cacalomacan Null                                                                                                                                                 |    nan |       4 |              3 | 350000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa Nueva En Venta En Residencial Áurea, Toluca.                                                                                                                        |    nan |       2 |              3 |  99000           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Carr Toluca Naucalpan #1702                                                                                                                                              |    135 |       3 |              3 |  62000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    106 |       2 |              3 |  90000           |
-| Casa en Venta Calle Prol. Ignacio Lopez Rayon                                                                                                                                          |     85 |       1 |              3 |  62500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Emiliano Zapata                                                                                                                                                          |    300 |       3 |              4 | 125000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Prolongación Ramón Corona                                                                                                                                                |    160 |       2 |              3 | 175000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Remate Bancario, Casa, San Lucas, Villa Santin, Toluca, Estado De Mexico                                                                                                 |     65 |       1 |              2 |  35524.6         |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Remate Bancario, Casa, Silverio Perez, Paseos Santin, Toluca, Estado De Mexico                                                                                           |     90 |       1 |              2 |  27105.7         |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Remate Bancario, Casa, San Andres Apostol, Villa Santin, Toluca, Estado De Mexico                                                                                        |     60 |       1 |              2 |  35524.6         |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Casa Nueva En Venta En Crespa Town                                                                                                                                       |    121 |       2 |              3 | 139421           |
-| , De La Crespa, Toluca De Lerdo                                                                                                                                                        |        |         |                |                  |
-| Casa en Venta . #.                                                                                                                                                                     |    216 |       3 |              3 | 117500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta De Tlanepantla, Toluca De Lerdo                                                                                                                                          |    185 |       2 |              3 | 192500           |
-| Casa en Venta Prolongación Ramón Corona                                                                                                                                                |    152 |       2 |              3 | 147500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Leona Vicario #000                                                                                                                                                       |    148 |       2 |              3 |  88600           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Jorge #310                                                                                                                                                           |     40 |       1 |              2 |  21469.4         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Hacienda Las Carretas #48                                                                                                                                                |    120 |       2 |              3 |  19096.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo Cristobal Colon & Luis Donaldo Colosio #511                                                                                                                        |    226 |       3 |              3 | 114050           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Hacienda Las Carretas #48                                                                                                                                                |    120 |       2 |              3 |  19096.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Circuito San José Rinconada De La Casa Grande #00                                                                                                                        |    250 |       2 |              3 | 119500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo Matlatzincas Y Nicolas Bravo Toluca Mex                                                                                                                            |    703 |       4 |              5 | 900000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Hacienda Zumpango #lt23 Mz17                                                                                                                                             |     90 |       2 |              3 |  52220           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Felipe Tlalmimilolpan                                                                                                                                                |    135 |       2 |              3 |  85000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Juan Escutia 105, San Felipe Tlalmimilolpan, 50250 San Felipe Tlalmimilolpan, Méx., México                                                                               |    350 |       2 |              4 | 150000           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Granjas, Toluca De Lerdo                                                                                                                                                 |    342 |       3 |              9 | 210000           |
-| Casa en Venta Patrón #sn                                                                                                                                                               |    232 |       4 |              3 | 215000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo Otzacatipan #nd                                                                                                                                                |    628 |       3 |              3 | 159500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Silverio Perez 201                                                                                                                                                       |    nan |       1 |              7 |  83500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa Nueva En Venta En Residencial Áurea, Toluca.                                                                                                                        |    nan |       2 |              3 |  93000           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Frijol #201                                                                                                                                                              |    124 |       2 |              3 |  61527.6         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Rinconada Del Pajar #sn                                                                                                                                                  |    238 |       4 |              3 | 210000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Andador Blanco 6                                                                                                                                                         |    nan |       2 |              3 | 110000           |
-| , Izcalli Toluca, Toluca De Lerdo                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Avenida Miguel Hidalgo Oriente 1001, Barrio De San Bernardino, Toluca De Lerdo, #**                                                                                      |    287 |       3 |              4 | 187500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                    |    120 |       2 |              3 |  85000           |
-| Casa en Venta Casa En Venta 3 Recamaras Residencial Crespa Town Coral Toluca                                                                                                           |    121 |       2 |              3 | 139421           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Privada Fracc Rancho Independencia En Toluca                                                                                                                     |    144 |       1 |              3 | 100000           |
-| , Santa María Totoltepec, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Bosques De Colón #nd                                                                                                                                                     |    200 |       3 |              3 |  99500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta 3 Recamaras, La Toscana, San Lorenzo Tepaltitlan, Toluca                                                                                                   |    150 |       3 |              3 | 115000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Miguel Mata #209                                                                                                                                                         |    150 |       2 |              3 |  21780.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa Nueva En Venta En Residencial Áurea, Toluca.                                                                                                                        |    nan |       2 |              3 |  84750           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Fraccionamiento Los Pirules, Tlalnepantla                                                                                                                                |    159 |       2 |              3 | 149750           |
-| , De Tlanepantla, Toluca De Lerdo                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    183 |       3 |              3 | 105000           |
-| Casa en Venta Venustiano Carranza, San Juan Tilapa, 50290 San Juan Tilapa, Méx., México                                                                                                |    300 |       3 |              2 | 110000           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    133 |       3 |              3 | 132700           |
-| Casa en Venta Colon Null                                                                                                                                                               |    nan |       3 |              3 | 149000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta 4 Recamaras Ex Hacienda San Jose Toluca Cerca De Aeropuerto                                                                                                |    446 |       4 |              4 | 325000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ramón G. Del Villar 109                                                                                                                                                  |    nan |       3 |              4 | 325000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Adolfo Lopez Mateos #146                                                                                                                                                 |    160 |       3 |              3 |  45205.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    878 |       4 |              4 | 600000           |
-| Casa en Venta Prof. Santiago Velazco #000                                                                                                                                              |    120 |       2 |              3 |  12341.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Silverio Perez #131                                                                                                                                                      |     90 |       2 |              3 |  32911.1         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo                                                                                                                                                                |    262 |       2 |              2 | 117500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Fuentes De San José #sn                                                                                                                                                  |    160 |       3 |              3 | 120000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Isabel La Catolica Null                                                                                                                                                  |    nan |       4 |              8 | 275000           |
-| , Doctores, Toluca De Lerdo                                                                                                                                                            |        |         |                |                  |
-| Casa en Venta Silverio Perez #131                                                                                                                                                      |     90 |       2 |              3 |  32910.6         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Jose Obrero #230                                                                                                                                                     |     30 |       2 |              2 |  26150.8         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Tierra Y Libertad #114                                                                                                                                                   |    120 |       2 |              3 |  49553.1         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Emiliano Zapata #0, 1                                                                                                                                                    |    200 |       3 |              3 | 130000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     50 |       2 |              2 |  26151           |
-| Casa en Venta Vicente Lombardo Tolentino                                                                                                                                               |    123 |       2 |              3 |  95000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    321 |       2 |              3 | 247500           |
-| Casa en Venta San Carlos Borromeo #324                                                                                                                                                 |    230 |       2 |              3 |  17230           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Rebeca #0                                                                                                                                                                |    120 |       2 |              3 | 127661           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo Santa Rosa #00                                                                                                                                                     |    102 |       3 |              3 |  74000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ex Hacienda De Tlalpan #sn                                                                                                                                               |    185 |       2 |              3 | 115000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta Cacalomacan                                                                                                                                                |    450 |       4 |              4 | 325000           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Miguel Mata #209                                                                                                                                                         |    140 |       2 |              3 |  21780.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Martha #s/n                                                                                                                                                              |    140 |       2 |              3 | 140000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av.hidalgo Pte                                                                                                                                                           |    300 |       2 |              4 | 262900           |
-| , San Bernardino, Toluca De Lerdo                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Ocho Cedros, Toluca De Lerdo                                                                                                                                             |    630 |       3 |              3 | 329500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    216 |       3 |              4 | 127500           |
-| Casa en Venta San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                                          |    375 |       5 |              4 | 260000           |
-| Casa en Venta P.º De La Herradura 17, Cacalomacan, 50250 Cacalomacán, Méx.                                                                                                             |    250 |       2 |              3 | 132500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av. Arboledas                                                                                                                                                            |    112 |       2 |              3 |  82500           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Lorenzo Garza #113                                                                                                                                                       |     72 |       2 |              2 |  46000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta La Merced  (alameda), Toluca De Lerdo                                                                                                                                    |    955 |       4 |              4 |      1.05e+06    |
-| Casa en Venta Miguel Mata #209                                                                                                                                                         |    105 |       1 |              3 |  88650           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av. Vicente Lombardo Toledano #112                                                                                                                                       |    141 |       2 |              3 |  80000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Tierra Y Libertad #114                                                                                                                                                   |    180 |       3 |              3 |  50803.1         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta 16 De Septiembre #1000                                                                                                                                                   |    169 |       2 |              4 | 115000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta Los Sauces V, Toluca                                                                                                                                       |     66 |       1 |              3 |  55000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Avenida Árboleda #100                                                                                                                                                    |    113 |       2 |              3 |  65000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    160 |       3 |              3 |  71060           |
-| Casa en Venta Francisco Villa #58                                                                                                                                                      |    157 |       2 |              3 | 135000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Atlacomulco                                                                                                                                                              |    315 |       2 |              3 | 195000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa Nueva En Venta 3 Recamaras Residencial Crespa Towm Agata Toluca                                                                                                     |    121 |       2 |              2 | 138972           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Frijol #201                                                                                                                                                              |    130 |       3 |              3 |  56000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Carretera Toluca-naucalpan #1702                                                                                                                                         |    133 |       3 |              3 |  67500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     90 |       2 |              3 |  32910.8         |
-| Casa en Venta Carretera Toluca Naucalpan                                                                                                                                               |    130 |       2 |              3 | 110000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Fancisco I. Madero                                                                                                                                                       |    240 |       2 |              4 |  37500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    210 |       3 |              3 |  55005.7         |
-| Casa en Venta Venta Colonia Ciprés. Null                                                                                                                                               |    nan |       2 |              4 | 220000           |
-| , Ciprés, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Miguel Mata #209                                                                                                                                                         |    240 |       2 |              3 |  21780.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Isabel La Católica #000                                                                                                                                                  |    248 |       2 |              4 |  53060           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Independencia Norte #501, N, Consvsin Posiif13                                                                                                                           |    160 |       2 |              3 | 102500           |
-| , San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    180 |       5 |              5 | 210000           |
-| Casa en Venta Arbol De Las Manitas #000                                                                                                                                                |    160 |       3 |              4 |  19520           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Avenida Del Trabajo #101                                                                                                                                                 |     90 |       1 |              3 |  72500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Marcos #219                                                                                                                                                          |    180 |       3 |              3 |  28231.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Subida De Los Alamos                                                                                                                                                     |    500 |       2 |              3 | 350000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Luis Gonzaga Urbina #100, 0                                                                                                                                              |    120 |       2 |              3 | 142750           |
-| , Tlacopa, Toluca De Lerdo                                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Lago Tanganica #321                                                                                                                                                      |    260 |       2 |              5 | 139500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta, Los Sauces, Toluca, Edo. De México.                                                                                                                       |     88 |       1 |              2 |  46000           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Parque Valle Escondido                                                                                                                                                   |    364 |       2 |              3 | 115000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Emiliano Zapata #sn                                                                                                                                                      |    300 |       4 |              3 | 142500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Naucalpan #00                                                                                                                                                            |    139 |       4 |              3 |  54000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Capultitlán, Toluca De Lerdo                                                                                                                                             |    170 |       1 |              3 |  75000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    313 |       4 |              3 | 190000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    230 |       2 |              2 |  17230.2         |
-| Casa en Venta Fracc Las Misiones                                                                                                                                                       |     99 |       2 |              3 |  80000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Bonita Casa En Venta                                                                                                                                                     |     32 |       1 |              1 |  27500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta José María Arteaga #112                                                                                                                                                  |    294 |       3 |              3 | 100000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo De Los Agustinos #sn                                                                                                                                               |    101 |       3 |              3 |  84500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    113 |       3 |              2 |  69200           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    287 |       2 |              4 | 187500           |
-| Casa en Venta Sierra Ventana #206                                                                                                                                                      |    180 |       3 |              3 | 235000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Rancho Seco #29, 6                                                                                                                                                       |     65 |       1 |              3 |  57500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Roque Gonzalez 3                                                                                                                                                         |    nan |       2 |              5 | 125000           |
-| , Ocho Cedros, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Casa En Venta Colonia Azteca, Toluca                                                                                                                                     |    147 |       2 |              3 | 132500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av. De Los Maestros #12                                                                                                                                                  |    334 |       3 |              3 | 295000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calzada Cuervos.                                                                                                                                                         |    500 |       2 |              3 | 360000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                                          |    303 |       1 |              3 | 135000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    295 |       3 |              2 | 650000           |
-| Casa en Venta Https://maps.app.goo.gl/hzm1axdfcrbvgz2r6                                                                                                                                |    222 |       2 |              3 | 190000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Miguel Mata #209                                                                                                                                                         |    150 |       2 |              3 |  21780.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       2 |              3 |  93450           |
-| Casa en Venta Venta Nueva Residencia Capultitlan                                                                                                                                       |    780 |       4 |              4 | 215000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                    |    365 |       3 |              4 | 175000           |
-| Casa en Venta Carretera Toluca Naucalpan #1702                                                                                                                                         |    125 |       3 |              2 | 105500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Col. Villas De Santa Mónica                                                                                                                                              |     65 |       2 |              2 |  57500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Rincón De San Lorenzo, Toluca De Lerdo                                                                                                                                   |     80 |       1 |              3 |  55000           |
-| Casa en Venta Amazonas 201 Null                                                                                                                                                        |    nan |       3 |              3 | 130000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    450 |       4 |              4 | 325000           |
-| Casa en Venta Mz. 7 Lt. 15 #s/n                                                                                                                                                        |     90 |       3 |              3 |  80000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Villas Toscana S/n                                                                                                                                                       |    nan |       2 |              3 |  99000           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Casa En Venta En Santa Ana Tepaltitlán, Toluca.                                                                                                                          |     68 |       1 |              2 |  46000           |
-| , Santa Ana Tlapaltitlán, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Del Parque, Toluca De Lerdo                                                                                                                                              |    285 |       2 |              3 | 125000           |
-| Casa en Venta El Seminario Toluca Mex                                                                                                                                                  |    180 |       1 |              3 | 100000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Agronomos #0                                                                                                                                                             |     70 |       1 |              2 |  19842.8         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Circuito Luis Portillo Null                                                                                                                                              |    nan |       3 |              4 | 155000           |
-| , Rancho La Mora, Toluca De Lerdo                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Gral. José Vicente Villada 124, Delegación Sta Ana Tlapaltitlán, 50160 Toluca De Lerdo, Méx., México                                                                     |    257 |       2 |              3 | 249760           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta José María Pino Suárez, San Jose Guadalupe Huichochitlan, 50200 Santa Cruz Otzacatipan, Méx.                                                                             |    250 |       3 |              3 | 175000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta República De Honduras 107                                                                                                                                                |    nan |       4 |              7 | 240000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Santa Ana Tlapaltitlán, Toluca De Lerdo                                                                                                                                  |    210 |       2 |              5 | 194000           |
-| Casa en Venta Casa Sola En Venta En San Lorenzo Toluca                                                                                                                                 |    226 |       3 |              6 | 137500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Agronomos #00                                                                                                                                                            |    115 |       3 |              3 |  20050           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Guillermo Marconi #507                                                                                                                                                   |    140 |       2 |              3 |  39950           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo Cristobal Colon #511                                                                                                                                               |    226 |       3 |              3 | 114050           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta, Sebastian Lerdo De Tejada, Toluca                                                                                                                         |    183 |       1 |              3 | 162500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta . #.                                                                                                                                                                     |    400 |       4 |              3 | 190000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Los Sauces #501, 1                                                                                                                                                       |    120 |       2 |              3 |  29750.2         |
-| , Los Sauces V, Toluca De Lerdo                                                                                                                                                        |        |         |                |                  |
-| Casa en Venta Fraccionamiento Paseo Arboledas                                                                                                                                          |    107 |       2 |              3 |  97500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Juan Silveti #137                                                                                                                                                        |    100 |       2 |              3 |  28750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Alheli                                                                                                                                                                   |    160 |       1 |              3 | 105000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Valentín Gómez Farías                                                                                                                                                    |    210 |       2 |              4 | 173200           |
-| , San Bernardino, Toluca De Lerdo                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Prol Ramón Corona                                                                                                                                                        |    152 |       2 |              3 | 147500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Hacienda De Los Sauces                                                                                                                                                   |     95 |       1 |              2 |  72650           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Miguel Mata #209                                                                                                                                                         |    100 |       2 |              3 |  21500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Geologos #000                                                                                                                                                            |    120 |       2 |              2 |  44950           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Capultitlán, Toluca De Lerdo                                                                                                                                             |    148 |       1 |              2 |  90000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    771 |       4 |              6 |      3.05e+06    |
-| Casa en Venta Naucalpan #1702                                                                                                                                                          |    139 |       4 |              3 |  54000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca Null                                                                                                                                                              |    nan |       3 |              5 | 162500           |
-| , Héroes Del 5 De Mayo, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    280 |       2 |              2 | 400000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    315 |       2 |              4 | 217500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    471 |       1 |              3 | 700000           |
-| Casa en Venta Naucalpan #00                                                                                                                                                            |    139 |       4 |              3 |  54000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Cacalomacan, Toluca De Lerdo                                                                                                                                             |    151 |       3 |              3 | 125000           |
-| Casa en Venta Privada Martha Rodriguez                                                                                                                                                 |    155 |       2 |              3 |  95000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Electricistas Locales #sn                                                                                                                                                |    120 |       2 |              3 |  87500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta Lomas Altas                                                                                                                                                |    500 |       2 |              3 | 350000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta 5 De Febrero                                                                                                                                                             |    500 |       3 |              4 | 275000           |
-| , Capultitlán, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       2 |              3 |  85000           |
-| Casa en Venta General Antonio Albarran #00                                                                                                                                             |    176 |       2 |              3 |  46770.9         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Privada Fermin Rivera                                                                                                                                                    |     66 |       1 |              2 |  44500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Avenida Arboleda #100, 7                                                                                                                                                 |    130 |       3 |              3 | 112500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    150 |       2 |              3 | 118683           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    130 |       3 |              2 | 110000           |
-| Casa en Venta San Mateo Otzacatipan #0                                                                                                                                                 |    127 |       3 |              3 |  92500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa Nueva En Venta 3 Recamaras Residencial Victoria Toluca                                                                                                              |    177 |       2 |              3 | 155000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta 5 De Mayo, Toluca De Lerdo                                                                                                                                               |    320 |       2 |              2 | 372500           |
-| Casa en Venta Lerma Ote                                                                                                                                                                |     70 |       2 |              3 |  43000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Hacienda Vista Hermosa #sn                                                                                                                                               |    131 |       3 |              3 |  77500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    800 |       4 |              4 | 610000           |
-| Casa en Venta Av Dioses Del Olimpo #s/n                                                                                                                                                |    155 |       2 |              3 |  94500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo De Los Carmelitas #sn                                                                                                                                              |    101 |       3 |              3 |  87500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Adolfo López Mateos #146                                                                                                                                                 |    160 |       3 |              3 |  45205.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Prolongación Paseo Totoltepec                                                                                                                                            |     69 |       1 |            nan |  62500           |
-| , Santa María Totoltepec, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta En Cacalomacán                                                                                                                                             |    850 |       4 |              4 | 850000           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    600 |       3 |              3 | 250000           |
-| Casa en Venta Morelia 42                                                                                                                                                               |    124 |       1 |              4 |  80000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Azaleas #0                                                                                                                                                               |    120 |       2 |              3 |  38750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Hortaliza 254, Delegación San Mateo Oxtotitlán, Toluca De Lerdo, Estado De Méxic #**                                                                                     |    170 |       3 |              3 |  80000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    921 |       4 |              3 |      1.35e+06    |
-| Casa en Venta Hacienda Del Valle Ii                                                                                                                                                    |     69 |       1 |              2 |  45000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       2 |              3 |  33350           |
-| Casa en Venta San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                   |     61 |       1 |              2 |  42500           |
-| Casa en Venta Casa Sola En Venta, Capultitlán, Toluca                                                                                                                                  |    263 |       2 |              4 | 145000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Blvd. Lic. Adolfo López Mateos #146, Casa 0                                                                                                                              |    147 |       2 |              3 |  45205.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta 4 Recamaras La Galia Toluca A 5 Min De Plaza Sendero O Aeropuerto                                                                                          |    nan |       2 |              3 | 130000           |
-| , Hacienda  La Galia, Toluca De Lerdo                                                                                                                                                  |        |         |                |                  |
-| Casa en Venta Venta De Casa En Hacienda Del Valle Ii                                                                                                                                   |     66 |       1 |              3 |  59000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                                          |    180 |       3 |              3 |  50362.5         |
-| Casa en Venta Nueva Oxtotitlán, Toluca De Lerdo                                                                                                                                        |    250 |       1 |              4 | 150000           |
-| Casa en Venta San Pedro Totoltepec, Toluca De Lerdo                                                                                                                                    |    228 |       2 |              5 |  70000           |
-| Casa en Venta Blvd Miguel Alemàn #mz 1 Lt B, 2                                                                                                                                         |    112 |       3 |              2 |  60000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta Hacienda Del Valle 2                                                                                                                                       |     69 |       1 |              3 |  44750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ex-hacienda De Mayorazgo #0                                                                                                                                              |    200 |       2 |              3 |  23750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Jesus Reyes Heroles #207                                                                                                                                                 |    130 |       3 |              3 |  49500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Árbol De Las Manitas                                                                                                                                                     |    400 |       3 |              4 | 210000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta , Hermenegildo Galeana                                                                                                                                     |    322 |       2 |              4 | 245000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Gomez Farias                                                                                                                                                             |    600 |       5 |              6 |      1.05e+06    |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Isabel La Católica #00                                                                                                                                                   |    280 |       2 |              3 |  53060           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta Geovillas San Mateo                                                                                                                                        |     64 |       1 |              2 |  40000           |
-| , San Pedro Totoltepec, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Privada De Galicia                                                                                                                                                       |     96 |       2 |              2 |  70000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Independencia #00                                                                                                                                                        |    110 |       1 |              3 |  20850           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Geovillas De Independencia #nd                                                                                                                                           |     57 |       2 |              2 |  60000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta Toluca                                                                                                                                                     |    333 |       3 |              3 | 140000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    140 |       2 |              3 |  35000           |
-| Casa en Venta Toluca                                                                                                                                                                   |    170 |       3 |              3 | 107500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Marcos #00                                                                                                                                                           |    130 |       2 |              4 |  28231.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Buenaventura, Toluca De Lerdo                                                                                                                                        |    206 |       4 |              3 | 142500           |
-| Casa en Venta Abetos 932, Conj U Los Sauces, San José Guadalupe, Estado De México #**                                                                                                  |     60 |       1 |              3 |  49000           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Ocho Cedros #nd                                                                                                                                                          |    654 |       4 |              4 | 300000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    189 |       2 |              3 | 134500           |
-| Casa en Venta Ejido Santa Cruz Azcapotzaltongo, Toluca De Lerdo                                                                                                                        |    290 |       3 |              3 | 210250           |
-| Casa en Venta Carretera Toluca Naucalpan #1702                                                                                                                                         |    218 |       4 |              3 |  68000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Villas Toscana                                                                                                                                                           |    125 |       2 |              3 | 105000           |
-| , San Nicolás Tolentino, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Calle Laguna Del Volcán 613, El Seminario Primera Sección, Toluca De Lerdo, Esta #**                                                                                     |    103 |       2 |              3 |  97500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    180 |       2 |              3 | 105000           |
-| Casa en Venta Casa En Venta Residencial Las Fuentes Toluca                                                                                                                             |    123 |       2 |              3 |  95000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta De La Barranca #0                                                                                                                                                        |    128 |       2 |              3 |  26076.8         |
-| , Tlacopa, Toluca De Lerdo                                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Casa En Venta Cacalomacan                                                                                                                                                |    350 |       3 |              3 | 225000           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    140 |       2 |              3 |  26851.6         |
-| Casa en Venta Roberto Fulton                                                                                                                                                           |    200 |       3 |              3 | 167500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Avenida Independencia #143                                                                                                                                               |     75 |       1 |              2 |  19100           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    110 |       2 |              2 |  20900           |
-| Casa en Venta Jose Marti Null                                                                                                                                                          |    nan |       2 |              3 | 107500           |
-| , Tlacopa, Toluca De Lerdo                                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Toluca Null                                                                                                                                                              |    nan |       2 |              5 | 142500           |
-| , Ocho Cedros, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Av. Independencia #139                                                                                                                                                   |    100 |       1 |              3 |  20850           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    100 |       2 |              3 |  64408           |
-| Casa en Venta Celanese, Toluca De Lerdo                                                                                                                                                |    220 |       2 |              5 | 117500           |
-| Casa en Venta 23 De Septiembre Null                                                                                                                                                    |    nan |       4 |              5 | 287500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    110 |       2 |              3 |  31616           |
-| Casa en Venta . #., .                                                                                                                                                                  |    249 |       5 |              3 | 115000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Prol Gral Juan Andrew Almazán                                                                                                                                            |    400 |       3 |              5 | 190000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                    |    120 |       1 |              2 |  87500           |
-| Casa en Venta Independencia, Toluca De Lerdo                                                                                                                                           |    175 |       2 |              3 | 205000           |
-| Casa en Venta Hacienda Del Valle Ii, Toluca De Lerdo                                                                                                                                   |     82 |       2 |              3 |  53250           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     66 |       3 |              4 |  75000           |
-| Casa en Venta Manuel Sotelo #509, 0                                                                                                                                                    |    262 |       5 |              5 | 219000           |
-| , Morelos 2a Secc, Toluca De Lerdo                                                                                                                                                     |        |         |                |                  |
-| Casa en Venta María Curie #303                                                                                                                                                         |    245 |       3 |              3 | 215550           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Guadalupe #4                                                                                                                                                             |   1500 |       4 |              4 |      1.15e+06    |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    324 |       3 |              7 | 215000           |
-| Casa en Venta San Marcos #211                                                                                                                                                          |     95 |       1 |              2 |  27788.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       2 |              3 |  61966.1         |
-| Casa en Venta Al Refugio #sn                                                                                                                                                           |    250 |       4 |              4 | 120000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    140 |       2 |              3 |  48282.4         |
-| Casa en Venta Boulevard Adolfo Lopez Mateos #146                                                                                                                                       |    160 |       2 |              3 |  45205.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Miguel Hidalgo #s/n                                                                                                                                                      |    119 |       3 |              3 |  85000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Pensador Mexicano #00                                                                                                                                                    |    180 |       3 |              3 |  91550           |
-| , San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    100 |       2 |              3 |  52472           |
-| Casa en Venta María Curie #303, 00                                                                                                                                                     |    200 |       3 |              3 | 197250           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta San José, Santa Cruz Otzacatipan                                                                                                                           |    446 |       5 |              4 | 325000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paraje Jacques Cousteau                                                                                                                                                  |    400 |       5 |              5 | 225000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Guillermo Marconi #00, 00                                                                                                                                                |    120 |       2 |              3 |  54375.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    390 |       7 |              6 | 450000           |
-| Casa en Venta Carmen Serdan, Colon Toluca Mex                                                                                                                                          |    280 |       5 |              4 | 400000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                   |     99 |       2 |              3 |  80000           |
-| Casa en Venta Av. Hidalgo Ote                                                                                                                                                          |    112 |       2 |              3 |  99000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Agronomos #0                                                                                                                                                             |    110 |       1 |              2 |  20092.8         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Crespa Town Modelo Coral                                                                                                                                                 |    nan |       2 |              3 | 139421           |
-| , De La Crespa, Toluca De Lerdo                                                                                                                                                        |        |         |                |                  |
-| Casa en Venta Lago Tanganica 103                                                                                                                                                       |    nan |       2 |              5 | 139500           |
-| , Ocho Cedros, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Antonio Albarran #608                                                                                                                                                    |    150 |       3 |              3 | 112500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta 3 Recamaras Santa Maria Totoltepec Toluca Cerca De Aeropuerto Y Av Tollocan                                                                                |    nan |       1 |              3 | 100000           |
-| , Santa María Totoltepec, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    353 |       2 |              4 | 225000           |
-| Casa en Venta Privada Gomez Del Villar Null                                                                                                                                            |    nan |       2 |              3 | 177500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Fraccionamientos Sauces                                                                                                                                                  |     94 |       1 |              2 |  65000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Hacienda De Cerro Viejo #m29                                                                                                                                             |     70 |       1 |              2 |  30527.6         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     84 |       2 |              3 |  51750           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       3 |              4 | 120000           |
-| Casa en Venta Venta De Casa Para ,oficina Y Consultorios                                                                                                                               |    nan |       2 |              3 | 174000           |
-| , Morelos 1a Sección, Toluca De Lerdo                                                                                                                                                  |        |         |                |                  |
-| Casa en Venta Avenida Independencia #143                                                                                                                                               |    160 |       2 |              3 |  19100           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Convento De San Antonio De Padua #28                                                                                                                                     |    101 |       3 |              3 |  87500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    126 |       3 |              3 | 105000           |
-| Casa en Venta Cultural #nd                                                                                                                                                             |    483 |       3 |              6 | 410000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa Sola En Metepec                                                                                                                                                     |    170 |       3 |              3 | 110000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Gral Marcelino Garcia Barragán 1001                                                                                                                                      |    nan |       1 |              4 | 132800           |
-| , El Seminario 3a Sección, Toluca De Lerdo                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Gral Marcelino Garcia Barragán 1001                                                                                                                                      |    nan |       1 |              4 | 132800           |
-| , El Seminario 3a Sección, Toluca De Lerdo                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Casa En Capultitlan                                                                                                                                                      |    205 |       1 |              4 |  82500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Niños Heroes                                                                                                                                                             |    183 |       2 |              2 | 149500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    160 |       2 |              3 |  43635           |
-| Casa en Venta Cacalomacan, Toluca De Lerdo                                                                                                                                             |    386 |       4 |              3 | 160000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    360 |       3 |              4 |  95406.9         |
-| Casa en Venta Nezahualcóyotl #00                                                                                                                                                       |    280 |       1 |              3 |  51500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Isabel La Catolica #902                                                                                                                                                  |    200 |       2 |              3 |  53060           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    230 |       2 |              3 |  17230           |
-| Casa en Venta Bonita Casa Disponible Para Venta En San Felipe Tlalmimilolpan                                                                                                           |    111 |       2 |              2 |  97500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Galeana                                                                                                                                                                  |    400 |       4 |              5 | 700000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Alpinismo, San Buenaventura                                                                                                                                              |    nan |       2 |              3 | 105000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa Nueva En Venta En Crespa Town, Mod.zafiro                                                                                                                           |    127 |       2 |              3 | 144413           |
-| , De La Crespa, Toluca De Lerdo                                                                                                                                                        |        |         |                |                  |
-| Casa en Venta Casa En Venta En Residencial Colon En Toluca, Estado De Mexico                                                                                                           |    576 |       5 |              5 | 325000           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Independencia, Toluca De Lerdo                                                                                                                                           |    210 |       2 |              3 | 249750           |
-| Casa en Venta Miguel Mata #209                                                                                                                                                         |    136 |       2 |              3 |  21780.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta En Hacienda Del Valle Ii, Toluca.                                                                                                                          |    116 |       1 |              3 |  65000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Https://goo.gl/maps/jcmathxm2rdagflz7                                                                                                                                    |     81 |       1 |              2 | 225000           |
-| , Altamirano, Toluca De Lerdo                                                                                                                                                          |        |         |                |                  |
-| Casa en Venta La Merced  (alameda), Toluca De Lerdo                                                                                                                                    |    300 |       3 |              6 | 200000           |
-| Casa en Venta Https://goo.gl/maps/hozdhrderfzmpjhu9                                                                                                                                    |    nan |       2 |              3 | 110000           |
-| , San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Silverio Pérez #00                                                                                                                                                       |    120 |       1 |              3 |  32910.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ocho Cedros, Toluca De Lerdo                                                                                                                                             |    227 |       2 |              4 | 140000           |
-| Casa en Venta Casa En Venta 4 Recamaras La Galia Toluca Cerca De Aeropuerto Y Plaza Sendero                                                                                            |    nan |       2 |              4 | 120000           |
-| , Hacienda  La Galia, Toluca De Lerdo                                                                                                                                                  |        |         |                |                  |
-| Casa en Venta Ciprés, Toluca De Lerdo                                                                                                                                                  |    594 |       4 |              4 | 600000           |
-| Casa en Venta Electricistas Locales, Toluca De Lerdo                                                                                                                                   |    200 |       2 |              3 | 214500           |
-| Casa en Venta Benito Juarez Norte 501                                                                                                                                                  |    nan |       3 |              8 | 325000           |
-| , Santa Bárbara, Toluca De Lerdo                                                                                                                                                       |        |         |                |                  |
-| Casa en Venta Miguel Mata #209                                                                                                                                                         |    150 |       1 |              2 |  21780.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Remate Bancario, Casa, San Marcos, Villa Santin, Toluca, Estado De Mexico                                                                                                |     80 |       1 |              2 |  35524.6         |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Casa Venta Cipres                                                                                                                                                        |    220 |       2 |              3 | 362500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Fraccionamiento Las Misiones Ii, San Pedro Totoltepec, Carr. Toluca-naucalpan 1702, Iii, 50226 Toluca De Lerdo, Méx.                                                     |    101 |       2 |              3 |  90000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Santa Elena #32, 42                                                                                                                                                      |    135 |       4 |              3 |  84000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Independencia, Toluca De Lerdo                                                                                                                                           |    175 |       2 |              3 | 185000           |
-| Casa en Venta Arcadio Henkel #1                                                                                                                                                        |    295 |       4 |              4 | 295000           |
-| , Morelos 1a Sección, Toluca De Lerdo                                                                                                                                                  |        |         |                |                  |
-| Casa en Venta Casa Nueva En Venta En Residencial Victoria, Toluca.                                                                                                                     |    177 |       2 |              3 | 155000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Tenochtitlan #113, 15-a                                                                                                                                                  |    100 |       2 |              2 |  60000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Los Sauces Ii Col. San José Guadalupe, Toluca De Lerdo                                                                                                                   |     80 |       1 |              2 |  43500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Instituto Literario                                                                                                                                                      |    550 |       5 |              4 | 500000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    450 |       2 |              4 | 225000           |
-| Casa en Venta Modelo Roble                                                                                                                                                             |     95 |       2 |              3 |  76905           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Privada Hacienda De Metepec Mz25l1-c-b, Conj U Los Sauces Iv, San José Guadalupe #**                                                                                     |    135 |       2 |              3 |  77500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Villas San Andres                                                                                                                                                        |     74 |       1 |              2 |  52500           |
-| , De La Crespa, Toluca De Lerdo                                                                                                                                                        |        |         |                |                  |
-| Casa en Venta Jose Vicente Villada #101, 0                                                                                                                                             |    191 |       3 |              3 | 132500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Geovillas De San Mateo                                                                                                                                                   |     63 |       1 |              2 |  48000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Guillermo Marconi #507                                                                                                                                                   |    120 |       2 |              3 |  54368.9         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Lago Tanganica #0                                                                                                                                                        |    190 |       2 |              3 |  78041.6         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta El Trigo #sn                                                                                                                                                             |    420 |       5 |              4 | 425000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Los Sauces #sn                                                                                                                                                           |     66 |       1 |              2 |  45000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    350 |       5 |              5 | 453500           |
-| Casa en Venta Oficina En Venta A Una Cuadra De Galerias Toluca                                                                                                                         |    225 |       1 |              2 |  52500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Oo #xx                                                                                                                                                                   |    126 |       3 |              3 | 187500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    176 |       2 |              5 |  85000           |
-| Casa en Venta Av. Hidalgo Pte. #000                                                                                                                                                    |    170 |       3 |              4 |  33557.4         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Gómez Farías Esq. Isidro Fabela Null                                                                                                                                     |    nan |       3 |              4 | 875000           |
-| , Vértice, Toluca De Lerdo                                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Ricardo V Garrido 113                                                                                                                                                    |    nan |       5 |              4 | 197500           |
-| , Salvador Sánchez Colín, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Hidalgo                                                                                                                                                                  |    120 |       2 |              2 |  85000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ciprés, Toluca De Lerdo                                                                                                                                                  |    280 |       4 |              3 | 523000           |
-| Casa en Venta Tierra Y Libertad #114                                                                                                                                                   |    140 |       2 |              2 |  50803.1         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    660 |       3 |              5 | 465000           |
-| Casa en Venta Barrio Santa Maria #s/n                                                                                                                                                  |    189 |       3 |              3 | 134500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Hacienda Del Rocío #25                                                                                                                                                   |     69 |       2 |              2 |  51500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ahuehuetes, Toluca De Lerdo                                                                                                                                              |     91 |       1 |            nan |  85000           |
-| Casa en Venta Árbol De Las Manitas #00                                                                                                                                                 |    140 |       3 |              4 |  19520           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Independencia 104                                                                                                                                                        |    nan |       3 |              4 | 140000           |
-| , De La Crespa, Toluca De Lerdo                                                                                                                                                        |        |         |                |                  |
-| Casa en Venta San Jose Obrero #230                                                                                                                                                     |    107 |       2 |              2 |  26150.8         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Niño Artillero Null                                                                                                                                                      |    nan |       2 |              4 | 100000           |
-| , San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Frac. Paseo Arboleda                                                                                                                                                     |    108 |       2 |              3 |  95000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venta De Casa Cerca De Cu Null                                                                                                                                           |    nan |       2 |              3 | 210000           |
-| , Vicente Guerrero, Toluca De Lerdo                                                                                                                                                    |        |         |                |                  |
-| Casa en Venta Vicente Lonbardo Toledano #197                                                                                                                                           |    121 |       3 |              3 | 138921           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Independencia, Toluca De Lerdo                                                                                                                                           |    175 |       2 |              3 | 160000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    165 |       2 |              3 |  60000           |
-| Casa en Venta Montes Altai                                                                                                                                                             |    209 |       2 |              4 | 170000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Dioses Del Olimpo #234                                                                                                                                                   |     75 |       1 |              2 |  65000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Juan Aldama                                                                                                                                                              |    790 |       3 |              5 | 725000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Montes Altai #310                                                                                                                                                        |    210 |       5 |              4 | 170000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Agrónomos #101                                                                                                                                                           |    170 |       1 |              2 |  23092.8         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Adolfo Lopez Mateos 146 #146                                                                                                                                             |    125 |       2 |              3 |  45205.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    160 |       2 |              3 |  45205.5         |
-| Casa en Venta Ooo #21                                                                                                                                                                  |    234 |       3 |              3 | 187500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    180 |       6 |              7 | 177500           |
-| Casa en Venta Fraccionamiento Independencia Null                                                                                                                                       |    nan |       1 |              3 | 100000           |
-| , Santa María Totoltepec, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Pedro Totoltepec, Toluca De Lerdo                                                                                                                                    |    130 |       1 |              2 |  80000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    356 |       2 |              4 | 515000           |
-| Casa en Venta Casa En Venta Paseos San Martin Toluca                                                                                                                                   |     40 |       1 |              1 |  23000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    340 |       3 |              5 | 435000           |
-| Casa en Venta Casa 2 Plantas                                                                                                                                                           |    109 |       1 |              3 |  61350           |
-| , San Pedro Totoltepec, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Luis Donaldo Colosio                                                                                                                                                     |    247 |       2 |              4 | 175000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    350 |       2 |              3 | 225000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     67 |       2 |              2 |  35500           |
-| Casa en Venta Heroes Del 5 De Mayo #nd                                                                                                                                                 |    242 |       4 |              6 | 103350           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta . #.                                                                                                                                                                     |    180 |       5 |              4 |  99500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Abeto #77-b                                                                                                                                                              |     90 |       1 |              2 |  38510.9         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Carmen Serdán                                                                                                                                                            |   1230 |       4 |              5 |      2.245e+06   |
-| , Ciprés, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca #606                                                                                                                                                              |    160 |       2 |              3 |  28724           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca Null                                                                                                                                                              |    nan |       3 |              4 |  92500           |
-| , Rancho La Mora, Toluca De Lerdo                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Naucalpan #1702                                                                                                                                                          |    139 |       4 |              3 |  54000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Privada Cedros 115                                                                                                                                                       |    nan |       2 |              3 | 240000           |
-| , Tlacopa, Toluca De Lerdo                                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    215 |       4 |              4 | 157500           |
-| Casa en Venta San Buenaventura, Toluca De Lerdo                                                                                                                                        |    727 |       5 |              5 |      1.15e+06    |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    141 |       3 |              3 |  75000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     67 |       2 |              2 |  35500           |
-| Casa en Venta Altamirano 324, Delegación San Mateo Oxtotitlán, 50100 Toluca De Lerdo, Méx.                                                                                             |    nan |       2 |              3 | 115000           |
-| , San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Allende #100                                                                                                                                                             |    137 |       1 |              2 | 175000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Jacarandas #37, 2                                                                                                                                                        |     75 |       1 |              2 |  35022.9         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Marcos #0                                                                                                                                                            |    220 |       3 |              3 |  27788.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Hacienda San Isidro #14                                                                                                                                                  |     84 |       3 |              2 |  57500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Circuito Hacienda Jajalpa                                                                                                                                                |     65 |       1 |              3 |  37500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Dioses Del Olimpo #234                                                                                                                                                   |    170 |       3 |              3 | 125000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Retorno 8 #1                                                                                                                                                             |    141 |       3 |              3 |  75000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Lago Victoria 712                                                                                                                                                        |    nan |       3 |              3 | 325000           |
-| , Ocho Cedros, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    160 |       2 |              3 |  45205.5         |
-| Casa en Venta Prolongación Ruta De La Independencia #131                                                                                                                               |    110 |       2 |              3 |  16468.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                                          |    320 |       3 |              6 | 175000           |
-| Casa en Venta Casa En Venta / Renta En Las Flores                                                                                                                                      |    215 |       2 |              3 | 112500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Coahuila 327                                                                                                                                                             |    nan |       1 |              3 |  80000           |
-| , Santa María De Las Rosas, Toluca De Lerdo                                                                                                                                            |        |         |                |                  |
-| Casa en Venta Cerrada De Amazonas 118                                                                                                                                                  |    nan |       3 |              3 | 175000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Morelos #25                                                                                                                                                              |    960 |       2 |              5 | 300000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    133 |       3 |              3 | 116501           |
-| Casa en Venta San Marcos #0                                                                                                                                                            |    180 |       3 |              3 |  28231.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Abeto #77                                                                                                                                                                |     90 |       1 |              2 |  38510.9         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Metepec #142, A                                                                                                                                                          |    260 |       3 |              4 |  42500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Emiliano Zapata #0, 1                                                                                                                                                    |    200 |       3 |              3 | 130000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Jesús Carranza #449                                                                                                                                                      |    624 |       3 |              4 | 215000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Lago San Ignacio #306                                                                                                                                                    |    185 |       2 |              3 |  75000           |
-| , El Seminario 2a Sección, Toluca De Lerdo                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Independencia Null                                                                                                                                                       |    nan |       2 |              3 | 120000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta General Rafael Charazo 111 Null                                                                                                                                          |    nan |       2 |              4 | 287500           |
-| , Moderna De La Cruz, Toluca De Lerdo                                                                                                                                                  |        |         |                |                  |
-| Casa en Venta Santa Ana Tlapaltitlán, Toluca                                                                                                                                           |    225 |       1 |              3 |  62500           |
-| , Santa Ana Tlapaltitlán, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Fracc Sor Juana Inés De La Cruz, Toluca                                                                                                                                  |    265 |       2 |              3 | 130000           |
-| , San Pedro Totoltepec, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Las Hesperides Toluca                                                                                                                                                    |     72 |       1 |              2 |  57500           |
-| , Santa María Totoltepec, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    193 |       3 |              4 |  90000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    133 |       3 |              3 | 116500           |
-| Casa en Venta Ocho Cedros, Toluca De Lerdo                                                                                                                                             |    260 |       2 |              4 | 139500           |
-| Casa en Venta Lago Tangañica 411                                                                                                                                                       |    nan |       2 |              5 | 145000           |
-| , Ocho Cedros, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     56 |       1 |              2 |  25082.2         |
-| Casa en Venta Circuito Hacienda San Isidro #14                                                                                                                                         |     84 |       3 |              3 |  57500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Miguel Mata #209                                                                                                                                                         |    150 |       2 |              3 |  21780.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    180 |       3 |              3 |  28231.7         |
-| Casa en Venta Casa En Venta En Toluca En El Coporo                                                                                                                                     |    215 |       1 |              5 | 275000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Gran Lago Del Oso #107                                                                                                                                                   |    357 |       4 |              4 |  80000           |
-| , Isidro Fabela 2a Sección, Toluca De Lerdo                                                                                                                                            |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     90 |       2 |              3 |  67500           |
-| Casa en Venta Pensador Mexicano 408, Delegación San Buenaventura, Toluca De Lerdo, Estado De M #**                                                                                     |    190 |       4 |              3 | 119000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    150 |       2 |              3 | 118683           |
-| Casa en Venta San Lorenzo Tepaltitlan                                                                                                                                                  |    280 |       2 |              4 | 137500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    177 |       2 |              3 | 175000           |
-| Casa en Venta Toluca                                                                                                                                                                   |    447 |       1 |              3 | 215000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta/renta Cipres                                                                                                                                               |    438 |       3 |              4 | 500000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     63 |       1 |              3 |  64500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    440 |       2 |              3 | 195000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     73 |       2 |              3 |  38250           |
-| Casa en Venta Casa De Campo En Zona Tranquila Con Horno De Piedra En San Nicolas Peralta                                                                                               |    nan |       1 |              3 |  60000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    300 |       2 |              3 |  49417.8         |
-| Casa en Venta Paseo San Cristobal Colón #511                                                                                                                                           |    204 |       3 |              3 | 132500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Geólogos #120                                                                                                                                                            |    120 |       2 |              2 |  35000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    220 |       3 |              3 |  27788.7         |
-| Casa en Venta Insurgentes                                                                                                                                                              |    200 |       4 |              3 | 124000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Sierra Ventana #206                                                                                                                                                      |    180 |       3 |              3 | 235000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta Paseo San Martín Calle Ocoyoacac                                                                                                                           |     36 |       1 |              1 |  23000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta En Capultitlan Toluca                                                                                                                                      |    324 |       2 |              7 | 215000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Diodoro Ortega 300                                                                                                                                                       |    nan |       2 |              3 | 100000           |
-| , Rancho La Mora, Toluca De Lerdo                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    160 |       1 |              3 |  43635           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    360 |       3 |              4 |  95406.9         |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     88 |       2 |              3 |  67500           |
-| Casa en Venta Geo Villas Los Cedros                                                                                                                                                    |     56 |       1 |              2 |  25082.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Independencia #143, 34                                                                                                                                                   |     95 |       2 |              3 |  70000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Crisantemo #640                                                                                                                                                          |    215 |       2 |              3 | 112500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta La Teresona, Toluca De Lerdo                                                                                                                                             |    286 |       3 |              3 |  85000           |
-| Casa en Venta Tierra Y Libertad #114                                                                                                                                                   |    120 |       1 |              3 |  50803.1         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Azteca, Toluca De Lerdo                                                                                                                                                  |    150 |       1 |              3 | 105000           |
-| Casa en Venta Casa En Venta 3 Recamaras Aun Costado De Gm Toluca A 3 Minutos De Unitec                                                                                                 |    nan |       1 |              3 |  62500           |
-| , Santa Ana Tlapaltitlán, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av. Juárez Norte 539                                                                                                                                                     |    nan |       1 |              3 | 190000           |
-| , Centro, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     61 |       2 |              3 |  65000           |
-| Casa en Venta Arcadio Henkel 1011                                                                                                                                                      |    nan |       3 |              3 | 175000           |
-| , Ocho Cedros, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     72 |       2 |              3 |  38250           |
-| Casa en Venta Casa En Venta Sor Juana, La Galia                                                                                                                                        |    250 |       2 |              4 | 120000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Cipres 304                                                                                                                                                               |    nan |       3 |              3 | 405000           |
-| , Ciprés, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Sector Popular, Toluca De Lerdo                                                                                                                                          |    265 |       2 |              4 | 130000           |
-| Casa en Venta Ceboruco #1                                                                                                                                                              |  11111 |       2 |              2 |  77500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venustiano Carranza #22, 21                                                                                                                                              |    170 |       4 |              3 |  80000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Capultitlán, Toluca De Lerdo                                                                                                                                             |    285 |       3 |              4 | 105000           |
-| Casa en Venta Arcadio Henkel 1001                                                                                                                                                      |    nan |       3 |              3 | 175000           |
-| , Ocho Cedros, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     90 |       2 |              3 |  32910.6         |
-| Casa en Venta Fuente De Los Deseos #26                                                                                                                                                 |    187 |       3 |              3 | 127500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    353 |       2 |              4 | 237500           |
-| Casa en Venta Fuente De Los Deseos #27                                                                                                                                                 |    187 |       3 |              3 | 127500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Juan De La Barrera Null                                                                                                                                                  |    nan |       3 |              4 | 175000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Sauces Null                                                                                                                                                              |    nan |       1 |              2 |  43500           |
-| , Los Sauces V, Toluca De Lerdo                                                                                                                                                        |        |         |                |                  |
-| Casa en Venta La Vesana #266                                                                                                                                                           |     84 |       2 |              2 |  69500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    170 |       2 |            nan | 124000           |
-| Casa en Venta Capultitlán, Toluca De Lerdo                                                                                                                                             |    nan |       3 |              3 |  99950           |
-| Casa en Venta Fuentes Null                                                                                                                                                             |    nan |       2 |              3 |  97500           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Niños Heroes 211                                                                                                                                                         |    nan |       1 |              3 |  97500           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Crisantemos #640                                                                                                                                                         |    215 |       3 |              3 | 112500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo De La Asunción                                                                                                                                                     |    nan |       1 |              3 |  46500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    nan |       3 |              3 |      2.4e+06     |
-| Casa en Venta Nezahualcoyotl #000                                                                                                                                                      |    350 |       3 |              4 |  51500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    165 |       2 |              3 | 102500           |
-| Casa en Venta Azaleas #818                                                                                                                                                             |    100 |       1 |              3 |  27987.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta Ubicada En Hacienda Del Valle Ii                                                                                                                           |     69 |       1 |              3 |  51500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Heroes Primera Seccion                                                                                                                                                   |     60 |       1 |              2 |  40000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    200 |       1 |              3 | 260000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    369 |       2 |              4 | 315000           |
-| Casa en Venta Nicolás Bravo Norte #429                                                                                                                                                 |    215 |       2 |              5 | 275000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Al Refugio Sn                                                                                                                                                            |    nan |       3 |              4 | 120000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ciprés, Toluca De Lerdo                                                                                                                                                  |    576 |       4 |              5 | 325000           |
-| Casa en Venta Adolfo Lopez Mateos #146                                                                                                                                                 |    100 |       2 |              3 |  41500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta 3 Recamaras Hacienda Del Valle Toluca Cerca De Parque Toluca                                                                                               |    nan |       2 |              3 |  65000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Cristobal Olmedo #134                                                                                                                                                    |    144 |       1 |              3 |  28642.9         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venta De Casa En Toluca, Col Santa Clara                                                                                                                                 |    385 |       5 |              7 | 225000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo Arboleda Null                                                                                                                                                      |    nan |       2 |              3 |  90000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta, Residencial Crespa Town Toluca.                                                                                                                           |    nan |       2 |              2 | 138972           |
-| , De La Crespa, Toluca De Lerdo                                                                                                                                                        |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    650 |       4 |              3 | 860000           |
-| Casa en Venta Casa En Venta En Los Heroes Iii                                                                                                                                          |    119 |       2 |              4 |  55000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                   |    225 |       3 |              3 | 202500           |
-| Casa en Venta Carretera México-toluca                                                                                                                                                  |    425 |       3 |              3 | 795000           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta 5 De Mayo 30                                                                                                                                                             |    nan |       1 |              4 | 100000           |
-| , San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    148 |       2 |              3 |  88600           |
-| Casa en Venta Hhh 100                                                                                                                                                                  |    nan |       3 |              4 | 140000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    290 |       4 |              4 | 225000           |
-| Casa en Venta Bonita Casa En Venta Cerca Del Parque Sierra Morelos , Toluca                                                                                                            |    240 |       3 |              4 | 120000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     60 |       1 |              2 |  20850           |
-| Casa en Venta Azteca, Toluca De Lerdo                                                                                                                                                  |    106 |       1 |              3 |  90000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    188 |       3 |              3 | 122500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    160 |       2 |              3 | 155000           |
-| Casa en Venta Frac Paseos Del Valle #11, 0                                                                                                                                             |    120 |       2 |              3 |  41390.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta 2 Recamaras Los Heroes 1 En Toluca                                                                                                                         |     60 |       1 |              2 |  39500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Roberto Fulton 185                                                                                                                                                       |    nan |       3 |              3 | 165000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Nezahualcoyotl #00                                                                                                                                                       |    260 |       2 |              4 |  51500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av. Miguel Hidalgo Null                                                                                                                                                  |    nan |       3 |              4 |      1.15e+06    |
-| , Centro, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta 21 De Marzo #s/n                                                                                                                                                         |    250 |       2 |              4 | 100000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Antonio Garibaldy                                                                                                                                                        |     66 |       1 |              4 |  55000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Las Misiones Null                                                                                                                                                        |    nan |       2 |              3 |  75000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Remanente Ii #12                                                                                                                                                         |    160 |       2 |              3 |  60000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    372 |       3 |              4 | 180000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    110 |       3 |              3 |  70575           |
-| Casa en Venta Apatzingan 507                                                                                                                                                           |    nan |       2 |              4 | 105000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Campo Real Ii #23                                                                                                                                                        |    170 |       3 |              3 | 120000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Jesus Solorzano #126 A                                                                                                                                                   |     80 |       2 |              3 |  46000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Nueva Oxtotitlán, Toluca De Lerdo                                                                                                                                        |    129 |       1 |              3 |  85000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     65 |       1 |              3 |  42750           |
-| Casa en Venta Gómez Farías Esq Isidro Fabela #sn                                                                                                                                       |    160 |       4 |              4 | 875000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Camino A San Felipe #1234                                                                                                                                                |    120 |       3 |              3 | 115000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Juan Silveti, Villas Santin                                                                                                                                              |    120 |       2 |              3 |  60000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    950 |       5 |              4 | 445000           |
-| Casa en Venta Privada Martha Rodríguez #5                                                                                                                                              |    155 |       2 |              2 |  95000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Buenaventura, Toluca De Lerdo                                                                                                                                        |    350 |       3 |              4 | 500000           |
-| Casa en Venta Privada Fuente De La Luz 117                                                                                                                                             |    130 |       1 |            nan |  69750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Reforma                                                                                                                                                                  |    nan |       2 |              2 |  47500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta En Fracc. Paseos San Martin, Toluca.                                                                                                                       |     45 |       1 |              1 |  23000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Las Misiones Null                                                                                                                                                        |    nan |       2 |              3 |  80000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    249 |       2 |              3 |  95000           |
-| Casa en Venta Camino A San Juan Tilapa #137, 0                                                                                                                                         |    124 |       3 |              3 |  93575           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta De Tlanepantla, Toluca De Lerdo                                                                                                                                          |    175 |       2 |              5 | 180000           |
-| Casa en Venta Circuito Principal #1234                                                                                                                                                 |    105 |       3 |              3 |  95000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Amazonas Null                                                                                                                                                            |    nan |       2 |              4 |  90000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ambrosia                                                                                                                                                                 |    nan |       1 |              3 |  50000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Doctor Alonso Garcia #35                                                                                                                                                 |    200 |       2 |              4 |  70000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Arbol De Las Manitas #0                                                                                                                                                  |    140 |       2 |              3 |  19520           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    154 |       3 |              3 | 107500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    226 |       3 |              3 | 149000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    111 |       2 |              2 |  62500           |
-| Casa en Venta San Jorge, Santin                                                                                                                                                        |    150 |       2 |              3 |  80000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Miguel Hidalgo #00                                                                                                                                                       |    163 |       3 |              3 |  67500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Emiliano Zapata Null                                                                                                                                                     |    nan |       3 |              3 | 142500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Marie Curie #303                                                                                                                                                         |    192 |       2 |              3 | 175100           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Aretusa #227                                                                                                                                                             |     80 |       2 |              2 |  43000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Convento De León #28                                                                                                                                                     |    101 |       3 |              3 |  75000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    528 |       5 |              6 |      1.2e+06     |
-| Casa en Venta Gran Morada #nd                                                                                                                                                          |    182 |       3 |              3 | 224500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Jose Vicente Villada #00                                                                                                                                                 |    273 |       2 |              4 | 140300           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta José María Artega #00                                                                                                                                                    |    294 |       3 |              4 | 121000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Privada Del Rey #5                                                                                                                                                       |    170 |       3 |              3 | 105000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ex-hacienda San Jorge, Toluca De Lerdo                                                                                                                                   |    108 |       2 |              3 | 115000           |
-| Casa en Venta Vicente Yañez Punzon #202                                                                                                                                                |    264 |       4 |              3 | 275000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    136 |       2 |              3 | 125000           |
-| Casa en Venta Cuervos 219                                                                                                                                                              |    nan |       4 |              3 |      1.3e+06     |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Leona Vicario #11                                                                                                                                                        |    254 |       3 |              3 | 162500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Laguna De Tixtla Null                                                                                                                                                    |    nan |       5 |              8 | 325000           |
-| , Vicente Guerrero, Toluca De Lerdo                                                                                                                                                    |        |         |                |                  |
-| Casa en Venta Altamirano 16                                                                                                                                                            |    480 |       4 |            nan | 173500           |
-| , San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Calle Puerto Angel 4, Delegación San Lorenzo Tepaltitlán Ii, Delegación San Lore #4                                                                                      |    150 |       2 |              3 |  80000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Morelos 1a Sección, Toluca De Lerdo                                                                                                                                      |    178 |       3 |              4 | 147500           |
-| Casa en Venta San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                                          |    158 |       2 |              3 |  80000           |
-| Casa en Venta Bosques De Cantabria #nd                                                                                                                                                 |    230 |       6 |              4 | 127500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Prolongacion 5 De Mayo #1541                                                                                                                                             |    130 |       3 |              3 | 236840           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    300 |       3 |              3 |  49417.8         |
-| Casa en Venta San Lorenzo Tepaltitlan Toluca Edo Mex                                                                                                                                   |    105 |       2 |            nan |  42500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     90 |       1 |              2 |  74934.4         |
-| Casa en Venta Prof Santiago Velasco #0, 0                                                                                                                                              |    160 |       2 |              3 |  12341.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Sor Juanaa Ines                                                                                                                                                          |    380 |       1 |              5 | 285000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Fresnos Null                                                                                                                                                             |    nan |       2 |              3 |  67500           |
-| , Bosques De Cantabria, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Jose Maria Arteaga #00                                                                                                                                                   |    294 |       3 |              4 | 121000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av. Sebastian Lerdo De Tejada Null                                                                                                                                       |    nan |       2 |              2 | 110000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     62 |       1 |              2 |  43750           |
-| Casa en Venta Privada Ricardo Charvel S/n                                                                                                                                              |    nan |       3 |              4 | 130000           |
-| , San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Dora #106                                                                                                                                                                |    270 |       2 |              4 |  73608.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Https://goo.gl/maps/vtwk2nbjv2scfcue6                                                                                                                                    |    300 |       4 |              6 | 157500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Pensador Mexicano #00                                                                                                                                                    |    180 |       2 |              3 |  91550           |
-| , San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Jose Maria Coos Null                                                                                                                                                     |    nan |       1 |              3 | 140000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Isabel La Catolica #00                                                                                                                                                   |    220 |       3 |              4 |  53050           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paloma Torcaza #38                                                                                                                                                       |     60 |       1 |              2 |  19208           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Santa Ana Tlapaltitlán, Toluca De Lerdo                                                                                                                                  |    183 |       3 |              4 | 325000           |
-| Casa en Venta Benito Juárez, Toluca De Lerdo                                                                                                                                           |    580 |       3 |              3 | 325000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     95 |       2 |              2 |  72650           |
-| Casa en Venta Av Sta Elena 118h, Rincón De San Lorenzo, 50017 Toluca De Lerdo, Méx.                                                                                                    |    nan |       1 |              2 |  49000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    122 |       3 |              4 | 124900           |
-| Casa en Venta Casa En Venta O Renta Toluca                                                                                                                                             |    492 |       3 |              3 | 625000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Campo Real Ii 23                                                                                                                                                         |    nan |       2 |              3 | 120000           |
-| , Santa María Totoltepec, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Hermosa Casa En Venta De 1 Planta En Toluca, A Unas Cuadras Del Centro                                                                                                   |    450 |       4 |              3 | 700000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     62 |       1 |              3 |  75000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    300 |       3 |              5 |  99500           |
-| Casa en Venta Centenario                                                                                                                                                               |    100 |       2 |              2 |  90000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa Sola En Venta En Cacalomacan Edo Mex                                                                                                                                |    nan |       4 |              4 | 375000           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    nan |       2 |              3 | 375000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     65 |       1 |              2 |  42000           |
-| Casa en Venta Manuel M.dieguez #00                                                                                                                                                     |    160 |       3 |              4 |  23950           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    180 |       2 |              3 | 150000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     67 |       1 |              2 |  41000           |
-| Casa en Venta Casa/oficinas En Renta -venta Col. Sector Popular                                                                                                                        |    449 |       2 |              4 | 162500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Lago San Ignacio 306                                                                                                                                                     |    nan |       1 |              3 |  75000           |
-| , El Seminario 2a Sección, Toluca De Lerdo                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Manuel Sotelo 323                                                                                                                                                        |    233 |       3 |            nan | 194750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Andrés Benavides                                                                                                                                                         |    nan |       4 |              4 | 237500           |
-| , Ciprés, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                   |    111 |       1 |              3 | 132500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    878 |       7 |              4 | 600000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    144 |       4 |              1 | 150000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    209 |       6 |              4 | 170000           |
-| Casa en Venta Rebeca #00                                                                                                                                                               |    150 |       1 |              3 |  53000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca Null                                                                                                                                                              |    nan |       4 |              4 | 475000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Buenaventura, Toluca De Lerdo                                                                                                                                        |    175 |       1 |              2 | 135000           |
-| Casa en Venta Nezahualcoyotl #00                                                                                                                                                       |    200 |       3 |              4 |  51500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    233 |       3 |              3 | 187500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    233 |       3 |              3 | 187500           |
-| Casa en Venta Galileo Galilei #00                                                                                                                                                      |    200 |       3 |              3 |  96500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                    |    220 |       2 |              3 | 125000           |
-| Casa en Venta Tomas Alva Edison #00                                                                                                                                                    |    318 |       2 |              3 | 115545           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Tomas Alva Edison #00                                                                                                                                                    |    318 |       2 |              3 | 115545           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Galileo Galilei #00                                                                                                                                                      |    200 |       2 |              3 |  96500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Vicente Yáñez Punzón Null                                                                                                                                                |    nan |       1 |              3 | 275000           |
-| , Ciprés, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Miguel Hidalgo Null                                                                                                                                                      |    nan |       3 |              2 |  95000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    300 |       2 |              4 | 145000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    140 |       2 |              3 |  82500           |
-| Casa en Venta Arce #233                                                                                                                                                                |    123 |       3 |              3 |  60000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Noe Pérez 1                                                                                                                                                              |    nan |       2 |              3 | 295000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    185 |       3 |              4 | 112500           |
-| Casa en Venta Totoltepec Null                                                                                                                                                          |    nan |       4 |              4 | 336000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Fernando Quiroz S/n                                                                                                                                                      |    nan |       2 |              4 | 375000           |
-| , Federal (adolfo López Mateos), Toluca De Lerdo                                                                                                                                       |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    287 |       2 |              4 | 187500           |
-| Casa en Venta Miguel Mata #209                                                                                                                                                         |     80 |       1 |              3 |  21780.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     85 |       1 |              2 |  67500           |
-| Casa en Venta 23 De Septiembre #311                                                                                                                                                    |    500 |       5 |              4 | 297500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Dora #00                                                                                                                                                                 |    340 |       2 |              4 |  73608.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    134 |       1 |              3 |  92500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    200 |       3 |              3 | 117500           |
-| Casa en Venta Calle Tomas Alva Edison No Al 200                                                                                                                                        |    100 |       3 |              3 |    nan           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    233 |       3 |              3 | 187500           |
-| Casa en Venta Bonita Casa En Venta Entre Av Blvd Aeropuerto Y Tollocan                                                                                                                 |    180 |       1 |              2 |  82500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    233 |       3 |              3 | 187500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    233 |       3 |              3 | 187500           |
-| Casa en Venta Dora #00                                                                                                                                                                 |    300 |       4 |              5 |  73608.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Coahuila 111                                                                                                                                                             |    nan |       1 |              4 |  87500           |
-| , Santa María De Las Rosas, Toluca De Lerdo                                                                                                                                            |        |         |                |                  |
-| Casa en Venta Casa En Venta 2 Recamaras Las Palomas Toluca A 15 Minutos De Galerias Metepec                                                                                            |    nan |       1 |              2 |  55000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Manuel M. Dieguez #00                                                                                                                                                    |    180 |       3 |              4 |  23950           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Privada Santa Rita #17 B                                                                                                                                                 |     62 |       2 |              2 |  37500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    850 |       3 |              4 | 900000           |
-| Casa en Venta Doroteo Arango #119                                                                                                                                                      |    180 |       3 |              3 | 104000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    280 |       3 |              4 |  23950           |
-| Casa en Venta Benito Juárez 2011                                                                                                                                                       |    nan |       2 |              3 | 125000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Esmeralda 4                                                                                                                                                              |    nan |       2 |              4 | 145000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Isabel La Católica #000                                                                                                                                                  |    200 |       2 |              3 |  53060           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    233 |       3 |              3 | 187500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    233 |       3 |              3 | 187500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    233 |       3 |              3 | 187500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    233 |       3 |              3 | 187500           |
-| Casa en Venta Isabel La Catolica #0                                                                                                                                                    |    248 |       2 |              4 |  53060           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    130 |       3 |              3 | 100000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     66 |       2 |              3 |  55250           |
-| Casa en Venta Natalia Carrasco #000                                                                                                                                                    |    250 |       3 |              4 | 200786           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo Cristobal Colon #**                                                                                                                                                |    576 |       5 |              4 | 325000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Remate Bancario, Casa, San Jose, Villas Santin, Toluca, Estado De Mexico                                                                                                 |    110 |       1 |              2 |  35500           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Misiones Ii Null                                                                                                                                                         |    nan |       2 |              3 |  75000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Villas Toscana Null                                                                                                                                                      |    nan |       2 |              2 | 105000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Miguel Apinahuizco, Toluca De Lerdo                                                                                                                                  |    212 |       2 |              3 |  90000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     76 |       1 |              2 |  68500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     84 |       1 |              3 |  69500           |
-| Casa en Venta Adolfo Lopez Mateos #146                                                                                                                                                 |    150 |       1 |              2 |  41500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Santa Ana Tlapaltitlán, Toluca De Lerdo                                                                                                                                  |    128 |       1 |              2 | 195000           |
-| Casa en Venta Toluca #606                                                                                                                                                              |    130 |       2 |              3 |  28724           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Miguel Mata #209                                                                                                                                                         |    136 |       2 |              3 |  21780.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Lerma #216                                                                                                                                                               |     90 |       2 |              2 |  32500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    200 |       1 |              4 | 115000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     91 |       2 |              3 |  78000           |
-| Casa en Venta Miguel Hidalgo S/n                                                                                                                                                       |    nan |       2 |              3 |  79000           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Av. Encinos 102, Conj U Los Sauces, 50200 Toluca De Lerdo, Méx.                                                                                                          |    nan |       1 |              2 |  55000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    200 |       2 |              3 | 125000           |
-| Casa en Venta José Martín #114                                                                                                                                                         |    285 |       3 |              3 | 240000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Marie Cuerie #303                                                                                                                                                        |    195 |       4 |              3 | 205000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Marie Curie #303                                                                                                                                                         |    195 |       4 |              3 | 200000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ramon Corona Null                                                                                                                                                        |    nan |       2 |              3 | 175000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ramon Corona 707                                                                                                                                                         |    nan |       2 |              3 | 197500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    122 |       2 |              2 |  62500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    429 |       3 |              3 | 400000           |
-| Casa en Venta Toluca-naucalpan #146                                                                                                                                                    |    110 |       3 |              3 |  92500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    100 |       2 |              3 |  93450           |
-| Casa en Venta Independencia #305                                                                                                                                                       |     80 |       2 |              2 |  45000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Montes Himalaya 1                                                                                                                                                        |    nan |       2 |              3 | 225000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    112 |       1 |              2 |  60000           |
-| Casa en Venta Ciprés, Toluca De Lerdo                                                                                                                                                  |    400 |       1 |              3 | 490000           |
-| Casa en Venta Evaristo Jiménez 16                                                                                                                                                      |    nan |       1 |              2 |  51000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Pinosuarez                                                                                                                                                               |    393 |     nan |            nan | 147350           |
-| , Zopilocalco Norte, Toluca De Lerdo                                                                                                                                                   |        |         |                |                  |
-| Casa en Venta Barbabosa, Toluca, Estado De México                                                                                                                                      |    nan |       1 |              2 | 350000           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Rancho La Mora Null                                                                                                                                                      |    nan |       1 |              2 |  60000           |
-| , Rancho La Mora, Toluca De Lerdo                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Retorno #8                                                                                                                                                               |    141 |       3 |              3 |  83750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Coyotzin 120                                                                                                                                                             |    nan |       2 |              4 | 175000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     67 |       1 |              2 |  46000           |
-| Casa en Venta Puebla #000                                                                                                                                                              |    130 |       3 |              3 | 117700           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    192 |       2 |              3 |  90165.3         |
-| Casa en Venta C. Prolongacion Zapotecas Lb, Unión, 50040 Toluca De Lerdo, Méx.                                                                                                         |    124 |       2 |              3 | 110000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo Cristobal Colón #511                                                                                                                                               |    204 |       3 |              3 | 132500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Tomas Alva Edison #00                                                                                                                                                    |    318 |       2 |              3 | 115545           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    238 |       3 |              4 | 175000           |
-| Casa en Venta Felipe Berriozabal #00                                                                                                                                                   |    342 |       3 |              4 | 139880           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Lago Victoria Null                                                                                                                                                       |    nan |       3 |              3 | 325000           |
-| , Ocho Cedros, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Santa María Totoltepec, Toluca De Lerdo                                                                                                                                  |    126 |       1 |              3 |  59000           |
-| Casa en Venta Leyes De Reforma Null                                                                                                                                                    |    nan |       3 |              5 | 212500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Sierra Ventana #000                                                                                                                                                      |    180 |       3 |              3 | 241450           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    148 |       2 |              3 | 125000           |
-| Casa en Venta Casa En Venta Bosque De Las Fuentes Modelo Montecarlo                                                                                                                    |    nan |       3 |              3 | 220000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    130 |       3 |              3 |  67500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    260 |       3 |              3 | 175000           |
-| Casa en Venta Paseo Cristobal Colon #000                                                                                                                                               |    204 |       3 |              3 | 139525           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Roberto Fulton #113                                                                                                                                                      |    200 |       5 |              3 | 160000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    348 |       4 |              3 | 340000           |
-| Casa en Venta Fuente De Diana 12                                                                                                                                                       |    nan |       2 |              3 | 125000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Cerrada De Colón 306                                                                                                                                                     |    nan |       7 |              8 | 400000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Martha S/n                                                                                                                                                               |    nan |       2 |              3 | 140000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    350 |       3 |              4 | 130000           |
-| Casa en Venta José María Arteaga #112                                                                                                                                                  |    294 |       3 |              3 | 100000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av Independencia #143, 0                                                                                                                                                 |     70 |       2 |              2 |  20850           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       2 |              2 |  44950           |
-| Casa en Venta Santa Cruz Otzacatipan, Toluca                                                                                                                                           |    446 |       3 |              4 | 325000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca                                                                                                                                                                   |    250 |       2 |              4 | 120000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Tierra Y Libertad #114                                                                                                                                                   |    190 |       2 |              3 |  50803.1         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta Sauces Iv Con Terreno Excedente En Esquina                                                                                                                 |     74 |       1 |              3 |    nan           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta En Paseos Santín Ii, Toluca.                                                                                                                               |     60 |       3 |              3 |  40000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Geovillas #1                                                                                                                                                             |    117 |       1 |              2 |  43500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta, Colonia 8 Cedros, Toluca, Estado De México                                                                                                                |    nan |       1 |              3 |  90000           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Miguel Hidalgo #211                                                                                                                                                      |    163 |       3 |              3 |  67500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Jesus Carranza #000                                                                                                                                                      |    624 |       3 |              4 | 222050           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Las Torres 1100                                                                                                                                                          |    nan |       6 |             10 | 375000           |
-| , El Seminario 3a Sección, Toluca De Lerdo                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Casa En Venta 4 Recamaras En Sauces 1                                                                                                                                    |    nan |       2 |              4 |  80000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta Sor Juana Inés De La Cruz                                                                                                                                  |    nan |       2 |              3 | 130000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Martha Rodriguez #2, 2                                                                                                                                                   |    300 |       3 |              3 | 142500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Clemente Orozco 131                                                                                                                                                      |    nan |       1 |              1 |  90000           |
-| , Los Ángeles, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     62 |       1 |              2 |  47450           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    324 |       2 |              4 | 115000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    208 |       1 |              4 |  70000           |
-| Casa en Venta San Francisco 54-a                                                                                                                                                       |    nan |       1 |              1 |  21000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Escuela En Venta, Atrás Del Calvario Toluca.                                                                                                                             |   1469 |       4 |             14 |      1.1e+06     |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Venta Colonia Seminario Null                                                                                                                                             |    nan |       2 |              3 | 115000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     60 |       1 |              2 |  60000           |
-| Casa en Venta Calle De Los Corredores Sn                                                                                                                                               |    nan |       3 |              3 | 400000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                   |    100 |       3 |              3 |  95000           |
-| Casa en Venta Av. De Las Partidas #125                                                                                                                                                 |     97 |       2 |              3 |  55289.9         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Adolfo Lopez Mateos #146                                                                                                                                                 |    100 |       2 |              3 |  41500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Galeana                                                                                                                                                                  |    380 |       4 |              6 | 700000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Santa María Totoltepec, Toluca De Lerdo, Méx. Null                                                                                                                       |    nan |       2 |              3 | 120000           |
-| , Santa María Totoltepec, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Francisco Villa Null                                                                                                                                                     |    nan |       1 |              2 | 130000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle Luis Procuna Colonia Paseos Santin                                                                                                                                 |     60 |       3 |              3 |  40000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Lorenzo Tepaltitlán, Toluca                                                                                                                                          |     84 |       2 |              3 |  36500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Heroes, Toluca                                                                                                                                                           |     60 |       1 |              2 |  39500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Fraccionamiento Las Palomas Capuchinas, Toluca                                                                                                                           |    114 |       1 |              2 |  55000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Valle Don Camilo Sn                                                                                                                                                      |    nan |       1 |              3 | 225000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo Colón #120                                                                                                                                                         |    499 |       5 |             10 | 375000           |
-| , Toluca, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Santa Cruz Null                                                                                                                                                          |    nan |       5 |              4 | 125000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta Ex Hacienda San José                                                                                                                                       |    nan |       3 |              4 | 325000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av Circuito De Los Dioses S/n                                                                                                                                            |    nan |       2 |              4 |  94500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta Los Heroes 1                                                                                                                                               |     60 |       1 |              2 |  39500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Lago Victoria #712                                                                                                                                                       |    651 |       4 |              4 | 337500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Hda. Antigua, Conj U Los Sauces Iv, 50200 San Nicolás Tolentino, Méx.                                                                                                    |    nan |       1 |              4 |  60000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    319 |       3 |              6 | 107500           |
-| Casa en Venta Casa Nueva En Venta Residencial Victoria                                                                                                                                 |    nan |       2 |              3 | 155000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Plan De Ayala 311                                                                                                                                                        |    nan |       4 |              4 | 100000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Sierra Ventana #202                                                                                                                                                      |    300 |       7 |              4 | 310000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av Hidalgo Ote #00                                                                                                                                                       |    500 |       3 |              4 |  33550           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Girasol #218                                                                                                                                                             |    120 |       2 |              3 |  63782.8         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta La Merced  (alameda), Toluca De Lerdo                                                                                                                                    |    207 |       3 |              3 | 119920           |
-| Casa en Venta Adolfo Lopez Mateos #146                                                                                                                                                 |    100 |       2 |              3 |  41500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Cacalomacan, Toluca De Lerdo                                                                                                                                             |    169 |       2 |              3 | 120000           |
-| Casa en Venta Sn #sn                                                                                                                                                                   |    200 |       4 |              5 | 150000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Lomas Altas Null                                                                                                                                                         |    nan |       4 |              5 | 182500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    280 |       4 |             12 | 290000           |
-| Casa en Venta Toluca                                                                                                                                                                   |    144 |       1 |              3 | 100000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle Joaquin Arcadio Pagaza                                                                                                                                             |     60 |       1 |              2 |  39500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca                                                                                                                                                                   |    116 |       2 |              3 |  70000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Chilpancingo 616 Null                                                                                                                                                    |    nan |       1 |              4 | 120000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Laguna De La Gavia Sn                                                                                                                                                    |    nan |       2 |              4 |  87500           |
-| , Ocho Cedros 2a Sección, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paloma Mensajera #65                                                                                                                                                     |    140 |       2 |              3 |  70000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Valle Verde, Toluca De Lerdo                                                                                                                                             |    227 |       2 |              4 | 145000           |
-| Casa en Venta Lago De Chapultepec 214                                                                                                                                                  |    nan |       3 |              6 | 110000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Independencia #00                                                                                                                                                        |    204 |       2 |              3 |  19100           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San José Guadalupe Otzacatipan S/n                                                                                                                                       |    nan |       2 |              3 |  63000           |
-| , San Nicolás Tolentino, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    220 |       3 |              5 |  85000           |
-| Casa en Venta Av. Independencia                                                                                                                                                        |    nan |       1 |              2 |  34000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Miguel Mata #209                                                                                                                                                         |    182 |       2 |              3 |  50000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Capultitlán, Toluca De Lerdo                                                                                                                                             |    310 |       3 |              7 | 275000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     70 |       1 |              2 |  42500           |
-| Casa en Venta Altamirano Null                                                                                                                                                          |    nan |       2 |              3 |  67500           |
-| , San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    190 |       2 |              3 |  28487.5         |
-| Casa en Venta Privada Hacienda Canutillo 0                                                                                                                                             |    nan |       2 |              4 | 160000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Tenochtitlan                                                                                                                                                             |    nan |       1 |              3 |  87500           |
-| , Santa María Totoltepec, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Girasol #00                                                                                                                                                              |    125 |       2 |              3 |  63782.8         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av Independencia #139                                                                                                                                                    |    100 |       1 |              3 |  20850           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo Cristobal Colon #00                                                                                                                                                |    400 |       3 |              4 | 140915           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle Laguna Verde 904, El Seminario Primera Secc, 50170 Toluca De Lerdo, Méx. Null                                                                                      |    nan |       1 |              1 | 127500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Cacalomacan, Toluca De Lerdo                                                                                                                                             |    400 |       3 |              3 | 410000           |
-| Casa en Venta Felix Parra 713                                                                                                                                                          |    nan |       2 |              3 |  72500           |
-| , Los Ángeles, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    400 |       4 |              4 | 181750           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    245 |       2 |              3 |  97500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    420 |     nan |              3 | 190000           |
-| Casa en Venta Izcalli Toluca, Toluca De Lerdo                                                                                                                                          |    132 |       1 |              4 |  94500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    654 |       4 |              4 | 300000           |
-| Casa en Venta Alamo                                                                                                                                                                    |    228 |       2 |              5 | 240000           |
-| , De Tlanepantla, Toluca De Lerdo                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Rancho La Mora, Toluca De Lerdo                                                                                                                                          |    143 |       3 |              3 | 117500           |
-| Casa en Venta Hacienda De Huatulco #108                                                                                                                                                |    550 |       4 |              3 | 500000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle La Vesana 102,                                                                                                                                                     |    170 |       2 |              3 | 155000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    320 |       3 |              4 | 250000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     90 |       1 |              3 |  57800           |
-| Casa en Venta Dr. Andrés Benavides 133                                                                                                                                                 |    nan |       4 |              4 | 665000           |
-| , Ciprés, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Gral. José Vicente Villada 124, Delegación Sta Ana Tlapaltitlán, 50160 Toluca De Lerdo, Méx., México                                                                     |    290 |       3 |              3 | 284235           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Conocida Null                                                                                                                                                            |    nan |       1 |              3 | 149500           |
-| , Vicente Guerrero, Toluca De Lerdo                                                                                                                                                    |        |         |                |                  |
-| Casa en Venta Av Independencia #139                                                                                                                                                    |    100 |       1 |              3 |  20850           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Santa Ana Tlapaltitlán, Toluca De Lerdo                                                                                                                                  |    200 |       3 |              3 | 165000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    245 |       1 |              5 | 190000           |
-| Casa en Venta 719 #casa 10                                                                                                                                                             |    120 |       2 |              3 |  85000           |
-| , Bosques De San Mateo, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Lombardo Toledano, Fuentes De La Independencia                                                                                                                           |    130 |       2 |              3 | 102500           |
-| , De La Crespa, Toluca De Lerdo                                                                                                                                                        |        |         |                |                  |
-| Casa en Venta Olimpo Null                                                                                                                                                              |    nan |       2 |              3 |  65000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     66 |       1 |              3 |  51494.9         |
-| Casa en Venta San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                   |    255 |       3 |              3 | 160000           |
-| Casa en Venta De Los Padres Null                                                                                                                                                       |    nan |       2 |              2 |  65000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    290 |       2 |              3 | 145000           |
-| Casa en Venta Privada De Los Largos #5a                                                                                                                                                |    232 |       3 |              4 |  90000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                   |    140 |       2 |              3 | 110000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     66 |     nan |            nan |  29500           |
-| Casa en Venta Hacienda Las Carretas #00                                                                                                                                                |     70 |       1 |              3 |  19096.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Tizoc #122                                                                                                                                                               |    300 |       2 |              5 | 200000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Pablo Autopan, Toluca De Lerdo                                                                                                                                       |     81 |       1 |            nan |  41000           |
-| Casa en Venta Casa En Venta Con Deptos Salon Alberca Colonia Vicente Guerrero Toluca                                                                                                   |    628 |      13 |             17 | 900000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa Gómez Farías, Col. Morelos Toluca Edo. De México                                                                                                                    |    183 |       4 |              6 | 175000           |
-| , Morelos 1a Sección, Toluca De Lerdo                                                                                                                                                  |        |         |                |                  |
-| Casa en Venta Carretas 95                                                                                                                                                              |    nan |       4 |              4 | 425000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     81 |       2 |              3 |  60000           |
-| Casa en Venta Cerrada Lázaro Cárdenas                                                                                                                                                  |    380 |       4 |            nan | 170000           |
-| , De Tlanepantla, Toluca De Lerdo                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Cacalomacan, Toluca De Lerdo                                                                                                                                             |    407 |       3 |              3 | 375000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    233 |       3 |              3 | 187500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    900 |       4 |              4 | 775000           |
-| Casa en Venta Casa Disponible Para Venta En Cerrillo Vista Hermosa                                                                                                                     |    375 |       1 |              2 |  60000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta María Curie #303, Rf.35-10                                                                                                                                               |    195 |       2 |              3 | 237105           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Cacalomacan, Toluca De Lerdo                                                                                                                                             |    250 |       3 |              3 | 212500           |
-| Casa en Venta Cacalomacan, Toluca De Lerdo                                                                                                                                             |    653 |       3 |              3 | 735000           |
-| Casa en Venta Ocho Cedros, Toluca De Lerdo                                                                                                                                             |     96 |       6 |              6 |  60000           |
-| Casa en Venta Andres Benavides #00                                                                                                                                                     |    530 |       3 |              3 | 550000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseos Del Valle Null                                                                                                                                                    |    nan |       2 |              3 | 157500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Marcos #219                                                                                                                                                          |     70 |       1 |              2 |  28231.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Industria Minera S/n                                                                                                                                                     |    nan |       2 |              3 |  82500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Santa María Totoltepec, Toluca De Lerdo                                                                                                                                  |    185 |       1 |              3 |  80000           |
-| Casa en Venta Quetzalcoatl Null                                                                                                                                                        |    nan |       2 |              4 | 124950           |
-| , Club Jardín, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    221 |       3 |              3 | 170000           |
-| Casa en Venta San Mateo Null                                                                                                                                                           |    nan |       2 |              3 |  62500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ejido Santa Cruz Azcapotzaltongo, Toluca De Lerdo                                                                                                                        |    208 |       4 |            nan |  90000           |
-| Casa en Venta Miguel Mata #209                                                                                                                                                         |    136 |       2 |              3 |  21780.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av Independencia #139                                                                                                                                                    |     62 |       1 |              2 |  21100           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Carretas 97, Estado De México Null                                                                                                                                       |    nan |       4 |              4 | 425000           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Circuito Principal Adolfo López Mateos #00                                                                                                                               |    145 |       3 |              3 |  49500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Marcelino Garcia Barragan 206                                                                                                                                            |    nan |       3 |              4 | 147500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                    |    nan |       1 |              3 |  90000           |
-| Casa en Venta Privada Chapala Null                                                                                                                                                     |    nan |       2 |              4 |  60000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta 16 De Septiembre                                                                                                                                                         |    190 |       2 |              4 |  80000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta 23 De Septiembre Null                                                                                                                                                    |    nan |       4 |              4 | 297500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Camino Al Panteón 0                                                                                                                                                      |    nan |       4 |              4 | 610000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Parques Nacionales, Toluca De Lerdo                                                                                                                                      |    364 |       2 |              4 | 125000           |
-| Casa en Venta Parques Nacionales, Toluca De Lerdo                                                                                                                                      |    200 |       2 |              4 | 130000           |
-| Casa en Venta Casa Habitacion En Venta Conj. Prados Tollocan                                                                                                                           |     53 |       1 |              2 |  33000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta Por La Avenida Matlatzincas, Toluca. $2,500,000                                                                                                            |    257 |     nan |            nan | 125000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    500 |       2 |            nan | 350000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    850 |       4 |              4 | 725000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    200 |       2 |              4 |  82500           |
-| Casa en Venta Carretera Toluca Naucalpan #1702, 6                                                                                                                                      |    126 |       3 |              2 |  97350           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Elena Cárdenas 114                                                                                                                                                       |    nan |       1 |              3 | 225000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa Recien Remodelada 2,400,000 San Pedro Totoltepec                                                                                                                    |    nan |       2 |              4 | 120000           |
-| , San Pedro Totoltepec, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Girasol #218                                                                                                                                                             |    125 |       2 |              3 |  63782.8         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Fuentes De La Crespa Null                                                                                                                                                |    nan |       2 |              3 |  97500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    400 |       4 |              4 | 245000           |
-| Casa en Venta Cacalomacan, Toluca De Lerdo                                                                                                                                             |    250 |       3 |              3 | 127500           |
-| Casa en Venta Remanente Ii 12                                                                                                                                                          |    nan |       2 |              3 |  60000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Marcos #259                                                                                                                                                          |    115 |       2 |              3 |  24193.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo Cristobal #00                                                                                                                                                      |    550 |       3 |              3 | 114053           |
-| , Toluca, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    100 |       2 |              3 |  71294.9         |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    200 |       2 |              3 |  43841.1         |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    200 |       5 |              4 | 323350           |
-| Casa en Venta Av. Noe Pérez Y Rodolfo Sánchez 719                                                                                                                                      |    nan |       2 |              4 | 230000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     54 |       1 |              2 |  55000           |
-| Casa en Venta Agustín Melgar #sin Numero                                                                                                                                               |    280 |       3 |              3 | 110000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    141 |       3 |              3 |  75000           |
-| Casa en Venta Dora #0                                                                                                                                                                  |    270 |       3 |              5 |  73608.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Universidad, Toluca De Lerdo                                                                                                                                             |    273 |       3 |              3 | 260000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    302 |       2 |              4 | 125000           |
-| Casa en Venta S/n                                                                                                                                                                      |    200 |       3 |              3 | 117500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta General Gumercindo Enriquez #0                                                                                                                                           |    120 |       2 |              3 |  34128           |
-| , Valle Verde, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Casa En Obra Negra En Cacalomacan                                                                                                                                        |    100 |       2 |              2 |  23750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Prolongación Progreso #350, 00                                                                                                                                           |    220 |       2 |              3 |  30370.4         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Santa Elena #213                                                                                                                                                         |     54 |       1 |              2 |  16997.8         |
-| , San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Santa Elena #104, Casa 41                                                                                                                                                |     48 |       1 |              2 |  15109.2         |
-| , San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Jose Marti #209                                                                                                                                                          |     95 |       2 |              2 |  27900           |
-| , San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Fracc. Santorini En Toluca. #2                                                                                                                                           |     95 |       2 |              3 |  74500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Constituyentes 918-a                                                                                                                                                     |    nan |       1 |              8 | 150000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    124 |       3 |              3 |  67329.1         |
-| Casa en Venta Pedregal De Barbabosa 16                                                                                                                                                 |    nan |       2 |              4 | 105000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle Puerto De México Null                                                                                                                                              |    nan |       2 |              4 | 125000           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    186 |       2 |              4 |  90000           |
-| Casa en Venta Atlacomulco #110                                                                                                                                                         |    315 |       4 |              9 | 200000           |
-| , Sor Juana Inés De La Cruz, Toluca De Lerdo                                                                                                                                           |        |         |                |                  |
-| Casa en Venta Independencia #501, 13                                                                                                                                                   |    153 |       3 |              3 |  44366.9         |
-| , San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Casa En Venta En Las Palomas, Toluca                                                                                                                                     |    nan |       1 |              2 |  55000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Eduardo Gonzalez Y Pichardo #205                                                                                                                                         |    286 |       5 |              3 | 169500           |
-| , La Merced  (alameda), Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Eduardo Gonzalz Y Pichardo #205                                                                                                                                          |    286 |       5 |              3 | 169500           |
-| , La Merced  (alameda), Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    112 |       2 |              3 |  39920           |
-| Casa en Venta Francisco Villa Null                                                                                                                                                     |    nan |       2 |              4 |  75000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta De La Palma #0                                                                                                                                                           |    590 |       6 |              6 |  32153           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Manuel Sotelo                                                                                                                                                            |    nan |       2 |              3 | 162500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Reforma Y Ffcc Nacionales Null                                                                                                                                           |    nan |     nan |              3 | 281500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    380 |       4 |              5 |  26696           |
-| Casa en Venta Benito Juárez, Toluca De Lerdo                                                                                                                                           |    110 |       2 |              3 |  48050           |
-| Casa en Venta Privada Jardin De Niños 109                                                                                                                                              |    nan |       3 |              4 | 155000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    240 |       2 |              3 |  62392.6         |
-| Casa en Venta Miguel Hidalgo Poniente Null                                                                                                                                             |    nan |       1 |              8 | 700000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta Sor Juana Ines De La Cruz                                                                                                                                  |    nan |       2 |              4 | 120000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta Santa Maria Totoltepec                                                                                                                                     |    nan |       1 |              3 | 100000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Leonardo Da Vinci S/n                                                                                                                                                    |    nan |       1 |              3 |  62500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta 16 De Septiembre Sn                                                                                                                                                      |    nan |       2 |              2 |  62500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Tomas Alva Edison #223                                                                                                                                                   |    123 |       4 |              4 | 142500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Residencia A 5 Minutos Aeropuerto De Toluca                                                                                                                              |    nan |       3 |              4 | 325000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Renta Las Misiones                                                                                                                                               |    nan |       2 |              2 |  70000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca Null                                                                                                                                                              |    nan |       1 |              2 | 105000           |
-| , San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Paseo Cristóbal Colón #108                                                                                                                                               |    650 |       5 |              6 |      1.8e+06     |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    420 |       3 |              7 | 245000           |
-| Casa en Venta Cedral De Oriente 38                                                                                                                                                     |    nan |       1 |              2 |  49000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Cto. Hacienda La Antigua 2                                                                                                                                               |    nan |       1 |              2 |  30000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Niños Heroes 211 22                                                                                                                                                      |    nan |       1 |              4 |  74500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paloma Perdiz #00                                                                                                                                                        |     90 |       1 |              3 |  19208           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Andres Benavides Null                                                                                                                                                    |    nan |       2 |              4 | 232500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Gómez Pedraza 504                                                                                                                                                        |    nan |       1 |              3 |  99500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Luis Gonzaga Urbina #100                                                                                                                                                 |    450 |       2 |              3 | 142750           |
-| , Tlacopa, Toluca De Lerdo                                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Sierra Leona Null                                                                                                                                                        |    nan |       4 |              5 | 150000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Génova #107                                                                                                                                                              |    200 |       2 |              3 |  75250           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Sauces I Priv. Canelos                                                                                                                                                   |    nan |       2 |              3 |  80000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    148 |       1 |              2 |  89950           |
-| Casa en Venta Flor De Ma. R. De M. 104a, Barrio De La Merced, 50080 De La Merced, Méx. Null                                                                                            |    nan |       1 |              3 | 225000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Melia Mimosa #00                                                                                                                                                         |    100 |       2 |              3 |  57000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Tlacopa, Toluca De Lerdo                                                                                                                                                 |    259 |       3 |              3 | 240000           |
-| Casa en Venta Santa Elena (cond. Los Pirules) #213, 5                                                                                                                                  |    124 |       1 |              3 |  39032.1         |
-| , San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    483 |       3 |              4 | 395000           |
-| Casa en Venta Calle Revolucion 90                                                                                                                                                      |    nan |       1 |              3 |  50000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ocho Cedros, Toluca De Lerdo                                                                                                                                             |    300 |       3 |              4 | 157500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    700 |       7 |              3 | 325000           |
-| Casa en Venta Nogal                                                                                                                                                                    |    800 |       4 |              4 | 425000           |
-| , Ciprés, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    220 |       3 |              3 | 184249           |
-| Casa en Venta Conocida Null                                                                                                                                                            |    nan |       2 |              3 |  97500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    123 |       4 |              4 | 142500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    800 |       3 |              4 | 675000           |
-| Casa en Venta La Barranca #124                                                                                                                                                         |     87 |       1 |              2 |  26076.8         |
-| , Tlacopa, Toluca De Lerdo                                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Blvd. Lic Adolfo Lopez Mateos #146                                                                                                                                       |    160 |       2 |              3 |  45205.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av Independencia #139                                                                                                                                                    |    125 |       2 |              3 |  21100           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     90 |       1 |            nan |  65000           |
-| Casa en Venta Prncipales 101                                                                                                                                                           |    nan |       3 |              6 |  80000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta De La Barranca #124                                                                                                                                                      |    100 |       2 |              2 |  26076.8         |
-| , Tlacopa, Toluca De Lerdo                                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Dora #0                                                                                                                                                                  |    240 |       2 |              4 |  73608.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Luis Obispo #430                                                                                                                                                     |    310 |       2 |              4 |  33487.2         |
-| , San Luis Obispo, Toluca De Lerdo                                                                                                                                                     |        |         |                |                  |
-| Casa en Venta Santa Ana Tlapaltitlán                                                                                                                                                   |    nan |       1 |              3 |  62500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Dora #106                                                                                                                                                                |    270 |       3 |              4 |  73608.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    260 |       2 |              3 |  75000           |
-| Casa en Venta Francisco Villa 10                                                                                                                                                       |    nan |       1 |              3 | 130000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    250 |       5 |            nan | 122500           |
-| Casa en Venta Hacienda San Jorge #000                                                                                                                                                  |    185 |       3 |              3 |  33528.8         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    400 |       5 |              4 | 500000           |
-| Casa en Venta Fuentes De San José                                                                                                                                                      |    nan |       5 |              4 | 157500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ramon Corona Null                                                                                                                                                        |    nan |       2 |              3 | 147500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Pedro Cortez 100                                                                                                                                                         |    nan |       4 |              7 | 250000           |
-| , Santa Bárbara, Toluca De Lerdo                                                                                                                                                       |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    240 |       2 |              2 | 125000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    291 |       3 |              3 | 225000           |
-| Casa en Venta Toltecas #000                                                                                                                                                            |    110 |       3 |              3 |  54672.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Josué Mirlo                                                                                                                                                              |    250 |       2 |              3 | 171900           |
-| , Federal (adolfo López Mateos), Toluca De Lerdo                                                                                                                                       |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       1 |              2 |  44950           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    440 |       2 |              2 | 700000           |
-| Casa en Venta Silverio Perez #131                                                                                                                                                      |     95 |       1 |              2 |  32915           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ramon Corona Null                                                                                                                                                        |    nan |       2 |              3 | 175000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    250 |       3 |              4 | 200786           |
-| Casa en Venta Av Morelos Sur                                                                                                                                                           |    118 |       2 |              3 |    nan           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    240 |       3 |              3 | 108660           |
-| Casa en Venta Conocido Null                                                                                                                                                            |    nan |       1 |              2 |  44000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    274 |       2 |              4 | 175000           |
-| Casa en Venta Santos Degollado #000                                                                                                                                                    |    525 |       4 |              4 |  69649.9         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En                                                                                                                                                                  |    nan |       1 |              2 |  31500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     80 |       1 |              3 |  46000           |
-| Casa en Venta Se Vende Casa Como Terreno Atras De La Procuraduria Toluca                                                                                                               |    350 |       3 |              6 | 125000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Juan Aldama #512                                                                                                                                                         |    790 |       5 |              5 | 730000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Camino Al Panteon Null                                                                                                                                                   |    nan |       4 |              4 | 610000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     60 |       1 |              1 |  31500           |
-| Casa en Venta Tultepec 4                                                                                                                                                               |    nan |       1 |              2 |  30000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    180 |       1 |              3 |  80000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    530 |       4 |              3 | 650000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    270 |       3 |              3 | 235000           |
-| Casa en Venta Boulevard Miguel Aleman #1, Casa 2                                                                                                                                       |    112 |       2 |              2 |  60000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    141 |       3 |              3 |  83750           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     90 |       1 |              3 |  65750           |
-| Casa en Venta Ramon Corona Null                                                                                                                                                        |    nan |       2 |              3 | 197500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    130 |       3 |              3 | 117700           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    nan |       2 |              3 | 100000           |
-| Casa en Venta Jardines De Santa Teresa, Av. Jardines De Santa Teresa                                                                                                                   |    nan |       2 |              2 |  57500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    283 |       2 |              5 | 190000           |
-| Casa en Venta Casa En Venta Sor Juana Inés De La Cruz                                                                                                                                  |    265 |       2 |              3 | 130000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    206 |       5 |              4 | 175000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    180 |       3 |              3 | 241450           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    290 |       3 |              3 | 284235           |
-| Casa en Venta Casa Venta Toluca Centro Francisco Murguia                                                                                                                               |    790 |       4 |              5 | 730000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    204 |       3 |              3 | 139525           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    100 |       2 |              2 |  32910.7         |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    378 |       2 |            nan | 237500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    400 |       3 |              5 | 190000           |
-| Casa en Venta Jose Vicente Villada #00                                                                                                                                                 |    191 |       3 |              3 | 132500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Rebeca #155                                                                                                                                                              |    150 |       1 |              3 |  52500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Felipe Villanueva #723                                                                                                                                                   |    100 |       2 |              3 |  85000           |
-| , Morelos 1a Sección, Toluca De Lerdo                                                                                                                                                  |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    400 |       3 |              4 | 525000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    182 |       2 |              3 | 137500           |
-| Casa en Venta Conocida Null                                                                                                                                                            |    nan |       1 |              2 |  42500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa Ampliada San Pedro Totoltepec Muy Cerca Del Aeropuerto De Toluca                                                                                                    |    nan |       2 |              3 | 130000           |
-| , San Pedro Totoltepec, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    320 |       2 |              4 | 210000           |
-| Casa en Venta Casa Y Terreno En Venta En Toluca                                                                                                                                        |    700 |       4 |              6 |      3.5e+06     |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Independencia Null                                                                                                                                                       |    nan |       3 |              3 | 277500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    270 |       2 |              3 |  73608.3         |
-| Casa en Venta Cristóbal Olmedo #134                                                                                                                                                    |    180 |       2 |              4 |  28642.9         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    130 |       2 |              3 |  70156.8         |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |   1200 |     nan |              5 |      1.5e+06     |
-| Casa en Venta Remates Hipotecarios                                                                                                                                                     |     60 |       2 |              2 |  24000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    390 |       2 |              3 | 384500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    140 |       2 |              3 |  49500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    195 |     nan |            nan | 215550           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    340 |       4 |              4 | 300000           |
-| Casa en Venta Casa En Venta-renta Andres Quintana Roo Esq. Cedro                                                                                                                       |    530 |       2 |              3 | 625000           |
-| , Ciprés, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Santa María Totoltepec, Toluca De Lerdo                                                                                                                                  |    120 |       3 |              3 | 125000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     66 |       1 |              2 |  45122           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    624 |       3 |              4 | 222050           |
-| Casa en Venta Ramon Corona Null                                                                                                                                                        |    nan |       2 |              3 | 157500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    100 |       2 |              3 |  89115           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     90 |       2 |              3 |  57500           |
-| Casa en Venta Eucaliptos Sauces I                                                                                                                                                      |     63 |       1 |              2 |  47500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle Miguel Hidalgo #00                                                                                                                                                 |    152 |       2 |              3 |  80000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    191 |       3 |              3 |  84080           |
-| Casa en Venta Miguel Hidalgo Y C #s/n                                                                                                                                                  |    119 |       3 |              3 |  85000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Manuel Ávila Camacho                                                                                                                                                     |    300 |       1 |              3 | 112600           |
-| , Morelos 1a Sección, Toluca De Lerdo                                                                                                                                                  |        |         |                |                  |
-| Casa en Venta Oaxaca #1234                                                                                                                                                             |    150 |       3 |              3 |  92500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    721 |       4 |              5 | 800000           |
-| Casa en Venta Hacienda Zumpango #00                                                                                                                                                    |     85 |       2 |              2 |  49822.4         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    157 |       2 |              3 | 140000           |
-| Casa en Venta Los Sauces Iv                                                                                                                                                            |    135 |       1 |              2 |  43300           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Frijol #200                                                                                                                                                              |     85 |       2 |              3 |  46000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Frijol #102                                                                                                                                                              |    120 |       2 |              3 |  49500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    210 |       2 |              3 | 175000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       2 |              2 |  45000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    140 |       1 |              3 |  95000           |
-| Casa en Venta Gral. Jose Vicente Villada #00                                                                                                                                           |    237 |       4 |              5 | 137300           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Conocida Null                                                                                                                                                            |    nan |       2 |              4 | 175000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    140 |       2 |              3 | 130000           |
-| Casa en Venta Jose Maria Arteaga #112                                                                                                                                                  |    294 |       3 |              3 |  75000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle María Curie 303, Delegación Santa Ana Tlapaltitlán, Toluca De Lerdo, Estad #**                                                                                     |    245 |      25 |              3 | 275000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    123 |       4 |              4 | 147800           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    235 |       2 |              3 | 125000           |
-| Casa en Venta Casa 2 Plantas                                                                                                                                                           |     39 |       1 |              1 |  17900           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Miguel Hidalgo #00                                                                                                                                                       |    180 |       4 |              3 |  63000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    140 |       2 |              3 |  45205.5         |
-| Casa en Venta Genova                                                                                                                                                                   |    120 |       2 |              3 |  38213.5         |
-| , San Mateo Oxtotitlán, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Residencial Crespa Town Modelo Zafiro                                                                                                                                    |    nan |       2 |              3 | 144413           |
-| , De La Crespa, Toluca De Lerdo                                                                                                                                                        |        |         |                |                  |
-| Casa en Venta Villada #423                                                                                                                                                             |    700 |       4 |              6 |      3.5e+06     |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Girasol #00                                                                                                                                                              |    125 |       2 |              3 |  63782.8         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Sta. Elena #1400                                                                                                                                                         |    140 |       2 |              3 |  22640           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Girasol #00                                                                                                                                                              |    125 |       2 |              3 |  63782.8         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    nan |       2 |              4 | 175000           |
-| Casa en Venta Maria Curie #303                                                                                                                                                         |    195 |       3 |              3 | 297275           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Miguel Mata #209                                                                                                                                                         |    260 |       2 |              3 |  48650           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Brigida Garcia #205                                                                                                                                                      |    290 |       6 |              6 | 225000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Domicilio Conocido Null                                                                                                                                                  |    nan |       3 |              3 | 100000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Silverio Perez #00                                                                                                                                                       |     90 |       2 |              3 |  32910.6         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Nueva Santa María De Las Rosas, Toluca De Lerdo                                                                                                                          |    200 |       2 |              4 | 195000           |
-| Casa en Venta Sauces                                                                                                                                                                   |    nan |       2 |              3 |  80000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    102 |     nan |            nan |  62500           |
-| Casa en Venta Privada De Largos 5a                                                                                                                                                     |    nan |       2 |              4 |  84500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta En San Lorenzo Tepaltitlan Al 730 Mil                                                                                                                      |     84 |       2 |              2 |  36500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Morada De Encino                                                                                                                                                         |    184 |       1 |              2 | 118108           |
-| , Tlacopa, Toluca De Lerdo                                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Villa Toscana                                                                                                                                                            |    130 |       1 |              2 |  55544           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Fraccionamiento La Galia                                                                                                                                                 |    102 |       1 |              2 |  60935.7         |
-| , San Pedro Totoltepec, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Miguel Hidalgo                                                                                                                                                           |    180 |       1 |              2 |  70120           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Miguel Hidalgo Al 100                                                                                                                                                    |    139 |       1 |              2 |  82114.1         |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta La Toscana #00000                                                                                                                                                        |    218 |       4 |              3 |  68000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Carretera Toluca-naucalpan #1702                                                                                                                                         |    218 |       4 |              3 |  68000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle Prol. 5 De Mayo 2 Ote. #1541                                                                                                                                       |    120 |       3 |              3 |  74500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Capultitlán, Toluca De Lerdo                                                                                                                                             |    120 |     nan |            nan |  60000           |
-| Casa en Venta Calle Luis Gonzaga Urbina                                                                                                                                                |    150 |       2 |              2 | 179943           |
-| , Tlacopa, Toluca De Lerdo                                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    216 |       4 |              4 |  85000           |
-| Casa en Venta Hacienda Rancho Seco #00                                                                                                                                                 |     60 |       1 |              2 |  34443.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Circuito Cardenales #00                                                                                                                                                  |     60 |       1 |              2 |  32100           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    233 |       3 |              3 | 187500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     95 |       1 |              2 |  71294.9         |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    233 |       3 |              5 | 125000           |
-| Casa en Venta Camino A San Juan Tilapa #137, 10                                                                                                                                        |    120 |       3 |              3 |  89000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Boulevard Filiberto Navas, Fraccionamiento Villas Del Parque #0                                                                                                          |    158 |       2 |              3 |  56000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Josue Mirlo                                                                                                                                                              |    310 |       2 |              3 | 121829           |
-| , Federal (adolfo López Mateos), Toluca De Lerdo                                                                                                                                       |        |         |                |                  |
-| Casa en Venta Cto. A. López Mateos Ote                                                                                                                                                 |    136 |       1 |              2 |  47270           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Circuito Lopez Mateos #125                                                                                                                                               |    230 |       3 |              3 |  95000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av. Las Partidas                                                                                                                                                         |     90 |       1 |              3 |  70600           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Jose Marti #209                                                                                                                                                          |    100 |       2 |              2 |  37300           |
-| , San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Paseo Colón 108                                                                                                                                                          |    nan |       3 |              6 |      1.8e+06     |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta La Barranca #0                                                                                                                                                           |    120 |       2 |              3 |  26076.8         |
-| , Tlacopa, Toluca De Lerdo                                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Lorenzo Garza #203                                                                                                                                                       |     70 |       1 |              2 |  39700           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av. V. Guerrero                                                                                                                                                          |    212 |       1 |              3 | 105199           |
-| , Cacalomacan, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Gral. José Vicente Villada #00                                                                                                                                           |    237 |       4 |              5 | 137300           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Gral. José Vicente Villada 124, Delegación Sta Ana Tlapaltitlán, 50160 Toluca De Lerdo, Méx., México                                                                     |    nan |     nan |            nan | 249760           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    380 |       3 |            nan | 549950           |
-| Casa en Venta Cacalomacan, Toluca De Lerdo                                                                                                                                             |    547 |       4 |              3 | 600000           |
-| Casa en Venta Rancho La Independencia #233, Lt3 Fracc 56                                                                                                                               |    100 |       1 |              2 |  40000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    530 |       3 |              3 | 550000           |
-| Casa en Venta Orquideas                                                                                                                                                                |    120 |       2 |              2 |  20543.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Carr. Toluca-naucalpan #1702, 0                                                                                                                                          |    120 |       2 |              2 |  90500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Marie Curie #0                                                                                                                                                           |    180 |       3 |              3 |  35237.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta En Villada Toluca                                                                                                                                          |    700 |     nan |            nan |      1.25e+06    |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    110 |       1 |              3 |  49500           |
-| Casa en Venta Ignacio Allende #0                                                                                                                                                       |    300 |       3 |              3 |  42500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    400 |       3 |              3 | 800000           |
-| Casa en Venta Gómez Farias #00, 00                                                                                                                                                     |    220 |       8 |              7 |  87500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    280 |       3 |              4 | 129272           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    110 |       2 |              3 |  65848.8         |
-| Casa en Venta Gral. Jose Vicente Villada                                                                                                                                               |    191 |       1 |              3 | 136800           |
-| , Santa Ana Tlapaltitlán, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Francisco Gonzalez Boca Negra Null                                                                                                                                       |    nan |       4 |              6 | 125000           |
-| , Centro, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo Colón #108                                                                                                                                                         |    650 |       5 |              6 |      1.8e+06     |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Guillermo Marconi                                                                                                                                                        |    120 |       2 |              3 |  50339.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       2 |              2 |  28950           |
-| Casa en Venta Jose María Arteaga #112                                                                                                                                                  |    294 |       3 |              3 | 100000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Bernardo G De Lara                                                                                                                                                       |    180 |       6 |              7 | 167500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    280 |       3 |              4 | 120000           |
-| Casa en Venta Carretera Federal Toluca-naucalpan Villa Toscana #1702, 00                                                                                                               |    127 |       3 |              3 |  89600           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle Gomez Farias                                                                                                                                                       |    230 |       2 |              3 | 109485           |
-| , San Bernardino, Toluca De Lerdo                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Arbol De Las Manitas #0                                                                                                                                                  |    300 |       3 |              4 |  19520           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ricardo Flores Magón                                                                                                                                                     |    181 |       3 |              3 | 139370           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Independencia #223, 3                                                                                                                                                    |    100 |       1 |              2 |  47500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    133 |       2 |              3 |  68078.1         |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    136 |       1 |              2 |  47270           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    250 |       3 |              5 |  85000           |
-| Casa en Venta Progreso #307, 0                                                                                                                                                         |     90 |       2 |              3 |  53058.6         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Morelos #419, 108                                                                                                                                                        |     80 |       1 |              3 |  35950           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    282 |     nan |            nan | 480250           |
-| Casa en Venta Privada Ajedrez 00                                                                                                                                                       |    nan |       2 |              3 | 127500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Boulevard Filiberto Navas #100-b                                                                                                                                         |    158 |       2 |              3 |  60500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Rio Lerma 70                                                                                                                                                             |    nan |       1 |              3 |  57500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Cacalomacan, Toluca De Lerdo                                                                                                                                             |     69 |       1 |              2 |  70000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     41 |       1 |              2 |  42500           |
-| Casa en Venta Rancho La Mancilla 110                                                                                                                                                   |    nan |       4 |              5 | 425000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Manzana Xxi #lt 40, Casa A                                                                                                                                               |     80 |       1 |              3 |  25375           |
-| , Toluca, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    148 |       2 |              3 |  80000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |   2317 |     nan |            nan |      1.2e+06     |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    507 |     nan |            nan | 325000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    294 |       3 |              3 | 108000           |
-| Casa en Venta Filiberto Navas #100                                                                                                                                                     |    110 |       2 |              2 |  57500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Hacienda Zumpango #s/n                                                                                                                                                   |     92 |       2 |              3 |  55000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Bonita Casa En Venta Paseos De Toluca Sta Maria Totoltepec 1,680,000 Acepto Infonavit                                                                                    |    nan |       2 |              3 |  84000           |
-| , Santa María Totoltepec, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Tomas Alva Dison #228, Casa B                                                                                                                                            |    239 |       2 |              3 | 105000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Terreno En Venta Centro Toluca                                                                                                                                           |    700 |       3 |            nan |      1.33357e+06 |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av. Santa Elena Al 100                                                                                                                                                   |     50 |       1 |              2 |  28450           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Jose Vicente Villada #101                                                                                                                                                |    245 |       3 |              4 | 154750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Azaleas #0                                                                                                                                                               |    120 |       2 |              3 |  38750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    400 |       4 |              6 | 345000           |
-| Casa en Venta Real Santa Clara #sn                                                                                                                                                     |     90 |       2 |              3 |  54850           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Carretera Toluca-naucalpan #1702                                                                                                                                         |    218 |       4 |              3 |  68000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    255 |       2 |              7 | 172500           |
-| Casa en Venta Avenida Jinetes #0                                                                                                                                                       |    290 |       5 |              3 | 162500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Antiguo Camino A San Lorenzo #200                                                                                                                                        |    180 |       2 |              3 |  48341.1         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Felipe Berriozabal #00                                                                                                                                                   |    850 |       4 |              5 | 159900           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Josué Mirlo                                                                                                                                                              |    310 |       1 |              3 | 126133           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Alberto Einstein #202, 10                                                                                                                                                |    200 |       3 |              3 |  75000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Hacienda Del Valle                                                                                                                                                       |    120 |       2 |              3 |  71450           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av Independencia #143                                                                                                                                                    |    160 |       2 |              2 |  19100           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Azaleas #0                                                                                                                                                               |    100 |       1 |              3 |  27987.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    nan |       4 |              3 | 590000           |
-| Casa en Venta Adolfo Lopez Mateos #146, 0000                                                                                                                                           |    140 |       2 |              3 |  59933.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    850 |       3 |              5 | 159900           |
-| Casa en Venta Juan Silveti #102                                                                                                                                                        |     62 |       1 |              2 |  37620           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Fuente De Giovani #107                                                                                                                                                   |     56 |       1 |              2 |  35637.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Camino Al Panteón #205                                                                                                                                                   |    250 |       4 |              3 | 212500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Pensador Mexicano 302pte                                                                                                                                                 |    121 |       1 |              2 |  89550           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta La Magdalena, Toluca De Lerdo                                                                                                                                            |    402 |       3 |              3 | 530750           |
-| Casa en Venta Circuito Hacienda La Laguna #0                                                                                                                                           |     91 |       1 |              2 |  82150           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Alberto Einstein #202                                                                                                                                                    |    200 |       3 |              3 |  75000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Marcos #00                                                                                                                                                           |    121 |       3 |              3 |  24272           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    200 |       5 |              4 |  54000           |
-| Casa en Venta Eulalia Peñaloza                                                                                                                                                         |    226 |       3 |              3 | 112649           |
-| , Federal (adolfo López Mateos), Toluca De Lerdo                                                                                                                                       |        |         |                |                  |
-| Casa en Venta Geologos #120                                                                                                                                                            |    120 |       2 |              2 |  44950           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Circuito Hacienda La Laguna #00                                                                                                                                          |    143 |       2 |              3 |  65550           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paloma Silvestre #00                                                                                                                                                     |    120 |       2 |              3 |  25937.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Eduardo González Y Pichardo #0                                                                                                                                           |    369 |       2 |              3 | 168459           |
-| , La Merced  (alameda), Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Jesus Carranza #449                                                                                                                                                      |    624 |       3 |              4 | 222050           |
-| , Toluca, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    100 |       2 |              3 | 105000           |
-| Casa en Venta Calle Thomas Alva Edison #228                                                                                                                                            |    123 |       4 |              4 | 185000           |
-| , Científicos, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    340 |       3 |              4 |  73608.3         |
-| Casa en Venta Eduardo Gonzalez Y Pichardo #0                                                                                                                                           |    410 |       2 |              3 | 168459           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Carretera Toluca Naucalpan #00                                                                                                                                           |    200 |       3 |              3 |  73500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Galileo #201                                                                                                                                                             |    295 |       3 |              4 |  45300           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta C. De La Independencia #129                                                                                                                                              |    150 |       3 |              3 |  73500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Andres Molina Lt 22 Mz4                                                                                                                                                  |    nan |       1 |              2 |  38000           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Blvd. Isidro Fabela #1505                                                                                                                                                |    210 |       2 |              3 |  85850           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca #606                                                                                                                                                              |    110 |       2 |              2 |  28474           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Prol Paseo Totoltepec #302                                                                                                                                               |    102 |       2 |              3 |  86077.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Plan De San Luis #0, 1                                                                                                                                                   |    439 |       4 |              7 | 147500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle Jose Ma. Arteaga                                                                                                                                                   |    529 |       1 |              3 | 167446           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Felipe Berriozabal                                                                                                                                                       |    342 |       2 |              4 | 141900           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta La Barranca #00                                                                                                                                                          |     84 |       1 |              2 |  25826.8         |
-| , Tlacopa, Toluca De Lerdo                                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Jose Maria Jauregui #00                                                                                                                                                  |    140 |       2 |              2 |  26851.6         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    nan |     nan |            nan |  32000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    200 |       2 |              3 | 158423           |
-| Casa en Venta Oficinas En Venta Av Las Torres A 2 Min De Tren Mexico Toluca                                                                                                            |    nan |     nan |            nan |  70000           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Avenida Independencia #00                                                                                                                                                |     60 |       2 |              2 |  18850           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Gladiolas #329                                                                                                                                                           |    106 |       2 |              3 |  31966.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     30 |       1 |              1 |  21000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     10 |       2 |              3 |  73600           |
-| Casa en Venta Fraccionamiento Hacienda Del Valle Ii                                                                                                                                    |     94 |       1 |              2 |  43970           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Adolfo Lopez Mateos #146, 0                                                                                                                                              |    318 |       3 |              3 |  67939           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo                                                                                                                                                                |    150 |       1 |              2 |  55937.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle Juan Silveti                                                                                                                                                       |     62 |       1 |              2 |  34240           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle Alberto Balderas                                                                                                                                                   |     62 |       1 |              2 |  34240           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ricardo Flores Magon Al 200                                                                                                                                              |    139 |       1 |              2 |  62920           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Fraccionamiento Los Sauces V                                                                                                                                             |     67 |       1 |              2 |  34780           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Conjunto Geovillas Los Cedros                                                                                                                                            |     56 |       1 |              2 |  34360           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Lorenzo Tepaltitlan Al 200                                                                                                                                           |    112 |       1 |              2 |  58586.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av. Ahuehuetes                                                                                                                                                           |     54 |       1 |              2 |  47830           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Miguel Hidalgo #0000                                                                                                                                                     |    153 |       3 |              3 |  33159.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Valle De Cuitzeo #0000                                                                                                                                                   |    126 |       3 |              3 |  23109.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    240 |       2 |              4 |  73608.3         |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    157 |     nan |            nan | 117500           |
-| Casa en Venta Doctor Juan Rodriguez #410                                                                                                                                               |    550 |       4 |              5 |  57833.4         |
-| , Toluca, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    216 |       3 |              3 |  55662           |
-| Casa en Venta Paloma Silvestre #0                                                                                                                                                      |    200 |       2 |              3 |  23815.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paloma Tortola #0                                                                                                                                                        |    200 |       2 |              3 |  23800.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Guillermo Marconi #00                                                                                                                                                    |    120 |       2 |              2 |  34963.6         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Tanganica #00                                                                                                                                                            |    100 |       2 |              3 |  93050           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta José María Arteaga #405                                                                                                                                                  |    504 |       2 |              3 | 282500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Cerrada Lago Atitlán #508                                                                                                                                                |    180 |       3 |              4 | 125000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Cerrada Lago Atitlán #508                                                                                                                                                |    180 |       3 |              4 | 125000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Lic Jose Antonio Muñoz Samayoa #38                                                                                                                                       |    648 |       2 |              3 |  96845           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Jose Maria Arteaga #112                                                                                                                                                  |    295 |       2 |              3 |  73300           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av Independencia #143                                                                                                                                                    |    100 |       2 |              3 |  18850           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa Habitacion #223                                                                                                                                                     |    100 |       1 |              2 |  40000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    122 |       2 |              3 |  67329.1         |
-| Casa en Venta Convento De San Antonio Padua #28                                                                                                                                        |    101 |       3 |              3 |  87500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av Independencia #0                                                                                                                                                      |    120 |       2 |              3 |  21100           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Prol. Progreso #305                                                                                                                                                      |    190 |       2 |              3 |  30370.4         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av Independencia #0                                                                                                                                                      |    160 |       2 |              3 |  21150           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Exhacienda De Mayorazgo #o                                                                                                                                               |    200 |       2 |              3 |  23749.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Juan Aldama Sur #708                                                                                                                                                     |    520 |       4 |              5 |  58237.4         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Cacalomacan, Toluca De Lerdo                                                                                                                                             |    150 |       2 |              4 | 117500           |
-| Casa en Venta Calle Independencia Con Pedro Ascencio                                                                                                                                   |    480 |       2 |              3 | 161590           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Isabela Catolica #00                                                                                                                                                     |    150 |       2 |              3 |  54800           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Circuito Hacienda La Laguna #00                                                                                                                                          |     94 |       2 |              4 |  82150           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Eulalia Peñaloza                                                                                                                                                         |    225 |       3 |              3 |  80463.5         |
-| , Federal (adolfo López Mateos), Toluca De Lerdo                                                                                                                                       |        |         |                |                  |
-| Casa en Venta Juan Aldama Sur #708                                                                                                                                                     |    520 |       4 |              5 |  58237.4         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Doctor Juan Rodríguez #410                                                                                                                                               |    800 |       5 |              5 |  57833.4         |
-| , Toluca, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo Cristobal Colon Al 500                                                                                                                                             |    216 |       1 |              3 | 115550           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Guillermo Marconi Al 500                                                                                                                                                 |    120 |       1 |              3 |  52599.8         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Lago Tanganica                                                                                                                                                           |    190 |       1 |              3 |  77275           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Profra. Eulalia Peñaloza                                                                                                                                                 |    225 |       1 |              3 |  96963.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Dora #0                                                                                                                                                                  |    200 |       3 |              4 |  73608.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    180 |       1 |              3 |  50091.7         |
-| Casa en Venta Privada De Fresno 109                                                                                                                                                    |    nan |       2 |              3 | 175000           |
-| , Tlacopa, Toluca De Lerdo                                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       3 |              3 |  38213.5         |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     97 |       2 |              3 |  82900           |
-| Casa en Venta Plan De San Luis #0, 1                                                                                                                                                   |    435 |       4 |              6 | 147500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Luis Gonzaga Urbina 316                                                                                                                                                  |    nan |       3 |              3 | 112500           |
-| , Salvador Sánchez Colín, Toluca De Lerdo                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Antonio Albarran, Fraccionamiento Paseos Del Valle                                                                                                                       |    nan |     nan |            nan |  29750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Dora #000                                                                                                                                                                |    240 |       4 |              4 |  73608.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    582 |       3 |              7 | 400000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    300 |       2 |              3 |  69649.9         |
-| Casa en Venta Doctor Juan Rodríguez #410                                                                                                                                               |    550 |       4 |              5 |  65333.4         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Manzana 43 Fraccionamiento Hacienda Del Valle                                                                                                                            |     99 |       2 |              3 |  78660           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Manzana 57 Conjunto Bosques De Cantabria                                                                                                                                 |     94 |       2 |              3 |  74700           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta O Renta Lomas Altas Toluca                                                                                                                                 |    nan |     nan |            nan | 350000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Arbol De Las Manitas #0                                                                                                                                                  |    160 |       3 |              4 |  19520           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    111 |       2 |              3 |  65550           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     94 |       2 |              3 |  64150           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    112 |       2 |              3 |  60000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    130 |       2 |              3 |  94085           |
-| Casa en Venta Callejon De La Cruz 4                                                                                                                                                    |    nan |       3 |              5 |  85000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    342 |       3 |              4 | 141900           |
-| Casa en Venta Felipe Berriozabal                                                                                                                                                       |    342 |       2 |              3 | 159400           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Frijol #201                                                                                                                                                              |    196 |       2 |              3 | 113772           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    310 |       2 |              3 | 121829           |
-| Casa en Venta Lago Tanganica #00                                                                                                                                                       |    190 |       3 |              3 |  74275           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Lago Tanganica                                                                                                                                                           |    190 |       1 |              2 |  60775           |
-| , Ocho Cedros, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    100 |       1 |              3 |  28958.8         |
-| Casa en Venta Puebla #711                                                                                                                                                              |    130 |       3 |              3 | 117700           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Sierra Ventana #206                                                                                                                                                      |    180 |       3 |              3 | 241450           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       1 |              3 |  57500           |
-| Casa en Venta Av Independencia #143                                                                                                                                                    |    100 |       2 |              3 |  18850           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    250 |       1 |              5 | 125000           |
-| Casa en Venta Felipe Villanueva #723                                                                                                                                                   |    100 |       2 |              3 |  93450           |
-| , Morelos 1a Sección, Toluca De Lerdo                                                                                                                                                  |        |         |                |                  |
-| Casa en Venta Parque Chapa De Mota #40                                                                                                                                                 |    180 |       1 |              3 |  67500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Jose Fco Guerra #15                                                                                                                                                      |     65 |       2 |              2 |  31412.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Doctor Juan Rodríguez #410                                                                                                                                               |    550 |       4 |              5 |  57834.4         |
-| , Toluca, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta 3a. Cerrada Ex-hda. San Jorge #0                                                                                                                                         |    185 |       3 |              3 |  39415.9         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Miguel Hidalgo #511, 0                                                                                                                                                   |    122 |       1 |              3 |  73014           |
-| , San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    148 |       2 |              3 |  80000           |
-| Casa en Venta Sierra Ventana #206                                                                                                                                                      |    180 |       3 |              3 | 241450           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Fuente De La Vida #1                                                                                                                                                     |    140 |       2 |              3 |  50000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo #101                                                                                                                                                           |    155 |       2 |              3 |  74250           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    108 |       2 |              2 |  47500           |
-| Casa en Venta Arteaga Ote #1006                                                                                                                                                        |    150 |       3 |              3 | 112500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Carretera Toluca-naucalpan #1702                                                                                                                                         |    218 |       4 |              3 |  68000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta La Barranca #0000                                                                                                                                                        |     70 |       1 |              2 |  25826.8         |
-| , Tlacopa, Toluca De Lerdo                                                                                                                                                             |        |         |                |                  |
-| Casa en Venta San Mateo #101                                                                                                                                                           |     90 |       2 |              3 |  55000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Eulalia Peñaloza #224                                                                                                                                                    |    270 |       2 |              3 |  70000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    360 |       4 |              4 |  95406.9         |
-| Casa en Venta Prol Paseo Totoltepec #302                                                                                                                                               |    102 |       2 |              3 |  72431.9         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Mercurio 12                                                                                                                                                              |    nan |       2 |              3 |  65000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle Tierra Y Libertad #00                                                                                                                                              |    200 |       3 |              3 |  49553.1         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta San Mateo Otzacatipa Toluca                                                                                                                                |    110 |       2 |              3 |  87500           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Casa En Venta San Pedro Totoltepec Toluca                                                                                                                                |    110 |       2 |              3 |  65000           |
-| , San Pedro Totoltepec, Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    230 |       3 |              4 | 100000           |
-| Casa en Venta Casa En Venta Barrio De Tlacopa Toluca                                                                                                                                   |    132 |       2 |              3 | 165000           |
-| , Tlacopa, Toluca De Lerdo                                                                                                                                                             |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       2 |              2 |  44950           |
-| Casa en Venta Juan Aldama Sur #708                                                                                                                                                     |    520 |       4 |              5 |  50000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Prolongación Jesús Carranza #1307                                                                                                                                        |    240 |       2 |              3 | 149250           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Guerrero #00                                                                                                                                                             |    150 |       3 |              3 |  43737.1         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Melia Mimosas #0                                                                                                                                                         |    100 |       1 |              3 |  54000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Lago Tangarica                                                                                                                                                           |    190 |       2 |              3 |  60775           |
-| , Ocho Cedros, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Av Hidalgo                                                                                                                                                               |    nan |     nan |            nan |  55000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Buenaventura, Toluca De Lerdo                                                                                                                                        |    nan |     nan |            nan |  24000           |
-| Casa en Venta Benito Juárez Garcia Sur                                                                                                                                                 |    199 |       2 |              3 |  71106.6         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Avenida Miguel Hidalgo                                                                                                                                                   |    nan |     nan |            nan |  90700           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Excelente Terreno En Venta 1400 M2 Prol. Jinetes Cacalomacan                                                                                                             |    nan |     nan |            nan |  84735.6         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta El Frijol #209, Lote 55                                                                                                                                                  |    210 |       2 |              3 | 130000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Avenida Hidalgo Poniente #0                                                                                                                                              |    270 |       2 |              5 |  33557.4         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Guillermo Marconi #507                                                                                                                                                   |    120 |       2 |              3 |  55099.8         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo #101                                                                                                                                                           |    150 |       2 |              3 |  58437.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Lago Tanganica #708                                                                                                                                                      |    190 |       2 |              3 |  79750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Profra Eulalia Peñaloza #224                                                                                                                                             |    225 |       2 |              3 |  79750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    180 |       2 |              3 | 241450           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    150 |       2 |              3 |  85991.4         |
-| Casa en Venta Mariano C. Olivera #246, Lt 34 Mz 16                                                                                                                                     |    150 |       2 |              3 |  45000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    100 |       2 |              3 | 184249           |
-| Casa en Venta Casa En Venta Fracc Los Pirules Tlalnepantla De Baz                                                                                                                      |    216 |       3 |              3 | 105000           |
-| , De Tlanepantla, Toluca De Lerdo                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Pensador Mexicano #302, Int 2 Lote 2                                                                                                                                     |    120 |       2 |              3 |  87050           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    100 |       2 |              3 |  93450           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    181 |       3 |              3 | 139370           |
-| Casa en Venta Carretera Mexico-toluca #1706                                                                                                                                            |    133 |       2 |              3 |  88950           |
-| , Toluca De Lerdo                                                                                                                                                                      |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     50 |       1 |              1 |  22000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    710 |       5 |              4 |      1.1925e+06  |
-| Casa en Venta Cacalomacan, Toluca De Lerdo                                                                                                                                             |    nan |     nan |            nan |  56000           |
-| Casa en Venta Quintqna Roo Esquina Cedro #s/n                                                                                                                                          |    530 |       3 |              3 | 625000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Eduardo Gonzalez Y Pichardo #0                                                                                                                                           |    410 |       2 |              3 | 168459           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    199 |       2 |              3 |  71106.6         |
-| Casa en Venta Convento Santa Isabel #0                                                                                                                                                 |    101 |       3 |              3 |  84937.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Blvd Miguel Aleman #mz 1 Lt B, 2                                                                                                                                         |    112 |       3 |              2 |  69200           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Leona Vicario #950                                                                                                                                                       |    148 |       2 |              3 |  88600           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Lago Tanganica #00                                                                                                                                                       |    100 |       2 |              2 |  78041.6         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    200 |       2 |              3 |  62555.4         |
-| Casa en Venta Lorenzo Garza #198                                                                                                                                                       |    120 |       2 |              2 |  31550           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    225 |       2 |              3 |  92790           |
-| Casa en Venta Retorno 8 #1                                                                                                                                                             |    141 |       3 |              3 |  83750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    216 |       3 |              4 | 147800           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     70 |       1 |              3 |  25000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    529 |       2 |              3 | 163946           |
-| Casa en Venta Eulalia Peñaloza                                                                                                                                                         |    225 |       2 |              3 |  80463.5         |
-| , Federal (adolfo López Mateos), Toluca De Lerdo                                                                                                                                       |        |         |                |                  |
-| Casa en Venta Juan Aldama Sur #708                                                                                                                                                     |    520 |       3 |              4 |  58237.4         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Camino A San Juan Tilapa #137, 10                                                                                                                                        |    120 |       3 |              3 |  75000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Manzana 7 Hacienda Del Valle                                                                                                                                             |     91 |       2 |              3 |  75180           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     96 |       2 |              3 |  62250           |
-| Casa en Venta Camino A San Juan Tilapa #00                                                                                                                                             |    124 |       3 |              3 |  93575           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Jose Maria Arteaga #112                                                                                                                                                  |    294 |       3 |              3 | 108000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Lago Tanganica #00                                                                                                                                                       |    100 |       2 |              2 |  78041.6         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    130 |       3 |              3 | 117700           |
-| Casa en Venta Adolfo López Mateo #0, 0                                                                                                                                                 |    210 |       1 |              3 |  41500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Antiguo Camino A San Lorenzo #200                                                                                                                                        |    180 |       2 |              3 |  20367.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    141 |       3 |              3 |  83750           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    190 |       3 |              3 |  93450           |
-| Casa en Venta Lago Tanganica #sn                                                                                                                                                       |    100 |       2 |              2 |  78041.6         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    180 |       3 |              3 | 241450           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    204 |       3 |              3 | 139525           |
-| Casa en Venta Geologos #120                                                                                                                                                            |     67 |       1 |              2 |  50500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Geologos #120                                                                                                                                                            |    120 |       2 |              2 |  44950           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Soliraridad S/n                                                                                                                                                          |    nan |     nan |            nan | 191000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Rayon #25                                                                                                                                                                |     67 |       1 |              1 |  27500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       2 |              2 |  35000           |
-| Casa en Venta Propiedad En Venta Col. Universidad                                                                                                                                      |    nan |       1 |              1 | 124500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Camino A San Juan Tilapa #137, 20                                                                                                                                        |    206 |       3 |              3 |  92500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    200 |       4 |              5 | 130000           |
-| Casa en Venta La Toscana #00000                                                                                                                                                        |    218 |       3 |              3 |  68000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    300 |       4 |              3 | 129272           |
-| Casa en Venta José Martí #209, 00                                                                                                                                                      |     70 |       1 |              2 |  37300           |
-| , San Lorenzo Tepaltitlán Centro, Toluca De Lerdo                                                                                                                                      |        |         |                |                  |
-| Casa en Venta La Merced  (alameda), Toluca De Lerdo                                                                                                                                    |   1580 |      10 |             18 |      1.4e+06     |
-| Casa en Venta Sierra Cotopaxi #113                                                                                                                                                     |    270 |       2 |              3 |  50000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Sierra Cotopaxi #113                                                                                                                                                     |    270 |       2 |              3 |  50000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Industria Minera #0                                                                                                                                                      |    146 |       4 |              3 | 174000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Valladolid #0                                                                                                                                                            |    149 |       3 |              4 |  92271.4         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    102 |       2 |              3 |  72431.9         |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    360 |       3 |              4 |  95406.9         |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    100 |       2 |              3 |  22386.5         |
-| Casa en Venta Jose Antonio Villada                                                                                                                                                     |    273 |       2 |              4 | 119300           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo                                                                                                                                                                |    150 |       2 |              3 |  41437.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Arbol De Manitas #0                                                                                                                                                      |    300 |       3 |              4 |  19520           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Agustín Millán #0                                                                                                                                                        |     94 |       2 |              3 |  63900           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Tierra Y Libertad #114                                                                                                                                                   |    200 |       2 |              3 |  34738.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Dora #106                                                                                                                                                                |    240 |       4 |              4 |  55428.9         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Dora #106                                                                                                                                                                |    240 |       4 |              4 |  55428.9         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    128 |       2 |              3 |  47680.5         |
-| Casa en Venta Toluca                                                                                                                                                                   |    nan |       1 |              2 |  50000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casas Nuevas Acepto Infonavit 960 Mil 3 Recamaras                                                                                                                        |    nan |       1 |              3 |  48000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Eduardo Gonzalez Y Pichardo #0                                                                                                                                           |    340 |       4 |              4 | 168459           |
-| , La Merced  (alameda), Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    160 |       2 |              3 |  43635           |
-| Casa en Venta Lago Tanganica #sn                                                                                                                                                       |    100 |       3 |              2 |  78041.6         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Camino A Tlacotepec                                                                                                                                                      |    212 |       1 |              2 |  88507.2         |
-| , Vicente Guerrero, Toluca De Lerdo                                                                                                                                                    |        |         |                |                  |
-| Casa en Venta Blvd Miguel Aleman #mz 1 Lt B, Casa 2                                                                                                                                    |    112 |       3 |              2 |  69200           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Guillermo Marconi #sn                                                                                                                                                    |     74 |       2 |              3 |  54368.9         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Carlos A Velez 308                                                                                                                                                       |    nan |       2 |              4 | 175000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Miguel L. Mata                                                                                                                                                           |    nan |       1 |              3 |  73600           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Boulevard Filiberto Navas #100                                                                                                                                           |    110 |       2 |              2 |  57500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Conocida Null                                                                                                                                                            |    nan |       2 |              2 |  59000           |
-| , San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                               |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    460 |      10 |             14 | 525000           |
-| Casa en Venta Retorno 8 #casa 1                                                                                                                                                        |    141 |       3 |              3 |  83750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    102 |       2 |              3 |  72431.9         |
-| Casa en Venta Av. Antiguo Camino A San Lorenzo Tepaltitlan                                                                                                                             |    112 |       1 |              2 |  47297.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Rancho Seco #0000                                                                                                                                                        |     80 |       1 |              2 |  10653           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta Unidad Victoria Toluca                                                                                                                                     |    132 |       2 |              3 |  90000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Felipe Berriozabal                                                                                                                                                       |    342 |       2 |              3 |  70950           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    273 |       3 |              4 | 119300           |
-| Casa en Venta Puebla #711                                                                                                                                                              |    130 |       3 |              3 | 117700           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Sierra Ventana #206                                                                                                                                                      |    180 |       3 |              3 | 241450           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Jose Maria Arteaga #112                                                                                                                                                  |    294 |       3 |              3 | 108000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Callejón Zenzontle #manzana 8, 00                                                                                                                                        |    100 |       2 |              3 |  53500           |
-| , Toluca, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Alejandro Von Humbolt 302                                                                                                                                                |    nan |       3 |              6 | 550000           |
-| , Centro, Toluca De Lerdo                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Carretera Toluca Naucalpan #1702                                                                                                                                         |    133 |       2 |              3 |  68000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle Sierra De Los Vertices Null                                                                                                                                        |    nan |       3 |              4 | 162500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Mateo                                                                                                                                                                |    150 |       2 |              3 |  41437.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Carretera Federal Toluca.naucalpan #1702                                                                                                                                 |    125 |       3 |              3 |  68691.6         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Mariano Jimenez #125                                                                                                                                                     |    235 |       4 |              6 | 125000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     96 |       2 |              3 |  86750           |
-| Casa en Venta Independencia #129                                                                                                                                                       |    163 |       5 |              3 | 120600           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       2 |              3 |  51018.5         |
-| Casa en Venta Rebeca #00, 00                                                                                                                                                           |    135 |       3 |              3 | 134726           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Prol Paseo Totoltepec #0                                                                                                                                                 |    131 |       2 |              2 |  57000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paseo Cristobal Colón #511                                                                                                                                               |    204 |       3 |              3 | 139525           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Prolongación Progreso #307, 0                                                                                                                                            |    140 |       2 |              3 |  31750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Tierra Y Libertad #114                                                                                                                                                   |    200 |       2 |              3 |  39738.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Azaleas #0000                                                                                                                                                            |     95 |       1 |              3 |  27737.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Paloma Silvestre #0000                                                                                                                                                   |    130 |       1 |              3 |  23565.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    nan |     nan |            nan | 950000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    342 |       3 |              3 |  70950           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    123 |       4 |              4 | 142500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    150 |       2 |              3 |  53800           |
-| Casa en Venta Arcoiris #0                                                                                                                                                              |    150 |       2 |              3 |  19500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Niños Heroes #nd                                                                                                                                                         |     45 |       2 |              2 |  38500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    396 |       2 |              3 | 400000           |
-| Casa en Venta Boulevard Miguel Aleman #mz-1 Lt.b                                                                                                                                       |    250 |       3 |              3 |  86000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Antiguo Camino A San Lorenzo Tepatitlan #200, 00                                                                                                                         |    112 |       3 |              3 |  61720.8         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta S/n #s/n                                                                                                                                                                 |     55 |       1 |              2 |  86900           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Jesús Carranza #449                                                                                                                                                      |    624 |       3 |              4 | 222050           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Doctor Juan Rodriguez #410                                                                                                                                               |    550 |       4 |              5 |  57833.4         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Lic Jose Antonio Muñoz                                                                                                                                                   |    648 |       2 |              4 | 108550           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Diamante 119                                                                                                                                                             |    nan |       2 |              4 | 125000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Casa En Venta Santiago Miltepec Toluca                                                                                                                                   |    380 |       3 |              4 |  72500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    240 |       4 |              5 | 110000           |
-| Casa en Venta Lago Tanganica #00, 00                                                                                                                                                   |    190 |       3 |              3 |  85085           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Maria Curie (venta De Varias Casas En Fracc. Escrituradas) #303, 00                                                                                                      |    195 |       3 |              3 | 175000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    190 |       1 |              3 |  74775           |
-| Casa en Venta Filiberto Navas #11                                                                                                                                                      |    136 |       2 |              3 |  28564.4         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Girasol #218                                                                                                                                                             |    140 |       1 |              3 |  75637.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       3 |              3 |  21950           |
-| Casa en Venta Retorno De Margaritas                                                                                                                                                    |    nan |       2 |              4 | 112500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     85 |       1 |              3 |  80000           |
-| Casa en Venta Insurgentes                                                                                                                                                              |    306 |       3 |              3 |  96687.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Eulalia Peñaloza #224                                                                                                                                                    |    226 |       2 |              3 | 120000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    225 |       1 |              3 |  94463.5         |
-| Casa en Venta San Jose De Los Cedros                                                                                                                                                   |    nan |      11 |             11 |      1.32069e+06 |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Dora #000                                                                                                                                                                |    240 |       4 |              4 |  73608.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     50 |       1 |              3 |  24168           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    624 |       3 |              4 | 215000           |
-| Casa en Venta Cda. Ex Hacienda De Mayorazgo #38                                                                                                                                        |    140 |       3 |              3 |  31501.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av Antiguo Camino A San Lorenzo Tepaltitlan #200                                                                                                                         |    112 |       2 |              3 |  61086.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    648 |       3 |              4 | 108550           |
-| Casa en Venta Independencia                                                                                                                                                            |    162 |       3 |              3 |  80382.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Tomas Alva Edison #228                                                                                                                                                   |    160 |       2 |              3 | 133625           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Independencia                                                                                                                                                            |    157 |       2 |              3 | 105000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    160 |       1 |              3 |  43635           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    100 |       2 |              3 |  27737.7         |
-| Casa en Venta Niños Héroes #432, 00                                                                                                                                                    |     75 |       1 |              2 |  59400           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Vicente Guerrero                                                                                                                                                         |    212 |       3 |              3 |  88699           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Marie Curie 303                                                                                                                                                          |    195 |       1 |              2 | 274690           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    105 |       2 |              3 |  32910.6         |
-| Casa en Venta Galileo Galilei #215                                                                                                                                                     |    230 |       2 |              4 |  90750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Tlacopa, Toluca De Lerdo                                                                                                                                                 |    300 |       1 |              2 |    nan           |
-| Casa en Venta Tlacopa, Toluca De Lerdo                                                                                                                                                 |    300 |       1 |              2 |    nan           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    110 |       2 |              3 |  59327.2         |
-| Casa en Venta Independencia #143                                                                                                                                                       |    110 |       2 |              2 |  62750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Geólogos #120                                                                                                                                                            |    120 |       2 |              2 |  60000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    160 |       2 |              3 |  24777.8         |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    130 |       3 |              3 | 110000           |
-| Casa en Venta Proyectistas #24                                                                                                                                                         |     90 |       2 |              2 |  47000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Del Cristo #0                                                                                                                                                            |    150 |       2 |              3 |  39810.8         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    184 |       2 |              3 | 127200           |
-| Casa en Venta Ruta De La Independencia                                                                                                                                                 |    120 |       1 |              2 |  34633.9         |
-| , Científicos, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     63 |       1 |              2 |  27500           |
-| Casa en Venta Dora #106                                                                                                                                                                |    200 |       3 |              5 |  45576           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Miguel Hidalgo #106                                                                                                                                                      |    220 |       3 |              3 |  97500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Guillermo Marconi N° 507                                                                                                                                                 |    120 |       2 |              3 |  53339.7         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    210 |     nan |            nan | 117750           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       2 |              3 |  21950           |
-| Casa en Venta Quintana Roo Null                                                                                                                                                        |    nan |       3 |              3 | 110000           |
-| , Ocho Cedros, Toluca De Lerdo                                                                                                                                                         |        |         |                |                  |
-| Casa en Venta Paloma Silvestres #s/n                                                                                                                                                   |    120 |       2 |              2 |  24002.8         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Eduardo González Y Pichardo                                                                                                                                              |    369 |       3 |              5 | 146500           |
-| , La Merced  (alameda), Toluca De Lerdo                                                                                                                                                |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    111 |       1 |            nan |  49900           |
-| Casa en Venta Filiberto Navas #0                                                                                                                                                       |    136 |       2 |              3 |  28564.4         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Cda. Ex-hacienda De Mayorazgo #0                                                                                                                                         |    140 |       3 |              3 |  31501.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    195 |       1 |              3 | 237050           |
-| Casa en Venta Adolfo Lopez Mateos #1516                                                                                                                                                |    150 |       1 |              3 |  46767.5         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    150 |       2 |              3 |  64500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     60 |       1 |              2 |  31950           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     69 |       1 |              2 |  25668           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     95 |       2 |              3 |  41560.2         |
-| Casa en Venta Av 18 De Marzo #227, Lt 8 Mz9                                                                                                                                            |   1394 |      20 |             20 | 455500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Jardines De Tlacopa                                                                                                                                                      |    nan |       4 |              4 | 300000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     69 |       1 |              2 |  25668           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    140 |       2 |              3 |  84500           |
-| Casa en Venta Prolongaciòn Progreso #307, 0                                                                                                                                            |    120 |       2 |              3 |  31750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    158 |       2 |              3 |  87000           |
-| Casa en Venta Nezaulcoyotl #5                                                                                                                                                          |    165 |     124 |              3 | 125000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Santos Degollado #casa                                                                                                                                                   |    180 |       3 |              4 |  68491.2         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    195 |     nan |            nan | 215550           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    123 |       3 |              4 | 147800           |
-| Casa en Venta Filiberto Navas #11                                                                                                                                                      |    136 |       2 |              3 |  28564.4         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Cda. Ex Hacienda De Mayorazgo #38                                                                                                                                        |    140 |       3 |              3 |  31501.3         |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Ponciano Diaz                                                                                                                                                            |     90 |       1 |              3 |  37500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta B. De Olanda #26                                                                                                                                                         |    160 |       3 |              3 |  34750           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Vicente Segura #115                                                                                                                                                      |     60 |       1 |              2 |  30000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       1 |              2 |  34633.9         |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    225 |       2 |              2 |  78468           |
-| Casa en Venta Jose Marti #200, 00                                                                                                                                                      |     70 |       2 |              3 |  49500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Hacienda Cerro Viejo #00, 00                                                                                                                                             |     65 |       1 |              2 |  45000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    217 |       2 |              2 | 124257           |
-| Casa en Venta Circuito Principal Adolfo Lopez                                                                                                                                          |    136 |       2 |              3 |  43975           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Jose Vicente Villada                                                                                                                                                     |    191 |       2 |              3 |  74650           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Felipe Berriozabal                                                                                                                                                       |    342 |       2 |              3 |  70950           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    136 |       2 |              3 |  43975           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    191 |       2 |              3 |  74650           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    342 |       2 |              3 |  70950           |
-| Casa en Venta Alberto Einstein #00, 00                                                                                                                                                 |    200 |       3 |              3 |  75000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       1 |              3 |  36475           |
-| Casa en Venta Camino A San Juan Tilapa #00, 00                                                                                                                                         |    120 |       3 |              3 |  75000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Av 18 De Marzo #227, Lt 8 Mz 9                                                                                                                                           |   1394 |       5 |             40 | 455500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Guillermo Marconi #00, 00                                                                                                                                                |    110 |       3 |              3 |  65000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    206 |       5 |              4 | 175000           |
-| Casa en Venta José Ma. Robelo #00, 00                                                                                                                                                  |    230 |       3 |              3 | 110000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Calle Cerrada Lago Atitlán #00, 00                                                                                                                                       |    180 |       3 |              4 | 125000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Felipe Villanueva #00, 00                                                                                                                                                |    100 |       2 |              3 |  85000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Geólogos #00, 00                                                                                                                                                         |    100 |       2 |              3 |  85000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    110 |       2 |              3 |  59327.2         |
-| Casa en Venta Jose María Arteaga #00, 00                                                                                                                                               |    294 |       3 |              3 | 100000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    126 |       2 |              3 |  38950           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       2 |              4 |  38018.5         |
-| Casa en Venta Garcia Moreno Null                                                                                                                                                       |    nan |       6 |              9 | 312500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Tomas Alva Edison #00, 00                                                                                                                                                |    123 |       4 |              4 | 142500           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Capulhuac 782                                                                                                                                                            |    nan |       1 |              1 |  20000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Valladolid ## 101, 19 A                                                                                                                                                  |    227 |       4 |              4 |  65000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    163 |       1 |              3 |  77500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    168 |       3 |              3 |  47806.8         |
-| Casa en Venta La Merced  (alameda), Toluca De Lerdo                                                                                                                                    |   1000 |       2 |              3 | 750000           |
-| Casa en Venta San Mateo Otzacatipan, Toluca De Lerdo                                                                                                                                   |    139 |     nan |            nan |  80700           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     60 |       1 |              2 |  30000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    120 |       2 |              2 |  35000           |
-| Casa en Venta Tlanepantla                                                                                                                                                              |    nan |       3 |              3 | 175000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta San Pedro Totoltepec, Toluca De Lerdo                                                                                                                                    |    124 |     nan |            nan | 112200           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    294 |       3 |              3 | 100000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    353 |       5 |              5 | 105000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    624 |       3 |              4 | 210000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    245 |     nan |            nan | 263300           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     56 |     nan |            nan | 124465           |
-| Casa en Venta Resguardo Null                                                                                                                                                           |    nan |       3 |             10 | 900000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    245 |     nan |            nan | 270250           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    245 |     nan |            nan | 270250           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     72 |     nan |            nan |  35000           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    200 |     nan |            nan | 122100           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     92 |     nan |            nan |  47900           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    280 |     nan |            nan | 159900           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    112 |     nan |            nan |  43992           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    115 |     nan |            nan |  41486.2         |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    212 |     nan |            nan |  86502           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    150 |     nan |            nan |  41437.5         |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     67 |     nan |            nan |  42500           |
-| Casa en Venta Zapata Sn S/n                                                                                                                                                            |    nan |     nan |            nan | 200000           |
-| , Toluca De Lerdo, México                                                                                                                                                              |        |         |                |                  |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    306 |     nan |            nan |  96687.5         |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    190 |     nan |            nan |  60775           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     92 |     nan |            nan |  62330           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     66 |     nan |            nan |  47500           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |     42 |     nan |            nan |  13695           |
-| Casa en Venta Toluca De Lerdo, México                                                                                                                                                  |    nan |     nan |            nan | 270250           |
+,Unnamed:0,Unnamed:0.1,Ubicación,Area,Baños,Habitaciones,Precio
+0,0,0,"CasaenVentaLosSerrados
+,TolucaDeLerdo,México",105.0,2.0,3.0,130000.0
+1,1,1,"CasaenVentaTierraYLibertad#114
+,TolucaDeLerdo,México",115.0,2.0,3.0,50800.0
+2,2,2,"CasaenVentaTolucaDeLerdo,México",700.0,3.0,3.0,325000.0
+3,3,3,"CasaenVentaGranjas,TolucaDeLerdo",390.0,3.0,4.0,275000.0
+4,4,4,"CasaenVentaTolucaDeLerdo,México",300.0,4.0,3.0,215000.0
+5,5,5,"CasaenVentaTolucaDeLerdo,México",250.0,2.0,3.0,125000.0
+6,6,6,"CasaenVentaTolucaDeLerdo,México",600.0,4.0,4.0,1000000.0
+7,7,7,"CasaenVentaTolucaDeLerdo,México",,4.0,4.0,220000.0
+8,8,8,"CasaenVentaTolucaDeLerdo,México",300.0,4.0,3.0,210000.0
+9,9,9,"CasaenVentaEjidoSantaCruzAzcapotzaltongo,TolucaDeLerdo",,,,137500.0
+10,10,10,"CasaenVentaSanMiguelApinahuizco,TolucaDeLerdo",,,,75000.0
+11,11,11,"CasaenVentaVentaDeCasa/oficinaToluca
+,TolucaDeLerdo,México",600.0,8.0,6.0,1250000.0
+12,12,12,"CasaenVentaCasaEnVentaEnCacalomacanToluca
+,Cacalomacan,TolucaDeLerdo",330.0,4.0,4.0,290000.0
+13,13,13,"CasaenVentaVentaDeCasaRemodeladaEnLaColoniaMorelosToluca
+,Morelos1aSección,TolucaDeLerdo",256.0,2.0,3.0,197500.0
+14,14,14,"CasaenVentaCasaEnVentaIdealParaOficinaEnSanBernardinoToluca
+,SanBernardino,TolucaDeLerdo",350.0,3.0,4.0,265000.0
+15,15,15,"CasaenVentaVentaDeCasaConTerrenoExcedenteEnCacalomacanToluca
+,Cacalomacan,TolucaDeLerdo",350.0,3.0,4.0,225000.0
+16,16,16,"CasaenVentaVentaDeCasaEnCacalomacánToluca
+,Cacalomacan,TolucaDeLerdo",450.0,4.0,4.0,325000.0
+17,17,17,"CasaenVentaVentaDeCasaSolaEnCacalomacanToluca
+,Cacalomacan,TolucaDeLerdo",600.0,3.0,3.0,250000.0
+18,18,18,"CasaenVentaVentaCasaNuevaSolaEnVenta,A5MinutosDeCentralDeAbastosToluca,SanMateoOtzacatipan,Ejido
+,SanMateoOtzacatipan,TolucaDeLerdo",262.0,2.0,2.0,117500.0
+19,19,19,"CasaenVentaCasaEnVentaEnElCentroDeTolucaIdealParaInversion
+,TolucaDeLerdo,México",300.0,2.0,4.0,300000.0
+20,20,20,"CasaenVentaVentaDeCasaDeUnaSolaPlantaEnSanMateoOxtotitlànToluca
+,SanMateoOxtotitlán,TolucaDeLerdo",159.0,1.0,3.0,110000.0
+21,21,21,"CasaenVentaCasaEnVentaEnCentroToluca
+,TolucaDeLerdo,México",771.0,4.0,6.0,3050000.0
+22,22,22,"CasaenVentaResidenciaEnVentaPorCalleColónToluca
+,Ciprés,TolucaDeLerdo",280.0,3.0,3.0,523000.0
+23,23,23,"CasaenVentaCasaVentaRentaEnElCentroDeToluca
+,TolucaDeLerdo,México",492.0,3.0,3.0,625000.0
+24,24,24,"CasaenVentaCasaEnVentaEnElCentroDeToluca
+,TolucaDeLerdo,México",287.0,2.0,4.0,187500.0
+25,25,25,"CasaenVentaVentaDeCasaEnCapultitlanToluca
+,TolucaDeLerdo,México",324.0,3.0,7.0,215000.0
+26,26,26,"CasaenVentaVentaDeCasaEnResidencialColónToluca
+,TolucaDeLerdo,México",280.0,2.0,2.0,400000.0
+27,27,27,"CasaenVentaVentaDeCasaEnColoniaIndependenciaToluca
+,TolucaDeLerdo,México",315.0,2.0,4.0,217500.0
+28,28,28,"CasaenVentaVentaDeCasaEnCacalomacanEnCerradaDeAbedules
+,Cacalomacan,TolucaDeLerdo",,2.0,3.0,375000.0
+29,29,29,"CasaenVentaVentaDeCasaEnLaColoniaSanchezToluca
+,TolucaDeLerdo,México",353.0,2.0,4.0,225000.0
+30,30,30,"CasaenVentaVentaDeQuintaFamiliarEnSanPabloAutopanEstadoDeMèxico
+,TolucaDeLerdo",189.0,2.0,3.0,134500.0
+31,31,31,"CasaenVentaCasaNuevaEnVentaEnCacalomacanToluca
+,Cacalomacan,TolucaDeLerdo",148.0,2.0,3.0,125000.0
+32,32,32,"CasaenVentaVentaDeCasaNuievaEnFuentesDeSanJoseToluca
+,TolucaDeLerdo,México",250.0,3.0,3.0,156000.0
+33,33,33,"CasaenVentaVentaDeCasaEnColoniaOchoCedrosToluca
+,TolucaDeLerdo,México",,3.0,4.0,112500.0
+34,34,34,"CasaenVentaVentaDeCasaEnElCentroDeToluca
+,TolucaDeLerdo,México",1690.0,3.0,4.0,1400000.0
+35,35,35,"CasaenVentaVentaDeCasaEnCacalomacánCentroToluca
+,TolucaDeLerdo,México",800.0,4.0,4.0,610000.0
+36,36,36,"CasaenVentaMarieCurie303,TolucaDeLerdo,México",189.0,4.0,3.0,282500.0
+37,37,37,"CasaenVentaCasaNuevaOxotitlan
+,TolucaDeLerdo,México",250.0,1.0,4.0,150000.0
+38,38,38,"CasaenVentaTolucaDeLerdo,México",271.0,2.0,3.0,257500.0
+39,39,39,"CasaenVentaIgnacioZaragoza102,TolucaDeLerdo,México",120.0,2.0,3.0,77500.0
+40,40,40,"CasaenVentaVentaDeCasaEnValleDonCamiloEnLaCalleMontesAltai,Toluca
+,TolucaDeLerdo,México",209.0,2.0,4.0,170000.0
+41,41,41,"CasaenVentaVentaDeCasaEnTolucaAUnCostadoDeLaProcuraduría
+,TolucaDeLerdo,México",188.0,3.0,3.0,122500.0
+42,42,42,"CasaenVentaVentaRanchoEnCacalomacanToluca
+,Cacalomacan,TolucaDeLerdo",400.0,5.0,4.0,500000.0
+43,43,43,"CasaenVentaVentaDeCasaEnCacalomacánEstadoDeMèxico
+,Cacalomacan,TolucaDeLerdo",,3.0,4.0,850000.0
+44,44,44,"CasaenVentaLasMisiones
+,SanMateoOtzacatipan,TolucaDeLerdo",,2.0,3.0,78000.0
+45,45,45,"CasaenVentaTolucaDeLerdo,México",1046.0,4.0,4.0,1150000.0
+46,46,46,"CasaenVentaCasaEnVentaEnGaleana,TolucaCentro
+,TolucaDeLerdo,México",380.0,4.0,6.0,700000.0
+47,47,47,"CasaenVentaTolucaDeLerdo,México",425.0,3.0,3.0,795000.0
+48,48,48,"CasaenVentaVentaDeCasaEnColoniaOchoCedrosToluca
+,TolucaDeLerdo,México",237.0,7.0,8.0,155000.0
+49,49,49,"CasaenVentaVentaDeCasaCon3LocalesEnElCentroDeToluca
+,TolucaDeLerdo,México",282.0,,,480250.0
+50,50,50,"CasaenVentaTolucaDeLerdo,México",566.0,5.0,,1250000.0
+51,51,51,"CasaenVentaVentaDeCasaEnElCerrilloVistaHermosaToluca
+,TolucaDeLerdo,México",120.0,1.0,3.0,57500.0
+52,52,52,"CasaenVentaVentaDeCasaAPrecioDeTerrenoEnElCentroDeToluca
+,TolucaDeLerdo,México",,,,325000.0
+53,53,53,"CasaenVentaMorelosEsquinaQuintanaRoo,TolucaDeLerdo,México",355.0,6.0,8.0,175000.0
+54,54,54,"CasaenVentaCéntricaCasaEnVentaORentaEnAvInstitutoLiterarioToluca
+,TolucaDeLerdo,México",600.0,4.0,4.0,475000.0
+55,55,55,"CasaenVentaProlongacionSanPedroTotoltepec302,SanPedroTotoltepec,TolucaDeLerdo",151.0,2.0,3.0,81000.0
+56,56,56,"CasaenVentaVesana104,Capultitlán,TolucaDeLerdo",168.0,2.0,3.0,74205.65
+57,57,57,"CasaenVentaProlPaseoTotoltepec302,SanPedroTotoltepec,TolucaDeLerdo",100.0,2.0,2.0,51836.7
+58,58,58,"CasaenVentaPaseosDelValle,RincónDelParque,TolucaDeLerdo",100.0,2.0,3.0,41390.35
+59,59,59,"CasaenVentaSanMarcos259,Toluca,TolucaDeLerdo",108.0,2.0,3.0,24426.85
+60,60,60,"CasaenVentaRinconadaDeMayordomo,SanMateoOtzacatipan,TolucaDeLerdo",250.0,2.0,3.0,102469.65
+61,61,61,"CasaenVentaValleDeIsarco20,TolucaDeLerdo,México",270.0,3.0,4.0,145670.6
+62,62,62,"CasaenVentaValleDeTrebbia12,TolucaDeLerdo,México",300.0,3.0,4.0,116750.0
+63,63,63,"CasaenVentaHaciendaLasCarretas48,TolucaDeLerdo,México",120.0,2.0,3.0,19096.65
+64,64,64,"CasaenVentaBoulevardLicAdolfoLopezMateos146,TolucaDeLerdo,México",160.0,2.0,3.0,41500.0
+65,65,65,"CasaenVentaPrivadaVainlla1799,TolucaDeLerdo,México",210.0,3.0,4.0,71500.0
+66,66,66,"CasaenVentaPrivadaGardenia3089,TolucaDeLerdo,México",210.0,3.0,4.0,74113.2
+67,67,67,"CasaenVentaBosqueDeEncinos1819,TolucaDeLerdo,México",200.0,3.0,4.0,67750.0
+68,68,68,"CasaenVentaRebeca155,UnidadVictoria,TolucaDeLerdo",120.0,2.0,3.0,127660.75
+69,69,69,"CasaenVentaCdaHaciendaSanJorge,SanMateoOxtotitlán,TolucaDeLerdo",120.0,2.0,3.0,41165.9
+70,70,70,"CasaenVentaValleDeTrebbia12,TolucaDeLerdo,México",240.0,3.0,4.0,139750.0
+71,71,71,"CasaenVentaProlongacion5DeMayo1541,ComisiónFederalDeElectricidad,TolucaDeLerdo",130.0,2.0,3.0,236990.45
+72,72,72,"CasaenVentaAv.Independencia143,TolucaDeLerdo,México",120.0,2.0,2.0,20850.0
+73,73,73,"CasaenVentaMiguelMataNo.209santiagoMiltepectolucaEdoMex.,TolucaDeLerdo,México",140.0,2.0,3.0,21530.1
+74,74,74,"CasaenVentaJoseMariaMorelos105,Independencia,TolucaDeLerdo",45.0,1.0,2.0,18637.4
+75,75,75,"CasaenVentaSantosDegollado000NiñosHeroes,toluca,estadoDeMexico,50100,NiñosHéroes,TolucaDeLerdo",350.0,2.0,4.0,68491.25
+76,76,76,"CasaenVentaArboleda2,HaciendaDelValleIi,TolucaDeLerdo",110.0,2.0,3.0,47363.3
+77,77,77,"CasaenVentaArboleda2,HaciendaDelValleIi,TolucaDeLerdo",110.0,2.0,3.0,47363.3
+78,78,78,"CasaenVentaArboleda2,HaciendaDelValleIi,TolucaDeLerdo",110.0,2.0,3.0,47363.3
+79,79,79,"CasaenVentaArboleda2,HaciendaDelValleIi,TolucaDeLerdo",110.0,2.0,3.0,47363.3
+80,80,80,"CasaenVentaProlongaciónRutaDeLaIndependencia#131,Independencia,TolucaDeLerdo",110.0,2.0,3.0,16500.0
+81,81,81,"CasaenVentaArboleda2,HaciendaDelValleIi,TolucaDeLerdo",110.0,2.0,3.0,47363.3
+82,82,82,"CasaenVentaFraccHaciendaDelValleIi,HaciendaDelValleIi,TolucaDeLerdo",110.0,2.0,3.0,19096.65
+83,83,83,"CasaenVentaTierraYLibertad114Casa00LaRibera,toluca,toluca,estadoDeMexico,50100,SanMateoOxtotitlán,TolucaDeLerdo",130.0,2.0,3.0,39785.95
+84,84,84,"CasaenVentaArboleda2,HaciendaDelValleIi,TolucaDeLerdo",110.0,2.0,3.0,47363.3
+85,85,85,"CasaenVentaArboleda2,HaciendaDelValleIi,TolucaDeLerdo",110.0,2.0,3.0,47363.3
+86,86,86,"CasaenVentaGuerrero,Cacalomacan,Toluca,Cacalomacan,TolucaDeLerdo",220.0,2.0,4.0,43737.1
+87,87,87,"CasaenVentaProlongacionProgreso305,BosquesDeSanMateo,TolucaDeLerdo",160.0,2.0,3.0,30120.4
+88,88,88,"CasaenVentaArboleda2,HaciendaDelValleIi,TolucaDeLerdo",110.0,2.0,3.0,47363.3
+89,89,89,"CasaenVentaArboleda2,HaciendaDelValleIi,TolucaDeLerdo",110.0,2.0,3.0,47363.3
+90,90,90,"CasaenVentaPalomaTorcaza38,TolucaDeLerdo,México",100.0,1.0,3.0,18958.0
+91,91,91,"CasaenVentaCarr.toluca-naucalpan#1702,SanMateoOtzacatipan,TolucaDeLerdo",150.0,2.0,3.0,73500.0
+92,92,92,"CasaenVentaManuelM.Dieguez503,Guadalupe,TolucaDeLerdo",180.0,2.0,3.0,29450.0
+93,93,93,"CasaenVentaTierraYLibertad114,TolucaDeLerdo,México",120.0,2.0,3.0,49553.05
+94,94,94,"CasaenVentaAgronomos101Fracc.misionesDeSantaEsperaza,Toluca50227,MisionesDeSantaEsperanza,TolucaDeLerdo",120.0,2.0,3.0,19842.85
+95,95,95,"CasaenVentaAzaleasLasFlores,TolucaDeLerdo,México",120.0,1.0,3.0,27737.7
+96,96,96,"CasaenVentaPalomaSilvestre86,TolucaDeLerdo,México",80.0,1.0,3.0,18958.0
+97,97,97,"CasaenVentaArteagaOriente,TolucaDeLerdo,México",300.0,3.0,3.0,112500.0
+98,98,98,"CasaenVentaAdolfoLopezMateos146,TolucaDeLerdo,México",100.0,2.0,3.0,41500.0
+99,99,99,"CasaenVentaArcoIris15b,BosquesDeSanMateo,TolucaDeLerdo",90.0,1.0,2.0,31783.5
+100,100,100,"CasaenVentaNezahualcoyotl716,IzcalliIpiem,TolucaDeLerdo",150.0,2.0,3.0,53250.0
+101,101,101,"CasaenVentaLuisGonzagaUrbina,Tlacopa,TolucaDeLerdo",500.0,2.0,3.0,142750.0
+102,102,102,"CasaenVentaMiguelHidalgo79,TolucaDeLerdo,México",240.0,3.0,4.0,192500.0
+103,103,103,"CasaenVentaAdolfoLopezMateos146,TolucaDeLerdo,México",100.0,2.0,3.0,41500.0
+104,104,104,"CasaenVentaHaciendaCerroViejo,SanNicolásTolentino,TolucaDeLerdo",120.0,2.0,3.0,49750.0
+105,105,105,"CasaenVentaFilibertoNavas00,RanchoSanJorge,TolucaDeLerdo,Méx.50100,Ex-haciendaSanJorge,TolucaDeLerdo",100.0,1.0,3.0,60283.7
+106,106,106,"CasaenVentaBoulevardDeLosContinentes118,DeTlanepantla,TolucaDeLerdo",400.0,4.0,4.0,218110.7
+107,107,107,"CasaenVentaDeLaBarraca#00-0BarrioTlacopaTolucaDeLerdo50010,Tlacopa,TolucaDeLerdo",85.0,1.0,3.0,25826.75
+108,108,108,"CasaenVentaRinconadaDeLaCapilla,SanMateoOtzacatipan,TolucaDeLerdo",300.0,4.0,4.0,180250.0
+109,109,109,"CasaenVentaGirasol218,ClubJardín,TolucaDeLerdo",125.0,2.0,3.0,63782.75
+110,110,110,"CasaenVentaHaciendaLasCarretas,TolucaDeLerdo,México",70.0,1.0,3.0,19096.65
+111,111,111,"CasaenVentaGirasol218,TolucaDeLerdo,México",125.0,2.0,3.0,63782.75
+112,112,112,"CasaenVentaIslaSanJuanDeUlúa125,DeTlanepantla,TolucaDeLerdo",200.0,3.0,4.0,48000.0
+113,113,113,"CasaenVentaFernandoAguilarVilchis,RanchoLaMora,TolucaDeLerdo",160.0,2.0,3.0,20602.1
+114,114,114,"CasaenVentaGirasol218,TolucaDeLerdo,México",125.0,2.0,3.0,63782.75
+115,115,115,"CasaenVentaSanMateoOtzacatipan,50200SanNicolásTolentino,SanMateoOtzacatipan,TolucaDeLerdo",120.0,2.0,2.0,90500.0
+116,116,116,"CasaenVentaRebecaNo.Ext155,UnidadVictoria,TolucaDeLerdo",150.0,1.0,3.0,52500.0
+117,117,117,"CasaenVentaCerroDelMercado205,DeTlanepantla,TolucaDeLerdo",150.0,2.0,3.0,62500.0
+118,118,118,"CasaenVentaMaríaCurie,TolucaDeLerdo,México",200.0,3.0,3.0,197250.0
+119,119,119,"CasaenVentaGirasol00,TolucaDeLerdo,México",125.0,2.0,3.0,63782.75
+120,120,120,"CasaenVentaPalomaTortola00,LasPalomas,TolucaDeLerdo,Méx.,TolucaDeLerdo,México",50.0,1.0,2.0,23550.35
+121,121,121,"CasaenVentaJuanSilveti137,TolucaDeLerdo,México",100.0,2.0,3.0,28750.0
+122,122,122,"CasaenVentaAdolfoLopezMateos#146,Centro,TolucaDeLerdo",140.0,1.0,3.0,59933.2
+123,123,123,"CasaenVentaAvIndependencia#139,TolucaDeLerdo,México",100.0,1.0,3.0,20850.0
+124,124,124,"CasaenVentaArbolDeLasManitasToluca,TolucaDeLerdo,México",120.0,2.0,3.0,19270.0
+125,125,125,"CasaenVentaLasFloresNoExt278NoInt43,Tlacopa,TolucaDeLerdo",565.0,3.0,6.0,528569.9
+126,126,126,"CasaenVentaProlongacion5DeMayo#1541,TolucaDeLerdo,México",150.0,2.0,4.0,74500.0
+127,127,127,"CasaenVentaIndependencia129,TolucaDeLerdo,México",200.0,3.0,5.0,73500.0
+128,128,128,"CasaenVentaMiguelHidalgo#,Centro,TolucaDeLerdo",153.0,2.0,3.0,33159.2
+129,129,129,"CasaenVentaCarreteraTolucaNaucalpan#00,SanMateoOxtotitlán,TolucaDeLerdo",200.0,2.0,3.0,73500.0
+130,130,130,"CasaenVentaManuelMDieguez,TolucaDeLerdo,México",120.0,2.0,3.0,23950.0
+131,131,131,"CasaenVentaAvHidalgo,SanBernardino,TolucaDeLerdo",240.0,2.0,4.0,33307.5
+132,132,132,"CasaenVentaIsabelLaCatolica,Américas,TolucaDeLerdo",150.0,2.0,4.0,54810.0
+133,133,133,"CasaenVentaGuillermoMarconiToluca,TolucaDeLerdo,México",120.0,2.0,3.0,34963.6
+134,134,134,"CasaenVentaToluca#606,SectorPopular,TolucaDeLerdo",100.0,2.0,2.0,28474.0
+135,135,135,"CasaenVentaAdolfoLópezMateos146,TolucaDeLerdo,México",150.0,2.0,3.0,41500.0
+136,136,136,"CasaenVentaJoseMarti209,TolucaDeLerdo,México",95.0,2.0,2.0,27900.0
+137,137,137,"CasaenVentaAvIndependencia143,TolucaDeLerdo,México",100.0,2.0,3.0,18850.0
+138,138,138,"CasaenVentaIsabelaCatolica#00,Américas,TolucaDeLerdo",120.0,2.0,3.0,54810.0
+139,139,139,"CasaenVentaAzucena125b,5DeMayo,TolucaDeLerdo",80.0,2.0,3.0,17928.4
+140,140,140,"CasaenVentaSanMarcos,TolucaDeLerdo,México",121.0,2.0,3.0,24272.0
+141,141,141,"CasaenVentaCaminoViejoASanLorenzo200,TolucaDeLerdo,México",90.0,2.0,3.0,20367.25
+142,142,142,"CasaenVentaSantaCruzOtzacatipan,TolucaDeLerdo,México",200.0,2.0,3.0,170750.0
+143,143,143,"CasaenVentaArbolDeLasManitas,TolucaDeLerdo,México",150.0,2.0,3.0,19270.0
+144,144,144,"CasaenVentaBosquesDePirules105Toluca,TolucaDeLerdo,México",100.0,2.0,3.0,29410.0
+145,145,145,"CasaenVentaAzaleas,TolucaDeLerdo,México",95.0,2.0,3.0,27737.65
+146,146,146,"CasaenVentaAvIndependencia143,TolucaDeLerdo,México",100.0,2.0,3.0,18850.0
+147,147,147,"CasaenVentaGuillermo#00,TolucaDeLerdo,México",100.0,2.0,2.0,34963.6
+148,148,148,"CasaenVentaJoseMariaJaureguiNo.00,TolucaDeLerdo,México",140.0,2.0,2.0,26851.6
+149,149,149,"CasaenVentaAvenidaIndependencia#00,TolucaDeLerdo,México",130.0,2.0,2.0,18850.0
+150,150,150,"CasaenVentaAntiguoCaminoASanLorenzo#200,Independencia,TolucaDeLerdo",120.0,1.0,4.0,48341.05
+151,151,151,"CasaenVentaJoseMarti200,Independencia,TolucaDeLerdo",100.0,2.0,3.0,48341.05
+152,152,152,"CasaenVentaCristobalOlmedo,SanMiguelApinahuizco,TolucaDeLerdo",330.0,2.0,4.0,28392.9
+153,153,153,"CasaenVentaLagoTanganica,TolucaDeLerdo,México",190.0,2.0,3.0,74275.0
+154,154,154,"CasaenVentaJoseVicenteVillada101-Casa-9,l-9,TolucaDeLerdo,México",245.0,3.0,4.0,154750.0
+155,155,155,"CasaenVentaTierraYLibertad#00,TolucaDeLerdo,México",200.0,2.0,3.0,49553.05
+156,156,156,"CasaenVentaAdolfoLopezMateos#146,TolucaDeLerdo,México",100.0,23.0,3.0,41500.0
+157,157,157,"CasaenVentaTolucaDeLerdo,México",90.0,2.0,3.0,23499.6
+158,158,158,"CasaenVentaMiguelHidalgoSanLorenzoTepaltitlanToluca,SanLorenzoTepaltitlánCentro,TolucaDeLerdo",122.0,1.0,3.0,73014.0
+159,159,159,"CasaenVentaLaBarranca#,Tlacopa,TolucaDeLerdo",70.0,1.0,2.0,25826.75
+160,160,160,"CasaenVentaRanchoSeco#,UnidadVictoria,TolucaDeLerdo",80.0,1.0,2.0,10653.05
+161,161,161,"CasaenVentaProgreso305,TolucaDeLerdo,México",110.0,3.0,4.0,30120.4
+162,162,162,"CasaenVentaHidalgoPonienteSanBernardino,TolucaDeLerdo,México",160.0,2.0,3.0,33307.45
+163,163,163,"CasaenVentaAzaleas#,SanLorenzoTepaltitlánCentro,TolucaDeLerdo",95.0,1.0,3.0,27737.7
+164,164,164,"CasaenVentaPalomaSilvestre#,Centro,TolucaDeLerdo",130.0,1.0,3.0,23565.35
+165,165,165,"CasaenVentaHaciendaZumpango,HaciendaDelValleIi,TolucaDeLerdo",85.0,2.0,2.0,49822.4
+166,166,166,"CasaenVentaProl.5DeMayo2Ote,TolucaDeLerdo,México",120.0,2.0,3.0,74500.0
+167,167,167,"CasaenVentaGalileoGalilei,TolucaDeLerdo,México",300.0,3.0,4.0,90750.0
+168,168,168,"CasaenVentaAv.BosquesDelNevado,TolucaDeLerdo,México",180.0,2.0,3.0,36625.0
+169,169,169,"CasaenVentaPalomaSilvestre32,TolucaDeLerdo,México",62.0,1.0,2.0,24002.9
+170,170,170,"CasaenVentaJoseMaArteaga,TolucaDeLerdo,México",112.0,2.0,3.0,112500.0
+171,171,171,"CasaenVentaBosquesDePirules105,TolucaDeLerdo,México",100.0,2.0,3.0,29410.0
+172,172,172,"CasaenVentaC.DeLaIndependencia129,TolucaDeLerdo,México",150.0,2.0,3.0,73500.0
+173,173,173,"CasaenVentaDelegaciónSanMateoOtzacatipan,TolucaDeLerdo,Méx.
+,TolucaDeLerdo,México",70.0,1.0,2.0,64500.0
+174,174,174,"CasaenVentaAvHidalgo17
+,DeTlanepantla,TolucaDeLerdo",160.0,4.0,4.0,165000.0
+175,175,175,"CasaenVentaToluca
+,TolucaDeLerdo,México",540.0,5.0,4.0,565000.0
+176,176,176,"CasaenVentaVentaCasaEnLaCol.Morelos
+,Morelos1aSección,TolucaDeLerdo",92.0,1.0,3.0,149000.0
+177,177,177,"CasaenVentaCeboruco#sn
+,AmpliaciónLázaroCárdenas,TolucaDeLerdo",177.0,3.0,3.0,155000.0
+178,178,178,"CasaenVentaCacalomacan,TolucaDeLerdo",250.0,5.0,3.0,212500.0
+179,179,179,"CasaenVentaCasaSolaTolucaCuTollocanMatlazincasAdolfoLópezMateos
+,RincónDelParque,TolucaDeLerdo",230.0,3.0,5.0,125000.0
+180,180,180,"CasaenVentaJuanÁlvarez918,Vértice,50090TolucaDeLerdo,Méx.
+,Vértice,TolucaDeLerdo",180.0,2.0,3.0,117500.0
+181,181,181,"CasaenVentaCacalomacan,TolucaDeLerdo",250.0,5.0,3.0,212500.0
+182,182,182,"CasaenVentaCacalomacán,Edo.DeMéxico
+,Cacalomacan,TolucaDeLerdo",335.0,3.0,3.0,382500.0
+183,183,183,"CasaenVentaAmpliaciónLázaroCárdenas,TolucaDeLerdo",177.0,3.0,3.0,157500.0
+184,184,184,"CasaenVentaPaseoDeLosJinetes,Cacalomacan
+,TolucaDeLerdo,México",2000.0,6.0,6.0,10000000.0
+185,185,185,"CasaenVentaCristobalColon
+,SanMateoOxtotitlán,TolucaDeLerdo",140.0,2.0,2.0,115000.0
+186,186,186,"CasaenVentaPaseoDeLosClérigos
+,TolucaDeLerdo,México",87.0,2.0,3.0,82500.0
+187,187,187,"CasaenVentaPaseoDeLosDioses#234,23
+,TolucaDeLerdo,México",170.0,3.0,3.0,124500.0
+188,188,188,"CasaenVentaCeboruco#sn
+,TolucaDeLerdo,México",177.0,3.0,3.0,155000.0
+189,189,189,"CasaenVentaNiñosHéroes#316,1
+,TolucaDeLerdo,México",135.0,3.0,3.0,98500.0
+190,190,190,"CasaenVentaCasaValleDonCamiloCercaLasTorresTollocan
+,TolucaDeLerdo,México",400.0,4.0,4.0,300000.0
+191,191,191,"CasaenVentaASolo10MinDePabellonMetepec#sn
+,TolucaDeLerdo,México",177.0,3.0,3.0,155000.0
+192,192,192,"CasaenVentaPaseoColónNull
+,Ciprés,TolucaDeLerdo",,3.0,6.0,1900000.0
+193,193,193,"CasaenVentaCalleRamonGomezDelV.109
+,TolucaDeLerdo,México",,4.0,4.0,324500.0
+194,194,194,"CasaenVentaOmetusco#00
+,LosSaucesV,TolucaDeLerdo",74.0,1.0,3.0,14386.5
+195,195,195,"CasaenVentaAv.Arboleda102,Col,50220SanMateoOtzacatipan,Méx.#sn
+,TolucaDeLerdo,México",124.0,3.0,3.0,93000.0
+196,196,196,"CasaenVentaPedroAscencio#400
+,TolucaDeLerdo,México",115.0,2.0,2.0,87500.0
+197,197,197,"CasaenVentaHttps://goo.gl/maps/5l6yq7whzfplav5q7
+,TolucaDeLerdo,México",332.0,2.0,3.0,180000.0
+198,198,198,"CasaenVentaMextli#sn
+,TolucaDeLerdo,México",170.0,3.0,3.0,155000.0
+199,199,199,"CasaenVentaCristóbalColón
+,SanMateoOxtotitlán,TolucaDeLerdo",149.0,1.0,3.0,105000.0
+200,200,200,"CasaenVentaCerradaDeAbedulesNo,66
+,TolucaDeLerdo,México",,9.0,6.0,3500000.0
+201,201,201,"CasaenVentaLuisDonaldoColosio#0,1
+,TolucaDeLerdo,México",200.0,3.0,3.0,67500.0
+202,202,202,"CasaenVentaTolucaDeLerdo,México",177.0,3.0,3.0,155000.0
+203,203,203,"CasaenVentaKm.52.5CarreteraTolucaNaucalpan#km52.5
+,TolucaDeLerdo,México",100.0,3.0,3.0,64146.0
+204,204,204,"CasaenVentaCampoReal,DelegaciónSantaMaríaTotoltepec,50245TolucaDeLerdo,Méx.
+,SantaMaríaTotoltepec,TolucaDeLerdo",180.0,2.0,3.0,125000.0
+205,205,205,"CasaenVentaAv.Encinos
+,TolucaDeLerdo,México",204.0,3.0,4.0,80000.0
+206,206,206,"CasaenVentaTolucaDeLerdo,México",160.0,2.0,3.0,120000.0
+207,207,207,"CasaenVentaMiguelHidalgo
+,LaMerced(alameda),TolucaDeLerdo",1046.0,3.0,4.0,1150000.0
+208,208,208,"CasaenVentaLagoDelOsoN314ColoniaVillaHogar,Cp52170,TolucaEstadoDeMéxico,México.
+,VillaHogar,TolucaDeLerdo",,2.0,3.0,137500.0
+209,209,209,"CasaenVentaFlorDeMa.R.DeM.104a,BarrioDeLaMerced,DeLaMerced,EstadoDeMéxico
+,LaMerced(alameda),TolucaDeLerdo",300.0,2.0,4.0,292500.0
+210,210,210,"CasaenVentaHermosaResidenciaEnVenta,ResidencialColón,Toluca,Edo.DeMéxico.
+,Ciprés,TolucaDeLerdo",390.0,5.0,5.0,430000.0
+211,211,211,"CasaenVentaSanNicolasTolentinoOtzacatipan50230SanNicolásTolentino,Méx#sn
+,TolucaDeLerdo,México",113.0,3.0,3.0,84750.0
+212,212,212,"CasaenVentaHaciedaGuadalupe#36
+,TolucaDeLerdo,México",132.0,2.0,2.0,55000.0
+213,213,213,"CasaenVentaMza43#43,00
+,SanNicolásTolentino,TolucaDeLerdo",110.0,1.0,3.0,60000.0
+214,214,214,"CasaenVentaCarreteraTolucaNaucalpan#1702
+,TolucaDeLerdo,México",100.0,3.0,3.0,67565.0
+215,215,215,"CasaenVentaJuanAldamaSur512
+,TolucaDeLerdo,México",,5.0,5.0,730000.0
+216,216,216,"CasaenVentaCasaEnVenta,Cacalomacan,Edo.DeMéxico.
+,Cacalomacan,TolucaDeLerdo",300.0,2.0,3.0,215000.0
+217,217,217,"CasaenVentaMoctezumaXocoyotzin
+,SantaMaríaTotoltepec,TolucaDeLerdo",170.0,1.0,3.0,82500.0
+218,218,218,"CasaenVentaProlongacionLagunaDelVolcanS/n
+,HéroesDel5DeMayo,TolucaDeLerdo",400.0,3.0,,185000.0
+219,219,219,"CasaenVentaHaciendaMolinoDeLasFlores#00
+,TolucaDeLerdo,México",74.0,1.0,3.0,16297.35
+220,220,220,"CasaenVentaAretusa#227
+,TolucaDeLerdo,México",72.0,2.0,3.0,43000.0
+221,221,221,"CasaenVentaCasaEnVenta,Cacalomacan,Toluca,Edo.DeMéxico.
+,Cacalomacan,TolucaDeLerdo",300.0,2.0,3.0,215000.0
+222,222,222,"CasaenVentaEulaliaPeñaloza#000,000
+,TolucaDeLerdo,México",225.0,2.0,3.0,99826.5
+223,223,223,"CasaenVentaSanLucas#00
+,TolucaDeLerdo,México",60.0,1.0,2.0,22322.2
+224,224,224,"CasaenVentaTolucaDeLerdo,México",390.0,7.0,6.0,250000.0
+225,225,225,"CasaenVentaFernandoGonzález207,ValleVerdeYTerminal,50140TolucaDeLerdo,Méx.
+,ValleVerde,TolucaDeLerdo",227.0,2.0,3.0,155000.0
+226,226,226,"CasaenVentaFlorDeMa.R.DeM.104a,BarrioDeLaMerced,DeLaMerced,EstadoDeMéxico#**
+,LaMerced(alameda),TolucaDeLerdo",300.0,3.0,4.0,292500.0
+227,227,227,"CasaenVentaPrincipal#0,1
+,TolucaDeLerdo,México",187.0,3.0,4.0,129000.0
+228,228,228,"CasaenVentaGuillermoMarconi#0,0
+,TolucaDeLerdo,México",120.0,2.0,3.0,62450.0
+229,229,229,"CasaenVentaRoble
+,SantaMaríaTotoltepec,TolucaDeLerdo",72.0,1.0,2.0,49450.0
+230,230,230,"CasaenVentaAraLasMisiones#00
+,TolucaDeLerdo,México",96.0,3.0,3.0,72500.0
+231,231,231,"CasaenVentaPaseoToscana#1702
+,TolucaDeLerdo,México",127.0,3.0,3.0,115000.0
+232,232,232,"CasaenVentaOportunidadCasaVentaTolucaADosCuadrasAvAlfredoDelMazoColCientificosEscuelaSimonBolivar
+,TolucaDeLerdo,México",253.0,2.0,4.0,165000.0
+233,233,233,"CasaenVentaTolucaDeLerdo,México",600.0,8.0,6.0,1250000.0
+234,234,234,"CasaenVentaCasaEnVentaLaPera,Cacalomacan,Toluca,Edo.DeMéxico
+,Cacalomacan,TolucaDeLerdo",220.0,2.0,3.0,200000.0
+235,235,235,"CasaenVentaCasaEnVentaLasMisionesToluca
+,TolucaDeLerdo,México",96.0,2.0,3.0,77500.0
+236,236,236,"CasaenVentaAntonioAlbarran#612
+,TolucaDeLerdo,México",114.0,1.0,3.0,46650.15
+237,237,237,"CasaenVentaCarreteraMéxicoToluca#00
+,TolucaDeLerdo",96.0,2.0,3.0,81500.0
+238,238,238,"CasaenVentaVentaCasaCol.Morelos,TolucaEdo.DeMéxico
+,Morelos1aSección,TolucaDeLerdo",160.0,1.0,3.0,160000.0
+239,239,239,"CasaenVentaHéroesDel5DeMayo,TolucaDeLerdo",360.0,2.0,4.0,125000.0
+240,240,240,"CasaenVentaTolucaDeLerdo,México",177.0,3.0,3.0,155000.0
+241,241,241,"CasaenVentaCasaEnVentaEnToluca,SantaAnaTlapaltitlan
+,SantaAnaTlapaltitlán,TolucaDeLerdo",240.0,2.0,3.0,110000.0
+242,242,242,"CasaenVentaCircuitoSanJoseRinconadaDeLaCasaGrande#00
+,TolucaDeLerdo,México",250.0,2.0,3.0,119500.0
+243,243,243,"CasaenVentaSanMateoOxtotitlán,TolucaDeLerdo",140.0,2.0,3.0,115000.0
+244,244,244,"CasaenVentaFraccionamientoLosSauces#0
+,Toluca,TolucaDeLerdo",90.0,1.0,2.0,35160.0
+245,245,245,"CasaenVentaAndresBenavides
+,Ciprés,TolucaDeLerdo",215.0,4.0,4.0,232500.0
+246,246,246,"CasaenVentaAv:Hidalgo
+,LaMerced(alameda),TolucaDeLerdo",955.0,4.0,4.0,1050000.0
+247,247,247,"CasaenVentaCaminoASanMiguelSn,Cacalomacán,Toluca,EstadoDeMéxico
+,TolucaDeLerdo",220.0,2.0,3.0,114500.0
+248,248,248,"CasaenVentaCasaEnVenta,DelegaciónSanMateoOtzacatipan,Toluca,Edo.DeMéxico
+,SanMateoOtzacatipan,TolucaDeLerdo",99.0,1.0,3.0,75000.0
+249,249,249,"CasaenVentaMarieCurie#303
+,TolucaDeLerdo,México",245.0,5.0,3.0,192822.15
+250,250,250,"CasaenVentaIsidroFavelaNull
+,Doctores,TolucaDeLerdo",,4.0,4.0,160000.0
+251,251,251,"CasaenVentaJ.A.Torres200a,Universidad,50130TolucaDeLerdo,Méx.
+,TolucaDeLerdo,México",220.0,2.0,5.0,207500.0
+252,252,252,"CasaenVentaEmilianoZapata3b,RanchoSanJorge,50100TolucaDeLerdo,Méx.
+,SanMateoOxtotitlán,TolucaDeLerdo",87.0,1.0,2.0,72500.0
+253,253,253,"CasaenVentaIndependencia#000
+,TolucaDeLerdo,México",85.0,1.0,2.0,17761.25
+254,254,254,"CasaenVentaCorralejo
+,Independencia,TolucaDeLerdo",137.0,2.0,4.0,105000.0
+255,255,255,"CasaenVentaCasaEnVentaEnTolucaCentroEnCalleCerrada
+,LaMerced(alameda),TolucaDeLerdo",430.0,4.0,4.0,375000.0
+256,256,256,"CasaenVentaTomasAlbaEdison
+,Científicos,TolucaDeLerdo",216.0,2.0,4.0,127500.0
+257,257,257,"CasaenVentaCasaEnVenta/rentaEnLaJoya,Toluca
+,SantaMaríaTotoltepec,TolucaDeLerdo",172.0,2.0,3.0,100000.0
+258,258,258,"CasaenVentaSanLucas#00
+,TolucaDeLerdo,México",95.0,2.0,3.0,20840.6
+259,259,259,"CasaenVentaTolucaDeLerdo,México",4000.0,9.0,7.0,10000000.0
+260,260,260,"CasaenVentaCalleMarieCurie#303
+,TolucaDeLerdo,México",192.0,4.0,3.0,197000.0
+261,261,261,"CasaenVentaAndadorHaciendaComanjillas,UnidadHabitacionalSanFranciscoInfonavit,SanFrnaciscoMetepec,Toluca,EstadoDeMexico
+,TolucaDeLerdo",80.0,1.0,2.0,31000.0
+262,262,262,"CasaenVentaJuanAldamaNull
+,SanMateoOxtotitlán,TolucaDeLerdo",,3.0,3.0,114000.0
+263,263,263,"CasaenVentaCarrTolucaNaucalpan#1702
+,TolucaDeLerdo,México",126.0,2.0,3.0,44300.0
+264,264,264,"CasaenVentaProl.Ligeros
+,HéroesDel5DeMayo,TolucaDeLerdo",252.0,2.0,3.0,99500.0
+265,265,265,"CasaenVentaSanBuenaventura,TolucaDeLerdo",102.0,2.0,,55000.0
+266,266,266,"CasaenVentaJoséMartí#1000,100
+,Científicos,TolucaDeLerdo",152.0,3.0,3.0,157500.0
+267,267,267,"CasaenVentaPrivadaGaleana#1
+,TolucaDeLerdo,México",136.0,2.0,4.0,97500.0
+268,268,268,"CasaenVentaPaseoToscanaS/n
+,SanMateoOtzacatipan,TolucaDeLerdo",,2.0,3.0,115000.0
+269,269,269,"CasaenVentaSierraLeonaNull
+,TolucaDeLerdo,México",,3.0,4.0,197500.0
+270,270,270,"CasaenVentaCalle21DeMarzoNull
+,SanMateoOtzacatipan,TolucaDeLerdo",,2.0,3.0,100000.0
+271,271,271,"CasaenVentaDr.MarianoC.Olivera#104A,0
+,TolucaDeLerdo,México",350.0,3.0,3.0,257500.0
+272,272,272,"CasaenVentaCasaEnVentaColoniaSanchez,Toluca
+,SalvadorSánchezColín,TolucaDeLerdo",310.0,2.0,6.0,155000.0
+273,273,273,"CasaenVentaOchoCedros,TolucaDeLerdo",,3.0,4.0,112500.0
+274,274,274,"CasaenVentaCasaEnVentaFracc.LaTeja2TolucaEdo.DeMéxico
+,CarlosHankGonzález,TolucaDeLerdo",120.0,1.0,3.0,82500.0
+275,275,275,"CasaenVentaVendoCasaBalconesDeSantin,UsoDeSueloMixtoToluca
+,TolucaDeLerdo,México",325.0,3.0,3.0,155000.0
+276,276,276,"CasaenVentaIndependencia,Cacalomacan,50265TolucaDeLerdo,Méx.
+,TolucaDeLerdo,México",96.0,2.0,3.0,115000.0
+277,277,277,"CasaenVentaPriv.DeLaBarranca125-120
+,Tlacopa,TolucaDeLerdo",152.0,2.0,3.0,100000.0
+278,278,278,"CasaenVenta1a.PrivadaDeLaLibertad103,BarrioDeLaMerced,50080TolucaDeLerdo,Méx.,México
+,TolucaDeLerdo",190.0,2.0,3.0,125000.0
+279,279,279,"CasaenVentaJoseVicenteVillada#101
+,SantaAnaTlapaltitlán,TolucaDeLerdo",245.0,5.0,3.0,39470.0
+280,280,280,"CasaenVentaBarrioDeTlacopa,50010TolucaDeLerdo,Méx.
+,TolucaDeLerdo,México",172.0,2.0,3.0,240000.0
+281,281,281,"CasaenVentaTolucaDeLerdo,México",95.0,1.0,2.0,32910.65
+282,282,282,"CasaenVentaLesse#1705
+,TolucaDeLerdo,México",143.0,3.0,3.0,119000.0
+283,283,283,"CasaenVentaPrivadaDeXicotencatl
+,LaMerced(alameda),TolucaDeLerdo",800.0,3.0,4.0,375000.0
+284,284,284,"CasaenVentaHaciendaSanAgustín
+,SanMateoOxtotitlán,TolucaDeLerdo",170.0,2.0,3.0,77500.0
+285,285,285,"CasaenVentaMarieCurie#303
+,TolucaDeLerdo,México",192.0,2.0,3.0,194000.0
+286,286,286,"CasaenVentaHaciendaDeTlacatecpan#sn
+,LosSaucesV,TolucaDeLerdo",62.0,1.0,3.0,52500.0
+287,287,287,"CasaenVentaParqueSierraMorelos
+,SanMateoOxtotitlán,TolucaDeLerdo",380.0,2.0,4.0,115000.0
+288,288,288,"CasaenVentaProl.15DeMayo,EstadoDeMéxico
+,TolucaDeLerdo",300.0,3.0,3.0,174500.0
+289,289,289,"CasaenVentaCerroDelÁguila,LosPirules
+,DeTlanepantla,TolucaDeLerdo",305.0,4.0,5.0,190000.0
+290,290,290,"CasaenVentaResidencialColón#nd
+,TolucaDeLerdo,México",620.0,3.0,3.0,465000.0
+291,291,291,"CasaenVentaFelipeVillanueva#000
+,Morelos1aSección,TolucaDeLerdo",100.0,2.0,3.0,93450.0
+292,292,292,"CasaenVentaTolucaDeLerdo,México",113.0,1.0,3.0,77500.0
+293,293,293,"CasaenVentaTolucaDeLerdo,México",177.0,3.0,3.0,157500.0
+294,294,294,"CasaenVentaAv.EulaliaPeñaloza199
+,Morelos2aSecc,TolucaDeLerdo",,2.0,4.0,99250.0
+295,295,295,"CasaenVentaTolucaDeLerdo,México",217.0,4.0,6.0,149500.0
+296,296,296,"CasaenVentaCacalomacan#nd
+,TolucaDeLerdo,México",240.0,3.0,3.0,110000.0
+297,297,297,"CasaenVentaGeneralGumercindoEnriquez#125
+,ValleVerde,TolucaDeLerdo",65.0,1.0,2.0,34296.0
+298,298,298,"CasaenVentaCasaEnVenta,SantaAnaLaCrespa,Toluca
+,SantaAnaTlapaltitlán,TolucaDeLerdo",166.0,2.0,4.0,77500.0
+299,299,299,"CasaenVentaVentaCasaSnPedroTotoltepecFrenteABodegaAurrera
+,TolucaDeLerdo,México",60.0,1.0,2.0,45750.0
+300,300,300,"CasaenVentaTolucaDeLerdo,México",400.0,3.0,3.0,675000.0
+301,301,301,"CasaenVentaTolucaDeLerdo,México",1000.0,7.0,6.0,1250000.0
+302,302,302,"CasaenVentaResidencialAmazonas#sn
+,TolucaDeLerdo,México",250.0,5.0,3.0,212500.0
+303,303,303,"CasaenVentaCol.MorelosIiSeccionTolucaEdoMex
+,Morelos1aSección,TolucaDeLerdo",492.0,3.0,3.0,625000.0
+304,304,304,"CasaenVentaTlalnepantla
+,DeTlanepantla,TolucaDeLerdo",215.0,3.0,5.0,135000.0
+305,305,305,"CasaenVentaCasaSolaEnVentaEnToluca
+,NiñosHéroes(penciones),TolucaDeLerdo",980.0,3.0,4.0,599500.0
+306,306,306,"CasaenVentaIndependencia223
+,SantaMaríaTotoltepec,TolucaDeLerdo",,2.0,3.0,61700.0
+307,307,307,"CasaenVentaTolucaDeLerdo,México",225.0,2.0,3.0,58196.5
+308,308,308,"CasaenVentaBoulevardMiguelAleman#2
+,TolucaDeLerdo,México",113.0,3.0,2.0,69200.0
+309,309,309,"CasaenVentaTolucaDeLerdo,México",151.0,3.0,3.0,210000.0
+310,310,310,"CasaenVentaMiguelMata#209
+,TolucaDeLerdo,México",136.0,2.0,3.0,21780.15
+311,311,311,"CasaenVentaJoseMaríaArteaga#112
+,TolucaDeLerdo,México",294.0,3.0,3.0,112500.0
+312,312,312,"CasaenVentaPriv.Chapultepec
+,SanMateoOxtotitlán,TolucaDeLerdo",190.0,2.0,4.0,67500.0
+313,313,313,"CasaenVentaCasaEnVentaEnToluca,InstitutoLiterario
+,TolucaDeLerdo,México",600.0,4.0,4.0,475000.0
+314,314,314,"CasaenVentaCasaEnVenta,SanMateoAtenco,Toluca,Edo.DeMéxico
+,TolucaDeLerdo",167.0,2.0,3.0,153400.0
+315,315,315,"CasaenVentaRicardoFloresMagón
+,SanMateoOtzacatipan,TolucaDeLerdo",215.0,3.0,3.0,157500.0
+316,316,316,"CasaenVenta2PrivadaDeArenas#5Col.jardinesDeSanPedro,SanFelipeTlalmimilolpan,50250TolucaDeLerdo,Méx.,México
+,TolucaDeLerdo",800.0,3.0,4.0,750000.0
+317,317,317,"CasaenVenta5DeMayoNull
+,TolucaDeLerdo,México",,2.0,3.0,98450.0
+318,318,318,"CasaenVentaConstituyentes#1136
+,TolucaDeLerdo,México",200.0,4.0,4.0,235500.0
+319,319,319,"CasaenVentaCasaEnVentaEnSanBuenaventura,Toluca
+,TolucaDeLerdo,México",190.0,3.0,3.0,119000.0
+320,320,320,"CasaenVentaPaseoToscana#1702
+,TolucaDeLerdo,México",165.0,3.0,3.0,112500.0
+321,321,321,"CasaenVentaAdolfoVillaGonzalezMaz.6Lt.10FraccionamientoLosHeroesLllCalle2,
+,SantaMaríaTotoltepec,TolucaDeLerdo",97.0,2.0,4.0,55000.0
+322,322,322,"CasaenVentaPaseoCristobalColon
+,TolucaDeLerdo,México",220.0,2.0,3.0,75000.0
+323,323,323,"CasaenVentaJuanAldama1111b,DelegaciónSantaMaríaTotoltepec,50200TolucaDeLerdo,Méx.
+,SantaMaríaTotoltepec,TolucaDeLerdo",120.0,1.0,3.0,130000.0
+324,324,324,"CasaenVentaC.AlbertoSalinas714,ModernaDeLaCruz,50180TolucaDeLerdo,Méx.
+,TolucaDeLerdo,México",250.0,2.0,4.0,150000.0
+325,325,325,"CasaenVentaAmazonas
+,TolucaDeLerdo,México",330.0,3.0,3.0,200000.0
+326,326,326,"CasaenVentaTolucaDeLerdo,México",139.0,2.0,4.0,110000.0
+327,327,327,"CasaenVentaCasaEnVentaToluca,SaucesIv,DentroDePrivada
+,TolucaDeLerdo,México",106.0,1.0,3.0,49000.0
+328,328,328,"CasaenVentaCaputitlanTolucaCasaEnVenta
+,TolucaDeLerdo,México",700.0,4.0,4.0,350000.0
+329,329,329,"CasaenVentaCapultitlán,TolucaDeLerdo",180.0,2.0,3.0,115000.0
+330,330,330,"CasaenVentaSierraVentana#s/n
+,TolucaDeLerdo,México",180.0,3.0,3.0,235000.0
+331,331,331,"CasaenVentaC.MariaCurie#303
+,TolucaDeLerdo,México",240.0,4.0,3.0,230000.0
+332,332,332,"CasaenVentaOchoCedrosTolucaMex
+,TolucaDeLerdo,México",313.0,1.0,4.0,180000.0
+333,333,333,"CasaenVentaHaciendaDelPeñon
+,TolucaDeLerdo,México",69.0,1.0,2.0,49500.0
+334,334,334,"CasaenVentaCasaEnVentaSanAntonioBuenavista,Toluca
+,TolucaDeLerdo,México",140.0,2.0,3.0,77500.0
+335,335,335,"CasaenVentaBlvd.MiguelAlemán#1
+,TolucaDeLerdo,México",112.0,3.0,2.0,60000.0
+336,336,336,"CasaenVentaMarianoMatamoros#2009
+,TolucaDeLerdo,México",152.0,2.0,3.0,44750.0
+337,337,337,"CasaenVentaCalleMarieCurie#303
+,TolucaDeLerdo,México",192.0,4.0,3.0,197000.0
+338,338,338,"CasaenVentaCasaEnVenta2RecamarasStaAnaTlapantitlanTolucaAunaCuadraDeAvTorres
+,SantaAnaTlapaltitlán,TolucaDeLerdo",98.0,1.0,2.0,45950.0
+339,339,339,"CasaenVentaVillasToscanaIiiS/n
+,SanMateoOtzacatipan,TolucaDeLerdo",,2.0,3.0,119000.0
+340,340,340,"CasaenVentaSanMarcos#0
+,TolucaDeLerdo,México",108.0,2.0,3.0,24426.85
+341,341,341,"CasaenVentaSanMateoOxtotitlán,TolucaDeLerdo",159.0,1.0,3.0,110000.0
+342,342,342,"CasaenVentaTolucaDeLerdo,México",93.0,2.0,4.0,95000.0
+343,343,343,"CasaenVentaInsurgentes
+,Capultitlán,TolucaDeLerdo",210.0,2.0,,90000.0
+344,344,344,"CasaenVentaTolucaDeLerdo,México",180.0,2.0,3.0,71294.9
+345,345,345,"CasaenVentaHaciendaDelValle#ii
+,TolucaDeLerdo,México",110.0,2.0,3.0,19096.65
+346,346,346,"CasaenVentaArboleda#2
+,TolucaDeLerdo,México",110.0,2.0,3.0,47363.3
+347,347,347,"CasaenVentaArboleda#2
+,TolucaDeLerdo,México",110.0,2.0,3.0,47363.3
+348,348,348,"CasaenVentaArboleda#2
+,TolucaDeLerdo,México",110.0,2.0,3.0,47363.3
+349,349,349,"CasaenVentaArboleda#2
+,TolucaDeLerdo,México",110.0,2.0,3.0,47363.3
+350,350,350,"CasaenVentaArboledas#2
+,TolucaDeLerdo,México",110.0,2.0,3.0,47363.3
+351,351,351,"CasaenVentaArboleda#2
+,TolucaDeLerdo,México",110.0,2.0,3.0,47363.3
+352,352,352,"CasaenVentaArboleda#2
+,TolucaDeLerdo,México",110.0,2.0,3.0,47361.65
+353,353,353,"CasaenVentaArboleda#2
+,TolucaDeLerdo,México",110.0,2.0,3.0,47363.3
+354,354,354,"CasaenVentaArboledas#2
+,TolucaDeLerdo,México",110.0,2.0,3.0,47363.3
+355,355,355,"CasaenVentaArboleda#2
+,TolucaDeLerdo,México",110.0,2.0,3.0,47363.3
+356,356,356,"CasaenVenta.#.
+,TolucaDeLerdo,México",132.0,2.0,3.0,95000.0
+357,357,357,"CasaenVentaBenitoJuarez,NiñosHeroes
+,SanMateoOxtotitlán,TolucaDeLerdo",126.0,1.0,2.0,72500.0
+358,358,358,"CasaenVentaCentro,TolucaDeLerdo",380.0,4.0,6.0,675000.0
+359,359,359,"CasaenVentaCacalomacanEdoMex
+,Cacalomacan,TolucaDeLerdo",600.0,3.0,4.0,350000.0
+360,360,360,"CasaenVenta5DeMayoNull
+,HéroesDel5DeMayo,TolucaDeLerdo",,3.0,3.0,185000.0
+361,361,361,"CasaenVentaAlazanes214
+,TolucaDeLerdo,México",,2.0,3.0,105000.0
+362,362,362,"CasaenVentaDiosesDelOlimpo#234
+,TolucaDeLerdo,México",72.0,2.0,2.0,62500.0
+363,363,363,"CasaenVentaCalleLeonardoDaVinci
+,SantaAnaTlapaltitlán,TolucaDeLerdo",225.0,1.0,3.0,62500.0
+364,364,364,"CasaenVentaGalileoGalilei#00
+,TolucaDeLerdo,México",200.0,2.0,3.0,96500.0
+365,365,365,"CasaenVentaFrijol,ColoniaSanMateoOxtotitlán,Toluca,Edomex.
+,SanMateoOxtotitlán,TolucaDeLerdo",130.0,2.0,3.0,48750.0
+366,366,366,"CasaenVentaCasaNuevaEnVentaEnResidencialCrespaTown,Toluca.
+,DeLaCrespa,TolucaDeLerdo",121.0,2.0,3.0,138971.8
+367,367,367,"CasaenVentaElectricistasLocales,TolucaDeLerdo",120.0,2.0,3.0,87500.0
+368,368,368,"CasaenVentaCasaEnFraccionamientoPrivadoElCualCuentaConPrimariaYJardinDeNiños.A5MinutosDeLaFederacionMexicanaDeFutbolYA10MinutosDelAeropuertoDeToluca.
+,SanMateoOtzacatipan,TolucaDeLerdo",84.0,1.0,3.0,67500.0
+369,369,369,"CasaenVentaCapultitlán,TolucaDeLerdo",295.0,2.0,4.0,150000.0
+370,370,370,"CasaenVentaGranReforma305
+,TolucaDeLerdo,México",200.0,4.0,3.0,210750.0
+371,371,371,"CasaenVentaAzteca,TolucaDeLerdo",197.0,2.0,3.0,100000.0
+372,372,372,"CasaenVentaCasaEnVentaEnCampoRealIi
+,SanPedroTotoltepec,TolucaDeLerdo",170.0,2.0,3.0,135000.0
+373,373,373,"CasaenVentaCaminoASanMiguel
+,TolucaDeLerdo,México",220.0,2.0,4.0,109500.0
+374,374,374,"CasaenVentaJaimeAlmazánDelgado190-212,DelegaciónSanBuenaventura,50110TolucaDeLerdo,Méx.
+,TolucaDeLerdo,México",180.0,2.0,3.0,115000.0
+375,375,375,"CasaenVentaMagnificaCasaEnVentaTerrazasLaMora,Toluca
+,RanchoLaMora,TolucaDeLerdo",230.0,2.0,3.0,95000.0
+376,376,376,"CasaenVentaCtoDeLaLaguna#n,CasaB,consvjcbcef14
+,TolucaDeLerdo,México",92.0,2.0,2.0,51000.0
+377,377,377,"CasaenVentaFuentesDeSanJose#nd
+,TolucaDeLerdo,México",152.0,3.0,3.0,147500.0
+378,378,378,"CasaenVentaVicenteLombardoToledano#11,0
+,TolucaDeLerdo,México",90.0,2.0,3.0,36300.0
+379,379,379,"CasaenVentaIndependencia1
+,SanMateoOtzacatipan,TolucaDeLerdo",80.0,1.0,,61500.0
+380,380,380,"CasaenVentaTolucaDeLerdo,México",300.0,3.0,4.0,125000.0
+381,381,381,"CasaenVentaCarmenSerdán#sn
+,TolucaDeLerdo,México",295.0,4.0,2.0,650000.0
+382,382,382,"CasaenVentaSanMateoOxtotitlán,TolucaDeLerdo",182.0,3.0,3.0,115000.0
+383,383,383,"CasaenVentaDeLosCorredores
+,TolucaDeLerdo,México",600.0,3.0,3.0,450000.0
+384,384,384,"CasaenVentaSanMarcos#0
+,TolucaDeLerdo,México",220.0,3.0,3.0,27788.7
+385,385,385,"CasaenVentaProlongaciónRamónCorona
+,TolucaDeLerdo,México",190.0,2.0,3.0,197500.0
+386,386,386,"CasaenVentaTolucaDeLerdo,México",256.0,2.0,3.0,197500.0
+387,387,387,"CasaenVentaResidencialSanJorge#sn
+,TolucaDeLerdo,México",284.0,3.0,3.0,175000.0
+388,388,388,"CasaenVentaTolucaDeLerdo,México",150.0,3.0,4.0,80000.0
+389,389,389,"CasaenVentaCorredoresNull
+,TolucaDeLerdo,México",,3.0,6.0,249500.0
+390,390,390,"CasaenVentaCalleProlongaciónPaseoTotoltepec32,DelegaciónSantaMaríaTotoltepec,Toluc#**
+,TolucaDeLerdo,México",172.0,3.0,3.0,100000.0
+391,391,391,"CasaenVentaTolucaDeLerdo,México",300.0,2.0,4.0,300000.0
+392,392,392,"CasaenVentaTolucaDeLerdo,México",1150.0,5.0,4.0,375000.0
+393,393,393,"CasaenVentaTolucaDeLerdo,México",180.0,1.0,3.0,67500.0
+394,394,394,"CasaenVentaAvNuevoMexico#137
+,TolucaDeLerdo",131.0,3.0,3.0,77500.0
+395,395,395,"CasaenVentaAlfredoDelMazoNull
+,SanLorenzoTepaltitlánCentro,TolucaDeLerdo",,2.0,3.0,176250.0
+396,396,396,"CasaenVentaVillasDeSantaMonica
+,TolucaDeLerdo,México",99.0,2.0,2.0,55000.0
+397,397,397,"CasaenVentaNuevaOxtotitlán#nd
+,TolucaDeLerdo,México",414.0,2.0,4.0,120000.0
+398,398,398,"CasaenVentaSanMarcos#0
+,TolucaDeLerdo,México",180.0,3.0,3.0,28231.65
+399,399,399,"CasaenVentaAdolfoLopezMateos#146
+,TolucaDeLerdo,México",120.0,2.0,3.0,61966.1
+400,400,400,"CasaenVentaAdolfoLopezMateos#146
+,TolucaDeLerdo,México",160.0,2.0,3.0,56150.0
+401,401,401,"CasaenVentaTolucaDeLerdo,México",100.0,2.0,3.0,69000.0
+402,402,402,"CasaenVentaCacalomacan,TolucaDeLerdo",700.0,5.0,5.0,600000.0
+403,403,403,"CasaenVenta21DeMarzo
+,TolucaDeLerdo,México",980.0,5.0,6.0,514500.0
+404,404,404,"CasaenVentaTolucaDeLerdo,México",247.0,3.0,3.0,225000.0
+405,405,405,"CasaenVentaTolucaDeLerdo,México",72.0,1.0,2.0,29950.0
+406,406,406,"CasaenVentaTolucaDeLerdo,México",72.0,1.0,2.0,29950.0
+407,407,407,"CasaenVentaSilverioPerez#0
+,TolucaDeLerdo,México",107.0,2.0,3.0,32910.6
+408,408,408,"CasaenVentaCasaEnVenta3RecamarasResidencialCrespaTownZafiroToluca
+,TolucaDeLerdo,México",127.0,2.0,3.0,144413.1
+409,409,409,"CasaenVentaAv.Idependencia#143
+,TolucaDeLerdo,México",120.0,2.0,3.0,19100.0
+410,410,410,"CasaenVentaProlongaciónIndependencia
+,TolucaDeLerdo,México",128.0,3.0,5.0,63950.0
+411,411,411,"CasaenVentaTolucaDeLerdo,México",72.0,1.0,2.0,28950.0
+412,412,412,"CasaenVentaCasaEnVentaEnCacalomacán
+,Cacalomacan,TolucaDeLerdo",290.0,3.0,3.0,162500.0
+413,413,413,"CasaenVentaMiguelBlanco211
+,HéroesDel5DeMayo,TolucaDeLerdo",,2.0,5.0,157500.0
+414,414,414,"CasaenVentaCasaEnCacalomacanNull
+,TolucaDeLerdo,México",,4.0,3.0,350000.0
+415,415,415,"CasaenVentaCasaNuevaEnVentaEnResidencialÁurea,Toluca.
+,SanMateoOtzacatipan,TolucaDeLerdo",,2.0,3.0,99000.0
+416,416,416,"CasaenVentaCarrTolucaNaucalpan#1702
+,TolucaDeLerdo,México",135.0,3.0,3.0,62000.0
+417,417,417,"CasaenVentaTolucaDeLerdo,México",106.0,2.0,3.0,90000.0
+418,418,418,"CasaenVentaCalleProl.IgnacioLopezRayon
+,TolucaDeLerdo,México",85.0,1.0,3.0,62500.0
+419,419,419,"CasaenVentaEmilianoZapata
+,TolucaDeLerdo,México",300.0,3.0,4.0,125000.0
+420,420,420,"CasaenVentaProlongaciónRamónCorona
+,TolucaDeLerdo,México",160.0,2.0,3.0,175000.0
+421,421,421,"CasaenVentaRemateBancario,Casa,SanLucas,VillaSantin,Toluca,EstadoDeMexico
+,TolucaDeLerdo",65.0,1.0,2.0,35524.6
+422,422,422,"CasaenVentaRemateBancario,Casa,SilverioPerez,PaseosSantin,Toluca,EstadoDeMexico
+,TolucaDeLerdo",90.0,1.0,2.0,27105.65
+423,423,423,"CasaenVentaRemateBancario,Casa,SanAndresApostol,VillaSantin,Toluca,EstadoDeMexico
+,TolucaDeLerdo",60.0,1.0,2.0,35524.6
+424,424,424,"CasaenVentaCasaNuevaEnVentaEnCrespaTown
+,DeLaCrespa,TolucaDeLerdo",121.0,2.0,3.0,139421.05
+425,425,425,"CasaenVenta.#.
+,TolucaDeLerdo,México",216.0,3.0,3.0,117500.0
+426,426,426,"CasaenVentaDeTlanepantla,TolucaDeLerdo",185.0,2.0,3.0,192500.0
+427,427,427,"CasaenVentaProlongaciónRamónCorona
+,TolucaDeLerdo,México",152.0,2.0,3.0,147500.0
+428,428,428,"CasaenVentaLeonaVicario#000
+,TolucaDeLerdo,México",148.0,2.0,3.0,88600.0
+429,429,429,"CasaenVentaSanJorge#310
+,TolucaDeLerdo,México",40.0,1.0,2.0,21469.4
+430,430,430,"CasaenVentaHaciendaLasCarretas#48
+,TolucaDeLerdo,México",120.0,2.0,3.0,19096.65
+431,431,431,"CasaenVentaPaseoCristobalColon&LuisDonaldoColosio#511
+,TolucaDeLerdo,México",226.0,3.0,3.0,114050.0
+432,432,432,"CasaenVentaHaciendaLasCarretas#48
+,TolucaDeLerdo,México",120.0,2.0,3.0,19096.65
+433,433,433,"CasaenVentaCircuitoSanJoséRinconadaDeLaCasaGrande#00
+,TolucaDeLerdo,México",250.0,2.0,3.0,119500.0
+434,434,434,"CasaenVentaPaseoMatlatzincasYNicolasBravoTolucaMex
+,TolucaDeLerdo,México",703.0,4.0,5.0,900000.0
+435,435,435,"CasaenVentaHaciendaZumpango#lt23Mz17
+,TolucaDeLerdo,México",90.0,2.0,3.0,52220.0
+436,436,436,"CasaenVentaSanFelipeTlalmimilolpan
+,TolucaDeLerdo,México",135.0,2.0,3.0,85000.0
+437,437,437,"CasaenVentaJuanEscutia105,SanFelipeTlalmimilolpan,50250SanFelipeTlalmimilolpan,Méx.,México
+,TolucaDeLerdo",350.0,2.0,4.0,150000.0
+438,438,438,"CasaenVentaGranjas,TolucaDeLerdo",342.0,3.0,9.0,210000.0
+439,439,439,"CasaenVentaPatrón#sn
+,TolucaDeLerdo,México",232.0,4.0,3.0,215000.0
+440,440,440,"CasaenVentaSanMateoOtzacatipan#nd
+,TolucaDeLerdo,México",628.0,3.0,3.0,159500.0
+441,441,441,"CasaenVentaSilverioPerez201
+,TolucaDeLerdo,México",,1.0,7.0,83500.0
+442,442,442,"CasaenVentaCasaNuevaEnVentaEnResidencialÁurea,Toluca.
+,SanMateoOtzacatipan,TolucaDeLerdo",,2.0,3.0,93000.0
+443,443,443,"CasaenVentaFrijol#201
+,TolucaDeLerdo,México",124.0,2.0,3.0,61527.55
+444,444,444,"CasaenVentaRinconadaDelPajar#sn
+,TolucaDeLerdo,México",238.0,4.0,3.0,210000.0
+445,445,445,"CasaenVentaAndadorBlanco6
+,IzcalliToluca,TolucaDeLerdo",,2.0,3.0,110000.0
+446,446,446,"CasaenVentaAvenidaMiguelHidalgoOriente1001,BarrioDeSanBernardino,TolucaDeLerdo,#**
+,TolucaDeLerdo,México",287.0,3.0,4.0,187500.0
+447,447,447,"CasaenVentaSanMateoOxtotitlán,TolucaDeLerdo",120.0,2.0,3.0,85000.0
+448,448,448,"CasaenVentaCasaEnVenta3RecamarasResidencialCrespaTownCoralToluca
+,TolucaDeLerdo,México",121.0,2.0,3.0,139421.1
+449,449,449,"CasaenVentaCasaEnPrivadaFraccRanchoIndependenciaEnToluca
+,SantaMaríaTotoltepec,TolucaDeLerdo",144.0,1.0,3.0,100000.0
+450,450,450,"CasaenVentaBosquesDeColón#nd
+,TolucaDeLerdo,México",200.0,3.0,3.0,99500.0
+451,451,451,"CasaenVentaCasaEnVenta3Recamaras,LaToscana,SanLorenzoTepaltitlan,Toluca
+,TolucaDeLerdo,México",150.0,3.0,3.0,115000.0
+452,452,452,"CasaenVentaMiguelMata#209
+,TolucaDeLerdo,México",150.0,2.0,3.0,21780.15
+453,453,453,"CasaenVentaCasaNuevaEnVentaEnResidencialÁurea,Toluca.
+,SanMateoOtzacatipan,TolucaDeLerdo",,2.0,3.0,84750.0
+454,454,454,"CasaenVentaFraccionamientoLosPirules,Tlalnepantla
+,DeTlanepantla,TolucaDeLerdo",159.0,2.0,3.0,149750.0
+455,455,455,"CasaenVentaTolucaDeLerdo,México",183.0,3.0,3.0,105000.0
+456,456,456,"CasaenVentaVenustianoCarranza,SanJuanTilapa,50290SanJuanTilapa,Méx.,México
+,TolucaDeLerdo",300.0,3.0,2.0,110000.0
+457,457,457,"CasaenVentaTolucaDeLerdo,México",133.0,3.0,3.0,132700.0
+458,458,458,"CasaenVentaColonNull
+,TolucaDeLerdo,México",,3.0,3.0,149000.0
+459,459,459,"CasaenVentaCasaEnVenta4RecamarasExHaciendaSanJoseTolucaCercaDeAeropuerto
+,TolucaDeLerdo,México",446.0,4.0,4.0,325000.0
+460,460,460,"CasaenVentaRamónG.DelVillar109
+,TolucaDeLerdo,México",,3.0,4.0,325000.0
+461,461,461,"CasaenVentaAdolfoLopezMateos#146
+,TolucaDeLerdo,México",160.0,3.0,3.0,45205.5
+462,462,462,"CasaenVentaTolucaDeLerdo,México",878.0,4.0,4.0,600000.0
+463,463,463,"CasaenVentaProf.SantiagoVelazco#000
+,TolucaDeLerdo,México",120.0,2.0,3.0,12341.25
+464,464,464,"CasaenVentaSilverioPerez#131
+,TolucaDeLerdo,México",90.0,2.0,3.0,32911.05
+465,465,465,"CasaenVentaSanMateo
+,TolucaDeLerdo,México",262.0,2.0,2.0,117500.0
+466,466,466,"CasaenVentaFuentesDeSanJosé#sn
+,TolucaDeLerdo,México",160.0,3.0,3.0,120000.0
+467,467,467,"CasaenVentaIsabelLaCatolicaNull
+,Doctores,TolucaDeLerdo",,4.0,8.0,275000.0
+468,468,468,"CasaenVentaSilverioPerez#131
+,TolucaDeLerdo,México",90.0,2.0,3.0,32910.6
+469,469,469,"CasaenVentaSanJoseObrero#230
+,TolucaDeLerdo,México",30.0,2.0,2.0,26150.75
+470,470,470,"CasaenVentaTierraYLibertad#114
+,TolucaDeLerdo,México",120.0,2.0,3.0,49553.05
+471,471,471,"CasaenVentaEmilianoZapata#0,1
+,TolucaDeLerdo,México",200.0,3.0,3.0,130000.0
+472,472,472,"CasaenVentaTolucaDeLerdo,México",50.0,2.0,2.0,26151.0
+473,473,473,"CasaenVentaVicenteLombardoTolentino
+,TolucaDeLerdo,México",123.0,2.0,3.0,95000.0
+474,474,474,"CasaenVentaTolucaDeLerdo,México",321.0,2.0,3.0,247500.0
+475,475,475,"CasaenVentaSanCarlosBorromeo#324
+,TolucaDeLerdo,México",230.0,2.0,3.0,17230.05
+476,476,476,"CasaenVentaRebeca#0
+,TolucaDeLerdo,México",120.0,2.0,3.0,127660.75
+477,477,477,"CasaenVentaPaseoSantaRosa#00
+,TolucaDeLerdo,México",102.0,3.0,3.0,74000.0
+478,478,478,"CasaenVentaExHaciendaDeTlalpan#sn
+,TolucaDeLerdo,México",185.0,2.0,3.0,115000.0
+479,479,479,"CasaenVentaCasaEnVentaCacalomacan
+,Cacalomacan,TolucaDeLerdo",450.0,4.0,4.0,325000.0
+480,480,480,"CasaenVentaMiguelMata#209
+,TolucaDeLerdo,México",140.0,2.0,3.0,21780.15
+481,481,481,"CasaenVentaMartha#s/n
+,TolucaDeLerdo,México",140.0,2.0,3.0,140000.0
+482,482,482,"CasaenVentaAv.hidalgoPte
+,SanBernardino,TolucaDeLerdo",300.0,2.0,4.0,262900.0
+483,483,483,"CasaenVentaOchoCedros,TolucaDeLerdo",630.0,3.0,3.0,329500.0
+484,484,484,"CasaenVentaTolucaDeLerdo,México",216.0,3.0,4.0,127500.0
+485,485,485,"CasaenVentaSanLorenzoTepaltitlánCentro,TolucaDeLerdo",375.0,5.0,4.0,260000.0
+486,486,486,"CasaenVentaP.ºDeLaHerradura17,Cacalomacan,50250Cacalomacán,Méx.
+,TolucaDeLerdo,México",250.0,2.0,3.0,132500.0
+487,487,487,"CasaenVentaAv.Arboledas
+,SanMateoOtzacatipan,TolucaDeLerdo",112.0,2.0,3.0,82500.0
+488,488,488,"CasaenVentaLorenzoGarza#113
+,TolucaDeLerdo,México",72.0,2.0,2.0,46000.0
+489,489,489,"CasaenVentaLaMerced(alameda),TolucaDeLerdo",955.0,4.0,4.0,1050000.0
+490,490,490,"CasaenVentaMiguelMata#209
+,TolucaDeLerdo,México",105.0,1.0,3.0,88650.0
+491,491,491,"CasaenVentaAv.VicenteLombardoToledano#112
+,TolucaDeLerdo,México",141.0,2.0,3.0,80000.0
+492,492,492,"CasaenVentaTierraYLibertad#114
+,TolucaDeLerdo,México",180.0,3.0,3.0,50803.05
+493,493,493,"CasaenVenta16DeSeptiembre#1000
+,TolucaDeLerdo,México",169.0,2.0,4.0,115000.0
+494,494,494,"CasaenVentaCasaEnVentaLosSaucesV,Toluca
+,TolucaDeLerdo,México",66.0,1.0,3.0,55000.0
+495,495,495,"CasaenVentaAvenidaÁrboleda#100
+,TolucaDeLerdo,México",113.0,2.0,3.0,65000.0
+496,496,496,"CasaenVentaTolucaDeLerdo,México",160.0,3.0,3.0,71060.0
+497,497,497,"CasaenVentaFranciscoVilla#58
+,TolucaDeLerdo,México",157.0,2.0,3.0,135000.0
+498,498,498,"CasaenVentaAtlacomulco
+,TolucaDeLerdo,México",315.0,2.0,3.0,195000.0
+499,499,499,"CasaenVentaCasaNuevaEnVenta3RecamarasResidencialCrespaTowmAgataToluca
+,TolucaDeLerdo,México",121.0,2.0,2.0,138971.85
+500,500,500,"CasaenVentaFrijol#201
+,TolucaDeLerdo,México",130.0,3.0,3.0,56000.0
+501,501,501,"CasaenVentaCarreteraToluca-naucalpan#1702
+,TolucaDeLerdo,México",133.0,3.0,3.0,67500.0
+502,502,502,"CasaenVentaTolucaDeLerdo,México",90.0,2.0,3.0,32910.75
+503,503,503,"CasaenVentaCarreteraTolucaNaucalpan
+,TolucaDeLerdo,México",130.0,2.0,3.0,110000.0
+504,504,504,"CasaenVentaFanciscoI.Madero
+,TolucaDeLerdo,México",240.0,2.0,4.0,37500.0
+505,505,505,"CasaenVentaTolucaDeLerdo,México",210.0,3.0,3.0,55005.7
+506,506,506,"CasaenVentaVentaColoniaCiprés.Null
+,Ciprés,TolucaDeLerdo",,2.0,4.0,220000.0
+507,507,507,"CasaenVentaMiguelMata#209
+,TolucaDeLerdo,México",240.0,2.0,3.0,21780.15
+508,508,508,"CasaenVentaIsabelLaCatólica#000
+,TolucaDeLerdo,México",248.0,2.0,4.0,53060.0
+509,509,509,"CasaenVentaIndependenciaNorte#501,N,ConsvsinPosiif13
+,SanLorenzoTepaltitlánCentro,TolucaDeLerdo",160.0,2.0,3.0,102500.0
+510,510,510,"CasaenVentaTolucaDeLerdo,México",180.0,5.0,5.0,210000.0
+511,511,511,"CasaenVentaArbolDeLasManitas#000
+,TolucaDeLerdo,México",160.0,3.0,4.0,19520.0
+512,512,512,"CasaenVentaAvenidaDelTrabajo#101
+,TolucaDeLerdo,México",90.0,1.0,3.0,72500.0
+513,513,513,"CasaenVentaSanMarcos#219
+,TolucaDeLerdo,México",180.0,3.0,3.0,28231.65
+514,514,514,"CasaenVentaSubidaDeLosAlamos
+,TolucaDeLerdo,México",500.0,2.0,3.0,350000.0
+515,515,515,"CasaenVentaLuisGonzagaUrbina#100,0
+,Tlacopa,TolucaDeLerdo",120.0,2.0,3.0,142750.0
+516,516,516,"CasaenVentaLagoTanganica#321
+,TolucaDeLerdo,México",260.0,2.0,5.0,139500.0
+517,517,517,"CasaenVentaCasaEnVenta,LosSauces,Toluca,Edo.DeMéxico.
+,TolucaDeLerdo",88.0,1.0,2.0,46000.0
+518,518,518,"CasaenVentaParqueValleEscondido
+,TolucaDeLerdo,México",364.0,2.0,3.0,115000.0
+519,519,519,"CasaenVentaEmilianoZapata#sn
+,TolucaDeLerdo,México",300.0,4.0,3.0,142500.0
+520,520,520,"CasaenVentaNaucalpan#00
+,TolucaDeLerdo,México",139.0,4.0,3.0,54000.0
+521,521,521,"CasaenVentaCapultitlán,TolucaDeLerdo",170.0,1.0,3.0,75000.0
+522,522,522,"CasaenVentaTolucaDeLerdo,México",313.0,4.0,3.0,190000.0
+523,523,523,"CasaenVentaTolucaDeLerdo,México",230.0,2.0,2.0,17230.25
+524,524,524,"CasaenVentaFraccLasMisiones
+,TolucaDeLerdo,México",99.0,2.0,3.0,80000.0
+525,525,525,"CasaenVentaBonitaCasaEnVenta
+,TolucaDeLerdo,México",32.0,1.0,1.0,27500.0
+526,526,526,"CasaenVentaJoséMaríaArteaga#112
+,TolucaDeLerdo,México",294.0,3.0,3.0,100000.0
+527,527,527,"CasaenVentaPaseoDeLosAgustinos#sn
+,TolucaDeLerdo,México",101.0,3.0,3.0,84500.0
+528,528,528,"CasaenVentaTolucaDeLerdo,México",113.0,3.0,2.0,69200.0
+529,529,529,"CasaenVentaTolucaDeLerdo,México",287.0,2.0,4.0,187500.0
+530,530,530,"CasaenVentaSierraVentana#206
+,TolucaDeLerdo,México",180.0,3.0,3.0,235000.0
+531,531,531,"CasaenVentaRanchoSeco#29,6
+,TolucaDeLerdo,México",65.0,1.0,3.0,57500.0
+532,532,532,"CasaenVentaRoqueGonzalez3
+,OchoCedros,TolucaDeLerdo",,2.0,5.0,125000.0
+533,533,533,"CasaenVentaCasaEnVentaColoniaAzteca,Toluca
+,TolucaDeLerdo,México",147.0,2.0,3.0,132500.0
+534,534,534,"CasaenVentaAv.DeLosMaestros#12
+,TolucaDeLerdo,México",334.0,3.0,3.0,295000.0
+535,535,535,"CasaenVentaCalzadaCuervos.
+,TolucaDeLerdo,México",500.0,2.0,3.0,360000.0
+536,536,536,"CasaenVentaSanLorenzoTepaltitlánCentro,TolucaDeLerdo",303.0,1.0,3.0,135000.0
+537,537,537,"CasaenVentaTolucaDeLerdo,México",295.0,3.0,2.0,650000.0
+538,538,538,"CasaenVentaHttps://maps.app.goo.gl/hzm1axdfcrbvgz2r6
+,TolucaDeLerdo,México",222.0,2.0,3.0,190000.0
+539,539,539,"CasaenVentaMiguelMata#209
+,TolucaDeLerdo,México",150.0,2.0,3.0,21780.15
+540,540,540,"CasaenVentaTolucaDeLerdo,México",120.0,2.0,3.0,93450.0
+541,541,541,"CasaenVentaVentaNuevaResidenciaCapultitlan
+,TolucaDeLerdo,México",780.0,4.0,4.0,215000.0
+542,542,542,"CasaenVentaSanMateoOxtotitlán,TolucaDeLerdo",365.0,3.0,4.0,175000.0
+543,543,543,"CasaenVentaCarreteraTolucaNaucalpan#1702
+,TolucaDeLerdo,México",125.0,3.0,2.0,105500.0
+544,544,544,"CasaenVentaCol.VillasDeSantaMónica
+,TolucaDeLerdo,México",65.0,2.0,2.0,57500.0
+545,545,545,"CasaenVentaRincónDeSanLorenzo,TolucaDeLerdo",80.0,1.0,3.0,55000.0
+546,546,546,"CasaenVentaAmazonas201Null
+,TolucaDeLerdo,México",,3.0,3.0,130000.0
+547,547,547,"CasaenVentaTolucaDeLerdo,México",450.0,4.0,4.0,325000.0
+548,548,548,"CasaenVentaMz.7Lt.15#s/n
+,TolucaDeLerdo,México",90.0,3.0,3.0,80000.0
+549,549,549,"CasaenVentaVillasToscanaS/n
+,SanMateoOtzacatipan,TolucaDeLerdo",,2.0,3.0,99000.0
+550,550,550,"CasaenVentaCasaEnVentaEnSantaAnaTepaltitlán,Toluca.
+,SantaAnaTlapaltitlán,TolucaDeLerdo",68.0,1.0,2.0,46000.0
+551,551,551,"CasaenVentaDelParque,TolucaDeLerdo",285.0,2.0,3.0,125000.0
+552,552,552,"CasaenVentaElSeminarioTolucaMex
+,TolucaDeLerdo,México",180.0,1.0,3.0,100000.0
+553,553,553,"CasaenVentaAgronomos#0
+,TolucaDeLerdo,México",70.0,1.0,2.0,19842.85
+554,554,554,"CasaenVentaCircuitoLuisPortilloNull
+,RanchoLaMora,TolucaDeLerdo",,3.0,4.0,155000.0
+555,555,555,"CasaenVentaGral.JoséVicenteVillada124,DelegaciónStaAnaTlapaltitlán,50160TolucaDeLerdo,Méx.,México
+,TolucaDeLerdo",257.0,2.0,3.0,249759.75
+556,556,556,"CasaenVentaJoséMaríaPinoSuárez,SanJoseGuadalupeHuichochitlan,50200SantaCruzOtzacatipan,Méx.
+,TolucaDeLerdo,México",250.0,3.0,3.0,175000.0
+557,557,557,"CasaenVentaRepúblicaDeHonduras107
+,TolucaDeLerdo,México",,4.0,7.0,240000.0
+558,558,558,"CasaenVentaSantaAnaTlapaltitlán,TolucaDeLerdo",210.0,2.0,5.0,194000.0
+559,559,559,"CasaenVentaCasaSolaEnVentaEnSanLorenzoToluca
+,TolucaDeLerdo,México",226.0,3.0,6.0,137500.0
+560,560,560,"CasaenVentaAgronomos#00
+,TolucaDeLerdo,México",115.0,3.0,3.0,20050.0
+561,561,561,"CasaenVentaGuillermoMarconi#507
+,TolucaDeLerdo,México",140.0,2.0,3.0,39950.0
+562,562,562,"CasaenVentaPaseoCristobalColon#511
+,TolucaDeLerdo,México",226.0,3.0,3.0,114050.0
+563,563,563,"CasaenVentaCasaEnVenta,SebastianLerdoDeTejada,Toluca
+,TolucaDeLerdo,México",183.0,1.0,3.0,162500.0
+564,564,564,"CasaenVenta.#.
+,TolucaDeLerdo,México",400.0,4.0,3.0,190000.0
+565,565,565,"CasaenVentaLosSauces#501,1
+,LosSaucesV,TolucaDeLerdo",120.0,2.0,3.0,29750.25
+566,566,566,"CasaenVentaFraccionamientoPaseoArboledas
+,TolucaDeLerdo,México",107.0,2.0,3.0,97500.0
+567,567,567,"CasaenVentaJuanSilveti#137
+,TolucaDeLerdo,México",100.0,2.0,3.0,28750.0
+568,568,568,"CasaenVentaAlheli
+,TolucaDeLerdo,México",160.0,1.0,3.0,105000.0
+569,569,569,"CasaenVentaValentínGómezFarías
+,SanBernardino,TolucaDeLerdo",210.0,2.0,4.0,173200.0
+570,570,570,"CasaenVentaProlRamónCorona
+,TolucaDeLerdo,México",152.0,2.0,3.0,147500.0
+571,571,571,"CasaenVentaHaciendaDeLosSauces
+,TolucaDeLerdo,México",95.0,1.0,2.0,72650.0
+572,572,572,"CasaenVentaMiguelMata#209
+,TolucaDeLerdo,México",100.0,2.0,3.0,21500.0
+573,573,573,"CasaenVentaGeologos#000
+,TolucaDeLerdo,México",120.0,2.0,2.0,44950.0
+574,574,574,"CasaenVentaCapultitlán,TolucaDeLerdo",148.0,1.0,2.0,90000.0
+575,575,575,"CasaenVentaTolucaDeLerdo,México",771.0,4.0,6.0,3050000.0
+576,576,576,"CasaenVentaNaucalpan#1702
+,TolucaDeLerdo,México",139.0,4.0,3.0,54000.0
+577,577,577,"CasaenVentaTolucaNull
+,HéroesDel5DeMayo,TolucaDeLerdo",,3.0,5.0,162500.0
+578,578,578,"CasaenVentaTolucaDeLerdo,México",280.0,2.0,2.0,400000.0
+579,579,579,"CasaenVentaTolucaDeLerdo,México",315.0,2.0,4.0,217500.0
+580,580,580,"CasaenVentaTolucaDeLerdo,México",471.0,1.0,3.0,700000.0
+581,581,581,"CasaenVentaNaucalpan#00
+,TolucaDeLerdo,México",139.0,4.0,3.0,54000.0
+582,582,582,"CasaenVentaCacalomacan,TolucaDeLerdo",151.0,3.0,3.0,125000.0
+583,583,583,"CasaenVentaPrivadaMarthaRodriguez
+,TolucaDeLerdo,México",155.0,2.0,3.0,95000.0
+584,584,584,"CasaenVentaElectricistasLocales#sn
+,TolucaDeLerdo,México",120.0,2.0,3.0,87500.0
+585,585,585,"CasaenVentaCasaEnVentaLomasAltas
+,TolucaDeLerdo,México",500.0,2.0,3.0,350000.0
+586,586,586,"CasaenVenta5DeFebrero
+,Capultitlán,TolucaDeLerdo",500.0,3.0,4.0,275000.0
+587,587,587,"CasaenVentaTolucaDeLerdo,México",120.0,2.0,3.0,85000.0
+588,588,588,"CasaenVentaGeneralAntonioAlbarran#00
+,TolucaDeLerdo,México",176.0,2.0,3.0,46770.9
+589,589,589,"CasaenVentaPrivadaFerminRivera
+,TolucaDeLerdo,México",66.0,1.0,2.0,44500.0
+590,590,590,"CasaenVentaAvenidaArboleda#100,7
+,TolucaDeLerdo,México",130.0,3.0,3.0,112500.0
+591,591,591,"CasaenVentaTolucaDeLerdo,México",150.0,2.0,3.0,118682.95
+592,592,592,"CasaenVentaTolucaDeLerdo,México",130.0,3.0,2.0,110000.0
+593,593,593,"CasaenVentaSanMateoOtzacatipan#0
+,TolucaDeLerdo,México",127.0,3.0,3.0,92500.0
+594,594,594,"CasaenVentaCasaNuevaEnVenta3RecamarasResidencialVictoriaToluca
+,TolucaDeLerdo,México",177.0,2.0,3.0,155000.0
+595,595,595,"CasaenVenta5DeMayo,TolucaDeLerdo",320.0,2.0,2.0,372500.0
+596,596,596,"CasaenVentaLermaOte
+,TolucaDeLerdo,México",70.0,2.0,3.0,43000.0
+597,597,597,"CasaenVentaHaciendaVistaHermosa#sn
+,TolucaDeLerdo,México",131.0,3.0,3.0,77500.0
+598,598,598,"CasaenVentaTolucaDeLerdo,México",800.0,4.0,4.0,610000.0
+599,599,599,"CasaenVentaAvDiosesDelOlimpo#s/n
+,TolucaDeLerdo,México",155.0,2.0,3.0,94500.0
+600,600,600,"CasaenVentaPaseoDeLosCarmelitas#sn
+,TolucaDeLerdo,México",101.0,3.0,3.0,87500.0
+601,601,601,"CasaenVentaAdolfoLópezMateos#146
+,TolucaDeLerdo,México",160.0,3.0,3.0,45205.5
+602,602,602,"CasaenVentaProlongaciónPaseoTotoltepec
+,SantaMaríaTotoltepec,TolucaDeLerdo",69.0,1.0,,62500.0
+603,603,603,"CasaenVentaCasaEnVentaEnCacalomacán
+,Cacalomacan,TolucaDeLerdo",850.0,4.0,4.0,850000.0
+604,604,604,"CasaenVentaTolucaDeLerdo,México",600.0,3.0,3.0,250000.0
+605,605,605,"CasaenVentaMorelia42
+,TolucaDeLerdo,México",124.0,1.0,4.0,80000.0
+606,606,606,"CasaenVentaAzaleas#0
+,TolucaDeLerdo,México",120.0,2.0,3.0,38750.0
+607,607,607,"CasaenVentaHortaliza254,DelegaciónSanMateoOxtotitlán,TolucaDeLerdo,EstadoDeMéxic#**
+,TolucaDeLerdo,México",170.0,3.0,3.0,80000.0
+608,608,608,"CasaenVentaTolucaDeLerdo,México",921.0,4.0,3.0,1350000.0
+609,609,609,"CasaenVentaHaciendaDelValleIi
+,TolucaDeLerdo,México",69.0,1.0,2.0,45000.0
+610,610,610,"CasaenVentaTolucaDeLerdo,México",120.0,2.0,3.0,33350.0
+611,611,611,"CasaenVentaSanMateoOtzacatipan,TolucaDeLerdo",61.0,1.0,2.0,42500.0
+612,612,612,"CasaenVentaCasaSolaEnVenta,Capultitlán,Toluca
+,TolucaDeLerdo,México",263.0,2.0,4.0,145000.0
+613,613,613,"CasaenVentaBlvd.Lic.AdolfoLópezMateos#146,Casa0
+,TolucaDeLerdo,México",147.0,2.0,3.0,45205.5
+614,614,614,"CasaenVentaCasaEnVenta4RecamarasLaGaliaTolucaA5MinDePlazaSenderoOAeropuerto
+,HaciendaLaGalia,TolucaDeLerdo",,2.0,3.0,130000.0
+615,615,615,"CasaenVentaVentaDeCasaEnHaciendaDelValleIi
+,TolucaDeLerdo,México",66.0,1.0,3.0,59000.0
+616,616,616,"CasaenVentaSanLorenzoTepaltitlánCentro,TolucaDeLerdo",180.0,3.0,3.0,50362.5
+617,617,617,"CasaenVentaNuevaOxtotitlán,TolucaDeLerdo",250.0,1.0,4.0,150000.0
+618,618,618,"CasaenVentaSanPedroTotoltepec,TolucaDeLerdo",228.0,2.0,5.0,70000.0
+619,619,619,"CasaenVentaBlvdMiguelAlemàn#mz1LtB,2
+,TolucaDeLerdo,México",112.0,3.0,2.0,60000.0
+620,620,620,"CasaenVentaCasaEnVentaHaciendaDelValle2
+,TolucaDeLerdo,México",69.0,1.0,3.0,44750.0
+621,621,621,"CasaenVentaEx-haciendaDeMayorazgo#0
+,TolucaDeLerdo,México",200.0,2.0,3.0,23750.0
+622,622,622,"CasaenVentaJesusReyesHeroles#207
+,TolucaDeLerdo,México",130.0,3.0,3.0,49500.0
+623,623,623,"CasaenVentaÁrbolDeLasManitas
+,TolucaDeLerdo,México",400.0,3.0,4.0,210000.0
+624,624,624,"CasaenVentaCasaEnVenta,HermenegildoGaleana
+,TolucaDeLerdo,México",322.0,2.0,4.0,245000.0
+625,625,625,"CasaenVentaGomezFarias
+,TolucaDeLerdo,México",600.0,5.0,6.0,1050000.0
+626,626,626,"CasaenVentaIsabelLaCatólica#00
+,TolucaDeLerdo,México",280.0,2.0,3.0,53060.0
+627,627,627,"CasaenVentaCasaEnVentaGeovillasSanMateo
+,SanPedroTotoltepec,TolucaDeLerdo",64.0,1.0,2.0,40000.0
+628,628,628,"CasaenVentaPrivadaDeGalicia
+,TolucaDeLerdo,México",96.0,2.0,2.0,70000.0
+629,629,629,"CasaenVentaIndependencia#00
+,TolucaDeLerdo,México",110.0,1.0,3.0,20850.0
+630,630,630,"CasaenVentaGeovillasDeIndependencia#nd
+,TolucaDeLerdo,México",57.0,2.0,2.0,60000.0
+631,631,631,"CasaenVentaCasaEnVentaToluca
+,TolucaDeLerdo,México",333.0,3.0,3.0,140000.0
+632,632,632,"CasaenVentaTolucaDeLerdo,México",140.0,2.0,3.0,35000.0
+633,633,633,"CasaenVentaToluca
+,TolucaDeLerdo,México",170.0,3.0,3.0,107500.0
+634,634,634,"CasaenVentaSanMarcos#00
+,TolucaDeLerdo,México",130.0,2.0,4.0,28231.7
+635,635,635,"CasaenVentaSanBuenaventura,TolucaDeLerdo",206.0,4.0,3.0,142500.0
+636,636,636,"CasaenVentaAbetos932,ConjULosSauces,SanJoséGuadalupe,EstadoDeMéxico#**
+,TolucaDeLerdo",60.0,1.0,3.0,49000.0
+637,637,637,"CasaenVentaOchoCedros#nd
+,TolucaDeLerdo,México",654.0,4.0,4.0,300000.0
+638,638,638,"CasaenVentaTolucaDeLerdo,México",189.0,2.0,3.0,134500.0
+639,639,639,"CasaenVentaEjidoSantaCruzAzcapotzaltongo,TolucaDeLerdo",290.0,3.0,3.0,210250.0
+640,640,640,"CasaenVentaCarreteraTolucaNaucalpan#1702
+,TolucaDeLerdo,México",218.0,4.0,3.0,68000.0
+641,641,641,"CasaenVentaVillasToscana
+,SanNicolásTolentino,TolucaDeLerdo",125.0,2.0,3.0,105000.0
+642,642,642,"CasaenVentaCalleLagunaDelVolcán613,ElSeminarioPrimeraSección,TolucaDeLerdo,Esta#**
+,TolucaDeLerdo,México",103.0,2.0,3.0,97500.0
+643,643,643,"CasaenVentaTolucaDeLerdo,México",180.0,2.0,3.0,105000.0
+644,644,644,"CasaenVentaCasaEnVentaResidencialLasFuentesToluca
+,TolucaDeLerdo,México",123.0,2.0,3.0,95000.0
+645,645,645,"CasaenVentaDeLaBarranca#0
+,Tlacopa,TolucaDeLerdo",128.0,2.0,3.0,26076.75
+646,646,646,"CasaenVentaCasaEnVentaCacalomacan
+,Cacalomacan,TolucaDeLerdo",350.0,3.0,3.0,225000.0
+647,647,647,"CasaenVentaTolucaDeLerdo,México",140.0,2.0,3.0,26851.6
+648,648,648,"CasaenVentaRobertoFulton
+,TolucaDeLerdo,México",200.0,3.0,3.0,167500.0
+649,649,649,"CasaenVentaAvenidaIndependencia#143
+,TolucaDeLerdo,México",75.0,1.0,2.0,19100.0
+650,650,650,"CasaenVentaTolucaDeLerdo,México",110.0,2.0,2.0,20900.0
+651,651,651,"CasaenVentaJoseMartiNull
+,Tlacopa,TolucaDeLerdo",,2.0,3.0,107500.0
+652,652,652,"CasaenVentaTolucaNull
+,OchoCedros,TolucaDeLerdo",,2.0,5.0,142500.0
+653,653,653,"CasaenVentaAv.Independencia#139
+,TolucaDeLerdo,México",100.0,1.0,3.0,20850.0
+654,654,654,"CasaenVentaTolucaDeLerdo,México",100.0,2.0,3.0,64408.0
+655,655,655,"CasaenVentaCelanese,TolucaDeLerdo",220.0,2.0,5.0,117500.0
+656,656,656,"CasaenVenta23DeSeptiembreNull
+,TolucaDeLerdo,México",,4.0,5.0,287500.0
+657,657,657,"CasaenVentaTolucaDeLerdo,México",110.0,2.0,3.0,31616.0
+658,658,658,"CasaenVenta.#.,.
+,TolucaDeLerdo,México",249.0,5.0,3.0,115000.0
+659,659,659,"CasaenVentaProlGralJuanAndrewAlmazán
+,TolucaDeLerdo,México",400.0,3.0,5.0,190000.0
+660,660,660,"CasaenVentaSanMateoOxtotitlán,TolucaDeLerdo",120.0,1.0,2.0,87500.0
+661,661,661,"CasaenVentaIndependencia,TolucaDeLerdo",175.0,2.0,3.0,205000.0
+662,662,662,"CasaenVentaHaciendaDelValleIi,TolucaDeLerdo",82.0,2.0,3.0,53250.0
+663,663,663,"CasaenVentaTolucaDeLerdo,México",66.0,3.0,4.0,75000.0
+664,664,664,"CasaenVentaManuelSotelo#509,0
+,Morelos2aSecc,TolucaDeLerdo",262.0,5.0,5.0,219000.0
+665,665,665,"CasaenVentaMaríaCurie#303
+,TolucaDeLerdo,México",245.0,3.0,3.0,215550.0
+666,666,666,"CasaenVentaGuadalupe#4
+,TolucaDeLerdo,México",1500.0,4.0,4.0,1150000.0
+667,667,667,"CasaenVentaTolucaDeLerdo,México",324.0,3.0,7.0,215000.0
+668,668,668,"CasaenVentaSanMarcos#211
+,TolucaDeLerdo,México",95.0,1.0,2.0,27788.7
+669,669,669,"CasaenVentaTolucaDeLerdo,México",120.0,2.0,3.0,61966.1
+670,670,670,"CasaenVentaAlRefugio#sn
+,TolucaDeLerdo,México",250.0,4.0,4.0,120000.0
+671,671,671,"CasaenVentaTolucaDeLerdo,México",140.0,2.0,3.0,48282.4
+672,672,672,"CasaenVentaBoulevardAdolfoLopezMateos#146
+,TolucaDeLerdo,México",160.0,2.0,3.0,45205.5
+673,673,673,"CasaenVentaMiguelHidalgo#s/n
+,TolucaDeLerdo,México",119.0,3.0,3.0,85000.0
+674,674,674,"CasaenVentaPensadorMexicano#00
+,SanLorenzoTepaltitlánCentro,TolucaDeLerdo",180.0,3.0,3.0,91550.0
+675,675,675,"CasaenVentaTolucaDeLerdo,México",100.0,2.0,3.0,52472.0
+676,676,676,"CasaenVentaMaríaCurie#303,00
+,TolucaDeLerdo,México",200.0,3.0,3.0,197250.0
+677,677,677,"CasaenVentaCasaEnVentaSanJosé,SantaCruzOtzacatipan
+,TolucaDeLerdo,México",446.0,5.0,4.0,325000.0
+678,678,678,"CasaenVentaParajeJacquesCousteau
+,TolucaDeLerdo,México",400.0,5.0,5.0,225000.0
+679,679,679,"CasaenVentaGuillermoMarconi#00,00
+,TolucaDeLerdo,México",120.0,2.0,3.0,54375.25
+680,680,680,"CasaenVentaTolucaDeLerdo,México",390.0,7.0,6.0,450000.0
+681,681,681,"CasaenVentaCarmenSerdan,ColonTolucaMex
+,TolucaDeLerdo,México",280.0,5.0,4.0,400000.0
+682,682,682,"CasaenVentaSanMateoOtzacatipan,TolucaDeLerdo",99.0,2.0,3.0,80000.0
+683,683,683,"CasaenVentaAv.HidalgoOte
+,TolucaDeLerdo,México",112.0,2.0,3.0,99000.0
+684,684,684,"CasaenVentaAgronomos#0
+,TolucaDeLerdo,México",110.0,1.0,2.0,20092.85
+685,685,685,"CasaenVentaCrespaTownModeloCoral
+,DeLaCrespa,TolucaDeLerdo",,2.0,3.0,139421.05
+686,686,686,"CasaenVentaLagoTanganica103
+,OchoCedros,TolucaDeLerdo",,2.0,5.0,139500.0
+687,687,687,"CasaenVentaAntonioAlbarran#608
+,TolucaDeLerdo,México",150.0,3.0,3.0,112500.0
+688,688,688,"CasaenVentaCasaEnVenta3RecamarasSantaMariaTotoltepecTolucaCercaDeAeropuertoYAvTollocan
+,SantaMaríaTotoltepec,TolucaDeLerdo",,1.0,3.0,100000.0
+689,689,689,"CasaenVentaTolucaDeLerdo,México",353.0,2.0,4.0,225000.0
+690,690,690,"CasaenVentaPrivadaGomezDelVillarNull
+,TolucaDeLerdo,México",,2.0,3.0,177500.0
+691,691,691,"CasaenVentaFraccionamientosSauces
+,TolucaDeLerdo,México",94.0,1.0,2.0,65000.0
+692,692,692,"CasaenVentaHaciendaDeCerroViejo#m29
+,TolucaDeLerdo,México",70.0,1.0,2.0,30527.6
+693,693,693,"CasaenVentaTolucaDeLerdo,México",84.0,2.0,3.0,51750.0
+694,694,694,"CasaenVentaTolucaDeLerdo,México",120.0,3.0,4.0,120000.0
+695,695,695,"CasaenVentaVentaDeCasaPara,oficinaYConsultorios
+,Morelos1aSección,TolucaDeLerdo",,2.0,3.0,174000.0
+696,696,696,"CasaenVentaAvenidaIndependencia#143
+,TolucaDeLerdo,México",160.0,2.0,3.0,19100.0
+697,697,697,"CasaenVentaConventoDeSanAntonioDePadua#28
+,TolucaDeLerdo,México",101.0,3.0,3.0,87500.0
+698,698,698,"CasaenVentaTolucaDeLerdo,México",126.0,3.0,3.0,105000.0
+699,699,699,"CasaenVentaCultural#nd
+,TolucaDeLerdo,México",483.0,3.0,6.0,410000.0
+700,700,700,"CasaenVentaCasaSolaEnMetepec
+,TolucaDeLerdo,México",170.0,3.0,3.0,110000.0
+701,701,701,"CasaenVentaGralMarcelinoGarciaBarragán1001
+,ElSeminario3aSección,TolucaDeLerdo",,1.0,4.0,132800.0
+702,702,702,"CasaenVentaGralMarcelinoGarciaBarragán1001
+,ElSeminario3aSección,TolucaDeLerdo",,1.0,4.0,132800.0
+703,703,703,"CasaenVentaCasaEnCapultitlan
+,TolucaDeLerdo,México",205.0,1.0,4.0,82500.0
+704,704,704,"CasaenVentaNiñosHeroes
+,TolucaDeLerdo,México",183.0,2.0,2.0,149500.0
+705,705,705,"CasaenVentaTolucaDeLerdo,México",160.0,2.0,3.0,43635.0
+706,706,706,"CasaenVentaCacalomacan,TolucaDeLerdo",386.0,4.0,3.0,160000.0
+707,707,707,"CasaenVentaTolucaDeLerdo,México",360.0,3.0,4.0,95406.9
+708,708,708,"CasaenVentaNezahualcóyotl#00
+,TolucaDeLerdo,México",280.0,1.0,3.0,51500.0
+709,709,709,"CasaenVentaIsabelLaCatolica#902
+,TolucaDeLerdo,México",200.0,2.0,3.0,53060.0
+710,710,710,"CasaenVentaTolucaDeLerdo,México",230.0,2.0,3.0,17230.05
+711,711,711,"CasaenVentaBonitaCasaDisponibleParaVentaEnSanFelipeTlalmimilolpan
+,TolucaDeLerdo,México",111.0,2.0,2.0,97500.0
+712,712,712,"CasaenVentaGaleana
+,TolucaDeLerdo,México",400.0,4.0,5.0,700000.0
+713,713,713,"CasaenVentaAlpinismo,SanBuenaventura
+,TolucaDeLerdo,México",,2.0,3.0,105000.0
+714,714,714,"CasaenVentaCasaNuevaEnVentaEnCrespaTown,Mod.zafiro
+,DeLaCrespa,TolucaDeLerdo",127.0,2.0,3.0,144413.05
+715,715,715,"CasaenVentaCasaEnVentaEnResidencialColonEnToluca,EstadoDeMexico
+,TolucaDeLerdo",576.0,5.0,5.0,325000.0
+716,716,716,"CasaenVentaIndependencia,TolucaDeLerdo",210.0,2.0,3.0,249750.0
+717,717,717,"CasaenVentaMiguelMata#209
+,TolucaDeLerdo,México",136.0,2.0,3.0,21780.15
+718,718,718,"CasaenVentaCasaEnVentaEnHaciendaDelValleIi,Toluca.
+,TolucaDeLerdo,México",116.0,1.0,3.0,65000.0
+719,719,719,"CasaenVentaHttps://goo.gl/maps/jcmathxm2rdagflz7
+,Altamirano,TolucaDeLerdo",81.0,1.0,2.0,225000.0
+720,720,720,"CasaenVentaLaMerced(alameda),TolucaDeLerdo",300.0,3.0,6.0,200000.0
+721,721,721,"CasaenVentaHttps://goo.gl/maps/hozdhrderfzmpjhu9
+,SanMateoOxtotitlán,TolucaDeLerdo",,2.0,3.0,110000.0
+722,722,722,"CasaenVentaSilverioPérez#00
+,TolucaDeLerdo,México",120.0,1.0,3.0,32910.65
+723,723,723,"CasaenVentaOchoCedros,TolucaDeLerdo",227.0,2.0,4.0,140000.0
+724,724,724,"CasaenVentaCasaEnVenta4RecamarasLaGaliaTolucaCercaDeAeropuertoYPlazaSendero
+,HaciendaLaGalia,TolucaDeLerdo",,2.0,4.0,120000.0
+725,725,725,"CasaenVentaCiprés,TolucaDeLerdo",594.0,4.0,4.0,600000.0
+726,726,726,"CasaenVentaElectricistasLocales,TolucaDeLerdo",200.0,2.0,3.0,214500.0
+727,727,727,"CasaenVentaBenitoJuarezNorte501
+,SantaBárbara,TolucaDeLerdo",,3.0,8.0,325000.0
+728,728,728,"CasaenVentaMiguelMata#209
+,TolucaDeLerdo,México",150.0,1.0,2.0,21780.15
+729,729,729,"CasaenVentaRemateBancario,Casa,SanMarcos,VillaSantin,Toluca,EstadoDeMexico
+,TolucaDeLerdo",80.0,1.0,2.0,35524.6
+730,730,730,"CasaenVentaCasaVentaCipres
+,TolucaDeLerdo,México",220.0,2.0,3.0,362500.0
+731,731,731,"CasaenVentaFraccionamientoLasMisionesIi,SanPedroTotoltepec,Carr.Toluca-naucalpan1702,Iii,50226TolucaDeLerdo,Méx.
+,TolucaDeLerdo,México",101.0,2.0,3.0,90000.0
+732,732,732,"CasaenVentaSantaElena#32,42
+,TolucaDeLerdo,México",135.0,4.0,3.0,84000.0
+733,733,733,"CasaenVentaIndependencia,TolucaDeLerdo",175.0,2.0,3.0,185000.0
+734,734,734,"CasaenVentaArcadioHenkel#1
+,Morelos1aSección,TolucaDeLerdo",295.0,4.0,4.0,295000.0
+735,735,735,"CasaenVentaCasaNuevaEnVentaEnResidencialVictoria,Toluca.
+,TolucaDeLerdo,México",177.0,2.0,3.0,155000.0
+736,736,736,"CasaenVentaTenochtitlan#113,15-a
+,TolucaDeLerdo,México",100.0,2.0,2.0,60000.0
+737,737,737,"CasaenVentaLosSaucesIiCol.SanJoséGuadalupe,TolucaDeLerdo
+,TolucaDeLerdo,México",80.0,1.0,2.0,43500.0
+738,738,738,"CasaenVentaInstitutoLiterario
+,TolucaDeLerdo,México",550.0,5.0,4.0,500000.0
+739,739,739,"CasaenVentaTolucaDeLerdo,México",450.0,2.0,4.0,225000.0
+740,740,740,"CasaenVentaModeloRoble
+,TolucaDeLerdo,México",95.0,2.0,3.0,76905.0
+741,741,741,"CasaenVentaPrivadaHaciendaDeMetepecMz25l1-c-b,ConjULosSaucesIv,SanJoséGuadalupe#**
+,TolucaDeLerdo,México",135.0,2.0,3.0,77500.0
+742,742,742,"CasaenVentaVillasSanAndres
+,DeLaCrespa,TolucaDeLerdo",74.0,1.0,2.0,52500.0
+743,743,743,"CasaenVentaJoseVicenteVillada#101,0
+,TolucaDeLerdo,México",191.0,3.0,3.0,132500.0
+744,744,744,"CasaenVentaGeovillasDeSanMateo
+,TolucaDeLerdo,México",63.0,1.0,2.0,48000.0
+745,745,745,"CasaenVentaGuillermoMarconi#507
+,TolucaDeLerdo,México",120.0,2.0,3.0,54368.9
+746,746,746,"CasaenVentaLagoTanganica#0
+,TolucaDeLerdo,México",190.0,2.0,3.0,78041.6
+747,747,747,"CasaenVentaElTrigo#sn
+,TolucaDeLerdo,México",420.0,5.0,4.0,425000.0
+748,748,748,"CasaenVentaLosSauces#sn
+,TolucaDeLerdo,México",66.0,1.0,2.0,45000.0
+749,749,749,"CasaenVentaTolucaDeLerdo,México",350.0,5.0,5.0,453500.0
+750,750,750,"CasaenVentaOficinaEnVentaAUnaCuadraDeGaleriasToluca
+,TolucaDeLerdo,México",225.0,1.0,2.0,52500.0
+751,751,751,"CasaenVentaOo#xx
+,TolucaDeLerdo,México",126.0,3.0,3.0,187500.0
+752,752,752,"CasaenVentaTolucaDeLerdo,México",176.0,2.0,5.0,85000.0
+753,753,753,"CasaenVentaAv.HidalgoPte.#000
+,TolucaDeLerdo,México",170.0,3.0,4.0,33557.45
+754,754,754,"CasaenVentaGómezFaríasEsq.IsidroFabelaNull
+,Vértice,TolucaDeLerdo",,3.0,4.0,875000.0
+755,755,755,"CasaenVentaRicardoVGarrido113
+,SalvadorSánchezColín,TolucaDeLerdo",,5.0,4.0,197500.0
+756,756,756,"CasaenVentaHidalgo
+,TolucaDeLerdo,México",120.0,2.0,2.0,85000.0
+757,757,757,"CasaenVentaCiprés,TolucaDeLerdo",280.0,4.0,3.0,523000.0
+758,758,758,"CasaenVentaTierraYLibertad#114
+,TolucaDeLerdo,México",140.0,2.0,2.0,50803.05
+759,759,759,"CasaenVentaTolucaDeLerdo,México",660.0,3.0,5.0,465000.0
+760,760,760,"CasaenVentaBarrioSantaMaria#s/n
+,TolucaDeLerdo,México",189.0,3.0,3.0,134500.0
+761,761,761,"CasaenVentaHaciendaDelRocío#25
+,TolucaDeLerdo,México",69.0,2.0,2.0,51500.0
+762,762,762,"CasaenVentaAhuehuetes,TolucaDeLerdo",91.0,1.0,,85000.0
+763,763,763,"CasaenVentaÁrbolDeLasManitas#00
+,TolucaDeLerdo,México",140.0,3.0,4.0,19520.0
+764,764,764,"CasaenVentaIndependencia104
+,DeLaCrespa,TolucaDeLerdo",,3.0,4.0,140000.0
+765,765,765,"CasaenVentaSanJoseObrero#230
+,TolucaDeLerdo,México",107.0,2.0,2.0,26150.75
+766,766,766,"CasaenVentaNiñoArtilleroNull
+,SanMateoOxtotitlán,TolucaDeLerdo",,2.0,4.0,100000.0
+767,767,767,"CasaenVentaFrac.PaseoArboleda
+,TolucaDeLerdo,México",108.0,2.0,3.0,95000.0
+768,768,768,"CasaenVentaVentaDeCasaCercaDeCuNull
+,VicenteGuerrero,TolucaDeLerdo",,2.0,3.0,210000.0
+769,769,769,"CasaenVentaVicenteLonbardoToledano#197
+,TolucaDeLerdo,México",121.0,3.0,3.0,138921.05
+770,770,770,"CasaenVentaIndependencia,TolucaDeLerdo",175.0,2.0,3.0,160000.0
+771,771,771,"CasaenVentaTolucaDeLerdo,México",165.0,2.0,3.0,60000.0
+772,772,772,"CasaenVentaMontesAltai
+,TolucaDeLerdo,México",209.0,2.0,4.0,170000.0
+773,773,773,"CasaenVentaDiosesDelOlimpo#234
+,TolucaDeLerdo,México",75.0,1.0,2.0,65000.0
+774,774,774,"CasaenVentaJuanAldama
+,TolucaDeLerdo,México",790.0,3.0,5.0,725000.0
+775,775,775,"CasaenVentaMontesAltai#310
+,TolucaDeLerdo,México",210.0,5.0,4.0,170000.0
+776,776,776,"CasaenVentaAgrónomos#101
+,TolucaDeLerdo,México",170.0,1.0,2.0,23092.8
+777,777,777,"CasaenVentaAdolfoLopezMateos146#146
+,TolucaDeLerdo,México",125.0,2.0,3.0,45205.5
+778,778,778,"CasaenVentaTolucaDeLerdo,México",160.0,2.0,3.0,45205.5
+779,779,779,"CasaenVentaOoo#21
+,TolucaDeLerdo,México",234.0,3.0,3.0,187500.0
+780,780,780,"CasaenVentaTolucaDeLerdo,México",180.0,6.0,7.0,177500.0
+781,781,781,"CasaenVentaFraccionamientoIndependenciaNull
+,SantaMaríaTotoltepec,TolucaDeLerdo",,1.0,3.0,100000.0
+782,782,782,"CasaenVentaSanPedroTotoltepec,TolucaDeLerdo",130.0,1.0,2.0,80000.0
+783,783,783,"CasaenVentaTolucaDeLerdo,México",356.0,2.0,4.0,515000.0
+784,784,784,"CasaenVentaCasaEnVentaPaseosSanMartinToluca
+,TolucaDeLerdo,México",40.0,1.0,1.0,23000.0
+785,785,785,"CasaenVentaTolucaDeLerdo,México",340.0,3.0,5.0,435000.0
+786,786,786,"CasaenVentaCasa2Plantas
+,SanPedroTotoltepec,TolucaDeLerdo",109.0,1.0,3.0,61350.0
+787,787,787,"CasaenVentaLuisDonaldoColosio
+,TolucaDeLerdo,México",247.0,2.0,4.0,175000.0
+788,788,788,"CasaenVentaTolucaDeLerdo,México",350.0,2.0,3.0,225000.0
+789,789,789,"CasaenVentaTolucaDeLerdo,México",67.0,2.0,2.0,35500.0
+790,790,790,"CasaenVentaHeroesDel5DeMayo#nd
+,TolucaDeLerdo,México",242.0,4.0,6.0,103350.0
+791,791,791,"CasaenVenta.#.
+,TolucaDeLerdo,México",180.0,5.0,4.0,99500.0
+792,792,792,"CasaenVentaAbeto#77-b
+,TolucaDeLerdo,México",90.0,1.0,2.0,38510.9
+793,793,793,"CasaenVentaCarmenSerdán
+,Ciprés,TolucaDeLerdo",1230.0,4.0,5.0,2245000.0
+794,794,794,"CasaenVentaToluca#606
+,TolucaDeLerdo,México",160.0,2.0,3.0,28724.0
+795,795,795,"CasaenVentaTolucaNull
+,RanchoLaMora,TolucaDeLerdo",,3.0,4.0,92500.0
+796,796,796,"CasaenVentaNaucalpan#1702
+,TolucaDeLerdo,México",139.0,4.0,3.0,54000.0
+797,797,797,"CasaenVentaPrivadaCedros115
+,Tlacopa,TolucaDeLerdo",,2.0,3.0,240000.0
+798,798,798,"CasaenVentaTolucaDeLerdo,México",215.0,4.0,4.0,157500.0
+799,799,799,"CasaenVentaSanBuenaventura,TolucaDeLerdo",727.0,5.0,5.0,1150000.0
+800,800,800,"CasaenVentaTolucaDeLerdo,México",141.0,3.0,3.0,75000.0
+801,801,801,"CasaenVentaTolucaDeLerdo,México",67.0,2.0,2.0,35500.0
+802,802,802,"CasaenVentaAltamirano324,DelegaciónSanMateoOxtotitlán,50100TolucaDeLerdo,Méx.
+,SanMateoOxtotitlán,TolucaDeLerdo",,2.0,3.0,115000.0
+803,803,803,"CasaenVentaAllende#100
+,TolucaDeLerdo,México",137.0,1.0,2.0,175000.0
+804,804,804,"CasaenVentaJacarandas#37,2
+,TolucaDeLerdo,México",75.0,1.0,2.0,35022.9
+805,805,805,"CasaenVentaSanMarcos#0
+,TolucaDeLerdo,México",220.0,3.0,3.0,27788.7
+806,806,806,"CasaenVentaHaciendaSanIsidro#14
+,TolucaDeLerdo,México",84.0,3.0,2.0,57500.0
+807,807,807,"CasaenVentaCircuitoHaciendaJajalpa
+,TolucaDeLerdo,México",65.0,1.0,3.0,37500.0
+808,808,808,"CasaenVentaDiosesDelOlimpo#234
+,TolucaDeLerdo,México",170.0,3.0,3.0,125000.0
+809,809,809,"CasaenVentaRetorno8#1
+,TolucaDeLerdo,México",141.0,3.0,3.0,75000.0
+810,810,810,"CasaenVentaLagoVictoria712
+,OchoCedros,TolucaDeLerdo",,3.0,3.0,325000.0
+811,811,811,"CasaenVentaTolucaDeLerdo,México",160.0,2.0,3.0,45205.5
+812,812,812,"CasaenVentaProlongaciónRutaDeLaIndependencia#131
+,TolucaDeLerdo,México",110.0,2.0,3.0,16468.25
+813,813,813,"CasaenVentaSanLorenzoTepaltitlánCentro,TolucaDeLerdo",320.0,3.0,6.0,175000.0
+814,814,814,"CasaenVentaCasaEnVenta/RentaEnLasFlores
+,TolucaDeLerdo,México",215.0,2.0,3.0,112500.0
+815,815,815,"CasaenVentaCoahuila327
+,SantaMaríaDeLasRosas,TolucaDeLerdo",,1.0,3.0,80000.0
+816,816,816,"CasaenVentaCerradaDeAmazonas118
+,TolucaDeLerdo,México",,3.0,3.0,175000.0
+817,817,817,"CasaenVentaMorelos#25
+,TolucaDeLerdo,México",960.0,2.0,5.0,300000.0
+818,818,818,"CasaenVentaTolucaDeLerdo,México",133.0,3.0,3.0,116500.9
+819,819,819,"CasaenVentaSanMarcos#0
+,TolucaDeLerdo,México",180.0,3.0,3.0,28231.65
+820,820,820,"CasaenVentaAbeto#77
+,TolucaDeLerdo,México",90.0,1.0,2.0,38510.9
+821,821,821,"CasaenVentaMetepec#142,A
+,TolucaDeLerdo,México",260.0,3.0,4.0,42500.0
+822,822,822,"CasaenVentaEmilianoZapata#0,1
+,TolucaDeLerdo,México",200.0,3.0,3.0,130000.0
+823,823,823,"CasaenVentaJesúsCarranza#449
+,TolucaDeLerdo,México",624.0,3.0,4.0,215000.0
+824,824,824,"CasaenVentaLagoSanIgnacio#306
+,ElSeminario2aSección,TolucaDeLerdo",185.0,2.0,3.0,75000.0
+825,825,825,"CasaenVentaIndependenciaNull
+,TolucaDeLerdo,México",,2.0,3.0,120000.0
+826,826,826,"CasaenVentaGeneralRafaelCharazo111Null
+,ModernaDeLaCruz,TolucaDeLerdo",,2.0,4.0,287500.0
+827,827,827,"CasaenVentaSantaAnaTlapaltitlán,Toluca
+,SantaAnaTlapaltitlán,TolucaDeLerdo",225.0,1.0,3.0,62500.0
+828,828,828,"CasaenVentaFraccSorJuanaInésDeLaCruz,Toluca
+,SanPedroTotoltepec,TolucaDeLerdo",265.0,2.0,3.0,130000.0
+829,829,829,"CasaenVentaLasHesperidesToluca
+,SantaMaríaTotoltepec,TolucaDeLerdo",72.0,1.0,2.0,57500.0
+830,830,830,"CasaenVentaTolucaDeLerdo,México",193.0,3.0,4.0,90000.0
+831,831,831,"CasaenVentaTolucaDeLerdo,México",133.0,3.0,3.0,116500.0
+832,832,832,"CasaenVentaOchoCedros,TolucaDeLerdo",260.0,2.0,4.0,139500.0
+833,833,833,"CasaenVentaLagoTangañica411
+,OchoCedros,TolucaDeLerdo",,2.0,5.0,145000.0
+834,834,834,"CasaenVentaTolucaDeLerdo,México",56.0,1.0,2.0,25082.15
+835,835,835,"CasaenVentaCircuitoHaciendaSanIsidro#14
+,TolucaDeLerdo,México",84.0,3.0,3.0,57500.0
+836,836,836,"CasaenVentaMiguelMata#209
+,TolucaDeLerdo,México",150.0,2.0,3.0,21780.15
+837,837,837,"CasaenVentaTolucaDeLerdo,México",180.0,3.0,3.0,28231.65
+838,838,838,"CasaenVentaCasaEnVentaEnTolucaEnElCoporo
+,TolucaDeLerdo,México",215.0,1.0,5.0,275000.0
+839,839,839,"CasaenVentaGranLagoDelOso#107
+,IsidroFabela2aSección,TolucaDeLerdo",357.0,4.0,4.0,80000.0
+840,840,840,"CasaenVentaTolucaDeLerdo,México",90.0,2.0,3.0,67500.0
+841,841,841,"CasaenVentaPensadorMexicano408,DelegaciónSanBuenaventura,TolucaDeLerdo,EstadoDeM#**
+,TolucaDeLerdo,México",190.0,4.0,3.0,119000.0
+842,842,842,"CasaenVentaTolucaDeLerdo,México",150.0,2.0,3.0,118682.95
+843,843,843,"CasaenVentaSanLorenzoTepaltitlan
+,TolucaDeLerdo,México",280.0,2.0,4.0,137500.0
+844,844,844,"CasaenVentaTolucaDeLerdo,México",177.0,2.0,3.0,175000.0
+845,845,845,"CasaenVentaToluca
+,TolucaDeLerdo,México",447.0,1.0,3.0,215000.0
+846,846,846,"CasaenVentaCasaEnVenta/rentaCipres
+,TolucaDeLerdo,México",438.0,3.0,4.0,500000.0
+847,847,847,"CasaenVentaTolucaDeLerdo,México",63.0,1.0,3.0,64500.0
+848,848,848,"CasaenVentaTolucaDeLerdo,México",440.0,2.0,3.0,195000.0
+849,849,849,"CasaenVentaTolucaDeLerdo,México",73.0,2.0,3.0,38250.0
+850,850,850,"CasaenVentaCasaDeCampoEnZonaTranquilaConHornoDePiedraEnSanNicolasPeralta
+,TolucaDeLerdo,México",,1.0,3.0,60000.0
+851,851,851,"CasaenVentaTolucaDeLerdo,México",300.0,2.0,3.0,49417.75
+852,852,852,"CasaenVentaPaseoSanCristobalColón#511
+,TolucaDeLerdo,México",204.0,3.0,3.0,132500.0
+853,853,853,"CasaenVentaGeólogos#120
+,TolucaDeLerdo,México",120.0,2.0,2.0,35000.0
+854,854,854,"CasaenVentaTolucaDeLerdo,México",220.0,3.0,3.0,27788.7
+855,855,855,"CasaenVentaInsurgentes
+,TolucaDeLerdo,México",200.0,4.0,3.0,124000.0
+856,856,856,"CasaenVentaSierraVentana#206
+,TolucaDeLerdo,México",180.0,3.0,3.0,235000.0
+857,857,857,"CasaenVentaCasaEnVentaPaseoSanMartínCalleOcoyoacac
+,TolucaDeLerdo,México",36.0,1.0,1.0,23000.0
+858,858,858,"CasaenVentaCasaEnVentaEnCapultitlanToluca
+,TolucaDeLerdo,México",324.0,2.0,7.0,215000.0
+859,859,859,"CasaenVentaDiodoroOrtega300
+,RanchoLaMora,TolucaDeLerdo",,2.0,3.0,100000.0
+860,860,860,"CasaenVentaTolucaDeLerdo,México",160.0,1.0,3.0,43635.0
+861,861,861,"CasaenVentaTolucaDeLerdo,México",360.0,3.0,4.0,95406.9
+862,862,862,"CasaenVentaTolucaDeLerdo,México",88.0,2.0,3.0,67500.0
+863,863,863,"CasaenVentaGeoVillasLosCedros
+,TolucaDeLerdo,México",56.0,1.0,2.0,25082.15
+864,864,864,"CasaenVentaIndependencia#143,34
+,TolucaDeLerdo,México",95.0,2.0,3.0,70000.0
+865,865,865,"CasaenVentaCrisantemo#640
+,TolucaDeLerdo,México",215.0,2.0,3.0,112500.0
+866,866,866,"CasaenVentaLaTeresona,TolucaDeLerdo",286.0,3.0,3.0,85000.0
+867,867,867,"CasaenVentaTierraYLibertad#114
+,TolucaDeLerdo,México",120.0,1.0,3.0,50803.05
+868,868,868,"CasaenVentaAzteca,TolucaDeLerdo",150.0,1.0,3.0,105000.0
+869,869,869,"CasaenVentaCasaEnVenta3RecamarasAunCostadoDeGmTolucaA3MinutosDeUnitec
+,SantaAnaTlapaltitlán,TolucaDeLerdo",,1.0,3.0,62500.0
+870,870,870,"CasaenVentaAv.JuárezNorte539
+,Centro,TolucaDeLerdo",,1.0,3.0,190000.0
+871,871,871,"CasaenVentaTolucaDeLerdo,México",61.0,2.0,3.0,65000.0
+872,872,872,"CasaenVentaArcadioHenkel1011
+,OchoCedros,TolucaDeLerdo",,3.0,3.0,175000.0
+873,873,873,"CasaenVentaTolucaDeLerdo,México",72.0,2.0,3.0,38250.0
+874,874,874,"CasaenVentaCasaEnVentaSorJuana,LaGalia
+,TolucaDeLerdo,México",250.0,2.0,4.0,120000.0
+875,875,875,"CasaenVentaCipres304
+,Ciprés,TolucaDeLerdo",,3.0,3.0,405000.0
+876,876,876,"CasaenVentaSectorPopular,TolucaDeLerdo",265.0,2.0,4.0,130000.0
+877,877,877,"CasaenVentaCeboruco#1
+,TolucaDeLerdo,México",11111.0,2.0,2.0,77500.0
+878,878,878,"CasaenVentaVenustianoCarranza#22,21
+,TolucaDeLerdo,México",170.0,4.0,3.0,80000.0
+879,879,879,"CasaenVentaCapultitlán,TolucaDeLerdo",285.0,3.0,4.0,105000.0
+880,880,880,"CasaenVentaArcadioHenkel1001
+,OchoCedros,TolucaDeLerdo",,3.0,3.0,175000.0
+881,881,881,"CasaenVentaTolucaDeLerdo,México",90.0,2.0,3.0,32910.6
+882,882,882,"CasaenVentaFuenteDeLosDeseos#26
+,TolucaDeLerdo,México",187.0,3.0,3.0,127500.0
+883,883,883,"CasaenVentaTolucaDeLerdo,México",353.0,2.0,4.0,237500.0
+884,884,884,"CasaenVentaFuenteDeLosDeseos#27
+,TolucaDeLerdo,México",187.0,3.0,3.0,127500.0
+885,885,885,"CasaenVentaJuanDeLaBarreraNull
+,TolucaDeLerdo,México",,3.0,4.0,175000.0
+886,886,886,"CasaenVentaSaucesNull
+,LosSaucesV,TolucaDeLerdo",,1.0,2.0,43500.0
+887,887,887,"CasaenVentaLaVesana#266
+,TolucaDeLerdo,México",84.0,2.0,2.0,69500.0
+888,888,888,"CasaenVentaTolucaDeLerdo,México",170.0,2.0,,124000.0
+889,889,889,"CasaenVentaCapultitlán,TolucaDeLerdo",,3.0,3.0,99950.0
+890,890,890,"CasaenVentaFuentesNull
+,SanMateoOtzacatipan,TolucaDeLerdo",,2.0,3.0,97500.0
+891,891,891,"CasaenVentaNiñosHeroes211
+,SanMateoOtzacatipan,TolucaDeLerdo",,1.0,3.0,97500.0
+892,892,892,"CasaenVentaCrisantemos#640
+,TolucaDeLerdo,México",215.0,3.0,3.0,112500.0
+893,893,893,"CasaenVentaPaseoDeLaAsunción
+,TolucaDeLerdo,México",,1.0,3.0,46500.0
+894,894,894,"CasaenVentaTolucaDeLerdo,México",,3.0,3.0,2400000.0
+895,895,895,"CasaenVentaNezahualcoyotl#000
+,TolucaDeLerdo,México",350.0,3.0,4.0,51500.0
+896,896,896,"CasaenVentaTolucaDeLerdo,México",165.0,2.0,3.0,102500.0
+897,897,897,"CasaenVentaAzaleas#818
+,TolucaDeLerdo,México",100.0,1.0,3.0,27987.65
+898,898,898,"CasaenVentaCasaEnVentaUbicadaEnHaciendaDelValleIi
+,TolucaDeLerdo,México",69.0,1.0,3.0,51500.0
+899,899,899,"CasaenVentaHeroesPrimeraSeccion
+,TolucaDeLerdo,México",60.0,1.0,2.0,40000.0
+900,900,900,"CasaenVentaTolucaDeLerdo,México",200.0,1.0,3.0,260000.0
+901,901,901,"CasaenVentaTolucaDeLerdo,México",369.0,2.0,4.0,315000.0
+902,902,902,"CasaenVentaNicolásBravoNorte#429
+,TolucaDeLerdo,México",215.0,2.0,5.0,275000.0
+903,903,903,"CasaenVentaAlRefugioSn
+,TolucaDeLerdo,México",,3.0,4.0,120000.0
+904,904,904,"CasaenVentaCiprés,TolucaDeLerdo",576.0,4.0,5.0,325000.0
+905,905,905,"CasaenVentaAdolfoLopezMateos#146
+,TolucaDeLerdo,México",100.0,2.0,3.0,41500.0
+906,906,906,"CasaenVentaCasaEnVenta3RecamarasHaciendaDelValleTolucaCercaDeParqueToluca
+,TolucaDeLerdo,México",,2.0,3.0,65000.0
+907,907,907,"CasaenVentaCristobalOlmedo#134
+,TolucaDeLerdo,México",144.0,1.0,3.0,28642.9
+908,908,908,"CasaenVentaVentaDeCasaEnToluca,ColSantaClara
+,TolucaDeLerdo,México",385.0,5.0,7.0,225000.0
+909,909,909,"CasaenVentaPaseoArboledaNull
+,TolucaDeLerdo,México",,2.0,3.0,90000.0
+910,910,910,"CasaenVentaCasaEnVenta,ResidencialCrespaTownToluca.
+,DeLaCrespa,TolucaDeLerdo",,2.0,2.0,138971.8
+911,911,911,"CasaenVentaTolucaDeLerdo,México",650.0,4.0,3.0,860000.0
+912,912,912,"CasaenVentaCasaEnVentaEnLosHeroesIii
+,TolucaDeLerdo,México",119.0,2.0,4.0,55000.0
+913,913,913,"CasaenVentaSanMateoOtzacatipan,TolucaDeLerdo",225.0,3.0,3.0,202500.0
+914,914,914,"CasaenVentaCarreteraMéxico-toluca
+,TolucaDeLerdo",425.0,3.0,3.0,795000.0
+915,915,915,"CasaenVenta5DeMayo30
+,SanLorenzoTepaltitlánCentro,TolucaDeLerdo",,1.0,4.0,100000.0
+916,916,916,"CasaenVentaTolucaDeLerdo,México",148.0,2.0,3.0,88600.0
+917,917,917,"CasaenVentaHhh100
+,TolucaDeLerdo,México",,3.0,4.0,140000.0
+918,918,918,"CasaenVentaTolucaDeLerdo,México",290.0,4.0,4.0,225000.0
+919,919,919,"CasaenVentaBonitaCasaEnVentaCercaDelParqueSierraMorelos,Toluca
+,TolucaDeLerdo,México",240.0,3.0,4.0,120000.0
+920,920,920,"CasaenVentaTolucaDeLerdo,México",60.0,1.0,2.0,20850.0
+921,921,921,"CasaenVentaAzteca,TolucaDeLerdo",106.0,1.0,3.0,90000.0
+922,922,922,"CasaenVentaTolucaDeLerdo,México",188.0,3.0,3.0,122500.0
+923,923,923,"CasaenVentaTolucaDeLerdo,México",160.0,2.0,3.0,155000.0
+924,924,924,"CasaenVentaFracPaseosDelValle#11,0
+,TolucaDeLerdo,México",120.0,2.0,3.0,41390.35
+925,925,925,"CasaenVentaCasaEnVenta2RecamarasLosHeroes1EnToluca
+,TolucaDeLerdo,México",60.0,1.0,2.0,39500.0
+926,926,926,"CasaenVentaRobertoFulton185
+,TolucaDeLerdo,México",,3.0,3.0,165000.0
+927,927,927,"CasaenVentaNezahualcoyotl#00
+,TolucaDeLerdo,México",260.0,2.0,4.0,51500.0
+928,928,928,"CasaenVentaAv.MiguelHidalgoNull
+,Centro,TolucaDeLerdo",,3.0,4.0,1150000.0
+929,929,929,"CasaenVenta21DeMarzo#s/n
+,TolucaDeLerdo,México",250.0,2.0,4.0,100000.0
+930,930,930,"CasaenVentaAntonioGaribaldy
+,TolucaDeLerdo,México",66.0,1.0,4.0,55000.0
+931,931,931,"CasaenVentaLasMisionesNull
+,TolucaDeLerdo,México",,2.0,3.0,75000.0
+932,932,932,"CasaenVentaRemanenteIi#12
+,TolucaDeLerdo,México",160.0,2.0,3.0,60000.0
+933,933,933,"CasaenVentaTolucaDeLerdo,México",372.0,3.0,4.0,180000.0
+934,934,934,"CasaenVentaTolucaDeLerdo,México",110.0,3.0,3.0,70575.0
+935,935,935,"CasaenVentaApatzingan507
+,TolucaDeLerdo,México",,2.0,4.0,105000.0
+936,936,936,"CasaenVentaCampoRealIi#23
+,TolucaDeLerdo,México",170.0,3.0,3.0,120000.0
+937,937,937,"CasaenVentaJesusSolorzano#126A
+,TolucaDeLerdo,México",80.0,2.0,3.0,46000.0
+938,938,938,"CasaenVentaNuevaOxtotitlán,TolucaDeLerdo",129.0,1.0,3.0,85000.0
+939,939,939,"CasaenVentaTolucaDeLerdo,México",65.0,1.0,3.0,42750.0
+940,940,940,"CasaenVentaGómezFaríasEsqIsidroFabela#sn
+,TolucaDeLerdo,México",160.0,4.0,4.0,875000.0
+941,941,941,"CasaenVentaCaminoASanFelipe#1234
+,TolucaDeLerdo,México",120.0,3.0,3.0,115000.0
+942,942,942,"CasaenVentaJuanSilveti,VillasSantin
+,TolucaDeLerdo,México",120.0,2.0,3.0,60000.0
+943,943,943,"CasaenVentaTolucaDeLerdo,México",950.0,5.0,4.0,445000.0
+944,944,944,"CasaenVentaPrivadaMarthaRodríguez#5
+,TolucaDeLerdo,México",155.0,2.0,2.0,95000.0
+945,945,945,"CasaenVentaSanBuenaventura,TolucaDeLerdo",350.0,3.0,4.0,500000.0
+946,946,946,"CasaenVentaPrivadaFuenteDeLaLuz117
+,TolucaDeLerdo,México",130.0,1.0,,69750.0
+947,947,947,"CasaenVentaReforma
+,TolucaDeLerdo,México",,2.0,2.0,47500.0
+948,948,948,"CasaenVentaCasaEnVentaEnFracc.PaseosSanMartin,Toluca.
+,TolucaDeLerdo,México",45.0,1.0,1.0,23000.0
+949,949,949,"CasaenVentaLasMisionesNull
+,TolucaDeLerdo,México",,2.0,3.0,80000.0
+950,950,950,"CasaenVentaTolucaDeLerdo,México",249.0,2.0,3.0,95000.0
+951,951,951,"CasaenVentaCaminoASanJuanTilapa#137,0
+,TolucaDeLerdo,México",124.0,3.0,3.0,93575.0
+952,952,952,"CasaenVentaDeTlanepantla,TolucaDeLerdo",175.0,2.0,5.0,180000.0
+953,953,953,"CasaenVentaCircuitoPrincipal#1234
+,TolucaDeLerdo,México",105.0,3.0,3.0,95000.0
+954,954,954,"CasaenVentaAmazonasNull
+,TolucaDeLerdo,México",,2.0,4.0,90000.0
+955,955,955,"CasaenVentaAmbrosia
+,TolucaDeLerdo,México",,1.0,3.0,50000.0
+956,956,956,"CasaenVentaDoctorAlonsoGarcia#35
+,TolucaDeLerdo,México",200.0,2.0,4.0,70000.0
+957,957,957,"CasaenVentaArbolDeLasManitas#0
+,TolucaDeLerdo,México",140.0,2.0,3.0,19520.05
+958,958,958,"CasaenVentaTolucaDeLerdo,México",154.0,3.0,3.0,107500.0
+959,959,959,"CasaenVentaTolucaDeLerdo,México",226.0,3.0,3.0,149000.0
+960,960,960,"CasaenVentaTolucaDeLerdo,México",111.0,2.0,2.0,62500.0
+961,961,961,"CasaenVentaSanJorge,Santin
+,TolucaDeLerdo,México",150.0,2.0,3.0,80000.0
+962,962,962,"CasaenVentaMiguelHidalgo#00
+,TolucaDeLerdo,México",163.0,3.0,3.0,67500.0
+963,963,963,"CasaenVentaEmilianoZapataNull
+,TolucaDeLerdo,México",,3.0,3.0,142500.0
+964,964,964,"CasaenVentaMarieCurie#303
+,TolucaDeLerdo,México",192.0,2.0,3.0,175100.0
+965,965,965,"CasaenVentaAretusa#227
+,TolucaDeLerdo,México",80.0,2.0,2.0,43000.0
+966,966,966,"CasaenVentaConventoDeLeón#28
+,TolucaDeLerdo,México",101.0,3.0,3.0,75000.0
+967,967,967,"CasaenVentaTolucaDeLerdo,México",528.0,5.0,6.0,1200000.0
+968,968,968,"CasaenVentaGranMorada#nd
+,TolucaDeLerdo,México",182.0,3.0,3.0,224500.0
+969,969,969,"CasaenVentaJoseVicenteVillada#00
+,TolucaDeLerdo,México",273.0,2.0,4.0,140300.0
+970,970,970,"CasaenVentaJoséMaríaArtega#00
+,TolucaDeLerdo,México",294.0,3.0,4.0,121000.0
+971,971,971,"CasaenVentaPrivadaDelRey#5
+,TolucaDeLerdo,México",170.0,3.0,3.0,105000.0
+972,972,972,"CasaenVentaEx-haciendaSanJorge,TolucaDeLerdo",108.0,2.0,3.0,115000.0
+973,973,973,"CasaenVentaVicenteYañezPunzon#202
+,TolucaDeLerdo,México",264.0,4.0,3.0,275000.0
+974,974,974,"CasaenVentaTolucaDeLerdo,México",136.0,2.0,3.0,125000.0
+975,975,975,"CasaenVentaCuervos219
+,TolucaDeLerdo,México",,4.0,3.0,1300000.0
+976,976,976,"CasaenVentaLeonaVicario#11
+,TolucaDeLerdo,México",254.0,3.0,3.0,162500.0
+977,977,977,"CasaenVentaLagunaDeTixtlaNull
+,VicenteGuerrero,TolucaDeLerdo",,5.0,8.0,325000.0
+978,978,978,"CasaenVentaAltamirano16
+,SanMateoOxtotitlán,TolucaDeLerdo",480.0,4.0,,173500.0
+979,979,979,"CasaenVentaCallePuertoAngel4,DelegaciónSanLorenzoTepaltitlánIi,DelegaciónSanLore#4
+,TolucaDeLerdo,México",150.0,2.0,3.0,80000.0
+980,980,980,"CasaenVentaMorelos1aSección,TolucaDeLerdo",178.0,3.0,4.0,147500.0
+981,981,981,"CasaenVentaSanLorenzoTepaltitlánCentro,TolucaDeLerdo",158.0,2.0,3.0,80000.0
+982,982,982,"CasaenVentaBosquesDeCantabria#nd
+,TolucaDeLerdo,México",230.0,6.0,4.0,127500.0
+983,983,983,"CasaenVentaProlongacion5DeMayo#1541
+,TolucaDeLerdo,México",130.0,3.0,3.0,236840.45
+984,984,984,"CasaenVentaTolucaDeLerdo,México",300.0,3.0,3.0,49417.75
+985,985,985,"CasaenVentaSanLorenzoTepaltitlanTolucaEdoMex
+,TolucaDeLerdo,México",105.0,2.0,,42500.0
+986,986,986,"CasaenVentaTolucaDeLerdo,México",90.0,1.0,2.0,74934.4
+987,987,987,"CasaenVentaProfSantiagoVelasco#0,0
+,TolucaDeLerdo,México",160.0,2.0,3.0,12341.25
+988,988,988,"CasaenVentaSorJuanaaInes
+,TolucaDeLerdo,México",380.0,1.0,5.0,285000.0
+989,989,989,"CasaenVentaFresnosNull
+,BosquesDeCantabria,TolucaDeLerdo",,2.0,3.0,67500.0
+990,990,990,"CasaenVentaJoseMariaArteaga#00
+,TolucaDeLerdo,México",294.0,3.0,4.0,121000.0
+991,991,991,"CasaenVentaAv.SebastianLerdoDeTejadaNull
+,TolucaDeLerdo,México",,2.0,2.0,110000.0
+992,992,992,"CasaenVentaTolucaDeLerdo,México",62.0,1.0,2.0,43750.0
+993,993,993,"CasaenVentaPrivadaRicardoCharvelS/n
+,SanMateoOxtotitlán,TolucaDeLerdo",,3.0,4.0,130000.0
+994,994,994,"CasaenVentaDora#106
+,TolucaDeLerdo,México",270.0,2.0,4.0,73608.3
+995,995,995,"CasaenVentaHttps://goo.gl/maps/vtwk2nbjv2scfcue6
+,TolucaDeLerdo,México",300.0,4.0,6.0,157500.0
+996,996,996,"CasaenVentaPensadorMexicano#00
+,SanLorenzoTepaltitlánCentro,TolucaDeLerdo",180.0,2.0,3.0,91550.0
+997,997,997,"CasaenVentaJoseMariaCoosNull
+,TolucaDeLerdo,México",,1.0,3.0,140000.0
+998,998,998,"CasaenVentaIsabelLaCatolica#00
+,TolucaDeLerdo,México",220.0,3.0,4.0,53050.0
+999,999,999,"CasaenVentaPalomaTorcaza#38
+,TolucaDeLerdo,México",60.0,1.0,2.0,19208.0
+1000,1000,1000,"CasaenVentaSantaAnaTlapaltitlán,TolucaDeLerdo",183.0,3.0,4.0,325000.0
+1001,1001,1001,"CasaenVentaBenitoJuárez,TolucaDeLerdo",580.0,3.0,3.0,325000.0
+1002,1002,1002,"CasaenVentaTolucaDeLerdo,México",95.0,2.0,2.0,72650.0
+1003,1003,1003,"CasaenVentaAvStaElena118h,RincónDeSanLorenzo,50017TolucaDeLerdo,Méx.
+,TolucaDeLerdo,México",,1.0,2.0,49000.0
+1004,1004,1004,"CasaenVentaTolucaDeLerdo,México",122.0,3.0,4.0,124900.0
+1005,1005,1005,"CasaenVentaCasaEnVentaORentaToluca
+,TolucaDeLerdo,México",492.0,3.0,3.0,625000.0
+1006,1006,1006,"CasaenVentaCampoRealIi23
+,SantaMaríaTotoltepec,TolucaDeLerdo",,2.0,3.0,120000.0
+1007,1007,1007,"CasaenVentaHermosaCasaEnVentaDe1PlantaEnToluca,AUnasCuadrasDelCentro
+,TolucaDeLerdo,México",450.0,4.0,3.0,700000.0
+1008,1008,1008,"CasaenVentaTolucaDeLerdo,México",62.0,1.0,3.0,75000.0
+1009,1009,1009,"CasaenVentaTolucaDeLerdo,México",300.0,3.0,5.0,99500.0
+1010,1010,1010,"CasaenVentaCentenario
+,TolucaDeLerdo,México",100.0,2.0,2.0,90000.0
+1011,1011,1011,"CasaenVentaCasaSolaEnVentaEnCacalomacanEdoMex
+,Cacalomacan,TolucaDeLerdo",,4.0,4.0,375000.0
+1012,1012,1012,"CasaenVentaTolucaDeLerdo,México",,2.0,3.0,375000.0
+1013,1013,1013,"CasaenVentaTolucaDeLerdo,México",65.0,1.0,2.0,42000.0
+1014,1014,1014,"CasaenVentaManuelM.dieguez#00
+,TolucaDeLerdo,México",160.0,3.0,4.0,23950.0
+1015,1015,1015,"CasaenVentaTolucaDeLerdo,México",180.0,2.0,3.0,150000.0
+1016,1016,1016,"CasaenVentaTolucaDeLerdo,México",67.0,1.0,2.0,41000.0
+1017,1017,1017,"CasaenVentaCasa/oficinasEnRenta-ventaCol.SectorPopular
+,TolucaDeLerdo,México",449.0,2.0,4.0,162500.0
+1018,1018,1018,"CasaenVentaLagoSanIgnacio306
+,ElSeminario2aSección,TolucaDeLerdo",,1.0,3.0,75000.0
+1019,1019,1019,"CasaenVentaManuelSotelo323
+,TolucaDeLerdo,México",233.0,3.0,,194750.0
+1020,1020,1020,"CasaenVentaAndrésBenavides
+,Ciprés,TolucaDeLerdo",,4.0,4.0,237500.0
+1021,1021,1021,"CasaenVentaSanMateoOtzacatipan,TolucaDeLerdo",111.0,1.0,3.0,132500.0
+1022,1022,1022,"CasaenVentaTolucaDeLerdo,México",878.0,7.0,4.0,600000.0
+1023,1023,1023,"CasaenVentaTolucaDeLerdo,México",144.0,4.0,1.0,150000.0
+1024,1024,1024,"CasaenVentaTolucaDeLerdo,México",209.0,6.0,4.0,170000.0
+1025,1025,1025,"CasaenVentaRebeca#00
+,TolucaDeLerdo,México",150.0,1.0,3.0,53000.0
+1026,1026,1026,"CasaenVentaTolucaNull
+,TolucaDeLerdo,México",,4.0,4.0,475000.0
+1027,1027,1027,"CasaenVentaSanBuenaventura,TolucaDeLerdo",175.0,1.0,2.0,135000.0
+1028,1028,1028,"CasaenVentaNezahualcoyotl#00
+,TolucaDeLerdo,México",200.0,3.0,4.0,51500.0
+1029,1029,1029,"CasaenVentaTolucaDeLerdo,México",233.0,3.0,3.0,187500.0
+1030,1030,1030,"CasaenVentaTolucaDeLerdo,México",233.0,3.0,3.0,187500.0
+1031,1031,1031,"CasaenVentaGalileoGalilei#00
+,TolucaDeLerdo,México",200.0,3.0,3.0,96500.0
+1032,1032,1032,"CasaenVentaSanMateoOxtotitlán,TolucaDeLerdo",220.0,2.0,3.0,125000.0
+1033,1033,1033,"CasaenVentaTomasAlvaEdison#00
+,TolucaDeLerdo,México",318.0,2.0,3.0,115545.0
+1034,1034,1034,"CasaenVentaTomasAlvaEdison#00
+,TolucaDeLerdo,México",318.0,2.0,3.0,115545.0
+1035,1035,1035,"CasaenVentaGalileoGalilei#00
+,TolucaDeLerdo,México",200.0,2.0,3.0,96500.0
+1036,1036,1036,"CasaenVentaVicenteYáñezPunzónNull
+,Ciprés,TolucaDeLerdo",,1.0,3.0,275000.0
+1037,1037,1037,"CasaenVentaMiguelHidalgoNull
+,TolucaDeLerdo,México",,3.0,2.0,95000.0
+1038,1038,1038,"CasaenVentaTolucaDeLerdo,México",300.0,2.0,4.0,145000.0
+1039,1039,1039,"CasaenVentaTolucaDeLerdo,México",140.0,2.0,3.0,82500.0
+1040,1040,1040,"CasaenVentaArce#233
+,TolucaDeLerdo,México",123.0,3.0,3.0,60000.0
+1041,1041,1041,"CasaenVentaNoePérez1
+,TolucaDeLerdo,México",,2.0,3.0,295000.0
+1042,1042,1042,"CasaenVentaTolucaDeLerdo,México",185.0,3.0,4.0,112500.0
+1043,1043,1043,"CasaenVentaTotoltepecNull
+,TolucaDeLerdo,México",,4.0,4.0,336000.0
+1044,1044,1044,"CasaenVentaFernandoQuirozS/n
+,Federal(adolfoLópezMateos),TolucaDeLerdo",,2.0,4.0,375000.0
+1045,1045,1045,"CasaenVentaTolucaDeLerdo,México",287.0,2.0,4.0,187500.0
+1046,1046,1046,"CasaenVentaMiguelMata#209
+,TolucaDeLerdo,México",80.0,1.0,3.0,21780.15
+1047,1047,1047,"CasaenVentaTolucaDeLerdo,México",85.0,1.0,2.0,67500.0
+1048,1048,1048,"CasaenVenta23DeSeptiembre#311
+,TolucaDeLerdo,México",500.0,5.0,4.0,297500.0
+1049,1049,1049,"CasaenVentaDora#00
+,TolucaDeLerdo,México",340.0,2.0,4.0,73608.3
+1050,1050,1050,"CasaenVentaTolucaDeLerdo,México",134.0,1.0,3.0,92500.0
+1051,1051,1051,"CasaenVentaTolucaDeLerdo,México",200.0,3.0,3.0,117500.0
+1052,1052,1052,"CasaenVentaCalleTomasAlvaEdisonNoAl200
+,TolucaDeLerdo,México",100.0,3.0,3.0,
+1053,1053,1053,"CasaenVentaTolucaDeLerdo,México",233.0,3.0,3.0,187500.0
+1054,1054,1054,"CasaenVentaBonitaCasaEnVentaEntreAvBlvdAeropuertoYTollocan
+,TolucaDeLerdo,México",180.0,1.0,2.0,82500.0
+1055,1055,1055,"CasaenVentaTolucaDeLerdo,México",233.0,3.0,3.0,187500.0
+1056,1056,1056,"CasaenVentaTolucaDeLerdo,México",233.0,3.0,3.0,187500.0
+1057,1057,1057,"CasaenVentaDora#00
+,TolucaDeLerdo,México",300.0,4.0,5.0,73608.3
+1058,1058,1058,"CasaenVentaCoahuila111
+,SantaMaríaDeLasRosas,TolucaDeLerdo",,1.0,4.0,87500.0
+1059,1059,1059,"CasaenVentaCasaEnVenta2RecamarasLasPalomasTolucaA15MinutosDeGaleriasMetepec
+,TolucaDeLerdo,México",,1.0,2.0,55000.0
+1060,1060,1060,"CasaenVentaManuelM.Dieguez#00
+,TolucaDeLerdo,México",180.0,3.0,4.0,23950.0
+1061,1061,1061,"CasaenVentaPrivadaSantaRita#17B
+,TolucaDeLerdo,México",62.0,2.0,2.0,37500.0
+1062,1062,1062,"CasaenVentaTolucaDeLerdo,México",850.0,3.0,4.0,900000.0
+1063,1063,1063,"CasaenVentaDoroteoArango#119
+,TolucaDeLerdo,México",180.0,3.0,3.0,104000.0
+1064,1064,1064,"CasaenVentaTolucaDeLerdo,México",280.0,3.0,4.0,23950.0
+1065,1065,1065,"CasaenVentaBenitoJuárez2011
+,TolucaDeLerdo,México",,2.0,3.0,125000.0
+1066,1066,1066,"CasaenVentaEsmeralda4
+,TolucaDeLerdo,México",,2.0,4.0,145000.0
+1067,1067,1067,"CasaenVentaIsabelLaCatólica#000
+,TolucaDeLerdo,México",200.0,2.0,3.0,53060.0
+1068,1068,1068,"CasaenVentaTolucaDeLerdo,México",233.0,3.0,3.0,187500.0
+1069,1069,1069,"CasaenVentaTolucaDeLerdo,México",233.0,3.0,3.0,187500.0
+1070,1070,1070,"CasaenVentaTolucaDeLerdo,México",233.0,3.0,3.0,187500.0
+1071,1071,1071,"CasaenVentaTolucaDeLerdo,México",233.0,3.0,3.0,187500.0
+1072,1072,1072,"CasaenVentaIsabelLaCatolica#0
+,TolucaDeLerdo,México",248.0,2.0,4.0,53060.0
+1073,1073,1073,"CasaenVentaTolucaDeLerdo,México",130.0,3.0,3.0,100000.0
+1074,1074,1074,"CasaenVentaTolucaDeLerdo,México",66.0,2.0,3.0,55250.0
+1075,1075,1075,"CasaenVentaNataliaCarrasco#000
+,TolucaDeLerdo,México",250.0,3.0,4.0,200785.85
+1076,1076,1076,"CasaenVentaPaseoCristobalColon#**
+,TolucaDeLerdo,México",576.0,5.0,4.0,325000.0
+1077,1077,1077,"CasaenVentaRemateBancario,Casa,SanJose,VillasSantin,Toluca,EstadoDeMexico
+,TolucaDeLerdo",110.0,1.0,2.0,35500.0
+1078,1078,1078,"CasaenVentaMisionesIiNull
+,TolucaDeLerdo,México",,2.0,3.0,75000.0
+1079,1079,1079,"CasaenVentaVillasToscanaNull
+,TolucaDeLerdo,México",,2.0,2.0,105000.0
+1080,1080,1080,"CasaenVentaSanMiguelApinahuizco,TolucaDeLerdo",212.0,2.0,3.0,90000.0
+1081,1081,1081,"CasaenVentaTolucaDeLerdo,México",76.0,1.0,2.0,68500.0
+1082,1082,1082,"CasaenVentaTolucaDeLerdo,México",84.0,1.0,3.0,69500.0
+1083,1083,1083,"CasaenVentaAdolfoLopezMateos#146
+,TolucaDeLerdo,México",150.0,1.0,2.0,41500.0
+1084,1084,1084,"CasaenVentaSantaAnaTlapaltitlán,TolucaDeLerdo",128.0,1.0,2.0,195000.0
+1085,1085,1085,"CasaenVentaToluca#606
+,TolucaDeLerdo,México",130.0,2.0,3.0,28724.0
+1086,1086,1086,"CasaenVentaMiguelMata#209
+,TolucaDeLerdo,México",136.0,2.0,3.0,21780.15
+1087,1087,1087,"CasaenVentaLerma#216
+,TolucaDeLerdo,México",90.0,2.0,2.0,32500.0
+1088,1088,1088,"CasaenVentaTolucaDeLerdo,México",200.0,1.0,4.0,115000.0
+1089,1089,1089,"CasaenVentaTolucaDeLerdo,México",91.0,2.0,3.0,78000.0
+1090,1090,1090,"CasaenVentaMiguelHidalgoS/n
+,SanMateoOtzacatipan,TolucaDeLerdo",,2.0,3.0,79000.0
+1091,1091,1091,"CasaenVentaAv.Encinos102,ConjULosSauces,50200TolucaDeLerdo,Méx.
+,TolucaDeLerdo,México",,1.0,2.0,55000.0
+1092,1092,1092,"CasaenVentaTolucaDeLerdo,México",200.0,2.0,3.0,125000.0
+1093,1093,1093,"CasaenVentaJoséMartín#114
+,TolucaDeLerdo,México",285.0,3.0,3.0,240000.0
+1094,1094,1094,"CasaenVentaMarieCuerie#303
+,TolucaDeLerdo,México",195.0,4.0,3.0,205000.0
+1095,1095,1095,"CasaenVentaMarieCurie#303
+,TolucaDeLerdo,México",195.0,4.0,3.0,200000.0
+1096,1096,1096,"CasaenVentaRamonCoronaNull
+,TolucaDeLerdo,México",,2.0,3.0,175000.0
+1097,1097,1097,"CasaenVentaRamonCorona707
+,TolucaDeLerdo,México",,2.0,3.0,197500.0
+1098,1098,1098,"CasaenVentaTolucaDeLerdo,México",122.0,2.0,2.0,62500.0
+1099,1099,1099,"CasaenVentaTolucaDeLerdo,México",429.0,3.0,3.0,400000.0
+1100,1100,1100,"CasaenVentaToluca-naucalpan#146
+,TolucaDeLerdo,México",110.0,3.0,3.0,92500.0
+1101,1101,1101,"CasaenVentaTolucaDeLerdo,México",100.0,2.0,3.0,93450.0
+1102,1102,1102,"CasaenVentaIndependencia#305
+,TolucaDeLerdo,México",80.0,2.0,2.0,45000.0
+1103,1103,1103,"CasaenVentaMontesHimalaya1
+,TolucaDeLerdo,México",,2.0,3.0,225000.0
+1104,1104,1104,"CasaenVentaTolucaDeLerdo,México",112.0,1.0,2.0,60000.0
+1105,1105,1105,"CasaenVentaCiprés,TolucaDeLerdo",400.0,1.0,3.0,490000.0
+1106,1106,1106,"CasaenVentaEvaristoJiménez16
+,TolucaDeLerdo,México",,1.0,2.0,51000.0
+1107,1107,1107,"CasaenVentaPinosuarez
+,ZopilocalcoNorte,TolucaDeLerdo",393.0,,,147350.0
+1108,1108,1108,"CasaenVentaBarbabosa,Toluca,EstadoDeMéxico
+,TolucaDeLerdo",,1.0,2.0,350000.0
+1109,1109,1109,"CasaenVentaRanchoLaMoraNull
+,RanchoLaMora,TolucaDeLerdo",,1.0,2.0,60000.0
+1110,1110,1110,"CasaenVentaRetorno#8
+,TolucaDeLerdo,México",141.0,3.0,3.0,83750.0
+1111,1111,1111,"CasaenVentaCoyotzin120
+,TolucaDeLerdo,México",,2.0,4.0,175000.0
+1112,1112,1112,"CasaenVentaTolucaDeLerdo,México",67.0,1.0,2.0,46000.0
+1113,1113,1113,"CasaenVentaPuebla#000
+,TolucaDeLerdo,México",130.0,3.0,3.0,117700.0
+1114,1114,1114,"CasaenVentaTolucaDeLerdo,México",192.0,2.0,3.0,90165.3
+1115,1115,1115,"CasaenVentaC.ProlongacionZapotecasLb,Unión,50040TolucaDeLerdo,Méx.
+,TolucaDeLerdo,México",124.0,2.0,3.0,110000.0
+1116,1116,1116,"CasaenVentaPaseoCristobalColón#511
+,TolucaDeLerdo,México",204.0,3.0,3.0,132500.0
+1117,1117,1117,"CasaenVentaTomasAlvaEdison#00
+,TolucaDeLerdo,México",318.0,2.0,3.0,115545.0
+1118,1118,1118,"CasaenVentaTolucaDeLerdo,México",238.0,3.0,4.0,175000.0
+1119,1119,1119,"CasaenVentaFelipeBerriozabal#00
+,TolucaDeLerdo,México",342.0,3.0,4.0,139880.0
+1120,1120,1120,"CasaenVentaLagoVictoriaNull
+,OchoCedros,TolucaDeLerdo",,3.0,3.0,325000.0
+1121,1121,1121,"CasaenVentaSantaMaríaTotoltepec,TolucaDeLerdo",126.0,1.0,3.0,59000.0
+1122,1122,1122,"CasaenVentaLeyesDeReformaNull
+,TolucaDeLerdo,México",,3.0,5.0,212500.0
+1123,1123,1123,"CasaenVentaSierraVentana#000
+,TolucaDeLerdo,México",180.0,3.0,3.0,241450.0
+1124,1124,1124,"CasaenVentaTolucaDeLerdo,México",148.0,2.0,3.0,125000.0
+1125,1125,1125,"CasaenVentaCasaEnVentaBosqueDeLasFuentesModeloMontecarlo
+,TolucaDeLerdo,México",,3.0,3.0,220000.0
+1126,1126,1126,"CasaenVentaTolucaDeLerdo,México",130.0,3.0,3.0,67500.0
+1127,1127,1127,"CasaenVentaTolucaDeLerdo,México",260.0,3.0,3.0,175000.0
+1128,1128,1128,"CasaenVentaPaseoCristobalColon#000
+,TolucaDeLerdo,México",204.0,3.0,3.0,139525.0
+1129,1129,1129,"CasaenVentaRobertoFulton#113
+,TolucaDeLerdo,México",200.0,5.0,3.0,160000.0
+1130,1130,1130,"CasaenVentaTolucaDeLerdo,México",348.0,4.0,3.0,340000.0
+1131,1131,1131,"CasaenVentaFuenteDeDiana12
+,TolucaDeLerdo,México",,2.0,3.0,125000.0
+1132,1132,1132,"CasaenVentaCerradaDeColón306
+,TolucaDeLerdo,México",,7.0,8.0,400000.0
+1133,1133,1133,"CasaenVentaMarthaS/n
+,TolucaDeLerdo,México",,2.0,3.0,140000.0
+1134,1134,1134,"CasaenVentaTolucaDeLerdo,México",350.0,3.0,4.0,130000.0
+1135,1135,1135,"CasaenVentaJoséMaríaArteaga#112
+,TolucaDeLerdo,México",294.0,3.0,3.0,100000.0
+1136,1136,1136,"CasaenVentaAvIndependencia#143,0
+,TolucaDeLerdo,México",70.0,2.0,2.0,20850.0
+1137,1137,1137,"CasaenVentaTolucaDeLerdo,México",120.0,2.0,2.0,44950.0
+1138,1138,1138,"CasaenVentaSantaCruzOtzacatipan,Toluca
+,TolucaDeLerdo,México",446.0,3.0,4.0,325000.0
+1139,1139,1139,"CasaenVentaToluca
+,TolucaDeLerdo,México",250.0,2.0,4.0,120000.0
+1140,1140,1140,"CasaenVentaTierraYLibertad#114
+,TolucaDeLerdo,México",190.0,2.0,3.0,50803.05
+1141,1141,1141,"CasaenVentaCasaEnVentaSaucesIvConTerrenoExcedenteEnEsquina
+,TolucaDeLerdo,México",74.0,1.0,3.0,
+1142,1142,1142,"CasaenVentaCasaEnVentaEnPaseosSantínIi,Toluca.
+,TolucaDeLerdo,México",60.0,3.0,3.0,40000.0
+1143,1143,1143,"CasaenVentaGeovillas#1
+,TolucaDeLerdo,México",117.0,1.0,2.0,43500.0
+1144,1144,1144,"CasaenVentaCasaEnVenta,Colonia8Cedros,Toluca,EstadoDeMéxico
+,TolucaDeLerdo",,1.0,3.0,90000.0
+1145,1145,1145,"CasaenVentaMiguelHidalgo#211
+,TolucaDeLerdo,México",163.0,3.0,3.0,67500.0
+1146,1146,1146,"CasaenVentaJesusCarranza#000
+,TolucaDeLerdo,México",624.0,3.0,4.0,222050.0
+1147,1147,1147,"CasaenVentaLasTorres1100
+,ElSeminario3aSección,TolucaDeLerdo",,6.0,10.0,375000.0
+1148,1148,1148,"CasaenVentaCasaEnVenta4RecamarasEnSauces1
+,TolucaDeLerdo,México",,2.0,4.0,80000.0
+1149,1149,1149,"CasaenVentaCasaEnVentaSorJuanaInésDeLaCruz
+,TolucaDeLerdo,México",,2.0,3.0,130000.0
+1150,1150,1150,"CasaenVentaMarthaRodriguez#2,2
+,TolucaDeLerdo,México",300.0,3.0,3.0,142500.0
+1151,1151,1151,"CasaenVentaClementeOrozco131
+,LosÁngeles,TolucaDeLerdo",,1.0,1.0,90000.0
+1152,1152,1152,"CasaenVentaTolucaDeLerdo,México",62.0,1.0,2.0,47450.0
+1153,1153,1153,"CasaenVentaTolucaDeLerdo,México",324.0,2.0,4.0,115000.0
+1154,1154,1154,"CasaenVentaTolucaDeLerdo,México",208.0,1.0,4.0,70000.0
+1155,1155,1155,"CasaenVentaSanFrancisco54-a
+,TolucaDeLerdo,México",,1.0,1.0,21000.0
+1156,1156,1156,"CasaenVentaEscuelaEnVenta,AtrásDelCalvarioToluca.
+,TolucaDeLerdo,México",1469.0,4.0,14.0,1100000.0
+1157,1157,1157,"CasaenVentaVentaColoniaSeminarioNull
+,TolucaDeLerdo,México",,2.0,3.0,115000.0
+1158,1158,1158,"CasaenVentaTolucaDeLerdo,México",60.0,1.0,2.0,60000.0
+1159,1159,1159,"CasaenVentaCalleDeLosCorredoresSn
+,TolucaDeLerdo,México",,3.0,3.0,400000.0
+1160,1160,1160,"CasaenVentaSanMateoOtzacatipan,TolucaDeLerdo",100.0,3.0,3.0,95000.0
+1161,1161,1161,"CasaenVentaAv.DeLasPartidas#125
+,TolucaDeLerdo,México",97.0,2.0,3.0,55289.9
+1162,1162,1162,"CasaenVentaAdolfoLopezMateos#146
+,TolucaDeLerdo,México",100.0,2.0,3.0,41500.0
+1163,1163,1163,"CasaenVentaGaleana
+,TolucaDeLerdo,México",380.0,4.0,6.0,700000.0
+1164,1164,1164,"CasaenVentaSantaMaríaTotoltepec,TolucaDeLerdo,Méx.Null
+,SantaMaríaTotoltepec,TolucaDeLerdo",,2.0,3.0,120000.0
+1165,1165,1165,"CasaenVentaFranciscoVillaNull
+,TolucaDeLerdo,México",,1.0,2.0,130000.0
+1166,1166,1166,"CasaenVentaCalleLuisProcunaColoniaPaseosSantin
+,TolucaDeLerdo,México",60.0,3.0,3.0,40000.0
+1167,1167,1167,"CasaenVentaSanLorenzoTepaltitlán,Toluca
+,TolucaDeLerdo,México",84.0,2.0,3.0,36500.0
+1168,1168,1168,"CasaenVentaHeroes,Toluca
+,TolucaDeLerdo,México",60.0,1.0,2.0,39500.0
+1169,1169,1169,"CasaenVentaFraccionamientoLasPalomasCapuchinas,Toluca
+,TolucaDeLerdo,México",114.0,1.0,2.0,55000.0
+1170,1170,1170,"CasaenVentaValleDonCamiloSn
+,TolucaDeLerdo,México",,1.0,3.0,225000.0
+1171,1171,1171,"CasaenVentaPaseoColón#120
+,Toluca,TolucaDeLerdo",499.0,5.0,10.0,375000.0
+1172,1172,1172,"CasaenVentaSantaCruzNull
+,TolucaDeLerdo,México",,5.0,4.0,125000.0
+1173,1173,1173,"CasaenVentaCasaEnVentaExHaciendaSanJosé
+,TolucaDeLerdo,México",,3.0,4.0,325000.0
+1174,1174,1174,"CasaenVentaAvCircuitoDeLosDiosesS/n
+,TolucaDeLerdo,México",,2.0,4.0,94500.0
+1175,1175,1175,"CasaenVentaCasaEnVentaLosHeroes1
+,TolucaDeLerdo,México",60.0,1.0,2.0,39500.0
+1176,1176,1176,"CasaenVentaLagoVictoria#712
+,TolucaDeLerdo,México",651.0,4.0,4.0,337500.0
+1177,1177,1177,"CasaenVentaHda.Antigua,ConjULosSaucesIv,50200SanNicolásTolentino,Méx.
+,TolucaDeLerdo,México",,1.0,4.0,60000.0
+1178,1178,1178,"CasaenVentaTolucaDeLerdo,México",319.0,3.0,6.0,107500.0
+1179,1179,1179,"CasaenVentaCasaNuevaEnVentaResidencialVictoria
+,TolucaDeLerdo,México",,2.0,3.0,155000.0
+1180,1180,1180,"CasaenVentaPlanDeAyala311
+,TolucaDeLerdo,México",,4.0,4.0,100000.0
+1181,1181,1181,"CasaenVentaSierraVentana#202
+,TolucaDeLerdo,México",300.0,7.0,4.0,310000.0
+1182,1182,1182,"CasaenVentaAvHidalgoOte#00
+,TolucaDeLerdo,México",500.0,3.0,4.0,33550.0
+1183,1183,1183,"CasaenVentaGirasol#218
+,TolucaDeLerdo,México",120.0,2.0,3.0,63782.75
+1184,1184,1184,"CasaenVentaLaMerced(alameda),TolucaDeLerdo",207.0,3.0,3.0,119920.0
+1185,1185,1185,"CasaenVentaAdolfoLopezMateos#146
+,TolucaDeLerdo,México",100.0,2.0,3.0,41500.0
+1186,1186,1186,"CasaenVentaCacalomacan,TolucaDeLerdo",169.0,2.0,3.0,120000.0
+1187,1187,1187,"CasaenVentaSn#sn
+,TolucaDeLerdo,México",200.0,4.0,5.0,150000.0
+1188,1188,1188,"CasaenVentaLomasAltasNull
+,TolucaDeLerdo,México",,4.0,5.0,182500.0
+1189,1189,1189,"CasaenVentaTolucaDeLerdo,México",280.0,4.0,12.0,290000.0
+1190,1190,1190,"CasaenVentaToluca
+,TolucaDeLerdo,México",144.0,1.0,3.0,100000.0
+1191,1191,1191,"CasaenVentaCalleJoaquinArcadioPagaza
+,TolucaDeLerdo,México",60.0,1.0,2.0,39500.0
+1192,1192,1192,"CasaenVentaToluca
+,TolucaDeLerdo,México",116.0,2.0,3.0,70000.0
+1193,1193,1193,"CasaenVentaChilpancingo616Null
+,TolucaDeLerdo,México",,1.0,4.0,120000.0
+1194,1194,1194,"CasaenVentaLagunaDeLaGaviaSn
+,OchoCedros2aSección,TolucaDeLerdo",,2.0,4.0,87500.0
+1195,1195,1195,"CasaenVentaPalomaMensajera#65
+,TolucaDeLerdo,México",140.0,2.0,3.0,70000.0
+1196,1196,1196,"CasaenVentaValleVerde,TolucaDeLerdo",227.0,2.0,4.0,145000.0
+1197,1197,1197,"CasaenVentaLagoDeChapultepec214
+,TolucaDeLerdo,México",,3.0,6.0,110000.0
+1198,1198,1198,"CasaenVentaIndependencia#00
+,TolucaDeLerdo,México",204.0,2.0,3.0,19100.0
+1199,1199,1199,"CasaenVentaSanJoséGuadalupeOtzacatipanS/n
+,SanNicolásTolentino,TolucaDeLerdo",,2.0,3.0,63000.0
+1200,1200,1200,"CasaenVentaTolucaDeLerdo,México",220.0,3.0,5.0,85000.0
+1201,1201,1201,"CasaenVentaAv.Independencia
+,TolucaDeLerdo,México",,1.0,2.0,34000.0
+1202,1202,1202,"CasaenVentaMiguelMata#209
+,TolucaDeLerdo,México",182.0,2.0,3.0,50000.0
+1203,1203,1203,"CasaenVentaCapultitlán,TolucaDeLerdo",310.0,3.0,7.0,275000.0
+1204,1204,1204,"CasaenVentaTolucaDeLerdo,México",70.0,1.0,2.0,42500.0
+1205,1205,1205,"CasaenVentaAltamiranoNull
+,SanMateoOxtotitlán,TolucaDeLerdo",,2.0,3.0,67500.0
+1206,1206,1206,"CasaenVentaTolucaDeLerdo,México",190.0,2.0,3.0,28487.45
+1207,1207,1207,"CasaenVentaPrivadaHaciendaCanutillo0
+,TolucaDeLerdo,México",,2.0,4.0,160000.0
+1208,1208,1208,"CasaenVentaTenochtitlan
+,SantaMaríaTotoltepec,TolucaDeLerdo",,1.0,3.0,87500.0
+1209,1209,1209,"CasaenVentaGirasol#00
+,TolucaDeLerdo,México",125.0,2.0,3.0,63782.75
+1210,1210,1210,"CasaenVentaAvIndependencia#139
+,TolucaDeLerdo,México",100.0,1.0,3.0,20850.0
+1211,1211,1211,"CasaenVentaPaseoCristobalColon#00
+,TolucaDeLerdo,México",400.0,3.0,4.0,140915.0
+1212,1212,1212,"CasaenVentaCalleLagunaVerde904,ElSeminarioPrimeraSecc,50170TolucaDeLerdo,Méx.Null
+,TolucaDeLerdo,México",,1.0,1.0,127500.0
+1213,1213,1213,"CasaenVentaCacalomacan,TolucaDeLerdo",400.0,3.0,3.0,410000.0
+1214,1214,1214,"CasaenVentaFelixParra713
+,LosÁngeles,TolucaDeLerdo",,2.0,3.0,72500.0
+1215,1215,1215,"CasaenVentaTolucaDeLerdo,México",400.0,4.0,4.0,181750.0
+1216,1216,1216,"CasaenVentaTolucaDeLerdo,México",245.0,2.0,3.0,97500.0
+1217,1217,1217,"CasaenVentaTolucaDeLerdo,México",420.0,,3.0,190000.0
+1218,1218,1218,"CasaenVentaIzcalliToluca,TolucaDeLerdo",132.0,1.0,4.0,94500.0
+1219,1219,1219,"CasaenVentaTolucaDeLerdo,México",654.0,4.0,4.0,300000.0
+1220,1220,1220,"CasaenVentaAlamo
+,DeTlanepantla,TolucaDeLerdo",228.0,2.0,5.0,240000.0
+1221,1221,1221,"CasaenVentaRanchoLaMora,TolucaDeLerdo",143.0,3.0,3.0,117500.0
+1222,1222,1222,"CasaenVentaHaciendaDeHuatulco#108
+,TolucaDeLerdo,México",550.0,4.0,3.0,500000.0
+1223,1223,1223,"CasaenVentaCalleLaVesana102,
+,TolucaDeLerdo,México",170.0,2.0,3.0,155000.0
+1224,1224,1224,"CasaenVentaTolucaDeLerdo,México",320.0,3.0,4.0,250000.0
+1225,1225,1225,"CasaenVentaTolucaDeLerdo,México",90.0,1.0,3.0,57800.0
+1226,1226,1226,"CasaenVentaDr.AndrésBenavides133
+,Ciprés,TolucaDeLerdo",,4.0,4.0,665000.0
+1227,1227,1227,"CasaenVentaGral.JoséVicenteVillada124,DelegaciónStaAnaTlapaltitlán,50160TolucaDeLerdo,Méx.,México
+,TolucaDeLerdo",290.0,3.0,3.0,284235.0
+1228,1228,1228,"CasaenVentaConocidaNull
+,VicenteGuerrero,TolucaDeLerdo",,1.0,3.0,149500.0
+1229,1229,1229,"CasaenVentaAvIndependencia#139
+,TolucaDeLerdo,México",100.0,1.0,3.0,20850.0
+1230,1230,1230,"CasaenVentaSantaAnaTlapaltitlán,TolucaDeLerdo",200.0,3.0,3.0,165000.0
+1231,1231,1231,"CasaenVentaTolucaDeLerdo,México",245.0,1.0,5.0,190000.0
+1232,1232,1232,"CasaenVenta719#casa10
+,BosquesDeSanMateo,TolucaDeLerdo",120.0,2.0,3.0,85000.0
+1233,1233,1233,"CasaenVentaLombardoToledano,FuentesDeLaIndependencia
+,DeLaCrespa,TolucaDeLerdo",130.0,2.0,3.0,102500.0
+1234,1234,1234,"CasaenVentaOlimpoNull
+,TolucaDeLerdo,México",,2.0,3.0,65000.0
+1235,1235,1235,"CasaenVentaTolucaDeLerdo,México",66.0,1.0,3.0,51494.9
+1236,1236,1236,"CasaenVentaSanMateoOtzacatipan,TolucaDeLerdo",255.0,3.0,3.0,160000.0
+1237,1237,1237,"CasaenVentaDeLosPadresNull
+,TolucaDeLerdo,México",,2.0,2.0,65000.0
+1238,1238,1238,"CasaenVentaTolucaDeLerdo,México",290.0,2.0,3.0,145000.0
+1239,1239,1239,"CasaenVentaPrivadaDeLosLargos#5a
+,TolucaDeLerdo,México",232.0,3.0,4.0,90000.0
+1240,1240,1240,"CasaenVentaSanMateoOtzacatipan,TolucaDeLerdo",140.0,2.0,3.0,110000.0
+1241,1241,1241,"CasaenVentaTolucaDeLerdo,México",66.0,,,29500.0
+1242,1242,1242,"CasaenVentaHaciendaLasCarretas#00
+,TolucaDeLerdo,México",70.0,1.0,3.0,19096.65
+1243,1243,1243,"CasaenVentaTizoc#122
+,TolucaDeLerdo,México",300.0,2.0,5.0,200000.0
+1244,1244,1244,"CasaenVentaSanPabloAutopan,TolucaDeLerdo",81.0,1.0,,41000.0
+1245,1245,1245,"CasaenVentaCasaEnVentaConDeptosSalonAlbercaColoniaVicenteGuerreroToluca
+,TolucaDeLerdo,México",628.0,13.0,17.0,900000.0
+1246,1246,1246,"CasaenVentaCasaGómezFarías,Col.MorelosTolucaEdo.DeMéxico
+,Morelos1aSección,TolucaDeLerdo",183.0,4.0,6.0,175000.0
+1247,1247,1247,"CasaenVentaCarretas95
+,TolucaDeLerdo,México",,4.0,4.0,425000.0
+1248,1248,1248,"CasaenVentaTolucaDeLerdo,México",81.0,2.0,3.0,60000.0
+1249,1249,1249,"CasaenVentaCerradaLázaroCárdenas
+,DeTlanepantla,TolucaDeLerdo",380.0,4.0,,170000.0
+1250,1250,1250,"CasaenVentaCacalomacan,TolucaDeLerdo",407.0,3.0,3.0,375000.0
+1251,1251,1251,"CasaenVentaTolucaDeLerdo,México",233.0,3.0,3.0,187500.0
+1252,1252,1252,"CasaenVentaTolucaDeLerdo,México",900.0,4.0,4.0,775000.0
+1253,1253,1253,"CasaenVentaCasaDisponibleParaVentaEnCerrilloVistaHermosa
+,TolucaDeLerdo,México",375.0,1.0,2.0,60000.0
+1254,1254,1254,"CasaenVentaMaríaCurie#303,Rf.35-10
+,TolucaDeLerdo,México",195.0,2.0,3.0,237105.0
+1255,1255,1255,"CasaenVentaCacalomacan,TolucaDeLerdo",250.0,3.0,3.0,212500.0
+1256,1256,1256,"CasaenVentaCacalomacan,TolucaDeLerdo",653.0,3.0,3.0,735000.0
+1257,1257,1257,"CasaenVentaOchoCedros,TolucaDeLerdo",96.0,6.0,6.0,60000.0
+1258,1258,1258,"CasaenVentaAndresBenavides#00
+,TolucaDeLerdo,México",530.0,3.0,3.0,550000.0
+1259,1259,1259,"CasaenVentaPaseosDelValleNull
+,TolucaDeLerdo,México",,2.0,3.0,157500.0
+1260,1260,1260,"CasaenVentaSanMarcos#219
+,TolucaDeLerdo,México",70.0,1.0,2.0,28231.65
+1261,1261,1261,"CasaenVentaIndustriaMineraS/n
+,TolucaDeLerdo,México",,2.0,3.0,82500.0
+1262,1262,1262,"CasaenVentaSantaMaríaTotoltepec,TolucaDeLerdo",185.0,1.0,3.0,80000.0
+1263,1263,1263,"CasaenVentaQuetzalcoatlNull
+,ClubJardín,TolucaDeLerdo",,2.0,4.0,124950.0
+1264,1264,1264,"CasaenVentaTolucaDeLerdo,México",221.0,3.0,3.0,170000.0
+1265,1265,1265,"CasaenVentaSanMateoNull
+,TolucaDeLerdo,México",,2.0,3.0,62500.0
+1266,1266,1266,"CasaenVentaEjidoSantaCruzAzcapotzaltongo,TolucaDeLerdo",208.0,4.0,,90000.0
+1267,1267,1267,"CasaenVentaMiguelMata#209
+,TolucaDeLerdo,México",136.0,2.0,3.0,21780.15
+1268,1268,1268,"CasaenVentaAvIndependencia#139
+,TolucaDeLerdo,México",62.0,1.0,2.0,21100.0
+1269,1269,1269,"CasaenVentaCarretas97,EstadoDeMéxicoNull
+,TolucaDeLerdo",,4.0,4.0,425000.0
+1270,1270,1270,"CasaenVentaCircuitoPrincipalAdolfoLópezMateos#00
+,TolucaDeLerdo,México",145.0,3.0,3.0,49500.0
+1271,1271,1271,"CasaenVentaMarcelinoGarciaBarragan206
+,TolucaDeLerdo,México",,3.0,4.0,147500.0
+1272,1272,1272,"CasaenVentaSanMateoOxtotitlán,TolucaDeLerdo",,1.0,3.0,90000.0
+1273,1273,1273,"CasaenVentaPrivadaChapalaNull
+,TolucaDeLerdo,México",,2.0,4.0,60000.0
+1274,1274,1274,"CasaenVenta16DeSeptiembre
+,TolucaDeLerdo,México",190.0,2.0,4.0,80000.0
+1275,1275,1275,"CasaenVenta23DeSeptiembreNull
+,TolucaDeLerdo,México",,4.0,4.0,297500.0
+1276,1276,1276,"CasaenVentaCaminoAlPanteón0
+,TolucaDeLerdo,México",,4.0,4.0,610000.0
+1277,1277,1277,"CasaenVentaParquesNacionales,TolucaDeLerdo",364.0,2.0,4.0,125000.0
+1278,1278,1278,"CasaenVentaParquesNacionales,TolucaDeLerdo",200.0,2.0,4.0,130000.0
+1279,1279,1279,"CasaenVentaCasaHabitacionEnVentaConj.PradosTollocan
+,TolucaDeLerdo,México",53.0,1.0,2.0,33000.0
+1280,1280,1280,"CasaenVentaCasaEnVentaPorLaAvenidaMatlatzincas,Toluca.$2,500,000
+,TolucaDeLerdo,México",257.0,,,125000.0
+1281,1281,1281,"CasaenVentaTolucaDeLerdo,México",500.0,2.0,,350000.0
+1282,1282,1282,"CasaenVentaTolucaDeLerdo,México",850.0,4.0,4.0,725000.0
+1283,1283,1283,"CasaenVentaTolucaDeLerdo,México",200.0,2.0,4.0,82500.0
+1284,1284,1284,"CasaenVentaCarreteraTolucaNaucalpan#1702,6
+,TolucaDeLerdo,México",126.0,3.0,2.0,97350.0
+1285,1285,1285,"CasaenVentaElenaCárdenas114
+,TolucaDeLerdo,México",,1.0,3.0,225000.0
+1286,1286,1286,"CasaenVentaCasaRecienRemodelada2,400,000SanPedroTotoltepec
+,SanPedroTotoltepec,TolucaDeLerdo",,2.0,4.0,120000.0
+1287,1287,1287,"CasaenVentaGirasol#218
+,TolucaDeLerdo,México",125.0,2.0,3.0,63782.75
+1288,1288,1288,"CasaenVentaFuentesDeLaCrespaNull
+,TolucaDeLerdo,México",,2.0,3.0,97500.0
+1289,1289,1289,"CasaenVentaTolucaDeLerdo,México",400.0,4.0,4.0,245000.0
+1290,1290,1290,"CasaenVentaCacalomacan,TolucaDeLerdo",250.0,3.0,3.0,127500.0
+1291,1291,1291,"CasaenVentaRemanenteIi12
+,TolucaDeLerdo,México",,2.0,3.0,60000.0
+1292,1292,1292,"CasaenVentaSanMarcos#259
+,TolucaDeLerdo,México",115.0,2.0,3.0,24193.15
+1293,1293,1293,"CasaenVentaPaseoCristobal#00
+,Toluca,TolucaDeLerdo",550.0,3.0,3.0,114053.3
+1294,1294,1294,"CasaenVentaTolucaDeLerdo,México",100.0,2.0,3.0,71294.95
+1295,1295,1295,"CasaenVentaTolucaDeLerdo,México",200.0,2.0,3.0,43841.05
+1296,1296,1296,"CasaenVentaTolucaDeLerdo,México",200.0,5.0,4.0,323350.0
+1297,1297,1297,"CasaenVentaAv.NoePérezYRodolfoSánchez719
+,TolucaDeLerdo,México",,2.0,4.0,230000.0
+1298,1298,1298,"CasaenVentaTolucaDeLerdo,México",54.0,1.0,2.0,55000.0
+1299,1299,1299,"CasaenVentaAgustínMelgar#sinNumero
+,TolucaDeLerdo,México",280.0,3.0,3.0,110000.0
+1300,1300,1300,"CasaenVentaTolucaDeLerdo,México",141.0,3.0,3.0,75000.0
+1301,1301,1301,"CasaenVentaDora#0
+,TolucaDeLerdo,México",270.0,3.0,5.0,73608.3
+1302,1302,1302,"CasaenVentaUniversidad,TolucaDeLerdo",273.0,3.0,3.0,260000.0
+1303,1303,1303,"CasaenVentaTolucaDeLerdo,México",302.0,2.0,4.0,125000.0
+1304,1304,1304,"CasaenVentaS/n
+,TolucaDeLerdo,México",200.0,3.0,3.0,117500.0
+1305,1305,1305,"CasaenVentaGeneralGumercindoEnriquez#0
+,ValleVerde,TolucaDeLerdo",120.0,2.0,3.0,34128.0
+1306,1306,1306,"CasaenVentaCasaEnObraNegraEnCacalomacan
+,TolucaDeLerdo,México",100.0,2.0,2.0,23750.0
+1307,1307,1307,"CasaenVentaProlongaciónProgreso#350,00
+,TolucaDeLerdo,México",220.0,2.0,3.0,30370.4
+1308,1308,1308,"CasaenVentaSantaElena#213
+,SanLorenzoTepaltitlánCentro,TolucaDeLerdo",54.0,1.0,2.0,16997.85
+1309,1309,1309,"CasaenVentaSantaElena#104,Casa41
+,SanLorenzoTepaltitlánCentro,TolucaDeLerdo",48.0,1.0,2.0,15109.2
+1310,1310,1310,"CasaenVentaJoseMarti#209
+,SanLorenzoTepaltitlánCentro,TolucaDeLerdo",95.0,2.0,2.0,27900.0
+1311,1311,1311,"CasaenVentaFracc.SantoriniEnToluca.#2
+,TolucaDeLerdo,México",95.0,2.0,3.0,74500.0
+1312,1312,1312,"CasaenVentaConstituyentes918-a
+,TolucaDeLerdo,México",,1.0,8.0,150000.0
+1313,1313,1313,"CasaenVentaTolucaDeLerdo,México",124.0,3.0,3.0,67329.1
+1314,1314,1314,"CasaenVentaPedregalDeBarbabosa16
+,TolucaDeLerdo,México",,2.0,4.0,105000.0
+1315,1315,1315,"CasaenVentaCallePuertoDeMéxicoNull
+,TolucaDeLerdo",,2.0,4.0,125000.0
+1316,1316,1316,"CasaenVentaTolucaDeLerdo,México",186.0,2.0,4.0,90000.0
+1317,1317,1317,"CasaenVentaAtlacomulco#110
+,SorJuanaInésDeLaCruz,TolucaDeLerdo",315.0,4.0,9.0,200000.0
+1318,1318,1318,"CasaenVentaIndependencia#501,13
+,SanLorenzoTepaltitlánCentro,TolucaDeLerdo",153.0,3.0,3.0,44366.95
+1319,1319,1319,"CasaenVentaCasaEnVentaEnLasPalomas,Toluca
+,TolucaDeLerdo,México",,1.0,2.0,55000.0
+1320,1320,1320,"CasaenVentaEduardoGonzalezYPichardo#205
+,LaMerced(alameda),TolucaDeLerdo",286.0,5.0,3.0,169500.0
+1321,1321,1321,"CasaenVentaEduardoGonzalzYPichardo#205
+,LaMerced(alameda),TolucaDeLerdo",286.0,5.0,3.0,169500.0
+1322,1322,1322,"CasaenVentaTolucaDeLerdo,México",112.0,2.0,3.0,39920.0
+1323,1323,1323,"CasaenVentaFranciscoVillaNull
+,TolucaDeLerdo,México",,2.0,4.0,75000.0
+1324,1324,1324,"CasaenVentaDeLaPalma#0
+,TolucaDeLerdo,México",590.0,6.0,6.0,32152.95
+1325,1325,1325,"CasaenVentaManuelSotelo
+,TolucaDeLerdo,México",,2.0,3.0,162500.0
+1326,1326,1326,"CasaenVentaReformaYFfccNacionalesNull
+,TolucaDeLerdo,México",,,3.0,281500.0
+1327,1327,1327,"CasaenVentaTolucaDeLerdo,México",380.0,4.0,5.0,26696.0
+1328,1328,1328,"CasaenVentaBenitoJuárez,TolucaDeLerdo",110.0,2.0,3.0,48050.0
+1329,1329,1329,"CasaenVentaPrivadaJardinDeNiños109
+,TolucaDeLerdo,México",,3.0,4.0,155000.0
+1330,1330,1330,"CasaenVentaTolucaDeLerdo,México",240.0,2.0,3.0,62392.6
+1331,1331,1331,"CasaenVentaMiguelHidalgoPonienteNull
+,TolucaDeLerdo,México",,1.0,8.0,700000.0
+1332,1332,1332,"CasaenVentaCasaEnVentaSorJuanaInesDeLaCruz
+,TolucaDeLerdo,México",,2.0,4.0,120000.0
+1333,1333,1333,"CasaenVentaCasaEnVentaSantaMariaTotoltepec
+,TolucaDeLerdo,México",,1.0,3.0,100000.0
+1334,1334,1334,"CasaenVentaLeonardoDaVinciS/n
+,TolucaDeLerdo,México",,1.0,3.0,62500.0
+1335,1335,1335,"CasaenVenta16DeSeptiembreSn
+,TolucaDeLerdo,México",,2.0,2.0,62500.0
+1336,1336,1336,"CasaenVentaTomasAlvaEdison#223
+,TolucaDeLerdo,México",123.0,4.0,4.0,142500.0
+1337,1337,1337,"CasaenVentaResidenciaA5MinutosAeropuertoDeToluca
+,TolucaDeLerdo,México",,3.0,4.0,325000.0
+1338,1338,1338,"CasaenVentaCasaEnRentaLasMisiones
+,TolucaDeLerdo,México",,2.0,2.0,70000.0
+1339,1339,1339,"CasaenVentaTolucaNull
+,SanMateoOxtotitlán,TolucaDeLerdo",,1.0,2.0,105000.0
+1340,1340,1340,"CasaenVentaPaseoCristóbalColón#108
+,TolucaDeLerdo,México",650.0,5.0,6.0,1800000.0
+1341,1341,1341,"CasaenVentaTolucaDeLerdo,México",420.0,3.0,7.0,245000.0
+1342,1342,1342,"CasaenVentaCedralDeOriente38
+,TolucaDeLerdo,México",,1.0,2.0,49000.0
+1343,1343,1343,"CasaenVentaCto.HaciendaLaAntigua2
+,TolucaDeLerdo,México",,1.0,2.0,30000.0
+1344,1344,1344,"CasaenVentaNiñosHeroes21122
+,TolucaDeLerdo,México",,1.0,4.0,74500.0
+1345,1345,1345,"CasaenVentaPalomaPerdiz#00
+,TolucaDeLerdo,México",90.0,1.0,3.0,19208.0
+1346,1346,1346,"CasaenVentaAndresBenavidesNull
+,TolucaDeLerdo,México",,2.0,4.0,232500.0
+1347,1347,1347,"CasaenVentaGómezPedraza504
+,TolucaDeLerdo,México",,1.0,3.0,99500.0
+1348,1348,1348,"CasaenVentaLuisGonzagaUrbina#100
+,Tlacopa,TolucaDeLerdo",450.0,2.0,3.0,142750.0
+1349,1349,1349,"CasaenVentaSierraLeonaNull
+,TolucaDeLerdo,México",,4.0,5.0,150000.0
+1350,1350,1350,"CasaenVentaGénova#107
+,TolucaDeLerdo,México",200.0,2.0,3.0,75250.0
+1351,1351,1351,"CasaenVentaSaucesIPriv.Canelos
+,TolucaDeLerdo,México",,2.0,3.0,80000.0
+1352,1352,1352,"CasaenVentaTolucaDeLerdo,México",148.0,1.0,2.0,89950.0
+1353,1353,1353,"CasaenVentaFlorDeMa.R.DeM.104a,BarrioDeLaMerced,50080DeLaMerced,Méx.Null
+,TolucaDeLerdo,México",,1.0,3.0,225000.0
+1354,1354,1354,"CasaenVentaMeliaMimosa#00
+,TolucaDeLerdo,México",100.0,2.0,3.0,57000.0
+1355,1355,1355,"CasaenVentaTlacopa,TolucaDeLerdo",259.0,3.0,3.0,240000.0
+1356,1356,1356,"CasaenVentaSantaElena(cond.LosPirules)#213,5
+,SanLorenzoTepaltitlánCentro,TolucaDeLerdo",124.0,1.0,3.0,39032.1
+1357,1357,1357,"CasaenVentaTolucaDeLerdo,México",483.0,3.0,4.0,395000.0
+1358,1358,1358,"CasaenVentaCalleRevolucion90
+,TolucaDeLerdo,México",,1.0,3.0,50000.0
+1359,1359,1359,"CasaenVentaOchoCedros,TolucaDeLerdo",300.0,3.0,4.0,157500.0
+1360,1360,1360,"CasaenVentaTolucaDeLerdo,México",700.0,7.0,3.0,325000.0
+1361,1361,1361,"CasaenVentaNogal
+,Ciprés,TolucaDeLerdo",800.0,4.0,4.0,425000.0
+1362,1362,1362,"CasaenVentaTolucaDeLerdo,México",220.0,3.0,3.0,184248.7
+1363,1363,1363,"CasaenVentaConocidaNull
+,TolucaDeLerdo,México",,2.0,3.0,97500.0
+1364,1364,1364,"CasaenVentaTolucaDeLerdo,México",123.0,4.0,4.0,142500.0
+1365,1365,1365,"CasaenVentaTolucaDeLerdo,México",800.0,3.0,4.0,675000.0
+1366,1366,1366,"CasaenVentaLaBarranca#124
+,Tlacopa,TolucaDeLerdo",87.0,1.0,2.0,26076.75
+1367,1367,1367,"CasaenVentaBlvd.LicAdolfoLopezMateos#146
+,TolucaDeLerdo,México",160.0,2.0,3.0,45205.5
+1368,1368,1368,"CasaenVentaAvIndependencia#139
+,TolucaDeLerdo,México",125.0,2.0,3.0,21100.0
+1369,1369,1369,"CasaenVentaTolucaDeLerdo,México",90.0,1.0,,65000.0
+1370,1370,1370,"CasaenVentaPrncipales101
+,TolucaDeLerdo,México",,3.0,6.0,80000.0
+1371,1371,1371,"CasaenVentaDeLaBarranca#124
+,Tlacopa,TolucaDeLerdo",100.0,2.0,2.0,26076.75
+1372,1372,1372,"CasaenVentaDora#0
+,TolucaDeLerdo,México",240.0,2.0,4.0,73608.3
+1373,1373,1373,"CasaenVentaSanLuisObispo#430
+,SanLuisObispo,TolucaDeLerdo",310.0,2.0,4.0,33487.25
+1374,1374,1374,"CasaenVentaSantaAnaTlapaltitlán
+,TolucaDeLerdo,México",,1.0,3.0,62500.0
+1375,1375,1375,"CasaenVentaDora#106
+,TolucaDeLerdo,México",270.0,3.0,4.0,73608.3
+1376,1376,1376,"CasaenVentaTolucaDeLerdo,México",260.0,2.0,3.0,75000.0
+1377,1377,1377,"CasaenVentaFranciscoVilla10
+,TolucaDeLerdo,México",,1.0,3.0,130000.0
+1378,1378,1378,"CasaenVentaTolucaDeLerdo,México",250.0,5.0,,122500.0
+1379,1379,1379,"CasaenVentaHaciendaSanJorge#000
+,TolucaDeLerdo,México",185.0,3.0,3.0,33528.75
+1380,1380,1380,"CasaenVentaTolucaDeLerdo,México",400.0,5.0,4.0,500000.0
+1381,1381,1381,"CasaenVentaFuentesDeSanJosé
+,TolucaDeLerdo,México",,5.0,4.0,157500.0
+1382,1382,1382,"CasaenVentaRamonCoronaNull
+,TolucaDeLerdo,México",,2.0,3.0,147500.0
+1383,1383,1383,"CasaenVentaPedroCortez100
+,SantaBárbara,TolucaDeLerdo",,4.0,7.0,250000.0
+1384,1384,1384,"CasaenVentaTolucaDeLerdo,México",240.0,2.0,2.0,125000.0
+1385,1385,1385,"CasaenVentaTolucaDeLerdo,México",291.0,3.0,3.0,225000.0
+1386,1386,1386,"CasaenVentaToltecas#000
+,TolucaDeLerdo,México",110.0,3.0,3.0,54672.5
+1387,1387,1387,"CasaenVentaJosuéMirlo
+,Federal(adolfoLópezMateos),TolucaDeLerdo",250.0,2.0,3.0,171900.0
+1388,1388,1388,"CasaenVentaTolucaDeLerdo,México",120.0,1.0,2.0,44950.0
+1389,1389,1389,"CasaenVentaTolucaDeLerdo,México",440.0,2.0,2.0,700000.0
+1390,1390,1390,"CasaenVentaSilverioPerez#131
+,TolucaDeLerdo,México",95.0,1.0,2.0,32915.0
+1391,1391,1391,"CasaenVentaRamonCoronaNull
+,TolucaDeLerdo,México",,2.0,3.0,175000.0
+1392,1392,1392,"CasaenVentaTolucaDeLerdo,México",250.0,3.0,4.0,200785.85
+1393,1393,1393,"CasaenVentaAvMorelosSur
+,TolucaDeLerdo,México",118.0,2.0,3.0,
+1394,1394,1394,"CasaenVentaTolucaDeLerdo,México",240.0,3.0,3.0,108660.0
+1395,1395,1395,"CasaenVentaConocidoNull
+,TolucaDeLerdo,México",,1.0,2.0,44000.0
+1396,1396,1396,"CasaenVentaTolucaDeLerdo,México",274.0,2.0,4.0,175000.0
+1397,1397,1397,"CasaenVentaSantosDegollado#000
+,TolucaDeLerdo,México",525.0,4.0,4.0,69649.95
+1398,1398,1398,"CasaenVentaCasaEn
+,TolucaDeLerdo,México",,1.0,2.0,31500.0
+1399,1399,1399,"CasaenVentaTolucaDeLerdo,México",80.0,1.0,3.0,46000.0
+1400,1400,1400,"CasaenVentaSeVendeCasaComoTerrenoAtrasDeLaProcuraduriaToluca
+,TolucaDeLerdo,México",350.0,3.0,6.0,125000.0
+1401,1401,1401,"CasaenVentaJuanAldama#512
+,TolucaDeLerdo,México",790.0,5.0,5.0,730000.0
+1402,1402,1402,"CasaenVentaCaminoAlPanteonNull
+,TolucaDeLerdo,México",,4.0,4.0,610000.0
+1403,1403,1403,"CasaenVentaTolucaDeLerdo,México",60.0,1.0,1.0,31500.0
+1404,1404,1404,"CasaenVentaTultepec4
+,TolucaDeLerdo,México",,1.0,2.0,30000.0
+1405,1405,1405,"CasaenVentaTolucaDeLerdo,México",180.0,1.0,3.0,80000.0
+1406,1406,1406,"CasaenVentaTolucaDeLerdo,México",530.0,4.0,3.0,650000.0
+1407,1407,1407,"CasaenVentaTolucaDeLerdo,México",270.0,3.0,3.0,235000.0
+1408,1408,1408,"CasaenVentaBoulevardMiguelAleman#1,Casa2
+,TolucaDeLerdo,México",112.0,2.0,2.0,60000.0
+1409,1409,1409,"CasaenVentaTolucaDeLerdo,México",141.0,3.0,3.0,83750.0
+1410,1410,1410,"CasaenVentaTolucaDeLerdo,México",90.0,1.0,3.0,65750.0
+1411,1411,1411,"CasaenVentaRamonCoronaNull
+,TolucaDeLerdo,México",,2.0,3.0,197500.0
+1412,1412,1412,"CasaenVentaTolucaDeLerdo,México",130.0,3.0,3.0,117700.0
+1413,1413,1413,"CasaenVentaTolucaDeLerdo,México",,2.0,3.0,100000.0
+1414,1414,1414,"CasaenVentaJardinesDeSantaTeresa,Av.JardinesDeSantaTeresa
+,TolucaDeLerdo,México",,2.0,2.0,57500.0
+1415,1415,1415,"CasaenVentaTolucaDeLerdo,México",283.0,2.0,5.0,190000.0
+1416,1416,1416,"CasaenVentaCasaEnVentaSorJuanaInésDeLaCruz
+,TolucaDeLerdo,México",265.0,2.0,3.0,130000.0
+1417,1417,1417,"CasaenVentaTolucaDeLerdo,México",206.0,5.0,4.0,175000.0
+1418,1418,1418,"CasaenVentaTolucaDeLerdo,México",180.0,3.0,3.0,241450.0
+1419,1419,1419,"CasaenVentaTolucaDeLerdo,México",290.0,3.0,3.0,284235.0
+1420,1420,1420,"CasaenVentaCasaVentaTolucaCentroFranciscoMurguia
+,TolucaDeLerdo,México",790.0,4.0,5.0,730000.0
+1421,1421,1421,"CasaenVentaTolucaDeLerdo,México",204.0,3.0,3.0,139525.0
+1422,1422,1422,"CasaenVentaTolucaDeLerdo,México",100.0,2.0,2.0,32910.65
+1423,1423,1423,"CasaenVentaTolucaDeLerdo,México",378.0,2.0,,237500.0
+1424,1424,1424,"CasaenVentaTolucaDeLerdo,México",400.0,3.0,5.0,190000.0
+1425,1425,1425,"CasaenVentaJoseVicenteVillada#00
+,TolucaDeLerdo,México",191.0,3.0,3.0,132500.0
+1426,1426,1426,"CasaenVentaRebeca#155
+,TolucaDeLerdo,México",150.0,1.0,3.0,52500.0
+1427,1427,1427,"CasaenVentaFelipeVillanueva#723
+,Morelos1aSección,TolucaDeLerdo",100.0,2.0,3.0,85000.0
+1428,1428,1428,"CasaenVentaTolucaDeLerdo,México",400.0,3.0,4.0,525000.0
+1429,1429,1429,"CasaenVentaTolucaDeLerdo,México",182.0,2.0,3.0,137500.0
+1430,1430,1430,"CasaenVentaConocidaNull
+,TolucaDeLerdo,México",,1.0,2.0,42500.0
+1431,1431,1431,"CasaenVentaCasaAmpliadaSanPedroTotoltepecMuyCercaDelAeropuertoDeToluca
+,SanPedroTotoltepec,TolucaDeLerdo",,2.0,3.0,130000.0
+1432,1432,1432,"CasaenVentaTolucaDeLerdo,México",320.0,2.0,4.0,210000.0
+1433,1433,1433,"CasaenVentaCasaYTerrenoEnVentaEnToluca
+,TolucaDeLerdo,México",700.0,4.0,6.0,3500000.0
+1434,1434,1434,"CasaenVentaIndependenciaNull
+,TolucaDeLerdo,México",,3.0,3.0,277500.0
+1435,1435,1435,"CasaenVentaTolucaDeLerdo,México",270.0,2.0,3.0,73608.3
+1436,1436,1436,"CasaenVentaCristóbalOlmedo#134
+,TolucaDeLerdo,México",180.0,2.0,4.0,28642.9
+1437,1437,1437,"CasaenVentaTolucaDeLerdo,México",130.0,2.0,3.0,70156.8
+1438,1438,1438,"CasaenVentaTolucaDeLerdo,México",1200.0,,5.0,1500000.0
+1439,1439,1439,"CasaenVentaRematesHipotecarios
+,TolucaDeLerdo,México",60.0,2.0,2.0,24000.0
+1440,1440,1440,"CasaenVentaTolucaDeLerdo,México",390.0,2.0,3.0,384500.0
+1441,1441,1441,"CasaenVentaTolucaDeLerdo,México",140.0,2.0,3.0,49500.0
+1442,1442,1442,"CasaenVentaTolucaDeLerdo,México",195.0,,,215550.0
+1443,1443,1443,"CasaenVentaTolucaDeLerdo,México",340.0,4.0,4.0,300000.0
+1444,1444,1444,"CasaenVentaCasaEnVenta-rentaAndresQuintanaRooEsq.Cedro
+,Ciprés,TolucaDeLerdo",530.0,2.0,3.0,625000.0
+1445,1445,1445,"CasaenVentaSantaMaríaTotoltepec,TolucaDeLerdo",120.0,3.0,3.0,125000.0
+1446,1446,1446,"CasaenVentaTolucaDeLerdo,México",66.0,1.0,2.0,45122.0
+1447,1447,1447,"CasaenVentaTolucaDeLerdo,México",624.0,3.0,4.0,222050.0
+1448,1448,1448,"CasaenVentaRamonCoronaNull
+,TolucaDeLerdo,México",,2.0,3.0,157500.0
+1449,1449,1449,"CasaenVentaTolucaDeLerdo,México",100.0,2.0,3.0,89115.0
+1450,1450,1450,"CasaenVentaTolucaDeLerdo,México",90.0,2.0,3.0,57500.0
+1451,1451,1451,"CasaenVentaEucaliptosSaucesI
+,TolucaDeLerdo,México",63.0,1.0,2.0,47500.0
+1452,1452,1452,"CasaenVentaCalleMiguelHidalgo#00
+,TolucaDeLerdo,México",152.0,2.0,3.0,80000.0
+1453,1453,1453,"CasaenVentaTolucaDeLerdo,México",191.0,3.0,3.0,84080.0
+1454,1454,1454,"CasaenVentaMiguelHidalgoYC#s/n
+,TolucaDeLerdo,México",119.0,3.0,3.0,85000.0
+1455,1455,1455,"CasaenVentaManuelÁvilaCamacho
+,Morelos1aSección,TolucaDeLerdo",300.0,1.0,3.0,112600.0
+1456,1456,1456,"CasaenVentaOaxaca#1234
+,TolucaDeLerdo,México",150.0,3.0,3.0,92500.0
+1457,1457,1457,"CasaenVentaTolucaDeLerdo,México",721.0,4.0,5.0,800000.0
+1458,1458,1458,"CasaenVentaHaciendaZumpango#00
+,TolucaDeLerdo,México",85.0,2.0,2.0,49822.4
+1459,1459,1459,"CasaenVentaTolucaDeLerdo,México",157.0,2.0,3.0,140000.0
+1460,1460,1460,"CasaenVentaLosSaucesIv
+,TolucaDeLerdo,México",135.0,1.0,2.0,43300.0
+1461,1461,1461,"CasaenVentaFrijol#200
+,TolucaDeLerdo,México",85.0,2.0,3.0,46000.0
+1462,1462,1462,"CasaenVentaFrijol#102
+,TolucaDeLerdo,México",120.0,2.0,3.0,49500.0
+1463,1463,1463,"CasaenVentaTolucaDeLerdo,México",210.0,2.0,3.0,175000.0
+1464,1464,1464,"CasaenVentaTolucaDeLerdo,México",120.0,2.0,2.0,45000.0
+1465,1465,1465,"CasaenVentaTolucaDeLerdo,México",140.0,1.0,3.0,95000.0
+1466,1466,1466,"CasaenVentaGral.JoseVicenteVillada#00
+,TolucaDeLerdo,México",237.0,4.0,5.0,137300.0
+1467,1467,1467,"CasaenVentaConocidaNull
+,TolucaDeLerdo,México",,2.0,4.0,175000.0
+1468,1468,1468,"CasaenVentaTolucaDeLerdo,México",140.0,2.0,3.0,130000.0
+1469,1469,1469,"CasaenVentaJoseMariaArteaga#112
+,TolucaDeLerdo,México",294.0,3.0,3.0,75000.0
+1470,1470,1470,"CasaenVentaCalleMaríaCurie303,DelegaciónSantaAnaTlapaltitlán,TolucaDeLerdo,Estad#**
+,TolucaDeLerdo,México",245.0,25.0,3.0,275000.0
+1471,1471,1471,"CasaenVentaTolucaDeLerdo,México",123.0,4.0,4.0,147800.0
+1472,1472,1472,"CasaenVentaTolucaDeLerdo,México",235.0,2.0,3.0,125000.0
+1473,1473,1473,"CasaenVentaCasa2Plantas
+,TolucaDeLerdo,México",39.0,1.0,1.0,17900.0
+1474,1474,1474,"CasaenVentaMiguelHidalgo#00
+,TolucaDeLerdo,México",180.0,4.0,3.0,63000.0
+1475,1475,1475,"CasaenVentaTolucaDeLerdo,México",140.0,2.0,3.0,45205.5
+1476,1476,1476,"CasaenVentaGenova
+,SanMateoOxtotitlán,TolucaDeLerdo",120.0,2.0,3.0,38213.5
+1477,1477,1477,"CasaenVentaResidencialCrespaTownModeloZafiro
+,DeLaCrespa,TolucaDeLerdo",,2.0,3.0,144413.05
+1478,1478,1478,"CasaenVentaVillada#423
+,TolucaDeLerdo,México",700.0,4.0,6.0,3500000.0
+1479,1479,1479,"CasaenVentaGirasol#00
+,TolucaDeLerdo,México",125.0,2.0,3.0,63782.75
+1480,1480,1480,"CasaenVentaSta.Elena#1400
+,TolucaDeLerdo,México",140.0,2.0,3.0,22640.0
+1481,1481,1481,"CasaenVentaGirasol#00
+,TolucaDeLerdo,México",125.0,2.0,3.0,63782.75
+1482,1482,1482,"CasaenVentaTolucaDeLerdo,México",,2.0,4.0,175000.0
+1483,1483,1483,"CasaenVentaMariaCurie#303
+,TolucaDeLerdo,México",195.0,3.0,3.0,297275.0
+1484,1484,1484,"CasaenVentaMiguelMata#209
+,TolucaDeLerdo,México",260.0,2.0,3.0,48650.0
+1485,1485,1485,"CasaenVentaBrigidaGarcia#205
+,TolucaDeLerdo,México",290.0,6.0,6.0,225000.0
+1486,1486,1486,"CasaenVentaDomicilioConocidoNull
+,TolucaDeLerdo,México",,3.0,3.0,100000.0
+1487,1487,1487,"CasaenVentaSilverioPerez#00
+,TolucaDeLerdo,México",90.0,2.0,3.0,32910.6
+1488,1488,1488,"CasaenVentaNuevaSantaMaríaDeLasRosas,TolucaDeLerdo",200.0,2.0,4.0,195000.0
+1489,1489,1489,"CasaenVentaSauces
+,TolucaDeLerdo,México",,2.0,3.0,80000.0
+1490,1490,1490,"CasaenVentaTolucaDeLerdo,México",102.0,,,62500.0
+1491,1491,1491,"CasaenVentaPrivadaDeLargos5a
+,TolucaDeLerdo,México",,2.0,4.0,84500.0
+1492,1492,1492,"CasaenVentaCasaEnVentaEnSanLorenzoTepaltitlanAl730Mil
+,TolucaDeLerdo,México",84.0,2.0,2.0,36500.0
+1493,1493,1493,"CasaenVentaMoradaDeEncino
+,Tlacopa,TolucaDeLerdo",184.0,1.0,2.0,118108.5
+1494,1494,1494,"CasaenVentaVillaToscana
+,SanMateoOtzacatipan,TolucaDeLerdo",130.0,1.0,2.0,55544.0
+1495,1495,1495,"CasaenVentaFraccionamientoLaGalia
+,SanPedroTotoltepec,TolucaDeLerdo",102.0,1.0,2.0,60935.7
+1496,1496,1496,"CasaenVentaMiguelHidalgo
+,SanMateoOtzacatipan,TolucaDeLerdo",180.0,1.0,2.0,70120.0
+1497,1497,1497,"CasaenVentaMiguelHidalgoAl100
+,SanMateoOtzacatipan,TolucaDeLerdo",139.0,1.0,2.0,82114.1
+1498,1498,1498,"CasaenVentaLaToscana#00000
+,TolucaDeLerdo,México",218.0,4.0,3.0,68000.0
+1499,1499,1499,"CasaenVentaCarreteraToluca-naucalpan#1702
+,TolucaDeLerdo,México",218.0,4.0,3.0,68000.0
+1500,1500,1500,"CasaenVentaCalleProl.5DeMayo2Ote.#1541
+,TolucaDeLerdo,México",120.0,3.0,3.0,74500.0
+1501,1501,1501,"CasaenVentaCapultitlán,TolucaDeLerdo",120.0,,,60000.0
+1502,1502,1502,"CasaenVentaCalleLuisGonzagaUrbina
+,Tlacopa,TolucaDeLerdo",150.0,2.0,2.0,179943.45
+1503,1503,1503,"CasaenVentaTolucaDeLerdo,México",216.0,4.0,4.0,85000.0
+1504,1504,1504,"CasaenVentaHaciendaRanchoSeco#00
+,TolucaDeLerdo,México",60.0,1.0,2.0,34443.15
+1505,1505,1505,"CasaenVentaCircuitoCardenales#00
+,TolucaDeLerdo,México",60.0,1.0,2.0,32100.0
+1506,1506,1506,"CasaenVentaTolucaDeLerdo,México",233.0,3.0,3.0,187500.0
+1507,1507,1507,"CasaenVentaTolucaDeLerdo,México",95.0,1.0,2.0,71294.9
+1508,1508,1508,"CasaenVentaTolucaDeLerdo,México",233.0,3.0,5.0,125000.0
+1509,1509,1509,"CasaenVentaCaminoASanJuanTilapa#137,10
+,TolucaDeLerdo,México",120.0,3.0,3.0,89000.0
+1510,1510,1510,"CasaenVentaBoulevardFilibertoNavas,FraccionamientoVillasDelParque#0
+,TolucaDeLerdo,México",158.0,2.0,3.0,56000.0
+1511,1511,1511,"CasaenVentaJosueMirlo
+,Federal(adolfoLópezMateos),TolucaDeLerdo",310.0,2.0,3.0,121828.55
+1512,1512,1512,"CasaenVentaCto.A.LópezMateosOte
+,TolucaDeLerdo,México",136.0,1.0,2.0,47270.0
+1513,1513,1513,"CasaenVentaCircuitoLopezMateos#125
+,TolucaDeLerdo,México",230.0,3.0,3.0,95000.0
+1514,1514,1514,"CasaenVentaAv.LasPartidas
+,TolucaDeLerdo,México",90.0,1.0,3.0,70600.0
+1515,1515,1515,"CasaenVentaJoseMarti#209
+,SanLorenzoTepaltitlánCentro,TolucaDeLerdo",100.0,2.0,2.0,37300.0
+1516,1516,1516,"CasaenVentaPaseoColón108
+,TolucaDeLerdo,México",,3.0,6.0,1800000.0
+1517,1517,1517,"CasaenVentaLaBarranca#0
+,Tlacopa,TolucaDeLerdo",120.0,2.0,3.0,26076.75
+1518,1518,1518,"CasaenVentaLorenzoGarza#203
+,TolucaDeLerdo,México",70.0,1.0,2.0,39700.0
+1519,1519,1519,"CasaenVentaAv.V.Guerrero
+,Cacalomacan,TolucaDeLerdo",212.0,1.0,3.0,105199.0
+1520,1520,1520,"CasaenVentaGral.JoséVicenteVillada#00
+,TolucaDeLerdo,México",237.0,4.0,5.0,137300.0
+1521,1521,1521,"CasaenVentaGral.JoséVicenteVillada124,DelegaciónStaAnaTlapaltitlán,50160TolucaDeLerdo,Méx.,México
+,TolucaDeLerdo",,,,249759.75
+1522,1522,1522,"CasaenVentaTolucaDeLerdo,México",380.0,3.0,,549950.0
+1523,1523,1523,"CasaenVentaCacalomacan,TolucaDeLerdo",547.0,4.0,3.0,600000.0
+1524,1524,1524,"CasaenVentaRanchoLaIndependencia#233,Lt3Fracc56
+,TolucaDeLerdo,México",100.0,1.0,2.0,40000.0
+1525,1525,1525,"CasaenVentaTolucaDeLerdo,México",530.0,3.0,3.0,550000.0
+1526,1526,1526,"CasaenVentaOrquideas
+,TolucaDeLerdo,México",120.0,2.0,2.0,20543.15
+1527,1527,1527,"CasaenVentaCarr.Toluca-naucalpan#1702,0
+,TolucaDeLerdo,México",120.0,2.0,2.0,90500.0
+1528,1528,1528,"CasaenVentaMarieCurie#0
+,TolucaDeLerdo,México",180.0,3.0,3.0,35237.5
+1529,1529,1529,"CasaenVentaCasaEnVentaEnVilladaToluca
+,TolucaDeLerdo,México",700.0,,,1250000.0
+1530,1530,1530,"CasaenVentaTolucaDeLerdo,México",110.0,1.0,3.0,49500.0
+1531,1531,1531,"CasaenVentaIgnacioAllende#0
+,TolucaDeLerdo,México",300.0,3.0,3.0,42500.0
+1532,1532,1532,"CasaenVentaTolucaDeLerdo,México",400.0,3.0,3.0,800000.0
+1533,1533,1533,"CasaenVentaGómezFarias#00,00
+,TolucaDeLerdo,México",220.0,8.0,7.0,87500.0
+1534,1534,1534,"CasaenVentaTolucaDeLerdo,México",280.0,3.0,4.0,129272.05
+1535,1535,1535,"CasaenVentaTolucaDeLerdo,México",110.0,2.0,3.0,65848.8
+1536,1536,1536,"CasaenVentaGral.JoseVicenteVillada
+,SantaAnaTlapaltitlán,TolucaDeLerdo",191.0,1.0,3.0,136800.0
+1537,1537,1537,"CasaenVentaFranciscoGonzalezBocaNegraNull
+,Centro,TolucaDeLerdo",,4.0,6.0,125000.0
+1538,1538,1538,"CasaenVentaPaseoColón#108
+,TolucaDeLerdo,México",650.0,5.0,6.0,1800000.0
+1539,1539,1539,"CasaenVentaGuillermoMarconi
+,TolucaDeLerdo,México",120.0,2.0,3.0,50339.65
+1540,1540,1540,"CasaenVentaTolucaDeLerdo,México",120.0,2.0,2.0,28950.0
+1541,1541,1541,"CasaenVentaJoseMaríaArteaga#112
+,TolucaDeLerdo,México",294.0,3.0,3.0,100000.0
+1542,1542,1542,"CasaenVentaBernardoGDeLara
+,TolucaDeLerdo,México",180.0,6.0,7.0,167500.0
+1543,1543,1543,"CasaenVentaTolucaDeLerdo,México",280.0,3.0,4.0,120000.0
+1544,1544,1544,"CasaenVentaCarreteraFederalToluca-naucalpanVillaToscana#1702,00
+,TolucaDeLerdo,México",127.0,3.0,3.0,89600.0
+1545,1545,1545,"CasaenVentaCalleGomezFarias
+,SanBernardino,TolucaDeLerdo",230.0,2.0,3.0,109484.9
+1546,1546,1546,"CasaenVentaArbolDeLasManitas#0
+,TolucaDeLerdo,México",300.0,3.0,4.0,19520.0
+1547,1547,1547,"CasaenVentaRicardoFloresMagón
+,TolucaDeLerdo,México",181.0,3.0,3.0,139370.0
+1548,1548,1548,"CasaenVentaIndependencia#223,3
+,TolucaDeLerdo,México",100.0,1.0,2.0,47500.0
+1549,1549,1549,"CasaenVentaTolucaDeLerdo,México",133.0,2.0,3.0,68078.05
+1550,1550,1550,"CasaenVentaTolucaDeLerdo,México",136.0,1.0,2.0,47270.0
+1551,1551,1551,"CasaenVentaTolucaDeLerdo,México",250.0,3.0,5.0,85000.0
+1552,1552,1552,"CasaenVentaProgreso#307,0
+,TolucaDeLerdo,México",90.0,2.0,3.0,53058.6
+1553,1553,1553,"CasaenVentaMorelos#419,108
+,TolucaDeLerdo,México",80.0,1.0,3.0,35950.0
+1554,1554,1554,"CasaenVentaTolucaDeLerdo,México",282.0,,,480250.0
+1555,1555,1555,"CasaenVentaPrivadaAjedrez00
+,TolucaDeLerdo,México",,2.0,3.0,127500.0
+1556,1556,1556,"CasaenVentaBoulevardFilibertoNavas#100-b
+,TolucaDeLerdo,México",158.0,2.0,3.0,60500.0
+1557,1557,1557,"CasaenVentaRioLerma70
+,TolucaDeLerdo,México",,1.0,3.0,57500.0
+1558,1558,1558,"CasaenVentaCacalomacan,TolucaDeLerdo",69.0,1.0,2.0,70000.0
+1559,1559,1559,"CasaenVentaTolucaDeLerdo,México",41.0,1.0,2.0,42500.0
+1560,1560,1560,"CasaenVentaRanchoLaMancilla110
+,TolucaDeLerdo,México",,4.0,5.0,425000.0
+1561,1561,1561,"CasaenVentaManzanaXxi#lt40,CasaA
+,Toluca,TolucaDeLerdo",80.0,1.0,3.0,25375.0
+1562,1562,1562,"CasaenVentaTolucaDeLerdo,México",148.0,2.0,3.0,80000.0
+1563,1563,1563,"CasaenVentaTolucaDeLerdo,México",2317.0,,,1200000.0
+1564,1564,1564,"CasaenVentaTolucaDeLerdo,México",507.0,,,325000.0
+1565,1565,1565,"CasaenVentaTolucaDeLerdo,México",294.0,3.0,3.0,108000.0
+1566,1566,1566,"CasaenVentaFilibertoNavas#100
+,TolucaDeLerdo,México",110.0,2.0,2.0,57500.0
+1567,1567,1567,"CasaenVentaHaciendaZumpango#s/n
+,TolucaDeLerdo,México",92.0,2.0,3.0,55000.0
+1568,1568,1568,"CasaenVentaBonitaCasaEnVentaPaseosDeTolucaStaMariaTotoltepec1,680,000AceptoInfonavit
+,SantaMaríaTotoltepec,TolucaDeLerdo",,2.0,3.0,84000.0
+1569,1569,1569,"CasaenVentaTomasAlvaDison#228,CasaB
+,TolucaDeLerdo,México",239.0,2.0,3.0,105000.0
+1570,1570,1570,"CasaenVentaTerrenoEnVentaCentroToluca
+,TolucaDeLerdo,México",700.0,3.0,,1333570.0
+1571,1571,1571,"CasaenVentaAv.SantaElenaAl100
+,TolucaDeLerdo,México",50.0,1.0,2.0,28450.0
+1572,1572,1572,"CasaenVentaJoseVicenteVillada#101
+,TolucaDeLerdo,México",245.0,3.0,4.0,154750.0
+1573,1573,1573,"CasaenVentaAzaleas#0
+,TolucaDeLerdo,México",120.0,2.0,3.0,38750.0
+1574,1574,1574,"CasaenVentaTolucaDeLerdo,México",400.0,4.0,6.0,345000.0
+1575,1575,1575,"CasaenVentaRealSantaClara#sn
+,TolucaDeLerdo,México",90.0,2.0,3.0,54850.0
+1576,1576,1576,"CasaenVentaCarreteraToluca-naucalpan#1702
+,TolucaDeLerdo,México",218.0,4.0,3.0,68000.0
+1577,1577,1577,"CasaenVentaTolucaDeLerdo,México",255.0,2.0,7.0,172500.0
+1578,1578,1578,"CasaenVentaAvenidaJinetes#0
+,TolucaDeLerdo,México",290.0,5.0,3.0,162500.0
+1579,1579,1579,"CasaenVentaAntiguoCaminoASanLorenzo#200
+,TolucaDeLerdo,México",180.0,2.0,3.0,48341.05
+1580,1580,1580,"CasaenVentaFelipeBerriozabal#00
+,TolucaDeLerdo,México",850.0,4.0,5.0,159900.0
+1581,1581,1581,"CasaenVentaJosuéMirlo
+,TolucaDeLerdo,México",310.0,1.0,3.0,126132.8
+1582,1582,1582,"CasaenVentaAlbertoEinstein#202,10
+,TolucaDeLerdo,México",200.0,3.0,3.0,75000.0
+1583,1583,1583,"CasaenVentaHaciendaDelValle
+,TolucaDeLerdo,México",120.0,2.0,3.0,71450.0
+1584,1584,1584,"CasaenVentaAvIndependencia#143
+,TolucaDeLerdo,México",160.0,2.0,2.0,19100.0
+1585,1585,1585,"CasaenVentaAzaleas#0
+,TolucaDeLerdo,México",100.0,1.0,3.0,27987.65
+1586,1586,1586,"CasaenVentaTolucaDeLerdo,México",,4.0,3.0,590000.0
+1587,1587,1587,"CasaenVentaAdolfoLopezMateos#146,0000
+,TolucaDeLerdo,México",140.0,2.0,3.0,59933.2
+1588,1588,1588,"CasaenVentaTolucaDeLerdo,México",850.0,3.0,5.0,159900.0
+1589,1589,1589,"CasaenVentaJuanSilveti#102
+,TolucaDeLerdo,México",62.0,1.0,2.0,37620.0
+1590,1590,1590,"CasaenVentaFuenteDeGiovani#107
+,TolucaDeLerdo,México",56.0,1.0,2.0,35637.5
+1591,1591,1591,"CasaenVentaCaminoAlPanteón#205
+,TolucaDeLerdo,México",250.0,4.0,3.0,212500.0
+1592,1592,1592,"CasaenVentaPensadorMexicano302pte
+,TolucaDeLerdo,México",121.0,1.0,2.0,89550.0
+1593,1593,1593,"CasaenVentaLaMagdalena,TolucaDeLerdo",402.0,3.0,3.0,530750.0
+1594,1594,1594,"CasaenVentaCircuitoHaciendaLaLaguna#0
+,TolucaDeLerdo,México",91.0,1.0,2.0,82150.0
+1595,1595,1595,"CasaenVentaAlbertoEinstein#202
+,TolucaDeLerdo,México",200.0,3.0,3.0,75000.0
+1596,1596,1596,"CasaenVentaSanMarcos#00
+,TolucaDeLerdo,México",121.0,3.0,3.0,24272.0
+1597,1597,1597,"CasaenVentaTolucaDeLerdo,México",200.0,5.0,4.0,54000.0
+1598,1598,1598,"CasaenVentaEulaliaPeñaloza
+,Federal(adolfoLópezMateos),TolucaDeLerdo",226.0,3.0,3.0,112648.9
+1599,1599,1599,"CasaenVentaGeologos#120
+,TolucaDeLerdo,México",120.0,2.0,2.0,44950.0
+1600,1600,1600,"CasaenVentaCircuitoHaciendaLaLaguna#00
+,TolucaDeLerdo,México",143.0,2.0,3.0,65550.0
+1601,1601,1601,"CasaenVentaPalomaSilvestre#00
+,TolucaDeLerdo,México",120.0,2.0,3.0,25937.35
+1602,1602,1602,"CasaenVentaEduardoGonzálezYPichardo#0
+,LaMerced(alameda),TolucaDeLerdo",369.0,2.0,3.0,168459.35
+1603,1603,1603,"CasaenVentaJesusCarranza#449
+,Toluca,TolucaDeLerdo",624.0,3.0,4.0,222050.0
+1604,1604,1604,"CasaenVentaTolucaDeLerdo,México",100.0,2.0,3.0,105000.0
+1605,1605,1605,"CasaenVentaCalleThomasAlvaEdison#228
+,Científicos,TolucaDeLerdo",123.0,4.0,4.0,185000.0
+1606,1606,1606,"CasaenVentaTolucaDeLerdo,México",340.0,3.0,4.0,73608.3
+1607,1607,1607,"CasaenVentaEduardoGonzalezYPichardo#0
+,TolucaDeLerdo,México",410.0,2.0,3.0,168459.4
+1608,1608,1608,"CasaenVentaCarreteraTolucaNaucalpan#00
+,TolucaDeLerdo,México",200.0,3.0,3.0,73500.0
+1609,1609,1609,"CasaenVentaGalileo#201
+,TolucaDeLerdo,México",295.0,3.0,4.0,45300.0
+1610,1610,1610,"CasaenVentaC.DeLaIndependencia#129
+,TolucaDeLerdo,México",150.0,3.0,3.0,73500.0
+1611,1611,1611,"CasaenVentaAndresMolinaLt22Mz4
+,SanMateoOtzacatipan,TolucaDeLerdo",,1.0,2.0,38000.0
+1612,1612,1612,"CasaenVentaBlvd.IsidroFabela#1505
+,TolucaDeLerdo,México",210.0,2.0,3.0,85850.0
+1613,1613,1613,"CasaenVentaToluca#606
+,TolucaDeLerdo,México",110.0,2.0,2.0,28474.0
+1614,1614,1614,"CasaenVentaProlPaseoTotoltepec#302
+,TolucaDeLerdo,México",102.0,2.0,3.0,86077.5
+1615,1615,1615,"CasaenVentaPlanDeSanLuis#0,1
+,TolucaDeLerdo,México",439.0,4.0,7.0,147500.0
+1616,1616,1616,"CasaenVentaCalleJoseMa.Arteaga
+,TolucaDeLerdo,México",529.0,1.0,3.0,167446.45
+1617,1617,1617,"CasaenVentaFelipeBerriozabal
+,TolucaDeLerdo,México",342.0,2.0,4.0,141900.0
+1618,1618,1618,"CasaenVentaLaBarranca#00
+,Tlacopa,TolucaDeLerdo",84.0,1.0,2.0,25826.75
+1619,1619,1619,"CasaenVentaJoseMariaJauregui#00
+,TolucaDeLerdo,México",140.0,2.0,2.0,26851.6
+1620,1620,1620,"CasaenVentaTolucaDeLerdo,México",,,,32000.0
+1621,1621,1621,"CasaenVentaTolucaDeLerdo,México",200.0,2.0,3.0,158423.35
+1622,1622,1622,"CasaenVentaOficinasEnVentaAvLasTorresA2MinDeTrenMexicoToluca
+,TolucaDeLerdo",,,,70000.0
+1623,1623,1623,"CasaenVentaAvenidaIndependencia#00
+,TolucaDeLerdo,México",60.0,2.0,2.0,18850.0
+1624,1624,1624,"CasaenVentaGladiolas#329
+,TolucaDeLerdo,México",106.0,2.0,3.0,31966.25
+1625,1625,1625,"CasaenVentaTolucaDeLerdo,México",30.0,1.0,1.0,21000.0
+1626,1626,1626,"CasaenVentaTolucaDeLerdo,México",10.0,2.0,3.0,73600.0
+1627,1627,1627,"CasaenVentaFraccionamientoHaciendaDelValleIi
+,TolucaDeLerdo,México",94.0,1.0,2.0,43970.0
+1628,1628,1628,"CasaenVentaAdolfoLopezMateos#146,0
+,TolucaDeLerdo,México",318.0,3.0,3.0,67939.0
+1629,1629,1629,"CasaenVentaSanMateo
+,TolucaDeLerdo,México",150.0,1.0,2.0,55937.5
+1630,1630,1630,"CasaenVentaCalleJuanSilveti
+,TolucaDeLerdo,México",62.0,1.0,2.0,34240.0
+1631,1631,1631,"CasaenVentaCalleAlbertoBalderas
+,TolucaDeLerdo,México",62.0,1.0,2.0,34240.0
+1632,1632,1632,"CasaenVentaRicardoFloresMagonAl200
+,TolucaDeLerdo,México",139.0,1.0,2.0,62920.0
+1633,1633,1633,"CasaenVentaFraccionamientoLosSaucesV
+,TolucaDeLerdo,México",67.0,1.0,2.0,34780.0
+1634,1634,1634,"CasaenVentaConjuntoGeovillasLosCedros
+,TolucaDeLerdo,México",56.0,1.0,2.0,34360.0
+1635,1635,1635,"CasaenVentaSanLorenzoTepaltitlanAl200
+,TolucaDeLerdo,México",112.0,1.0,2.0,58586.25
+1636,1636,1636,"CasaenVentaAv.Ahuehuetes
+,TolucaDeLerdo,México",54.0,1.0,2.0,47830.0
+1637,1637,1637,"CasaenVentaMiguelHidalgo#0000
+,TolucaDeLerdo,México",153.0,3.0,3.0,33159.2
+1638,1638,1638,"CasaenVentaValleDeCuitzeo#0000
+,TolucaDeLerdo,México",126.0,3.0,3.0,23109.35
+1639,1639,1639,"CasaenVentaTolucaDeLerdo,México",240.0,2.0,4.0,73608.3
+1640,1640,1640,"CasaenVentaTolucaDeLerdo,México",157.0,,,117500.0
+1641,1641,1641,"CasaenVentaDoctorJuanRodriguez#410
+,Toluca,TolucaDeLerdo",550.0,4.0,5.0,57833.4
+1642,1642,1642,"CasaenVentaTolucaDeLerdo,México",216.0,3.0,3.0,55662.0
+1643,1643,1643,"CasaenVentaPalomaSilvestre#0
+,TolucaDeLerdo,México",200.0,2.0,3.0,23815.3
+1644,1644,1644,"CasaenVentaPalomaTortola#0
+,TolucaDeLerdo,México",200.0,2.0,3.0,23800.35
+1645,1645,1645,"CasaenVentaGuillermoMarconi#00
+,TolucaDeLerdo,México",120.0,2.0,2.0,34963.6
+1646,1646,1646,"CasaenVentaTanganica#00
+,TolucaDeLerdo,México",100.0,2.0,3.0,93050.0
+1647,1647,1647,"CasaenVentaJoséMaríaArteaga#405
+,TolucaDeLerdo,México",504.0,2.0,3.0,282500.0
+1648,1648,1648,"CasaenVentaCerradaLagoAtitlán#508
+,TolucaDeLerdo,México",180.0,3.0,4.0,125000.0
+1649,1649,1649,"CasaenVentaCerradaLagoAtitlán#508
+,TolucaDeLerdo,México",180.0,3.0,4.0,125000.0
+1650,1650,1650,"CasaenVentaLicJoseAntonioMuñozSamayoa#38
+,TolucaDeLerdo,México",648.0,2.0,3.0,96845.0
+1651,1651,1651,"CasaenVentaJoseMariaArteaga#112
+,TolucaDeLerdo,México",295.0,2.0,3.0,73300.0
+1652,1652,1652,"CasaenVentaAvIndependencia#143
+,TolucaDeLerdo,México",100.0,2.0,3.0,18850.0
+1653,1653,1653,"CasaenVentaCasaHabitacion#223
+,TolucaDeLerdo,México",100.0,1.0,2.0,40000.0
+1654,1654,1654,"CasaenVentaTolucaDeLerdo,México",122.0,2.0,3.0,67329.1
+1655,1655,1655,"CasaenVentaConventoDeSanAntonioPadua#28
+,TolucaDeLerdo,México",101.0,3.0,3.0,87500.0
+1656,1656,1656,"CasaenVentaAvIndependencia#0
+,TolucaDeLerdo,México",120.0,2.0,3.0,21100.0
+1657,1657,1657,"CasaenVentaProl.Progreso#305
+,TolucaDeLerdo,México",190.0,2.0,3.0,30370.4
+1658,1658,1658,"CasaenVentaAvIndependencia#0
+,TolucaDeLerdo,México",160.0,2.0,3.0,21150.0
+1659,1659,1659,"CasaenVentaExhaciendaDeMayorazgo#o
+,TolucaDeLerdo,México",200.0,2.0,3.0,23749.55
+1660,1660,1660,"CasaenVentaJuanAldamaSur#708
+,TolucaDeLerdo,México",520.0,4.0,5.0,58237.45
+1661,1661,1661,"CasaenVentaCacalomacan,TolucaDeLerdo",150.0,2.0,4.0,117500.0
+1662,1662,1662,"CasaenVentaCalleIndependenciaConPedroAscencio
+,TolucaDeLerdo,México",480.0,2.0,3.0,161590.0
+1663,1663,1663,"CasaenVentaIsabelaCatolica#00
+,TolucaDeLerdo,México",150.0,2.0,3.0,54800.0
+1664,1664,1664,"CasaenVentaCircuitoHaciendaLaLaguna#00
+,TolucaDeLerdo,México",94.0,2.0,4.0,82150.0
+1665,1665,1665,"CasaenVentaEulaliaPeñaloza
+,Federal(adolfoLópezMateos),TolucaDeLerdo",225.0,3.0,3.0,80463.5
+1666,1666,1666,"CasaenVentaJuanAldamaSur#708
+,TolucaDeLerdo,México",520.0,4.0,5.0,58237.45
+1667,1667,1667,"CasaenVentaDoctorJuanRodríguez#410
+,Toluca,TolucaDeLerdo",800.0,5.0,5.0,57833.4
+1668,1668,1668,"CasaenVentaPaseoCristobalColonAl500
+,TolucaDeLerdo,México",216.0,1.0,3.0,115550.0
+1669,1669,1669,"CasaenVentaGuillermoMarconiAl500
+,TolucaDeLerdo,México",120.0,1.0,3.0,52599.75
+1670,1670,1670,"CasaenVentaLagoTanganica
+,TolucaDeLerdo,México",190.0,1.0,3.0,77275.0
+1671,1671,1671,"CasaenVentaProfra.EulaliaPeñaloza
+,TolucaDeLerdo,México",225.0,1.0,3.0,96963.5
+1672,1672,1672,"CasaenVentaDora#0
+,TolucaDeLerdo,México",200.0,3.0,4.0,73608.3
+1673,1673,1673,"CasaenVentaTolucaDeLerdo,México",180.0,1.0,3.0,50091.7
+1674,1674,1674,"CasaenVentaPrivadaDeFresno109
+,Tlacopa,TolucaDeLerdo",,2.0,3.0,175000.0
+1675,1675,1675,"CasaenVentaTolucaDeLerdo,México",120.0,3.0,3.0,38213.5
+1676,1676,1676,"CasaenVentaTolucaDeLerdo,México",97.0,2.0,3.0,82900.0
+1677,1677,1677,"CasaenVentaPlanDeSanLuis#0,1
+,TolucaDeLerdo,México",435.0,4.0,6.0,147500.0
+1678,1678,1678,"CasaenVentaLuisGonzagaUrbina316
+,SalvadorSánchezColín,TolucaDeLerdo",,3.0,3.0,112500.0
+1679,1679,1679,"CasaenVentaAntonioAlbarran,FraccionamientoPaseosDelValle
+,TolucaDeLerdo,México",,,,29750.0
+1680,1680,1680,"CasaenVentaDora#000
+,TolucaDeLerdo,México",240.0,4.0,4.0,73608.3
+1681,1681,1681,"CasaenVentaTolucaDeLerdo,México",582.0,3.0,7.0,400000.0
+1682,1682,1682,"CasaenVentaTolucaDeLerdo,México",300.0,2.0,3.0,69649.95
+1683,1683,1683,"CasaenVentaDoctorJuanRodríguez#410
+,TolucaDeLerdo,México",550.0,4.0,5.0,65333.4
+1684,1684,1684,"CasaenVentaManzana43FraccionamientoHaciendaDelValle
+,TolucaDeLerdo,México",99.0,2.0,3.0,78660.0
+1685,1685,1685,"CasaenVentaManzana57ConjuntoBosquesDeCantabria
+,TolucaDeLerdo,México",94.0,2.0,3.0,74700.0
+1686,1686,1686,"CasaenVentaCasaEnVentaORentaLomasAltasToluca
+,TolucaDeLerdo,México",,,,350000.0
+1687,1687,1687,"CasaenVentaArbolDeLasManitas#0
+,TolucaDeLerdo,México",160.0,3.0,4.0,19520.0
+1688,1688,1688,"CasaenVentaTolucaDeLerdo,México",111.0,2.0,3.0,65550.0
+1689,1689,1689,"CasaenVentaTolucaDeLerdo,México",94.0,2.0,3.0,64150.0
+1690,1690,1690,"CasaenVentaTolucaDeLerdo,México",112.0,2.0,3.0,60000.0
+1691,1691,1691,"CasaenVentaTolucaDeLerdo,México",130.0,2.0,3.0,94085.0
+1692,1692,1692,"CasaenVentaCallejonDeLaCruz4
+,TolucaDeLerdo,México",,3.0,5.0,85000.0
+1693,1693,1693,"CasaenVentaTolucaDeLerdo,México",342.0,3.0,4.0,141900.0
+1694,1694,1694,"CasaenVentaFelipeBerriozabal
+,TolucaDeLerdo,México",342.0,2.0,3.0,159400.0
+1695,1695,1695,"CasaenVentaFrijol#201
+,TolucaDeLerdo,México",196.0,2.0,3.0,113771.75
+1696,1696,1696,"CasaenVentaTolucaDeLerdo,México",310.0,2.0,3.0,121828.55
+1697,1697,1697,"CasaenVentaLagoTanganica#00
+,TolucaDeLerdo,México",190.0,3.0,3.0,74275.0
+1698,1698,1698,"CasaenVentaLagoTanganica
+,OchoCedros,TolucaDeLerdo",190.0,1.0,2.0,60775.0
+1699,1699,1699,"CasaenVentaTolucaDeLerdo,México",100.0,1.0,3.0,28958.8
+1700,1700,1700,"CasaenVentaPuebla#711
+,TolucaDeLerdo,México",130.0,3.0,3.0,117700.0
+1701,1701,1701,"CasaenVentaSierraVentana#206
+,TolucaDeLerdo,México",180.0,3.0,3.0,241450.0
+1702,1702,1702,"CasaenVentaTolucaDeLerdo,México",120.0,1.0,3.0,57500.0
+1703,1703,1703,"CasaenVentaAvIndependencia#143
+,TolucaDeLerdo,México",100.0,2.0,3.0,18850.0
+1704,1704,1704,"CasaenVentaTolucaDeLerdo,México",250.0,1.0,5.0,125000.0
+1705,1705,1705,"CasaenVentaFelipeVillanueva#723
+,Morelos1aSección,TolucaDeLerdo",100.0,2.0,3.0,93450.0
+1706,1706,1706,"CasaenVentaParqueChapaDeMota#40
+,TolucaDeLerdo,México",180.0,1.0,3.0,67500.0
+1707,1707,1707,"CasaenVentaJoseFcoGuerra#15
+,TolucaDeLerdo,México",65.0,2.0,2.0,31412.3
+1708,1708,1708,"CasaenVentaDoctorJuanRodríguez#410
+,Toluca,TolucaDeLerdo",550.0,4.0,5.0,57834.4
+1709,1709,1709,"CasaenVenta3a.CerradaEx-hda.SanJorge#0
+,TolucaDeLerdo,México",185.0,3.0,3.0,39415.9
+1710,1710,1710,"CasaenVentaMiguelHidalgo#511,0
+,SanLorenzoTepaltitlánCentro,TolucaDeLerdo",122.0,1.0,3.0,73014.0
+1711,1711,1711,"CasaenVentaTolucaDeLerdo,México",148.0,2.0,3.0,80000.0
+1712,1712,1712,"CasaenVentaSierraVentana#206
+,TolucaDeLerdo,México",180.0,3.0,3.0,241450.0
+1713,1713,1713,"CasaenVentaFuenteDeLaVida#1
+,TolucaDeLerdo,México",140.0,2.0,3.0,50000.0
+1714,1714,1714,"CasaenVentaSanMateo#101
+,TolucaDeLerdo,México",155.0,2.0,3.0,74250.0
+1715,1715,1715,"CasaenVentaTolucaDeLerdo,México",108.0,2.0,2.0,47500.0
+1716,1716,1716,"CasaenVentaArteagaOte#1006
+,TolucaDeLerdo,México",150.0,3.0,3.0,112500.0
+1717,1717,1717,"CasaenVentaCarreteraToluca-naucalpan#1702
+,TolucaDeLerdo,México",218.0,4.0,3.0,68000.0
+1718,1718,1718,"CasaenVentaLaBarranca#0000
+,Tlacopa,TolucaDeLerdo",70.0,1.0,2.0,25826.75
+1719,1719,1719,"CasaenVentaSanMateo#101
+,TolucaDeLerdo,México",90.0,2.0,3.0,55000.0
+1720,1720,1720,"CasaenVentaEulaliaPeñaloza#224
+,TolucaDeLerdo,México",270.0,2.0,3.0,70000.0
+1721,1721,1721,"CasaenVentaTolucaDeLerdo,México",360.0,4.0,4.0,95406.9
+1722,1722,1722,"CasaenVentaProlPaseoTotoltepec#302
+,TolucaDeLerdo,México",102.0,2.0,3.0,72431.95
+1723,1723,1723,"CasaenVentaMercurio12
+,TolucaDeLerdo,México",,2.0,3.0,65000.0
+1724,1724,1724,"CasaenVentaCalleTierraYLibertad#00
+,TolucaDeLerdo,México",200.0,3.0,3.0,49553.05
+1725,1725,1725,"CasaenVentaCasaEnVentaSanMateoOtzacatipaToluca
+,SanMateoOtzacatipan,TolucaDeLerdo",110.0,2.0,3.0,87500.0
+1726,1726,1726,"CasaenVentaCasaEnVentaSanPedroTotoltepecToluca
+,SanPedroTotoltepec,TolucaDeLerdo",110.0,2.0,3.0,65000.0
+1727,1727,1727,"CasaenVentaTolucaDeLerdo,México",230.0,3.0,4.0,100000.0
+1728,1728,1728,"CasaenVentaCasaEnVentaBarrioDeTlacopaToluca
+,Tlacopa,TolucaDeLerdo",132.0,2.0,3.0,165000.0
+1729,1729,1729,"CasaenVentaTolucaDeLerdo,México",120.0,2.0,2.0,44950.0
+1730,1730,1730,"CasaenVentaJuanAldamaSur#708
+,TolucaDeLerdo,México",520.0,4.0,5.0,50000.0
+1731,1731,1731,"CasaenVentaProlongaciónJesúsCarranza#1307
+,TolucaDeLerdo,México",240.0,2.0,3.0,149250.0
+1732,1732,1732,"CasaenVentaGuerrero#00
+,TolucaDeLerdo,México",150.0,3.0,3.0,43737.1
+1733,1733,1733,"CasaenVentaMeliaMimosas#0
+,TolucaDeLerdo,México",100.0,1.0,3.0,54000.0
+1734,1734,1734,"CasaenVentaLagoTangarica
+,OchoCedros,TolucaDeLerdo",190.0,2.0,3.0,60775.0
+1735,1735,1735,"CasaenVentaAvHidalgo
+,TolucaDeLerdo,México",,,,55000.0
+1736,1736,1736,"CasaenVentaSanBuenaventura,TolucaDeLerdo",,,,24000.0
+1737,1737,1737,"CasaenVentaBenitoJuárezGarciaSur
+,TolucaDeLerdo,México",199.0,2.0,3.0,71106.6
+1738,1738,1738,"CasaenVentaAvenidaMiguelHidalgo
+,TolucaDeLerdo,México",,,,90700.0
+1739,1739,1739,"CasaenVentaExcelenteTerrenoEnVenta1400M2Prol.JinetesCacalomacan
+,TolucaDeLerdo,México",,,,84735.6
+1740,1740,1740,"CasaenVentaElFrijol#209,Lote55
+,TolucaDeLerdo,México",210.0,2.0,3.0,130000.0
+1741,1741,1741,"CasaenVentaAvenidaHidalgoPoniente#0
+,TolucaDeLerdo,México",270.0,2.0,5.0,33557.45
+1742,1742,1742,"CasaenVentaGuillermoMarconi#507
+,TolucaDeLerdo,México",120.0,2.0,3.0,55099.75
+1743,1743,1743,"CasaenVentaSanMateo#101
+,TolucaDeLerdo,México",150.0,2.0,3.0,58437.5
+1744,1744,1744,"CasaenVentaLagoTanganica#708
+,TolucaDeLerdo,México",190.0,2.0,3.0,79750.0
+1745,1745,1745,"CasaenVentaProfraEulaliaPeñaloza#224
+,TolucaDeLerdo,México",225.0,2.0,3.0,79750.0
+1746,1746,1746,"CasaenVentaTolucaDeLerdo,México",180.0,2.0,3.0,241450.0
+1747,1747,1747,"CasaenVentaTolucaDeLerdo,México",150.0,2.0,3.0,85991.35
+1748,1748,1748,"CasaenVentaMarianoC.Olivera#246,Lt34Mz16
+,TolucaDeLerdo,México",150.0,2.0,3.0,45000.0
+1749,1749,1749,"CasaenVentaTolucaDeLerdo,México",100.0,2.0,3.0,184248.65
+1750,1750,1750,"CasaenVentaCasaEnVentaFraccLosPirulesTlalnepantlaDeBaz
+,DeTlanepantla,TolucaDeLerdo",216.0,3.0,3.0,105000.0
+1751,1751,1751,"CasaenVentaPensadorMexicano#302,Int2Lote2
+,TolucaDeLerdo,México",120.0,2.0,3.0,87050.0
+1752,1752,1752,"CasaenVentaTolucaDeLerdo,México",100.0,2.0,3.0,93450.0
+1753,1753,1753,"CasaenVentaTolucaDeLerdo,México",181.0,3.0,3.0,139370.0
+1754,1754,1754,"CasaenVentaCarreteraMexico-toluca#1706
+,TolucaDeLerdo",133.0,2.0,3.0,88950.0
+1755,1755,1755,"CasaenVentaTolucaDeLerdo,México",50.0,1.0,1.0,22000.0
+1756,1756,1756,"CasaenVentaTolucaDeLerdo,México",710.0,5.0,4.0,1192500.0
+1757,1757,1757,"CasaenVentaCacalomacan,TolucaDeLerdo",,,,56000.0
+1758,1758,1758,"CasaenVentaQuintqnaRooEsquinaCedro#s/n
+,TolucaDeLerdo,México",530.0,3.0,3.0,625000.0
+1759,1759,1759,"CasaenVentaEduardoGonzalezYPichardo#0
+,TolucaDeLerdo,México",410.0,2.0,3.0,168459.4
+1760,1760,1760,"CasaenVentaTolucaDeLerdo,México",199.0,2.0,3.0,71106.6
+1761,1761,1761,"CasaenVentaConventoSantaIsabel#0
+,TolucaDeLerdo,México",101.0,3.0,3.0,84937.5
+1762,1762,1762,"CasaenVentaBlvdMiguelAleman#mz1LtB,2
+,TolucaDeLerdo,México",112.0,3.0,2.0,69200.0
+1763,1763,1763,"CasaenVentaLeonaVicario#950
+,TolucaDeLerdo,México",148.0,2.0,3.0,88600.0
+1764,1764,1764,"CasaenVentaLagoTanganica#00
+,TolucaDeLerdo,México",100.0,2.0,2.0,78041.6
+1765,1765,1765,"CasaenVentaTolucaDeLerdo,México",200.0,2.0,3.0,62555.4
+1766,1766,1766,"CasaenVentaLorenzoGarza#198
+,TolucaDeLerdo,México",120.0,2.0,2.0,31550.0
+1767,1767,1767,"CasaenVentaTolucaDeLerdo,México",225.0,2.0,3.0,92790.0
+1768,1768,1768,"CasaenVentaRetorno8#1
+,TolucaDeLerdo,México",141.0,3.0,3.0,83750.0
+1769,1769,1769,"CasaenVentaTolucaDeLerdo,México",216.0,3.0,4.0,147800.0
+1770,1770,1770,"CasaenVentaTolucaDeLerdo,México",70.0,1.0,3.0,25000.0
+1771,1771,1771,"CasaenVentaTolucaDeLerdo,México",529.0,2.0,3.0,163946.45
+1772,1772,1772,"CasaenVentaEulaliaPeñaloza
+,Federal(adolfoLópezMateos),TolucaDeLerdo",225.0,2.0,3.0,80463.5
+1773,1773,1773,"CasaenVentaJuanAldamaSur#708
+,TolucaDeLerdo,México",520.0,3.0,4.0,58237.45
+1774,1774,1774,"CasaenVentaCaminoASanJuanTilapa#137,10
+,TolucaDeLerdo,México",120.0,3.0,3.0,75000.0
+1775,1775,1775,"CasaenVentaManzana7HaciendaDelValle
+,TolucaDeLerdo,México",91.0,2.0,3.0,75180.0
+1776,1776,1776,"CasaenVentaTolucaDeLerdo,México",96.0,2.0,3.0,62250.0
+1777,1777,1777,"CasaenVentaCaminoASanJuanTilapa#00
+,TolucaDeLerdo,México",124.0,3.0,3.0,93575.0
+1778,1778,1778,"CasaenVentaJoseMariaArteaga#112
+,TolucaDeLerdo,México",294.0,3.0,3.0,108000.0
+1779,1779,1779,"CasaenVentaLagoTanganica#00
+,TolucaDeLerdo,México",100.0,2.0,2.0,78041.6
+1780,1780,1780,"CasaenVentaTolucaDeLerdo,México",130.0,3.0,3.0,117700.0
+1781,1781,1781,"CasaenVentaAdolfoLópezMateo#0,0
+,TolucaDeLerdo,México",210.0,1.0,3.0,41500.0
+1782,1782,1782,"CasaenVentaAntiguoCaminoASanLorenzo#200
+,TolucaDeLerdo,México",180.0,2.0,3.0,20367.25
+1783,1783,1783,"CasaenVentaTolucaDeLerdo,México",141.0,3.0,3.0,83750.0
+1784,1784,1784,"CasaenVentaTolucaDeLerdo,México",190.0,3.0,3.0,93450.0
+1785,1785,1785,"CasaenVentaLagoTanganica#sn
+,TolucaDeLerdo,México",100.0,2.0,2.0,78041.6
+1786,1786,1786,"CasaenVentaTolucaDeLerdo,México",180.0,3.0,3.0,241450.0
+1787,1787,1787,"CasaenVentaTolucaDeLerdo,México",204.0,3.0,3.0,139525.0
+1788,1788,1788,"CasaenVentaGeologos#120
+,TolucaDeLerdo,México",67.0,1.0,2.0,50500.0
+1789,1789,1789,"CasaenVentaGeologos#120
+,TolucaDeLerdo,México",120.0,2.0,2.0,44950.0
+1790,1790,1790,"CasaenVentaSoliraridadS/n
+,TolucaDeLerdo,México",,,,191000.0
+1791,1791,1791,"CasaenVentaRayon#25
+,TolucaDeLerdo,México",67.0,1.0,1.0,27500.0
+1792,1792,1792,"CasaenVentaTolucaDeLerdo,México",120.0,2.0,2.0,35000.0
+1793,1793,1793,"CasaenVentaPropiedadEnVentaCol.Universidad
+,TolucaDeLerdo,México",,1.0,1.0,124500.0
+1794,1794,1794,"CasaenVentaCaminoASanJuanTilapa#137,20
+,TolucaDeLerdo,México",206.0,3.0,3.0,92500.0
+1795,1795,1795,"CasaenVentaTolucaDeLerdo,México",200.0,4.0,5.0,130000.0
+1796,1796,1796,"CasaenVentaLaToscana#00000
+,TolucaDeLerdo,México",218.0,3.0,3.0,68000.0
+1797,1797,1797,"CasaenVentaTolucaDeLerdo,México",300.0,4.0,3.0,129272.05
+1798,1798,1798,"CasaenVentaJoséMartí#209,00
+,SanLorenzoTepaltitlánCentro,TolucaDeLerdo",70.0,1.0,2.0,37300.0
+1799,1799,1799,"CasaenVentaLaMerced(alameda),TolucaDeLerdo",1580.0,10.0,18.0,1400000.0
+1800,1800,1800,"CasaenVentaSierraCotopaxi#113
+,TolucaDeLerdo,México",270.0,2.0,3.0,50000.0
+1801,1801,1801,"CasaenVentaSierraCotopaxi#113
+,TolucaDeLerdo,México",270.0,2.0,3.0,50000.0
+1802,1802,1802,"CasaenVentaIndustriaMinera#0
+,TolucaDeLerdo,México",146.0,4.0,3.0,174000.0
+1803,1803,1803,"CasaenVentaValladolid#0
+,TolucaDeLerdo,México",149.0,3.0,4.0,92271.45
+1804,1804,1804,"CasaenVentaTolucaDeLerdo,México",102.0,2.0,3.0,72431.95
+1805,1805,1805,"CasaenVentaTolucaDeLerdo,México",360.0,3.0,4.0,95406.9
+1806,1806,1806,"CasaenVentaTolucaDeLerdo,México",100.0,2.0,3.0,22386.5
+1807,1807,1807,"CasaenVentaJoseAntonioVillada
+,TolucaDeLerdo,México",273.0,2.0,4.0,119300.0
+1808,1808,1808,"CasaenVentaSanMateo
+,TolucaDeLerdo,México",150.0,2.0,3.0,41437.5
+1809,1809,1809,"CasaenVentaArbolDeManitas#0
+,TolucaDeLerdo,México",300.0,3.0,4.0,19520.0
+1810,1810,1810,"CasaenVentaAgustínMillán#0
+,TolucaDeLerdo,México",94.0,2.0,3.0,63900.0
+1811,1811,1811,"CasaenVentaTierraYLibertad#114
+,TolucaDeLerdo,México",200.0,2.0,3.0,34738.25
+1812,1812,1812,"CasaenVentaDora#106
+,TolucaDeLerdo,México",240.0,4.0,4.0,55428.9
+1813,1813,1813,"CasaenVentaDora#106
+,TolucaDeLerdo,México",240.0,4.0,4.0,55428.9
+1814,1814,1814,"CasaenVentaTolucaDeLerdo,México",128.0,2.0,3.0,47680.5
+1815,1815,1815,"CasaenVentaToluca
+,TolucaDeLerdo,México",,1.0,2.0,50000.0
+1816,1816,1816,"CasaenVentaCasasNuevasAceptoInfonavit960Mil3Recamaras
+,TolucaDeLerdo,México",,1.0,3.0,48000.0
+1817,1817,1817,"CasaenVentaEduardoGonzalezYPichardo#0
+,LaMerced(alameda),TolucaDeLerdo",340.0,4.0,4.0,168459.4
+1818,1818,1818,"CasaenVentaTolucaDeLerdo,México",160.0,2.0,3.0,43635.0
+1819,1819,1819,"CasaenVentaLagoTanganica#sn
+,TolucaDeLerdo,México",100.0,3.0,2.0,78041.6
+1820,1820,1820,"CasaenVentaCaminoATlacotepec
+,VicenteGuerrero,TolucaDeLerdo",212.0,1.0,2.0,88507.25
+1821,1821,1821,"CasaenVentaBlvdMiguelAleman#mz1LtB,Casa2
+,TolucaDeLerdo,México",112.0,3.0,2.0,69200.0
+1822,1822,1822,"CasaenVentaGuillermoMarconi#sn
+,TolucaDeLerdo,México",74.0,2.0,3.0,54368.9
+1823,1823,1823,"CasaenVentaCarlosAVelez308
+,TolucaDeLerdo,México",,2.0,4.0,175000.0
+1824,1824,1824,"CasaenVentaMiguelL.Mata
+,TolucaDeLerdo,México",,1.0,3.0,73600.0
+1825,1825,1825,"CasaenVentaBoulevardFilibertoNavas#100
+,TolucaDeLerdo,México",110.0,2.0,2.0,57500.0
+1826,1826,1826,"CasaenVentaConocidaNull
+,SanMateoOtzacatipan,TolucaDeLerdo",,2.0,2.0,59000.0
+1827,1827,1827,"CasaenVentaTolucaDeLerdo,México",460.0,10.0,14.0,525000.0
+1828,1828,1828,"CasaenVentaRetorno8#casa1
+,TolucaDeLerdo,México",141.0,3.0,3.0,83750.0
+1829,1829,1829,"CasaenVentaTolucaDeLerdo,México",102.0,2.0,3.0,72431.95
+1830,1830,1830,"CasaenVentaAv.AntiguoCaminoASanLorenzoTepaltitlan
+,TolucaDeLerdo,México",112.0,1.0,2.0,47297.25
+1831,1831,1831,"CasaenVentaRanchoSeco#0000
+,TolucaDeLerdo,México",80.0,1.0,2.0,10653.05
+1832,1832,1832,"CasaenVentaCasaEnVentaUnidadVictoriaToluca
+,TolucaDeLerdo,México",132.0,2.0,3.0,90000.0
+1833,1833,1833,"CasaenVentaFelipeBerriozabal
+,TolucaDeLerdo,México",342.0,2.0,3.0,70950.0
+1834,1834,1834,"CasaenVentaTolucaDeLerdo,México",273.0,3.0,4.0,119300.0
+1835,1835,1835,"CasaenVentaPuebla#711
+,TolucaDeLerdo,México",130.0,3.0,3.0,117700.0
+1836,1836,1836,"CasaenVentaSierraVentana#206
+,TolucaDeLerdo,México",180.0,3.0,3.0,241450.0
+1837,1837,1837,"CasaenVentaJoseMariaArteaga#112
+,TolucaDeLerdo,México",294.0,3.0,3.0,108000.0
+1838,1838,1838,"CasaenVentaCallejónZenzontle#manzana8,00
+,Toluca,TolucaDeLerdo",100.0,2.0,3.0,53500.0
+1839,1839,1839,"CasaenVentaAlejandroVonHumbolt302
+,Centro,TolucaDeLerdo",,3.0,6.0,550000.0
+1840,1840,1840,"CasaenVentaCarreteraTolucaNaucalpan#1702
+,TolucaDeLerdo,México",133.0,2.0,3.0,68000.0
+1841,1841,1841,"CasaenVentaCalleSierraDeLosVerticesNull
+,TolucaDeLerdo,México",,3.0,4.0,162500.0
+1842,1842,1842,"CasaenVentaSanMateo
+,TolucaDeLerdo,México",150.0,2.0,3.0,41437.5
+1843,1843,1843,"CasaenVentaCarreteraFederalToluca.naucalpan#1702
+,TolucaDeLerdo,México",125.0,3.0,3.0,68691.55
+1844,1844,1844,"CasaenVentaMarianoJimenez#125
+,TolucaDeLerdo,México",235.0,4.0,6.0,125000.0
+1845,1845,1845,"CasaenVentaTolucaDeLerdo,México",96.0,2.0,3.0,86750.0
+1846,1846,1846,"CasaenVentaIndependencia#129
+,TolucaDeLerdo,México",163.0,5.0,3.0,120600.0
+1847,1847,1847,"CasaenVentaTolucaDeLerdo,México",120.0,2.0,3.0,51018.5
+1848,1848,1848,"CasaenVentaRebeca#00,00
+,TolucaDeLerdo,México",135.0,3.0,3.0,134726.45
+1849,1849,1849,"CasaenVentaProlPaseoTotoltepec#0
+,TolucaDeLerdo,México",131.0,2.0,2.0,57000.0
+1850,1850,1850,"CasaenVentaPaseoCristobalColón#511
+,TolucaDeLerdo,México",204.0,3.0,3.0,139525.0
+1851,1851,1851,"CasaenVentaProlongaciónProgreso#307,0
+,TolucaDeLerdo,México",140.0,2.0,3.0,31750.0
+1852,1852,1852,"CasaenVentaTierraYLibertad#114
+,TolucaDeLerdo,México",200.0,2.0,3.0,39738.25
+1853,1853,1853,"CasaenVentaAzaleas#0000
+,TolucaDeLerdo,México",95.0,1.0,3.0,27737.7
+1854,1854,1854,"CasaenVentaPalomaSilvestre#0000
+,TolucaDeLerdo,México",130.0,1.0,3.0,23565.35
+1855,1855,1855,"CasaenVentaTolucaDeLerdo,México",,,,950000.0
+1856,1856,1856,"CasaenVentaTolucaDeLerdo,México",342.0,3.0,3.0,70950.0
+1857,1857,1857,"CasaenVentaTolucaDeLerdo,México",123.0,4.0,4.0,142500.0
+1858,1858,1858,"CasaenVentaTolucaDeLerdo,México",150.0,2.0,3.0,53800.0
+1859,1859,1859,"CasaenVentaArcoiris#0
+,TolucaDeLerdo,México",150.0,2.0,3.0,19500.0
+1860,1860,1860,"CasaenVentaNiñosHeroes#nd
+,TolucaDeLerdo,México",45.0,2.0,2.0,38500.0
+1861,1861,1861,"CasaenVentaTolucaDeLerdo,México",396.0,2.0,3.0,400000.0
+1862,1862,1862,"CasaenVentaBoulevardMiguelAleman#mz-1Lt.b
+,TolucaDeLerdo,México",250.0,3.0,3.0,86000.0
+1863,1863,1863,"CasaenVentaAntiguoCaminoASanLorenzoTepatitlan#200,00
+,TolucaDeLerdo,México",112.0,3.0,3.0,61720.75
+1864,1864,1864,"CasaenVentaS/n#s/n
+,TolucaDeLerdo,México",55.0,1.0,2.0,86900.0
+1865,1865,1865,"CasaenVentaJesúsCarranza#449
+,TolucaDeLerdo,México",624.0,3.0,4.0,222050.0
+1866,1866,1866,"CasaenVentaDoctorJuanRodriguez#410
+,TolucaDeLerdo,México",550.0,4.0,5.0,57833.4
+1867,1867,1867,"CasaenVentaLicJoseAntonioMuñoz
+,TolucaDeLerdo,México",648.0,2.0,4.0,108550.0
+1868,1868,1868,"CasaenVentaDiamante119
+,TolucaDeLerdo,México",,2.0,4.0,125000.0
+1869,1869,1869,"CasaenVentaCasaEnVentaSantiagoMiltepecToluca
+,TolucaDeLerdo,México",380.0,3.0,4.0,72500.0
+1870,1870,1870,"CasaenVentaTolucaDeLerdo,México",240.0,4.0,5.0,110000.0
+1871,1871,1871,"CasaenVentaLagoTanganica#00,00
+,TolucaDeLerdo,México",190.0,3.0,3.0,85085.0
+1872,1872,1872,"CasaenVentaMariaCurie(ventaDeVariasCasasEnFracc.Escrituradas)#303,00
+,TolucaDeLerdo,México",195.0,3.0,3.0,175000.0
+1873,1873,1873,"CasaenVentaTolucaDeLerdo,México",190.0,1.0,3.0,74775.0
+1874,1874,1874,"CasaenVentaFilibertoNavas#11
+,TolucaDeLerdo,México",136.0,2.0,3.0,28564.4
+1875,1875,1875,"CasaenVentaGirasol#218
+,TolucaDeLerdo,México",140.0,1.0,3.0,75637.5
+1876,1876,1876,"CasaenVentaTolucaDeLerdo,México",120.0,3.0,3.0,21950.0
+1877,1877,1877,"CasaenVentaRetornoDeMargaritas
+,TolucaDeLerdo,México",,2.0,4.0,112500.0
+1878,1878,1878,"CasaenVentaTolucaDeLerdo,México",85.0,1.0,3.0,80000.0
+1879,1879,1879,"CasaenVentaInsurgentes
+,TolucaDeLerdo,México",306.0,3.0,3.0,96687.5
+1880,1880,1880,"CasaenVentaEulaliaPeñaloza#224
+,TolucaDeLerdo,México",226.0,2.0,3.0,120000.0
+1881,1881,1881,"CasaenVentaTolucaDeLerdo,México",225.0,1.0,3.0,94463.5
+1882,1882,1882,"CasaenVentaSanJoseDeLosCedros
+,TolucaDeLerdo,México",,11.0,11.0,1320687.5
+1883,1883,1883,"CasaenVentaDora#000
+,TolucaDeLerdo,México",240.0,4.0,4.0,73608.3
+1884,1884,1884,"CasaenVentaTolucaDeLerdo,México",50.0,1.0,3.0,24168.0
+1885,1885,1885,"CasaenVentaTolucaDeLerdo,México",624.0,3.0,4.0,215000.0
+1886,1886,1886,"CasaenVentaCda.ExHaciendaDeMayorazgo#38
+,TolucaDeLerdo,México",140.0,3.0,3.0,31501.35
+1887,1887,1887,"CasaenVentaAvAntiguoCaminoASanLorenzoTepaltitlan#200
+,TolucaDeLerdo,México",112.0,2.0,3.0,61086.25
+1888,1888,1888,"CasaenVentaTolucaDeLerdo,México",648.0,3.0,4.0,108550.0
+1889,1889,1889,"CasaenVentaIndependencia
+,TolucaDeLerdo,México",162.0,3.0,3.0,80382.25
+1890,1890,1890,"CasaenVentaTomasAlvaEdison#228
+,TolucaDeLerdo,México",160.0,2.0,3.0,133625.0
+1891,1891,1891,"CasaenVentaIndependencia
+,TolucaDeLerdo,México",157.0,2.0,3.0,105000.0
+1892,1892,1892,"CasaenVentaTolucaDeLerdo,México",160.0,1.0,3.0,43635.0
+1893,1893,1893,"CasaenVentaTolucaDeLerdo,México",100.0,2.0,3.0,27737.7
+1894,1894,1894,"CasaenVentaNiñosHéroes#432,00
+,TolucaDeLerdo,México",75.0,1.0,2.0,59400.0
+1895,1895,1895,"CasaenVentaVicenteGuerrero
+,TolucaDeLerdo,México",212.0,3.0,3.0,88699.0
+1896,1896,1896,"CasaenVentaMarieCurie303
+,TolucaDeLerdo,México",195.0,1.0,2.0,274690.0
+1897,1897,1897,"CasaenVentaTolucaDeLerdo,México",105.0,2.0,3.0,32910.6
+1898,1898,1898,"CasaenVentaGalileoGalilei#215
+,TolucaDeLerdo,México",230.0,2.0,4.0,90750.0
+1899,1899,1899,"CasaenVentaTlacopa,TolucaDeLerdo",300.0,1.0,2.0,
+1900,1900,1900,"CasaenVentaTlacopa,TolucaDeLerdo",300.0,1.0,2.0,
+1901,1901,1901,"CasaenVentaTolucaDeLerdo,México",110.0,2.0,3.0,59327.15
+1902,1902,1902,"CasaenVentaIndependencia#143
+,TolucaDeLerdo,México",110.0,2.0,2.0,62750.0
+1903,1903,1903,"CasaenVentaGeólogos#120
+,TolucaDeLerdo,México",120.0,2.0,2.0,60000.0
+1904,1904,1904,"CasaenVentaTolucaDeLerdo,México",160.0,2.0,3.0,24777.75
+1905,1905,1905,"CasaenVentaTolucaDeLerdo,México",130.0,3.0,3.0,110000.0
+1906,1906,1906,"CasaenVentaProyectistas#24
+,TolucaDeLerdo,México",90.0,2.0,2.0,47000.0
+1907,1907,1907,"CasaenVentaDelCristo#0
+,TolucaDeLerdo,México",150.0,2.0,3.0,39810.75
+1908,1908,1908,"CasaenVentaTolucaDeLerdo,México",184.0,2.0,3.0,127200.0
+1909,1909,1909,"CasaenVentaRutaDeLaIndependencia
+,Científicos,TolucaDeLerdo",120.0,1.0,2.0,34633.9
+1910,1910,1910,"CasaenVentaTolucaDeLerdo,México",63.0,1.0,2.0,27500.0
+1911,1911,1911,"CasaenVentaDora#106
+,TolucaDeLerdo,México",200.0,3.0,5.0,45576.0
+1912,1912,1912,"CasaenVentaMiguelHidalgo#106
+,TolucaDeLerdo,México",220.0,3.0,3.0,97500.0
+1913,1913,1913,"CasaenVentaGuillermoMarconiN°507
+,TolucaDeLerdo,México",120.0,2.0,3.0,53339.65
+1914,1914,1914,"CasaenVentaTolucaDeLerdo,México",210.0,,,117750.0
+1915,1915,1915,"CasaenVentaTolucaDeLerdo,México",120.0,2.0,3.0,21950.0
+1916,1916,1916,"CasaenVentaQuintanaRooNull
+,OchoCedros,TolucaDeLerdo",,3.0,3.0,110000.0
+1917,1917,1917,"CasaenVentaPalomaSilvestres#s/n
+,TolucaDeLerdo,México",120.0,2.0,2.0,24002.85
+1918,1918,1918,"CasaenVentaEduardoGonzálezYPichardo
+,LaMerced(alameda),TolucaDeLerdo",369.0,3.0,5.0,146500.0
+1919,1919,1919,"CasaenVentaTolucaDeLerdo,México",111.0,1.0,,49900.0
+1920,1920,1920,"CasaenVentaFilibertoNavas#0
+,TolucaDeLerdo,México",136.0,2.0,3.0,28564.4
+1921,1921,1921,"CasaenVentaCda.Ex-haciendaDeMayorazgo#0
+,TolucaDeLerdo,México",140.0,3.0,3.0,31501.35
+1922,1922,1922,"CasaenVentaTolucaDeLerdo,México",195.0,1.0,3.0,237050.0
+1923,1923,1923,"CasaenVentaAdolfoLopezMateos#1516
+,TolucaDeLerdo,México",150.0,1.0,3.0,46767.5
+1924,1924,1924,"CasaenVentaTolucaDeLerdo,México",150.0,2.0,3.0,64500.0
+1925,1925,1925,"CasaenVentaTolucaDeLerdo,México",60.0,1.0,2.0,31950.0
+1926,1926,1926,"CasaenVentaTolucaDeLerdo,México",69.0,1.0,2.0,25668.0
+1927,1927,1927,"CasaenVentaTolucaDeLerdo,México",95.0,2.0,3.0,41560.25
+1928,1928,1928,"CasaenVentaAv18DeMarzo#227,Lt8Mz9
+,TolucaDeLerdo,México",1394.0,20.0,20.0,455500.0
+1929,1929,1929,"CasaenVentaJardinesDeTlacopa
+,TolucaDeLerdo,México",,4.0,4.0,300000.0
+1930,1930,1930,"CasaenVentaTolucaDeLerdo,México",69.0,1.0,2.0,25668.0
+1931,1931,1931,"CasaenVentaTolucaDeLerdo,México",140.0,2.0,3.0,84500.0
+1932,1932,1932,"CasaenVentaProlongaciònProgreso#307,0
+,TolucaDeLerdo,México",120.0,2.0,3.0,31750.0
+1933,1933,1933,"CasaenVentaTolucaDeLerdo,México",158.0,2.0,3.0,87000.0
+1934,1934,1934,"CasaenVentaNezaulcoyotl#5
+,TolucaDeLerdo,México",165.0,124.0,3.0,125000.0
+1935,1935,1935,"CasaenVentaSantosDegollado#casa
+,TolucaDeLerdo,México",180.0,3.0,4.0,68491.25
+1936,1936,1936,"CasaenVentaTolucaDeLerdo,México",195.0,,,215550.0
+1937,1937,1937,"CasaenVentaTolucaDeLerdo,México",123.0,3.0,4.0,147800.0
+1938,1938,1938,"CasaenVentaFilibertoNavas#11
+,TolucaDeLerdo,México",136.0,2.0,3.0,28564.4
+1939,1939,1939,"CasaenVentaCda.ExHaciendaDeMayorazgo#38
+,TolucaDeLerdo,México",140.0,3.0,3.0,31501.35
+1940,1940,1940,"CasaenVentaPoncianoDiaz
+,TolucaDeLerdo,México",90.0,1.0,3.0,37500.0
+1941,1941,1941,"CasaenVentaB.DeOlanda#26
+,TolucaDeLerdo,México",160.0,3.0,3.0,34750.0
+1942,1942,1942,"CasaenVentaVicenteSegura#115
+,TolucaDeLerdo,México",60.0,1.0,2.0,30000.0
+1943,1943,1943,"CasaenVentaTolucaDeLerdo,México",120.0,1.0,2.0,34633.9
+1944,1944,1944,"CasaenVentaTolucaDeLerdo,México",225.0,2.0,2.0,78468.0
+1945,1945,1945,"CasaenVentaJoseMarti#200,00
+,TolucaDeLerdo,México",70.0,2.0,3.0,49500.0
+1946,1946,1946,"CasaenVentaHaciendaCerroViejo#00,00
+,TolucaDeLerdo,México",65.0,1.0,2.0,45000.0
+1947,1947,1947,"CasaenVentaTolucaDeLerdo,México",217.0,2.0,2.0,124257.0
+1948,1948,1948,"CasaenVentaCircuitoPrincipalAdolfoLopez
+,TolucaDeLerdo,México",136.0,2.0,3.0,43975.0
+1949,1949,1949,"CasaenVentaJoseVicenteVillada
+,TolucaDeLerdo,México",191.0,2.0,3.0,74650.0
+1950,1950,1950,"CasaenVentaFelipeBerriozabal
+,TolucaDeLerdo,México",342.0,2.0,3.0,70950.0
+1951,1951,1951,"CasaenVentaTolucaDeLerdo,México",136.0,2.0,3.0,43975.0
+1952,1952,1952,"CasaenVentaTolucaDeLerdo,México",191.0,2.0,3.0,74650.0
+1953,1953,1953,"CasaenVentaTolucaDeLerdo,México",342.0,2.0,3.0,70950.0
+1954,1954,1954,"CasaenVentaAlbertoEinstein#00,00
+,TolucaDeLerdo,México",200.0,3.0,3.0,75000.0
+1955,1955,1955,"CasaenVentaTolucaDeLerdo,México",120.0,1.0,3.0,36475.0
+1956,1956,1956,"CasaenVentaCaminoASanJuanTilapa#00,00
+,TolucaDeLerdo,México",120.0,3.0,3.0,75000.0
+1957,1957,1957,"CasaenVentaAv18DeMarzo#227,Lt8Mz9
+,TolucaDeLerdo,México",1394.0,5.0,40.0,455500.0
+1958,1958,1958,"CasaenVentaGuillermoMarconi#00,00
+,TolucaDeLerdo,México",110.0,3.0,3.0,65000.0
+1959,1959,1959,"CasaenVentaTolucaDeLerdo,México",206.0,5.0,4.0,175000.0
+1960,1960,1960,"CasaenVentaJoséMa.Robelo#00,00
+,TolucaDeLerdo,México",230.0,3.0,3.0,110000.0
+1961,1961,1961,"CasaenVentaCalleCerradaLagoAtitlán#00,00
+,TolucaDeLerdo,México",180.0,3.0,4.0,125000.0
+1962,1962,1962,"CasaenVentaFelipeVillanueva#00,00
+,TolucaDeLerdo,México",100.0,2.0,3.0,85000.0
+1963,1963,1963,"CasaenVentaGeólogos#00,00
+,TolucaDeLerdo,México",100.0,2.0,3.0,85000.0
+1964,1964,1964,"CasaenVentaTolucaDeLerdo,México",110.0,2.0,3.0,59327.15
+1965,1965,1965,"CasaenVentaJoseMaríaArteaga#00,00
+,TolucaDeLerdo,México",294.0,3.0,3.0,100000.0
+1966,1966,1966,"CasaenVentaTolucaDeLerdo,México",126.0,2.0,3.0,38950.0
+1967,1967,1967,"CasaenVentaTolucaDeLerdo,México",120.0,2.0,4.0,38018.5
+1968,1968,1968,"CasaenVentaGarciaMorenoNull
+,TolucaDeLerdo,México",,6.0,9.0,312500.0
+1969,1969,1969,"CasaenVentaTomasAlvaEdison#00,00
+,TolucaDeLerdo,México",123.0,4.0,4.0,142500.0
+1970,1970,1970,"CasaenVentaCapulhuac782
+,TolucaDeLerdo,México",,1.0,1.0,20000.0
+1971,1971,1971,"CasaenVentaValladolid##101,19A
+,TolucaDeLerdo,México",227.0,4.0,4.0,65000.0
+1972,1972,1972,"CasaenVentaTolucaDeLerdo,México",163.0,1.0,3.0,77500.0
+1973,1973,1973,"CasaenVentaTolucaDeLerdo,México",168.0,3.0,3.0,47806.8
+1974,1974,1974,"CasaenVentaLaMerced(alameda),TolucaDeLerdo",1000.0,2.0,3.0,750000.0
+1975,1975,1975,"CasaenVentaSanMateoOtzacatipan,TolucaDeLerdo",139.0,,,80700.0
+1976,1976,1976,"CasaenVentaTolucaDeLerdo,México",60.0,1.0,2.0,30000.0
+1977,1977,1977,"CasaenVentaTolucaDeLerdo,México",120.0,2.0,2.0,35000.0
+1978,1978,1978,"CasaenVentaTlanepantla
+,TolucaDeLerdo,México",,3.0,3.0,175000.0
+1979,1979,1979,"CasaenVentaSanPedroTotoltepec,TolucaDeLerdo",124.0,,,112200.0
+1980,1980,1980,"CasaenVentaTolucaDeLerdo,México",294.0,3.0,3.0,100000.0
+1981,1981,1981,"CasaenVentaTolucaDeLerdo,México",353.0,5.0,5.0,105000.0
+1982,1982,1982,"CasaenVentaTolucaDeLerdo,México",624.0,3.0,4.0,210000.0
+1983,1983,1983,"CasaenVentaTolucaDeLerdo,México",245.0,,,263300.0
+1984,1984,1984,"CasaenVentaTolucaDeLerdo,México",56.0,,,124465.0
+1985,1985,1985,"CasaenVentaResguardoNull
+,TolucaDeLerdo,México",,3.0,10.0,900000.0
+1986,1986,1986,"CasaenVentaTolucaDeLerdo,México",245.0,,,270250.0
+1987,1987,1987,"CasaenVentaTolucaDeLerdo,México",245.0,,,270250.0
+1988,1988,1988,"CasaenVentaTolucaDeLerdo,México",72.0,,,35000.0
+1989,1989,1989,"CasaenVentaTolucaDeLerdo,México",200.0,,,122100.0
+1990,1990,1990,"CasaenVentaTolucaDeLerdo,México",92.0,,,47900.0
+1991,1991,1991,"CasaenVentaTolucaDeLerdo,México",280.0,,,159900.0
+1992,1992,1992,"CasaenVentaTolucaDeLerdo,México",112.0,,,43992.0
+1993,1993,1993,"CasaenVentaTolucaDeLerdo,México",115.0,,,41486.25
+1994,1994,1994,"CasaenVentaTolucaDeLerdo,México",212.0,,,86502.0
+1995,1995,1995,"CasaenVentaTolucaDeLerdo,México",150.0,,,41437.5
+1996,1996,1996,"CasaenVentaTolucaDeLerdo,México",67.0,,,42500.0
+1997,1997,1997,"CasaenVentaZapataSnS/n
+,TolucaDeLerdo,México",,,,200000.0
+1998,1998,1998,"CasaenVentaTolucaDeLerdo,México",306.0,,,96687.5
+1999,1999,1999,"CasaenVentaTolucaDeLerdo,México",190.0,,,60775.0
+2000,2000,2000,"CasaenVentaTolucaDeLerdo,México",92.0,,,62330.0
+2001,2001,2001,"CasaenVentaTolucaDeLerdo,México",66.0,,,47500.0
+2002,2002,2002,"CasaenVentaTolucaDeLerdo,México",42.0,,,13695.0
+2003,2003,2003,"CasaenVentaTolucaDeLerdo,México",,,,270250.0
